@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g)\relax }}{44}{table.caption.31}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{46}{table.caption.33}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Performance metrics of regression models\relax }}{47}{table.caption.35}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Nutritional prediction\relax }}{49}{table.caption.36}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{60}{table.caption.44}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{66}{table.caption.48}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{69}{table.caption.50}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{69}{table.caption.51}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

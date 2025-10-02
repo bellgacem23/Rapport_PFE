@@ -1,0 +1,370 @@
+\chapter{Development of recommendation system}
+\section*{Introduction}
+This chapter delineates the development process of the recommendation system for the VitamiNurse app. Our application integrates a multi-modal recommendation system combining collaborative filtering, content-based algorithms, and real-time user behavior analytics. The discourse begins with a detailed examination of the vector database selected as the cornerstone of the recommendation engine and the chat-bot, emphasizing its capacity for efficient, high-dimensional data processing and retrieval.
+Then we will present a comprehensive overview of the system’s architecture, techniques, and construction process using the Crisp-DM model. Particular attention is also given to algorithmic choices in order to build a robust recommendation system.
+
+\section{Vector databases in recommendation systems}
+In this section, we explore the pivotal role of vector databases in powering recommendation systems specially for  an AI-driven nutritional mobile application like VitamiNurse. The use of a vector database, specifically Chroma, is central to enabling efficient similarity searches and personalized product recommendations tailored to individual preferences, allergies, and health goals.
+\subsection{Overview of Vector Databases}
+Vector databases are specialized databases designed to store and query vectorized data rapidly \cite{IBMVectordb2025}. Unlike relational databases, which organize data in tables, these systems represent data as vectors in a multi-dimensional space. These vectors encapsulate essential attributes of the items they represent, making vector databases ideal for tasks requiring similarity searches, nearest neighbor queries, and assessing distances or similarities between vectors \cite{IBMVectordb2025}. This capability is crucial in various applications, including recommendation systems, content-based image and video retrieval, and natural language understanding.
+
+\begin{center}
+\begin{figure}[H]
+    \includegraphics[scale=0.45]{images/vectorDB.png}
+    \caption{Vector database embedding} 
+    \label{fig:vectorDB}
+\end{figure}
+\end{center}
+
+\subsection{Choosing Chroma for Recommendations}
+Chroma was chosen as the database for the recommendation system due to its robust performance, scalability, and suitability for similarity-based product searches.
+Chroma, also referred to as Chroma DB, is an open-source vector database that is highly recommended for its robust capabilities in storing, managing, and querying high-dimensional vector embeddings\cite{chroma_docs_2025}.
+\par Chroma DB has emerged as a game-changer for vector database in the world of artificial intelligence, specifically for Large Language Models (LLMs). It stores and finds vector embeddings quickly, an essential capability for advanced recommendation systems and AI applications. 
+\begin{center}
+\begin{figure}[H]
+    \includegraphics[scale=0.66]{images/chroma_space.png}
+    \caption{Vector Search in chroma} 
+    \label{fig:vector_search}
+\end{figure}
+\end{center}
+
+\subsection{Traditional Search vs. Vector Search}
+
+Traditional search methods rely on discrete tokens or features, such as keywords or metadata, and use exact matching to retrieve relevant results. 
+For example, a search for "dark chocolate" would only return results containing that exact term. In contrast, vector search represents data as dense vectors in a continuous vector space, enabling similarity searches where a query for "dark chocolate" might also return results for "cocoa bars" "sugar-free chocolate" or "organic cacao snacks". This is because semantically similar items are embedded closer together in the high-dimensional space. This smarter approach helps VitamiNurse give users personalized, health-conscious recommendations based on  their dietary needs.
+
+
+\subsection{Latent Features}
+Each dimension within these dense vectors corresponds to a latent feature or aspect of the data . A latent feature is an underlying characteristic or attribute that is not directly observed but inferred from the data through mathematical models or algorithms. These latent features capture the hidden patterns and relationships in the data, enabling more meaningful and accurate representations of items as vectors in a high-dimensional space . 
+\subsection{Vector Embeddings}
+\par Techniques like word embeddings like Word2Vec or GloVe and sentence embeddings are commonly used to generate these dense vector representations\cite{reimers-gurevych-2019-sentence}. Efficient indexing and search algorithms, such as Hierarchical Navigable Small Worlds (HNSW) and Approximate Nearest Neighbors (ANN), are crucial for querying these high-dimensional vectors at scale\cite{HNSW}.
+These vector representations enable VitamiNurse to deliver advanced, personalized food recommendations. By leveraging the semantic relationships captured by latent features, we  build a system that can identify  similar products that align with the prefers of VitamiNurse users or their nutritional needs.
+
+
+\section{System Architecture}
+VitamiNurse employs a \textbf{modular hybrid architecture}, separating collaborative and content-based filtering into specialized components:
+\begin{itemize}
+    \item \textbf{LightFM (Pure Collaborative)}: Captures long-term user preferences via matrix factorization, trained only on interaction data to avoid metadata-induced noise.
+    \item \textbf{ChromaDB (Content-Based)}: Handles real-time product similarity using HNSW, enabling rapid updates without model retraining.
+\end{itemize}
+
+\subsection{Hybrid Architecture Design}
+The system integrates collaborative filtering (CF) and content-based filtering (CBF) through a weighted ensemble approach. These approaches are combined in a hybrid recommender, which assigns weighted scores (60\% content-based powred by chroma DB, 40\% collaborative with LightFM ) to rank recommendations. The architecture comprises four core layers:
+\begin{itemize}
+    \item \textbf{Data Ingestion Layer}: Real-time pipeline for user interactions (view, like, dislike)
+    \item \textbf{Embedding Service}: Generates vector representations using all-MiniLM-L6-v2
+    \item \textbf{Recommendation Engine}: Hybrid model combining CF and CBF outputs
+    \item \textbf{API Serving Layer}: FastAPI endpoints for recommendation delivery
+\end{itemize}
+
+\begin{center}
+\begin{figure}[H]
+    \includegraphics[scale=0.55]{images/RS_Arch.png}
+    \caption{Recommendation System Architecture } 
+    \label{fig:Recommendation_Sequence_Diagram }
+\end{figure}
+\end{center}
+\subsection{Hybrid System with Decoupled Components}
+
+Although the LightFM framework supports two principal modes : \textbf{pure collaborative filtering} and \textbf{hybrid filtering}, we chose to employ only the pure collaborative model for VitamiNurse’s recommendation system.
+
+This decision was made after extensive evaluation and careful alignment with the platform’s real-time infrastructure requirements. The selected approach offers greater scalability and modularity, particularly given the dynamic nature of our product catalog and metadata. The following subsections outline the key architectural and empirical factors that guided this choice.
+
+
+\subsubsection{Why Not LightFM Hybrid?}
+
+While hybrid models are often assumed to enhance performance by incorporating additional features, we avoided LightFM's hybrid mode for the following reasons:
+
+\paragraph{1) Real-time Product Updates and Scalability Requirements :}
+VitamiNurse's product database synchronizes daily with external retail inventories, meaning metadata (e.g., categories, availability) can change frequently. A hybrid LightFM model would require retraining whenever item features update, introducing latency and scalability challenges. In contrast, our content-based filtering module (powered by ChromaDB with HNSW-based approximate nearest neighbor search) dynamically adapts to metadata changes without retraining, making it better suited for real-time updates \cite{chromadb}.
+
+ChromaDB's vector infrastructure is optimized for large-scale similarity search, supporting millions of product embeddings with efficient retrieval. This eliminates the need to encode metadata directly into LightFM, as the content-based component handles this asynchronously and with lower computational overhead.
+
+\paragraph{2) Benchmark Evidence: Pure LightFM Outperforms Hybrid LightFM:}
+Empirical studies consistently demonstrate that LightFM's pure collaborative model achieves superior performance compared to its hybrid counterpart:
+\begin{itemize}
+    \item \textbf{MovieLens 100k Benchmark}: \cite{shu2023lightfm} evaluated LightFM on the MovieLens dataset, showing that the pure model outperformed the hybrid variant in precision@K and recall@K across cutoffs (K=5, 10, 20). The hybrid model not only underperformed but also failed to surpass simpler baselines like ItemKNN in some metrics as illustrated in Figure~\ref{fig:precision}.
+
+    \item \textbf{Feature Noise}: The inclusion of item features degraded performance, likely due to redundant or poorly weighted metadata. \cite{shu2023lightfm} found that the hybrid model's precision@5 was worse than graph-based baselines like P3$\alpha$ and RP3$\beta$.
+    \item \textbf{Community Reports}: GitHub issues and user reports corroborate these findings, with cases where shuffled or irrelevant item features further reduced model accuracy \cite{lightfm_issues}.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/precision_plot.png}
+        \caption{Cutoff Precision Values by Algorithm}
+        \label{fig:precision}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/recall_plot.png}
+        \caption{Cutoff Recall Values by Algorithm}
+        \label{fig:recall}
+    \end{minipage}
+\end{figure}
+
+
+\paragraph{3) Computational Efficiency :}
+Pure collaborative filtering requires fewer computational resources during training and inference. Benchmarks on the Movielens 20M dataset show that LightFM's inference speed scales linearly with latent factor dimensionality, but hybrid models introduce additional overhead from feature processing.
+
+
+This decoupling aligns with industry best practices, where hybrid \textit{systems} (not hybrid \textit{models}) often deliver more robust performance. This architecture ensures scalability while maintaining interpretability and efficiency.
+
+\subsection{Dynamic Data Update and Sync Architecture}
+
+The VitamiNurse system operates through a robust, modular data pipeline designed for real-time responsiveness and adaptability to both user behavior and product catalog changes:
+
+\begin{enumerate}
+    \item \textbf{Real-time Interaction Tracking}: User activities, such as viewing, liking, and disliking products, are continuously monitored and recorded. These interactions directly inform the recommendation engine, ensuring up-to-date and personalized  suggestions.
+    
+    \item \textbf{Dynamic Profile Synchronization}: Upon any profile change (e.g., allergy updates, changed health conditions, pregnancy status), the system triggers immediate re-embedding of the user's profile vector within ChromaDB. This ensures atomic, consistent updates that instantly reflect in recommendations, without disrupting the user's session.
+    
+    \item \textbf{Automated Product Ingestion and Embedding}: The product catalog is synchronized daily with partner retailers. New or modified products are automatically detected, vectorized through semantic embedding, and integrated into the recommendation graph using a CDC (Change Data Capture) pipeline.
+    
+    \item \textbf{Daily Model Retraining}: To adapt to evolving user preferences and product changes, the LightFM recommendation model is retrained every 24 hours (scheduled at 00:00 UTC). This ensures continuous learning and optimal recommendation quality.
+\end{enumerate}
+
+\newpage
+\section{content-based filtering}
+The content-based (CB) recommendation module in \textit{VitamiNurse} is designed to provide personalized nutritional product suggestions by leveraging semantic similarity between user profiles and product characteristics. This is achieved through dense vector embeddings stored in ChromaDB and computed using a lightweight sentence-transformer model.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{images/cb_filtering_logic.png}
+    \caption{Content Based Filtering Logic} 
+    \label{fig:CB_filtering_logic}
+\end{figure}
+
+
+\subsection{Embedding Model Evaluation}
+\begin{table}[h!]
+\centering
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Model Name} & \textbf{Sent. Emb.} & \textbf{Sem. Search} & \textbf{Avg. Perf.} & \textbf{Speed} & \textbf{Size} \\
+\midrule
+\textbf{all-mpnet-base-v2} & \textbf{69.57} & \textbf{57.02} & \textbf{63.30} & \textbf{2800} & 420 MB \\
+multi-qa-mpnet-base-dot-v1 & 66.76 & 57.60 & 62.18 & 2800 & 420 MB \\
+all-distilroberta-v1 & 68.73 & 50.94 & 59.84 & 4000 & 290 MB \\
+all-MiniLM-L12-v2 & 68.70 & 50.82 & 59.76 & 7500 & 120 MB \\
+multi-qa-distilbert-cos-v1 & 65.98 & 52.83 & 59.41 & 4000 & 250 MB \\
+\textbf{all-MiniLM-L6-v2} & \textbf{68.06} & \textbf{49.54} & \textbf{58.80} & \textbf{14200} & 80 MB \\
+multi-qa-MiniLM-L6-cos-v1 & 64.33 & 51.83 & 58.08 & 14200 & 80 MB \\
+paraphrase-multilingual-mpnet-base-v2 & 65.83 & 41.68 & 53.75 & 2500 & 970 MB \\
+paraphrase-albert-small-v2 & 64.46 & 40.04 & 52.25 & 5000 & 43 MB \\
+paraphrase-multilingual-MiniLM-L12-v2 & 64.25 & 39.19 & 51.72 & 7500 & 420 MB \\
+paraphrase-MiniLM-L3-v2 & 62.29 & 39.19 & 50.74 & 19000 & 61 MB \\
+distiluse-base-multilingual-cased-v1 & 61.30 & 29.87 & 45.59 & 4000 & 480 MB \\
+distiluse-base-multilingual-cased-v2 & 60.18 & 27.35 & 43.77 & 4000 & 480 MB \\
+\bottomrule
+\end{tabular}
+}
+\caption{Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.}
+\label{tab:models}
+\end{table}
+
+The \textit{SentenceTransformers} library offers a range of models evaluated for their performance in generating sentence embeddings and conducting semantic search, based on two key criteria: the quality of cross-sentence representations across 14 datasets and the effectiveness in semantic search tasks on 6 datasets.
+
+ The \textbf{all-*} models, trained on an extensive corpus of over one billion text pairs, are designed as general-purpose models, with \texttt{all-mpnet-base-v2} delivering the highest overall quality and \texttt{all-MiniLM-L6-v2} providing comparable quality at approximately five times the speed, making it an efficient choice for various applications \cite{sbert2025models}.
+
+ 
+\subsection{Embedding Model Selection}
+The system employs the all-MiniLM-L6-v2 model for generating embeddings, which offers several advantages over alternatives. By being fine-tuned on over 1 billion text pairs, the all-MiniLM-L6-v2 excels in semantic similarity tasks. Despite its smaller size,it achieves 93\% the accuracy of larger models such as BERT-base models.
+\par This sentence transformer model is an excellent choice for VitamiNurse recommendation system, as it produces 384-dimensional embeddings that effectively capture subtle relationships within the data. \cite{sentence-transformers-all-MiniLM-L12-v2}
+
+
+\subsection{Embed and load data to chroma DB}
+We use the all-MiniLM-L6-v2 model to embed and load data to chroma that is used for recommendation .Furthermore, its compact architecture, with only 33.4 million parameters, enables efficient CPU-only inference, and multilingual support enables global applicability, making it perfect for delivering fast and accurate recommendations.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.39]{images/load_data__0.png}
+    \caption{Load Data to chroma DB} 
+    \label{fig:load_data_chroma}
+\end{figure}
+
+\subsection{CB Recommendation Process}
+\subsubsection{Query Construction}
+\par The CB system operates based on two possible inputs: the \textbf{user identifier} and an optional \textbf{scanned product identifier} (EAN code). When a user scans a product, the system retrieves metadata associated with that item—such as product name, brand, categories, and nutrition information. Simultaneously, it extracts the user’s profile information, which includes dietary preferences, pregnancy status, and medical conditions like diabetes or hypertension.\\
+These two sources of information are merged to create a descriptive query that captures both the scanned product’s features and the user's health-related needs. 
+
+\subsubsection{Search and Recommendation}
+The query is then embedded into a vector using the selected embedding model and used to perform a semantic search in the product database. The search returns a list of nutritionally and semantically similar products.
+\par In cases where no product is scanned, the recommendation relies entirely on the user’s profile to infer their preferences and health requirements. Based on this information, it generates a personalized query, which is then used to display tailored recommendations on the home page.
+
+
+\subsubsection{Recommendation Score}
+\par Each recommended product is assigned a relevance score based on semantic proximity. This score is further refined by applying domain specific nutritional rules — by boosting products with better Nutri-Scores. The system also applies post-filtering to strictly enforce compatibility with medical conditions or dietary restrictions. For instance, a user with celiac disease will never be recommended a product that contains gluten, even if it is semantically similar.
+
+\subsubsection{CB Recommendation Workflow :}
+The content based recommendation workflow follows a structured process in order to offer a personalized and health-aware user experience, as illustrated in the following diagram. It begins by metadata gathering and query construction. Queries are embedded into vectors using the all-MiniLM-L6-v2 model for semantic search against the product database. The system then selects and returns recommendations aligned with user preferences and nutritional needs.
+
+\begin{center}
+    \begin{figure}[H]
+        \includegraphics[width=0.9\textwidth]{images/CB_recommendation_workflow_simple.png}
+    \caption{CB Recommendation Workflow} 
+    \label{fig:cb_workflow}
+\end{figure}
+\end{center}
+
+This design ensures that the products delivered by the content based recommendation system are not only contextually relevant but also aligned with the unique nutritional profile of each user of \textit{VitamiNurse} app.
+
+\newpage
+\section{Collaborative Filtering}
+Collaborative filtering in \textit{VitamiNurse} leverages the \textbf{LightFM} model, which combines matrix factorization and metadata-aware learning. 
+\subsection{Overview}
+
+Collaborative filtering (CF) is a widely used recommender system technique that predicts user preferences by leveraging the collective behavior of similar users or items. As defined by IBM, CF operates on the principle that users with shared interests in the past will likely agree in the future, making recommendations based on patterns identified in user-item interaction matrices .\cite{ibm-cf}
+
+\begin{center}
+    \begin{figure}[H]
+        \includegraphics[scale=0.85]{images/collaborative_filtering.png}
+        \caption{Collaborative Filtering Logic}
+        \label{fig:cf_workflow}
+    \end{figure}
+\end{center}
+
+\subsection{LightFM's Collaborative Filtering Approach}
+LightFM  implements a hybrid matrix factorization model rather than traditional memory-based (neighborhood) collaborative filtering. Unlike user/item-neighborhood methods that rely on cosine similarity or Pearson correlation \cite{ibm-cf}, LightFM learns latent embeddings using Weighted Matrix Factorization (WMF) or Bayesian Personalized Ranking (BPR) loss. This approach is scalable and well-suited for sparse datasets, making it ideal for recommendation systems like VitamiNurse.
+
+\subsection{Create the interaction matrix}
+VitamiNurse incorporates multiple types of user feedback, each assigned specific weights to reflect varying degrees of preference:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Interaction Type} & \textbf{Weight} & \textbf{Interpretation} \\
+\midrule
+Liked & 1.0 & Strong positive preference \\
+Visited & 0.5 & Mild interest/engagement \\
+Disliked & -1.0 & Explicit negative feedback \\
+\bottomrule
+\end{tabular}
+\caption{User Interaction Types and Their Weighting in VitamiNurse}
+\label{tab:interaction_weights}
+\end{table}
+
+\subsection{Loss Functions in LightFM}
+
+The LightFM library supports multiple loss functions tailored to different recommendation scenarios:
+\begin{itemize}
+    \item \textbf{WARP} (Weighted Approximate-Rank Pairwise): Optimized for ranking tasks with implicit feedback (clicks). It focuses on positive signals and is effective for top-N recommendations but does not handle negative feedback well.
+    \item \textbf{BPR} (Bayesian Personalized Ranking): Designed for personalized item ranking through pairwise comparisons. It ranks preferred items higher than less preferred or irrelevant ones, accommodating nuanced feedback.
+    \item \textbf{Logistic}: Used for probabilistic modeling, typically with explicit feedback (ratings)
+\end{itemize}
+
+\subsection{Selection of Loss Function}
+
+The selection of an appropriate loss function is critical in recommendation systems, as it determines how user-item interactions are modeled during the training process. 
+VitamiNurse’s collaborative filtering module cannot used WARP loss because it fails to model explicit dislikes (-1.0). Instead, \textbf{Bayesian Personalized Ranking} (BPR) was chosen because it optimizes pairwise comparisons, explicitly ranking liked items higher than visited or disliked ones while leveraging both positive and negative signals. This approach better aligns with VitamiNurse’s goal of learning from complex user interactions while maintaining scalability on sparse datasets.
+
+\begin{center}
+    \begin{figure}[H]
+        \includegraphics[scale=0.39]{images/loss_function_lightFM.png}
+        \caption{Train lightFM with BPR loss function}
+        \label{fig:BPR_loss_function}
+    \end{figure}
+\end{center}
+
+
+\newpage
+\section{Benchmarking the Recommendation System: Exact vs. ANN (HNSW) Search}
+
+To ensure both scalability and precision, we benchmarked two vector search modes available in ChromaDB: the default exact search and the HNSW-enabled Approximate Nearest Neighbor (ANN) search.
+\subsection{Approximate Nearest Neighbors (ANN)}
+This algorithm efficiently find data points most similar to a given query in large, high dimensional datasets. Unlike exact search which compares the query to every single data point, ANN prioritizes speed and memory efficiency over perfect accuracy. By pre-processing data into optimal index structures like trees, hash tables, or graphs, ANN finds "good enough" neighbors  without exhaustive comparisons. This method deals with the computational difficulties caused by the "curse of dimensionality"\cite{ANN} .
+
+\subsection{Hierarchical Navigable Small World (HNSW) :}
+HNSW is one of the most widely used ANN algorithms in modern recommendation systems. The search logic of this method balances both speed and accuracy. It builds a multi-layered graph where upper layers allow for fast, long-distance jumps, and lower layers offer dense, precise connections like "local roads". It starts high, navigates to the closest node, and then descends through layers to refine the search for the nearest neighbors\cite{HNSW} .
+
+\subsection{Theoretical Comparison}
+\par Exact search is ChromaDB’s default method . It performs exhaustive comparisons between the query vector and all stored vectors using cosine similarity, ensuring maximum precision. However, this method can become computationally expensive as the dataset grows.
+
+\par HNSW (Hierarchical Navigable Small World) search is an Approximate Nearest Neighbor (ANN) technique frequently adopted in large-scale recommender systems. It constructs a navigable graph index that accelerates retrieval. Though it introduces a slight drop in precision, it significantly enhances speed and scalability.
+
+\noindent
+The following table summarizes the key differences between the two modes:
+
+\begin{table}[h!]
+\centering
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Feature} & \textbf{Default (Exact Search)} & \textbf{HNSW (ANN)} \\
+\hline
+Accuracy & 100\% precise & Approximate (configurable) \\
+\hline
+Speed & Slow for large datasets & Faster, scales better \\
+\hline
+Memory & Lower overhead & Higher (stores graph index) \\
+\hline
+Use Case & Small datasets ($<$10K vectors) & Large datasets \\
+\hline
+\end{tabular}
+}
+\caption{Key Differences: Default vs. HNSW Search}
+\label{tab:theoretical-comparison}
+\end{table}
+
+\subsection{Experimental Results and Scalability Implications}
+
+We benchmarked 20,000 recommendation requests using ChromaDB with 23,000 products indexed. Both modes—Exact (port \texttt{8000}) and HNSW (port \texttt{8001})—returned valid top-10 results for each request with a 100\% success rate.
+
+\begin{table}[H]
+\centering
+\caption{Benchmark Results for Recommendation Modes}
+\label{tab:benchmark-results}
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Mode} & \textbf{Avg Time (ms)} & \textbf{Avg Results} & \textbf{Success Rate (\%)} \\
+\hline
+Exact (8000) & 187.4 & 10 & 100.0 \\
+HNSW  (8001) & 178.08 & 10 & 100.0 \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+Results demonstrate that \textbf{HNSW} significantly outperforms exact search in terms of speed (from 1$87.4$ms to $178.08$ms), even with only 23,000 products. As VitamiNurse scales to hundreds of thousands or even millions of products across Europe and the US, the cost of exact search will become increasingly prohibitive.
+
+HNSW, by contrast, offers scalable performance with near-equivalent accuracy, making it the preferred choice for large-scale deployments in real-time production environments.
+
+
+Results demonstrate that \textbf{HNSW} significantly outperforms \textbf{exact search} on speed while maintaining high relevance in practical use cases. It is now the preferred mode for large-scale deployments in VitamiNurse.
+
+\newpage
+\section{Deployment}
+\subsection{FastAPI Deployment}
+To facilitate real-time access to personalized nutritional recommendations within the \textit{VitamiNurse} mobile application, the recommendation engine is exposed through a RESTful API developed using a private \textbf{FastAPI} service. We chose FastAPI for its performance, asynchronous capabilities, and automatic data validation using Pydantic.\\
+
+Our API provides a single endpoint, /recommend, which receives structured input from the app (user ID, scanned EAN,limit, recommendation\_type) and returns tailored food item suggestions in JSON format.
+
+\begin{center}
+    \begin{figure}[H]
+        \includegraphics[scale=0.35]{images/deploy_RS.png}
+    \caption{Deploy Recommendation system with Fast API} 
+    \label{fig:Deploy_RS}
+\end{figure}
+\end{center}
+
+\subsection{Multi-Modal recommendation deployment}
+The API supports three recommendation modes selectable via a \texttt{recommendation\_type} parameter: 
+\begin{enumerate}
+    \item Collaborative filtering
+    \item Content-based filtering
+    \item Hybrid approach
+\end{enumerate}
+
+This internal service ensures fast, reliable, and scalable communication between the app and the recommendation system. Although fully documented through FastAPI’s auto-generated Swagger UI, the API will be accessed exclusively by the mobile app and the development team for testing.
+ \begin{center}
+    \begin{figure}[H]
+        \includegraphics[scale=0.35]{images/swaggerFastAPI.png}
+    \caption{Swagger UI for the internal Recommendation API} 
+    \label{fig:swagger UI}
+\end{figure}
+\end{center}
+
+\section*{Conclusion}
+The VitamiNurse project represents a significant advancement in personalized nutrition through its advanced recommendation system. By leveraging Chroma’s vector database and a hybrid architecture combining content-based and collaborative filtering, VitamiNurse delivers highly tailored dietary recommendations that align with users’ preferences, allergies, and health goals. The system integrates advanced vector search techniques, which is HNSW, to ensure scalability and efficiency, while the use of latent feature embeddings enhances the semantic accuracy of recommendations. This system not only promotes healthier lifestyle choices but also sets a foundation for the next generation of nutritional guidance tools powered by AI.

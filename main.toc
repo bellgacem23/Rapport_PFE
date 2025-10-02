@@ -1,0 +1,169 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of Figures}{12}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{14}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Project Context}{17}{chapter.1}%
+\contentsline {section}{Introduction}{17}{section*.7}%
+\contentsline {section}{\numberline {1.1}Presentation of the host company}{17}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Internship context and project objectives}{18}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}First version of VitamiNurse}{18}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Problem Statement and Challenges}{19}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Analysis of Key Competitor Applications}{20}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Yuka}{20}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3} Open Food Facts}{20}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}QuelProduit}{21}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Key Challenges and gaps in Current Applications}{21}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Proposed solution}{22}{subsection.1.3.6}%
+\contentsline {section}{\numberline {1.4}Project Methodology}{23}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Comparative Study of existing methodologies}{24}{subsection.1.4.1}%
+\contentsline {subsubsection}{a) Scrum Method}{24}{subsection.1.4.1}%
+\contentsline {subsubsection}{b) Kanban Method}{24}{Item.4}%
+\contentsline {subsubsection}{c) XP Method (eXtreme Programming)}{24}{Item.4}%
+\contentsline {subsubsection}{d) Scrumban Method}{25}{Item.4}%
+\contentsline {subsection}{\numberline {1.4.2}Chosen Team Management Methodology: Scrumban}{26}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Chosen technical methodology}{27}{subsection.1.4.3}%
+\contentsline {section}{Conclusion}{27}{figure.caption.16}%
+\contentsline {chapter}{\numberline {2}Data Pipeline and Nutrition Prediction }{28}{chapter.2}%
+\contentsline {section}{Introduction}{28}{section*.17}%
+\contentsline {section}{\numberline {2.1}Data Understanding}{28}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Sources}{28}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Problems}{28}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Data processing and enrichment}{29}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Data preparation: ETL pipeline}{29}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Extract}{30}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Transform: Data Processing \& Feature Engineering}{30}{subsection.2.2.2}%
+\contentsline {subsubsection}{Data Cleaning}{31}{subsection.2.2.2}%
+\contentsline {subsubsection}{Normalization and transformation of the "nutrition" column}{31}{figure.caption.19}%
+\contentsline {subsubsection}{Feature engineering}{32}{figure.caption.21}%
+\contentsline {subsection}{\numberline {2.2.3}Load: Data Storage}{33}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Main Database}{33}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Light Copy}{34}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Dual-database architecture}{35}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Web scraping}{36}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Web Scraping Process}{36}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}used tools in web scraping}{36}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Combine scraping tools}{36}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Nutrition prediction}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Training data}{39}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Exploring dataset problems}{40}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Feature Selection Strategy}{40}{subsection.2.4.3}%
+\contentsline {subsubsection}{Correlation-Driven Feature Exclusion}{40}{subsection.2.4.3}%
+\contentsline {subsubsection}{Handling Missing Data}{41}{figure.caption.29}%
+\contentsline {subsection}{\numberline {2.4.4}Data processing and cleaning}{43}{subsection.2.4.4}%
+\contentsline {subsubsection}{Initial Dataset Overview}{43}{subsection.2.4.4}%
+\contentsline {subsubsection}{Preprocessing Steps}{43}{subsection.2.4.4}%
+\contentsline {subsubsection}{Filtering implausible nutritional values}{43}{subsection.2.4.4}%
+\contentsline {subsubsection}{Data cleaning}{44}{table.caption.31}%
+\contentsline {subsection}{\numberline {2.4.5}Sampling and Training Set Construction}{45}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}TF-IDF Hyperparameter Optimization}{45}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Models Evaluation}{46}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Model selection}{48}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Model architecture}{48}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Model Evaluation}{48}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.11}Prediction}{49}{subsection.2.4.11}%
+\contentsline {subsection}{\numberline {2.4.12}Model Deployment}{49}{subsection.2.4.12}%
+\contentsline {chapter}{\numberline {3}Development of recommendation system}{52}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Vector databases in recommendation systems}{52}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Overview of Vector Databases}{52}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Choosing Chroma for Recommendations}{53}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Traditional Search vs. Vector Search}{54}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Latent Features}{54}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Vector Embeddings}{55}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}System Architecture}{55}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hybrid Architecture Design}{55}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hybrid System with Decoupled Components}{56}{subsection.3.2.2}%
+\contentsline {subsubsection}{Why Not LightFM Hybrid?}{57}{subsection.3.2.2}%
+\contentsline {paragraph}{1) Real-time Product Updates and Scalability Requirements :}{57}{subsection.3.2.2}%
+\contentsline {paragraph}{2) Benchmark Evidence: Pure LightFM Outperforms Hybrid LightFM:}{57}{subsection.3.2.2}%
+\contentsline {paragraph}{3) Computational Efficiency :}{58}{figure.caption.42}%
+\contentsline {subsection}{\numberline {3.2.3}Dynamic Data Update and Sync Architecture}{58}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}content-based filtering}{60}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Embedding Model Evaluation}{60}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Embedding Model Selection}{61}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Embed and load data to chroma DB}{61}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}CB Recommendation Process}{62}{subsection.3.3.4}%
+\contentsline {subsubsection}{Query Construction}{62}{subsection.3.3.4}%
+\contentsline {subsubsection}{Search and Recommendation}{62}{subsection.3.3.4}%
+\contentsline {subsubsection}{Recommendation Score}{63}{subsection.3.3.4}%
+\contentsline {subsubsection}{CB Recommendation Workflow :}{63}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Collaborative Filtering}{65}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Overview}{65}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}LightFM's Collaborative Filtering Approach}{65}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Create the interaction matrix}{66}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Loss Functions in LightFM}{66}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Selection of Loss Function}{66}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Benchmarking the Recommendation System: Exact vs. ANN (HNSW) Search}{68}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Approximate Nearest Neighbors (ANN)}{68}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Hierarchical Navigable Small World (HNSW) :}{68}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Theoretical Comparison}{68}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Experimental Results and Scalability Implications}{69}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Deployment}{70}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}FastAPI Deployment}{70}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Multi-Modal recommendation deployment}{70}{subsection.3.6.2}%
+\contentsline {chapter}{\numberline {4}Chatbot and AI integration}{72}{chapter.4}%
+\contentsline {section}{Introduction}{72}{section*.54}%
+\contentsline {section}{\numberline {4.1}Advanced scan system with AI analysis }{72}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Large Language Models (LLMs)}{73}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Prompt Engineering for AI Analysis}{73}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}System operation in VitamiNurse}{74}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}The AI Assistant}{75}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}System Architecture}{75}{subsection.4.2.1}%
+\contentsline {subsubsection}{User Mobile Interface}{76}{figure.caption.58}%
+\contentsline {subsubsection}{Backend (FastAPI Server)}{77}{figure.caption.59}%
+\contentsline {subsection}{\numberline {4.2.2}AI and Data Layer}{79}{subsection.4.2.2}%
+\contentsline {subsubsection}{Orchestration framework}{79}{figure.caption.61}%
+\contentsline {subsubsection}{Storage layer}{79}{figure.caption.61}%
+\contentsline {subsubsection}{Recommendation Engine}{80}{figure.caption.61}%
+\contentsline {subsection}{\numberline {4.2.3}Data Organization and Collections}{80}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Contextual Knowledge and Guidelines}{80}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Key Features and Implementation}{81}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Parallel Intent Processing with LangChain}{81}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Dynamic Updating of User Profiles}{82}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}AI-Powered Recipe Generation}{82}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Integrated Recommendation System}{83}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Challenges and Solutions}{83}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Future Improvements}{84}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Nodes and Workflow in LangGraph}{85}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Intent Classification}{85}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Profile Retrieval}{85}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Contextual Knowledge Retrieval}{85}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Response Generation}{85}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Profile Update Extraction}{86}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Profile Persistence}{86}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}Conditional Routing and State Management}{86}{subsection.4.6.7}%
+\contentsline {section}{\numberline {4.7}User Profile Management}{86}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Profile Initialization}{86}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Profile Evolution}{86}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Preference Management}{87}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Allergy and Dietary Restriction Handling}{87}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Profile Security and Privacy}{87}{subsection.4.7.5}%
+\contentsline {section}{\numberline {4.8}Technologies Used}{87}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}FastAPI for Web Services}{87}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}LangChain for Orchestration}{87}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}GPT-4 as Core Language Model}{88}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Prompt Engineering for Safety and Personalization}{88}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}ChromaDB for Long-Term Memory}{88}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}StateGraph from LangGraph for Workflow Management}{88}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}Technological Synergy}{88}{subsection.4.8.7}%
+\contentsline {section}{\numberline {4.9}Scenarios of Interaction}{89}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Recipe Recommendations for Health Conditions}{89}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Profile Updates and Adaptive Learning}{89}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Product-Oriented Queries for Nutritional Choices}{89}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}Versatility and Personalization}{89}{subsection.4.9.4}%
+\contentsline {section}{\numberline {4.10}Future Improvements}{90}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Conclusion}{90}{section.4.11}%
+\contentsline {chapter}{\numberline {5}Application Deployment on AWS}{91}{chapter.5}%
+\contentsline {section}{Introduction}{91}{section*.64}%
+\contentsline {section}{\numberline {5.1}Project architecture}{91}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Physical architecture}{91}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Logical architecture}{92}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Containerization}{93}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Deployment}{93}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Security on Cloud}{94}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}Deployment Challenges and Solutions}{96}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Ephemeral Storage Challenge}{96}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Storage solution: Persistent EBS Volumes}{96}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Data Backup and Recovery Challenge}{97}{subsection.5.2.3}%
+\contentsline {subsubsection}{Recovery Solution: Automated EBS Snapshots}{97}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Summary and Total Cost of Ownership}{98}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Next Steps: Deployment on Container Service}{98}{subsection.5.2.5}%
+\contentsline {section}{General Conclusion}{100}{subsection.5.2.5}%

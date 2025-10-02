@@ -1,0 +1,120 @@
+\documentclass[a4paper,12pt, final]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage[table]{xcolor}  % ← SEULE INSTANCE de xcolor
+
+% Packages de base
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{parskip}
+\setlength{\parskip}{0.5\baselineskip}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+\usepackage[nottoc]{tocbibind}
+\usepackage{underscore}
+\usepackage{setspace}
+
+% Packages mathématiques
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{siunitx}
+
+% Packages pour graphiques et tableaux
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[font=footnotesize]{caption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{soul}
+
+% Packages pour algorithmes et code
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+
+% Autres packages
+\usepackage{acronym}
+\usepackage{enumitem}
+\usepackage{dirtytalk}
+\usepackage{textpos}
+\usepackage{tikz}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{pdfpages}
+
+% SUPPRIMEZ ces doublons :
+% \usepackage{lmodern}        % ← SUPPRIMEZ (déjà chargé)
+% \usepackage[T1]{fontenc}    % ← SUPPRIMEZ (déjà chargé)
+
+% Configuration des citations
+\usepackage[sort&compress,numbers]{natbib}
+
+% Configuration hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={}
+}
+
+\begin{document}
+\input{pagePFE}
+% For Capstone projects only
+\input{signatures}
+\input{Dedication}
+\newpage
+\input{Acknowledgment.tex}
+
+\input{Abstract.tex}
+
+\thispagestyle{empty}
+\newpage
+
+% SUPPRIMER ce vspace qui crée un espace inutile
+% \vspace{2\baselineskip}
+
+% Table des matières
+\tableofcontents
+\thispagestyle{empty}
+
+% Listes des figures et tableaux
+\listoffigures
+\listoftables
+\thispagestyle{empty}
+\newpage
+
+% Acronymes (décommentez si nécessaire)
+% \input{Acronyms}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Corps du document
+\input{Introduction}
+
+\input{Chapter1}
+\input{Chapter2}
+\input{Chapter3}
+\input{Chapter4}
+\input{Chapter5}
+\input{Conclusion}
+
+% Bibliographie
+\bibliographystyle{IEEEtran} 
+\bibliography{references}
+
+\end{document}
