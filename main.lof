@@ -1,59 +1,59 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ONRTECH company logo\relax }}{18}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces VN app logo\relax }}{19}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces The Yuka system for product evaluation\relax }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Lack of personalization and user-friendly features in the OFF app\relax }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Negative user reviews of Yuka on Google Play\relax }}{22}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces VitamiNuse login page\relax }}{23}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Scrumban Process \relax }}{25}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Our Scrumban Board Implementation\relax }}{26}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces CRISP-DM\relax }}{27}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces ONRTECH company logo\relax }}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces VN app logo\relax }}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The Yuka system for product evaluation\relax }}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Lack of personalization and user-friendly features in the OFF app\relax }}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Identification of harmful substances and food additives by the QuelProduit application\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Negative user reviews of Yuka on Google Play\relax }}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Scrumban Process \relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Our Scrumban Board Implementation\relax }}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces CRISP-DM\relax }}{23}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Scraped data JSON files from Esselunga Italy\relax }}{30}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Data after duplication removal\relax }}{31}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of a nutrition column\relax }}{31}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Normalization and transformation of the "nutrition" dictionary\relax }}{32}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Nutrition utilities\relax }}{33}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Load products for each market\relax }}{34}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces End-to-end data workflow: from web scraping to vector embedding\relax }}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces get products links\relax }}{37}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces all data scanner\relax }}{38}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The selective loading approach\relax }}{39}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Explore data statistics\relax }}{40}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Correlation matrix\relax }}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Proportion of missing values\relax }}{42}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Removal of duplicates and rows with missing product names.\relax }}{45}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Comparison of Mean Absolute Error (MAE) and \(R^2\) across regression models.\relax }}{47}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces FastAPI endpoint for predicting nutritional values.\relax }}{50}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces.\relax }}{50}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Scraped data JSON files from Esselunga Italy\relax }}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Data after duplication removal\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of a nutrition column\relax }}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Normalization and transformation of the "nutrition" dictionary\relax }}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Nutrition utilities\relax }}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Load products for each market\relax }}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces End-to-end data workflow: from web scraping to vector embedding\relax }}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces get products links\relax }}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces all data scanner\relax }}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The selective loading approach\relax }}{33}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Explore data statistics\relax }}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Correlation matrix\relax }}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Proportion of missing values\relax }}{36}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Removal of duplicates and rows with missing product names.\relax }}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Comparison of Mean Absolute Error (MAE) and \(R^2\) across regression models.\relax }}{41}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces FastAPI endpoint for predicting nutritional values.\relax }}{44}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces.\relax }}{44}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Vector database embedding\relax }}{53}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Vector Search in chroma\relax }}{54}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Recommendation System Architecture \relax }}{56}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cutoff Precision Values by Algorithm\relax }}{58}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Cutoff Recall Values by Algorithm\relax }}{58}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Content Based Filtering Logic\relax }}{60}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Load Data to chroma DB\relax }}{62}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces CB Recommendation Workflow\relax }}{63}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Collaborative Filtering Logic\relax }}{65}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Train lightFM with BPR loss function\relax }}{67}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Deploy Recommendation system with Fast API\relax }}{70}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Swagger UI for the internal Recommendation API\relax }}{71}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Vector database embedding\relax }}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vector Search in chroma\relax }}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Recommendation System Architecture \relax }}{50}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cutoff Precision Values by Algorithm\relax }}{51}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cutoff Recall Values by Algorithm\relax }}{51}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Content Based Filtering Logic\relax }}{53}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Load Data to chroma DB\relax }}{54}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces CB Recommendation Workflow\relax }}{56}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Collaborative Filtering Logic\relax }}{57}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Train lightFM with BPR loss function\relax }}{58}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Deploy Recommendation system with Fast API\relax }}{62}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Swagger UI for the internal Recommendation API\relax }}{63}{figure.caption.55}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Advanced product evaluation with AI analysis\relax }}{73}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prompt Engineering Using GPT-4\relax }}{74}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Scanned product details and AI nutrition evaluation\relax }}{75}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Chatbot Architecture\relax }}{76}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces AI assistant chat interface\relax }}{77}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Chatbot FastAPI\relax }}{78}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces AI and Data Layer in the VitamiNurse Assistant\relax }}{79}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Intent detection and processing in AI chatbots\relax }}{81}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Intelligent user profile update through conversational extraction\relax }}{82}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Advanced product evaluation with AI analysis\relax }}{65}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prompt Engineering Using GPT-4\relax }}{66}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scanned product details and AI nutrition evaluation\relax }}{67}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Chatbot Architecture\relax }}{68}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces AI assistant chat interface\relax }}{69}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Chatbot FastAPI\relax }}{69}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces AI and Data Layer in the VitamiNurse Assistant\relax }}{71}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Intent detection and processing in AI chatbots\relax }}{72}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Intelligent user profile update through conversational extraction\relax }}{73}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Physical architecture of the system\relax }}{92}{figure.caption.65}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Logical architecture \relax }}{92}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Docker compose logo\relax }}{93}{figure.caption.67}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces AWS architecture\relax }}{94}{figure.caption.68}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces EC2 lifecycle with persistent EBS volume for data retention.\relax }}{96}{figure.caption.69}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Automated EBS snapshots\relax }}{98}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Physical architecture of the system\relax }}{81}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Logical architecture \relax }}{81}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Docker compose logo\relax }}{82}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces AWS architecture\relax }}{83}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces EC2 lifecycle with persistent EBS volume for data retention.\relax }}{84}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Automated EBS snapshots\relax }}{85}{figure.caption.72}%

@@ -57,9 +57,9 @@ Despite these advantages, Yuka also presents notable limitations. Its database i
 \end{center}
 
 \subsection{ Open Food Facts}
-Open Food Facts\footnote{\url{https://fr.openfoodfacts.org/}} is a nonprofit, collaborative, and open-data database of food products. It is the primary source of data for many other application, including Yuka, and provides detailed information. 
+Open Food Facts\footnote{\url{https://fr.openfoodfacts.org/}} is a collaborative and nonprofit database of food products. It is the primary data source for many other applications, including Yuka. 
 
-However, there are many limitations in the Open Food Facts app. Relying on user-generated content can lead to inaccuracies, duplicates, and incomplete data entries. The platform itself functions more as a powerful database than a user-friendly application. The lack of features for personal tracking, goal setting, or personalized recommendations limits its utility for consumers seeking a guided health journey.
+It is true that the Open Food Facts application provides transparent information such as ingredients, allergens, and Nutriscore. But it suffers from significant usability challenges. The lack of personal tracking or goal setting features limits its usefulness for consumers seeking a nutritional guide.
 
 % OFF 00-01-02-03
 \begin{figure}[H]
@@ -74,14 +74,30 @@ However, there are many limitations in the Open Food Facts app. Relying on user-
 
 \subsection{QuelProduit}
 QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelproduit-n84731/}} is a product analysis app developed by the French non-profit consumer organization \textbf{UFC-Que Choisir}, to help users make safer choices by scanning barcodes to evaluate food, cosmetic, and household items.
- The application focuses on consumer safety by highlighting harmful substances, but does not offer balanced nutritional guidance or personalized dietary support. Users should view this tool as a hazard detection system rather than a nutritional guide or assistant.
- 
+ The application focuses on consumer safety by highlighting harmful substances, but does not offer balanced nutritional guidance or personalized dietary support. Users should view this tool as a simple detection system rather than a nutritional guide or assistant.
+
+ \begin{center}
+\begin{figure}[H]
+\includegraphics[scale=0.33]{images/quelproduit.jpg}
+\caption{Identification of harmful substances and food additives by the QuelProduit application}
+\label{fig:queChoisir}
+\end{figure}
+\end{center}
+
+ \subsection{Food Check}
+Food Check\footnote{\url{https://play.google.com/store/apps/details?id=com.bytes_and_pixels.food_buddy&hl=fr}} is an AI-powered nutritional scanner application developed by Bytes \& Pixels GmbH. The application offers AI chatbot assistance and personalized recommendations.
+
+Despite its advanced feature set, user feedback reveals significant shortcomings. Technical issues with barcode scanning and performance bugs are frequently reported. The onboarding process is described as intrusive, requiring extensive personal information before delivering value, which results in high initial abandonment rates.
+
 \subsection{Key Challenges and gaps in Current Applications}
 There are a number of significant deficiencies of current nutritional apps. Firstly, existing nutrition applications frequently fall to deliver a comprehensive user experience. Many provide generic recommendations that do not account for individual factors such as allergies and medical conditions. This lack of personalization can make it difficult for users to find relevant and actionable advice. Furthermore, the widespread use of simplified scoring systems further reduces complex nutritional data to a single value, which can mislead users and prevent informed decision-making.  
 
-Secondly, there is a lack of interactivity, missing real-time guidance via chatbots to answer questions and provide tailored recommendations and advice. The lack of conversational guidance restricts the ability of apps to provide dynamic and context-aware support. 
+In the first three applications, there is a lack of interactivity. Real-time chatbot guidance is missing to answer questions and provide tailored recommendations and advice. The lack of conversational guidance restricts the ability of apps to provide dynamic and context-aware support. 
 
- Lastly, data reliability issues still persist, raising concerns about the precision and reproducibility of nutritional data in existing databases. The negative user feedback on Google Play points to outdated Yuka database, as illustrated in Figure \ref{fig:yuka_feedback}. This results in unreliable nutritional analysis and inconsistent product ratings.  
+For Food Check, this application does not consider complex user health conditions and supports only a few dietary lifestyles: vegan, gluten-free, and dairy-free diets.  
+
+
+ Lastly, data reliability issues still persist, raising concerns about the precision and reproducibility of nutritional data in existing databases. The negative user feedback on Google Play points to an outdated Yuka database, as illustrated in Figure \ref{fig:yuka_feedback}. This results in unreliable nutritional analysis and inconsistent product ratings.  
 
 \begin{center}
 \begin{figure}[ht]
@@ -91,22 +107,54 @@ Secondly, there is a lack of interactivity, missing real-time guidance via chatb
 \end{figure}
 \end{center}
 
+
+% --- Insert your LaTeX table here ---
+\begin{table}[h!]
+\centering
+\caption{Comparison of Key Features in Competitor Applications}
+\label{tab:app_comparison}
+\begin{tabularx}{\textwidth}{|l|X|X|X|X|}
+\hline
+\textbf{Feature} & \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{QuelProduit} & \textbf{NutriSmart} \\
+\hline
+Database Update Frequency & Not frequent & Varies (User-driven) & Information Missing & Information Missing \\
+\hline
+Recommendation System & Absent & Absent & Absent & Exist \\
+\hline
+AI Assistant / Interaction & Absent & Absent & Absent & Exist \\
+\hline
+Core Function & Product Scanning & Open Database & Product Scanning & Personalized Routines \\
+\hline
+\end{tabularx}
+\end{table}
+ 
+\section{Proposed solution}
   
-\subsection{Proposed solution}
-To address these gaps, we propose a comprehensive enhancement of VitamiNurse centered on four interconnected technical pillars. First, a robust ETL pipeline will ensure database reliability through automated web scraping and data integration. As a result of this pipeline, it is ensured that product information is regularly updated and systematically verified against trusted sources.
-Second, a hybrid recommendation system designed to solve personalization problems. It combines collaborative filtering using the LightFM library with semantic similarity search based on a vector database and HNSW graphs. 
- Third, an AI-powered nutrition analysis system will audit the scanned product and detect those deemed unhealthy or unsuitable for the user’s specific dietary profile and health goals.
- Finally, an interactive AI chatbot will bridge the interactivity gap. Not only will it engage users in dialogue to answer nutritional questions, but it will also understand their needs in depth and provide personalized guidance. This integrated architecture is designed to transform VitamiNurse from a simple product scanner into an intelligent and adaptive nutritional assistant.
+To address the identified market gaps, we propose a comprehensive enhancement of the VitamiNurse application. Our vision is to transform it from a simple product scanner into an intelligent, adaptive, and indispensable nutritional partner. This transformation is centered on delivering a uniquely personalized and interactive user experience through the following key features.
 
-\begin{center}
-\begin{figure}[H]
-            \centering
-            \includegraphics[scale=0.11]{images/VN_AI_solution.jpg}
-            \caption{VitamiNuse login page} 
-            \label{fig:The AI powered app : VitamiNurse}
-        \end{figure}
-\end{center}
+\subsection{A Reliable and Always-Up-to-Date Product Database}
 
+A fundamental limitation of existing applications is the lack of current and accurate product information. Our solution ensures that users can have complete confidence in the data they access. The system is designed to automatically and continuously refresh its database by integrating information from multiple trusted sources. For the user, this translates to a seamless and reliable scanning experience. When they scan a product barcode, they are presented with the most current and accurate nutritional information available, effectively eliminating the frustration of encountering unknown or outdated items that plague other apps.
+
+\subsection{Personalized Product Recommendations and Alternatives}
+
+We recognize that nutritional needs are highly individual. Moving beyond generic scoring systems, VitamiNurse will provide deeply personalized guidance. The application learns from user preferences, dietary restrictions, and health goals to act as a personal product scout.
+
+For instance, consider a user with a lactose intolerance scanning a yogurt. Instead of merely displaying a poor rating, the application will immediately explain the reason for the unsuitability, such as highlighting the presence of lactose. More importantly, it will proactively suggest several similar, lactose-free yogurt alternatives that align with the user's taste preferences. This intelligent matching ensures that the recommendations are not only safe but also genuinely appealing to the user.
+
+\subsection{Intelligent, Profile-Based Product Analysis}
+
+The application functions as a personal nutritionist at the point of sale. It transcends simply listing ingredients by performing a sophisticated analysis tailored to the user's unique health profile, whether it be for weight management, diabetes, or hypertension.
+
+To illustrate, a user focused on reducing sugar intake might scan a cereal bar. The AI will audit the product and deliver a clear, plain-English conclusion, such as: \textbf{“Attention: This product contains 20g of sugar per serving, which is high for your stated goal. We recommend considering the healthier alternatives suggested below.”} This feature demystifies complex nutritional data, empowering users to make informed and confident dietary choices.
+
+\subsection{An Interactive 24/7 Nutritional Assistant}
+
+To bridge the interactivity gap found in competing applications, VitamiNurse will feature a friendly and knowledgeable AI chatbot integrated directly into the user experience. This assistant serves as a conversational partner for all nutritional inquiries, providing dynamic support that goes beyond a static FAQ.
+
+Users can engage with the chatbot in a natural dialogue. They might ask, “What is a quick and healthy breakfast idea for a busy morning?” and receive a personalized recipe. Furthermore, after scanning a product, a user can seek deeper understanding by asking, “Why did this product receive a 'moderate' rating?” The chatbot will then explain the key deciding factors, such as high sodium content or the presence of specific additives, in an accessible and educational manner.
+
+% image des features :  user / produit / scan / product evaluations / chatbot
 
 \section{Project Methodology}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.2)  2 OCT 2025 23:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  17 OCT 2025 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -36,7 +36,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
-\l@unhyphenated=\language3
+\l@unhyphenated=\language7
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -1135,117 +1135,79 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (./pagePFE.tex
-! Undefined control sequence.
-l.3 \backgroundsetup
-                    {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<images/bg-wave.png, id=572, 551.05875pt x 850.67813pt>
+<images/bg-wave.png, id=596, 551.05875pt x 850.67813pt>
 File: images/bg-wave.png Graphic file (type png)
 <use images/bg-wave.png>
 Package pdftex.def Info: images/bg-wave.png  used on input line 9.
-(pdftex.def)             Requested size: 540.65611pt x 810.94339pt.
-! Undefined control sequence.
-l.12 \BgThispage
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (364.55913pt too wide) in paragraph at lines 4--13
-[]\T1/lmr/m/n/12 (-20) scale=1, color=black, opac-ity=1, an-gle=0, contents=[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--13
-
- []
-
-[1
-
-]
-Overfull \vbox (108.16031pt too high) has occurred while \output is active []
-
-
-[2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/bg-wave.png>]
-<images/UM_logo.png, id=585, 1204.5pt x 1684.2925pt>
+(pdftex.def)             Requested size: 597.56462pt x 845.09453pt.
+<images/UM_logo.png, id=598, 1204.5pt x 1684.2925pt>
 File: images/UM_logo.png Graphic file (type png)
 <use images/UM_logo.png>
-Package pdftex.def Info: images/UM_logo.png  used on input line 15.
-(pdftex.def)             Requested size: 56.01636pt x 78.3085pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-<images/ISIM_logo.png, id=586, 527.9725pt x 513.92pt>
+Package pdftex.def Info: images/UM_logo.png  used on input line 14.
+(pdftex.def)             Requested size: 40.69147pt x 56.9055pt.
+<images/ISIM_logo.png, id=599, 527.9725pt x 513.92pt>
 File: images/ISIM_logo.png Graphic file (type png)
 <use images/ISIM_logo.png>
-Package pdftex.def Info: images/ISIM_logo.png  used on input line 19.
-(pdftex.def)             Requested size: 74.68848pt x 72.69327pt.
-! Argument of \@newline has an extra }.
-<inserted text> 
-                \par 
-l.19 ...h=\linewidth]{images/ISIM_logo.png}\\[2cm}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+Package pdftex.def Info: images/ISIM_logo.png  used on input line 18.
+(pdftex.def)             Requested size: 58.4558pt x 56.9055pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+3.
 
-Runaway argument?
-2cm
-! Paragraph ended before \@newline was complete.
-<to be read again> 
-                   \par 
-l.19 ...h=\linewidth]{images/ISIM_logo.png}\\[2cm}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+3.
 
-! Extra }, or forgotten \endgroup.
-\TP@commonendtextblock ...oxrulesize }\fi \egroup 
-                                                  \expandafter \TP@endtextbl...
-l.20   \end{textblock}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+63.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+63.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 63.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 63.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
- []
 
-[3 <./images/UM_logo.png> <./images/ISIM_logo.png>]
-! Undefined control sequence.
-l.62 \backgroundsetup
-                     {contents={}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 63
+.
 
-) (./signatures.texpdfTeX warning (ext4): destination with the same identifier 
-(name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \chapter
-            *{Signatures} [1]
-<images/sig.png, id=598, 329.73187pt x 171.64125pt>
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/bg-wave.png> <./i
+mages/UM_logo.png> <./images/ISIM_logo.png>]) (./signatures.tex
+<images/sig.png, id=610, 329.73187pt x 171.64125pt>
 File: images/sig.png Graphic file (type png)
 <use images/sig.png>
 Package pdftex.def Info: images/sig.png  used on input line 8.
@@ -1254,116 +1216,31 @@ File: images/sig.png Graphic file (type png)
 <use images/sig.png>
 Package pdftex.def Info: images/sig.png  used on input line 15.
 (pdftex.def)             Requested size: 352.81552pt x 183.66216pt.
-) (./Dedication.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
- []
-
-)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+) (./Dedication.texpdfTeX warning (ext4): destination with the same identifier 
+(name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \newpage
-              [2
+l.1 \newpage
+             [1
 
- <./images/sig.png>]pdfTeX warning (ext4): destination with the same identifier
- (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.79 \newpage
-              [3] (./Acknowledgment.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--81
+ <./images/sig.png>]) [2] (./Acknowledgment.tex) (./Abstract.tex [3
 
- []
+]) [4
 
+] (./main.toc [5
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--81
-
- []
-
-(./Abstract.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-) [6] (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [7
-
-] [8] [9]
-[10])
+] [6] [7])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [11] (./main.lof [12
+ [8] (./main.lof [9
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [13] (./main.lot
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+ [10] (./main.lot
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -1377,139 +1254,454 @@ Package microtype Info: Loading generic protrusion settings for font family
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [14
+ [11
 
 ] (./Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[15
+) (./Chapter1.tex [12
 
-]) (./Chapter1.tex [16]
+]
 Chapter 1.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
-<images/ONRTECH_logo.jpeg, id=944, 401.5pt x 401.5pt>
+<images/ONRTECH_logo.jpeg, id=948, 401.5pt x 401.5pt>
 File: images/ONRTECH_logo.jpeg Graphic file (type jpg)
 <use images/ONRTECH_logo.jpeg>
 Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 132.30666pt x 132.30548pt.
-[17
+[13
 
-] [18 <./images/ONRTECH_logo.jpeg>]
+]
 <images/VN_app_logo.png, id=957, 224.84pt x 129.48375pt>
 File: images/VN_app_logo.png Graphic file (type png)
 <use images/VN_app_logo.png>
 Package pdftex.def Info: images/VN_app_logo.png  used on input line 33.
 (pdftex.def)             Requested size: 123.66237pt x 71.21626pt.
- [19 <./images/VN_app_logo.png>]
-<images/yuka_evaluation.png, id=966, 1204.5pt x 711.65875pt>
+ [14 <./images/ONRTECH_logo.jpeg>] [15 <./images/VN_app_logo.png>]
+<images/yuka_evaluation.png, id=971, 1204.5pt x 711.65875pt>
 File: images/yuka_evaluation.png Graphic file (type png)
 <use images/yuka_evaluation.png>
 Package pdftex.def Info: images/yuka_evaluation.png  used on input line 53.
 (pdftex.def)             Requested size: 397.48624pt x 234.84811pt.
- [20 <./images/yuka_evaluation.png>]
-<images/OFF-00.png, id=976, 426.59375pt x 770.88pt>
+<images/OFF-00.png, id=974, 426.59375pt x 770.88pt>
 File: images/OFF-00.png Graphic file (type png)
 <use images/OFF-00.png>
 Package pdftex.def Info: images/OFF-00.png  used on input line 67.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-01.png, id=977, 426.59375pt x 770.88pt>
+<images/OFF-01.png, id=975, 426.59375pt x 770.88pt>
 File: images/OFF-01.png Graphic file (type png)
 <use images/OFF-01.png>
 Package pdftex.def Info: images/OFF-01.png  used on input line 68.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-02.png, id=978, 426.59375pt x 770.88pt>
+<images/OFF-02.png, id=976, 426.59375pt x 770.88pt>
 File: images/OFF-02.png Graphic file (type png)
 <use images/OFF-02.png>
 Package pdftex.def Info: images/OFF-02.png  used on input line 69.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-03.png, id=979, 426.59375pt x 770.88pt>
+<images/OFF-03.png, id=977, 426.59375pt x 770.88pt>
 File: images/OFF-03.png Graphic file (type png)
 <use images/OFF-03.png>
 Package pdftex.def Info: images/OFF-03.png  used on input line 70.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
- [21 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./image
-s/OFF-03.png>]
-<images/yuka_negative_review.png, id=992, 784.9325pt x 597.23125pt>
+ [16 <./images/yuka_evaluation.png>]
+
+LaTeX Warning: File `images/quelproduit.jpg' not found on input line 81.
+
+
+! Package pdftex.def Error: File `images/quelproduit.jpg' not found: using draf
+t setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...aphics[scale=0.33]{images/quelproduit.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[][][][]$\T1/lmtt/m/n/10 https : / / play . google . com / store / apps / detai
+ls ? id = com . bytes _ and _ pixels . food _ buddy &
+ []
+
+[17 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./images
+/OFF-03.png>]
+<images/yuka_negative_review.png, id=1002, 784.9325pt x 597.23125pt>
 File: images/yuka_negative_review.png Graphic file (type png)
 <use images/yuka_negative_review.png>
-Package pdftex.def Info: images/yuka_negative_review.png  used on input line 88
-.
+Package pdftex.def Info: images/yuka_negative_review.png  used on input line 10
+4.
 (pdftex.def)             Requested size: 353.21635pt x 268.75157pt.
- [22 <./images/yuka_negative_review.png>]
-<images/VN_AI_solution.jpg, id=1000, 1084.05pt x 1927.2pt>
-File: images/VN_AI_solution.jpg Graphic file (type jpg)
-<use images/VN_AI_solution.jpg>
-Package pdftex.def Info: images/VN_AI_solution.jpg  used on input line 104.
-(pdftex.def)             Requested size: 119.24586pt x 211.99266pt.
 
 
-Package natbib Warning: Citation `scrum2025' on page 23 undefined on input line
- 118.
+! LaTeX Error: Environment tabularx undefined.
 
-[23 <./images/VN_AI_solution.jpg>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \begin{tabularx}
+                      {\textwidth}{|l|X|X|X|X|}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Package natbib Warning: Citation `schwaber2004agile' on page 24 undefined on in
-put line 122.
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.116 \begin{tabularx}{\textwidth}
+                                  {|l|X|X|X|X|}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.116 \begin{tabularx}{\textwidth}
+                                  {|l|X|X|X|X|}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.117 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.118 \textbf{Feature} &
+                         \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 \textbf{Feature} & \textbf{Yuka} &
+                                         \textbf{Open Food Facts} & \textbf{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 ...textbf{Yuka} & \textbf{Open Food Facts} &
+                                                   \textbf{QuelProduit} & \t...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 ...Open Food Facts} & \textbf{QuelProduit} &
+                                                   \textbf{NutriSmart} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.119 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.120 Database Update Frequency &
+                                  Not frequent & Varies (User-driven) & Info...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120 Database Update Frequency & Not frequent &
+                                                 Varies (User-driven) & Info...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120 ...y & Not frequent & Varies (User-driven) &
+                                                   Information Missing & Inf...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120 ...ies (User-driven) & Information Missing &
+                                                   Information Missing \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.121 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.122 Recommendation System &
+                              Absent & Absent & Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.122 Recommendation System & Absent &
+                                       Absent & Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.122 Recommendation System & Absent & Absent &
+                                                Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.122 ...ation System & Absent & Absent & Absent &
+                                                   Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.123 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.124 AI Assistant / Interaction &
+                                   Absent & Absent & Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.124 AI Assistant / Interaction & Absent &
+                                            Absent & Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.124 ...sistant / Interaction & Absent & Absent &
+                                                   Absent & Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.124 ... Interaction & Absent & Absent & Absent &
+                                                   Exist \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.125 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.126 Core Function &
+                      Product Scanning & Open Database & Product Scanning & ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.126 Core Function & Product Scanning &
+                                         Open Database & Product Scanning & ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.126 ...tion & Product Scanning & Open Database &
+                                                   Product Scanning & Person...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.126 ...ning & Open Database & Product Scanning &
+                                                   Personalized Routines \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.127 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
-Package natbib Warning: Citation `anderson2010kanban' on page 24 undefined on i
-nput line 136.
+! LaTeX Error: \begin{table} on input line 112 ended by \end{tabularx}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \end{tabularx}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[18 <./images/yuka_negative_review.png>] [19]
+
+Package natbib Warning: Citation `scrum2025' on page 20 undefined on input line
+ 166.
 
 
-Package natbib Warning: Citation `beck2000extreme' on page 24 undefined on inpu
-t line 140.
+Package natbib Warning: Citation `schwaber2004agile' on page 20 undefined on in
+put line 170.
 
-[24]
-<images/scrumban.jpg, id=1013, 853.1875pt x 431.6125pt>
+
+Package natbib Warning: Citation `anderson2010kanban' on page 20 undefined on i
+nput line 184.
+
+[20]
+
+Package natbib Warning: Citation `beck2000extreme' on page 21 undefined on inpu
+t line 188.
+
+<images/scrumban.jpg, id=1021, 853.1875pt x 431.6125pt>
 File: images/scrumban.jpg Graphic file (type jpg)
 <use images/scrumban.jpg>
-Package pdftex.def Info: images/scrumban.jpg  used on input line 151.
+Package pdftex.def Info: images/scrumban.jpg  used on input line 199.
 (pdftex.def)             Requested size: 375.40366pt x 189.91008pt.
- [25 <./images/scrumban.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-64.
+[21 <./images/scrumban.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+12.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/kanbanBoard.png, id=1018, 1285.80376pt x 620.3175pt>
+<images/kanbanBoard.png, id=1026, 1285.80376pt x 620.3175pt>
 File: images/kanbanBoard.png Graphic file (type png)
 <use images/kanbanBoard.png>
-Package pdftex.def Info: images/kanbanBoard.png  used on input line 177.
+Package pdftex.def Info: images/kanbanBoard.png  used on input line 225.
 (pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
 
-Overfull \hbox (47.59277pt too wide) in paragraph at lines 177--178
+Overfull \hbox (47.59277pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
-[26 <./images/kanbanBoard.png>]
-<images/CRISP.png, id=1025, 446.50815pt x 447.3513pt>
+[22 <./images/kanbanBoard.png>]
+<images/CRISP.png, id=1033, 446.50815pt x 447.3513pt>
 File: images/CRISP.png Graphic file (type png)
 <use images/CRISP.png>
-Package pdftex.def Info: images/CRISP.png  used on input line 195.
+Package pdftex.def Info: images/CRISP.png  used on input line 243.
 (pdftex.def)             Requested size: 196.46419pt x 196.83517pt.
-) (./Chapter2.tex [27 <./images/CRISP.png>]
+) (./Chapter2.tex [23 <./images/CRISP.png>]
 Chapter 2.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-[28
+[24
 
-] [29]
-<images/conad_italy_data.png, id=1039, 1047.915pt x 689.57625pt>
+]
+<images/conad_italy_data.png, id=1043, 1047.915pt x 689.57625pt>
 File: images/conad_italy_data.png Graphic file (type png)
 <use images/conad_italy_data.png>
 Package pdftex.def Info: images/conad_italy_data.png  used on input line 42.
 (pdftex.def)             Requested size: 408.6852pt x 268.93365pt.
- [30 <./images/conad_italy_data.png>]
-<images/duplication_remove.png, id=1045, 1285.80376pt x 501.875pt>
+ [25]
+<images/duplication_remove.png, id=1048, 1285.80376pt x 501.875pt>
 File: images/duplication_remove.png Graphic file (type png)
 <use images/duplication_remove.png>
 Package pdftex.def Info: images/duplication_remove.png  used on input line 58.
@@ -1519,45 +1711,47 @@ Overfull \hbox (9.02032pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
-<images/nutrition.png, id=1046, 352.31625pt x 154.5775pt>
+[26 <./images/conad_italy_data.png>]
+<images/nutrition.png, id=1054, 352.31625pt x 154.5775pt>
 File: images/nutrition.png Graphic file (type png)
 <use images/nutrition.png>
 Package pdftex.def Info: images/nutrition.png  used on input line 70.
 (pdftex.def)             Requested size: 232.52943pt x 102.02144pt.
-[31 <./images/duplication_remove.png> <./images/nutrition.png>]
-<images/transform_nutrition.png, id=1053, 741.77126pt x 462.72874pt>
+<images/transform_nutrition.png, id=1055, 741.77126pt x 462.72874pt>
 File: images/transform_nutrition.png Graphic file (type png)
 <use images/transform_nutrition.png>
 Package pdftex.def Info: images/transform_nutrition.png  used on input line 80.
 
 (pdftex.def)             Requested size: 244.78528pt x 152.70096pt.
-<images/nutrition_utils.png, id=1054, 1122.1925pt x 606.265pt>
+ [27 <./images/duplication_remove.png> <./images/nutrition.png>]
+<images/nutrition_utils.png, id=1062, 1122.1925pt x 606.265pt>
 File: images/nutrition_utils.png Graphic file (type png)
 <use images/nutrition_utils.png>
 Package pdftex.def Info: images/nutrition_utils.png  used on input line 93.
 (pdftex.def)             Requested size: 392.77327pt x 212.19592pt.
- [32 <./images/transform_nutrition.png>]
 
-Package natbib Warning: Citation `egnell2022impact' on page 33 undefined on inp
+
+Package natbib Warning: Citation `egnell2022impact' on page 28 undefined on inp
 ut line 109.
 
-[33 <./images/nutrition_utils.png>]
-<images/load_data.png, id=1066, 1154.3125pt x 729.72626pt>
+[28 <./images/transform_nutrition.png> <./images/nutrition_utils.png>]
+<images/load_data.png, id=1070, 1154.3125pt x 729.72626pt>
 File: images/load_data.png Graphic file (type png)
 <use images/load_data.png>
 Package pdftex.def Info: images/load_data.png  used on input line 133.
 (pdftex.def)             Requested size: 404.01543pt x 255.40802pt.
-<images/workflow__data.png, id=1067, 1105.12875pt x 502.87875pt>
+ [29 <./images/load_data.png>]
+<images/workflow__data.png, id=1076, 1105.12875pt x 502.87875pt>
 File: images/workflow__data.png Graphic file (type png)
 <use images/workflow__data.png>
 Package pdftex.def Info: images/workflow__data.png  used on input line 144.
 (pdftex.def)             Requested size: 386.80086pt x 176.0102pt.
- [34 <./images/load_data.png>] [35 <./images/workflow__data.png>]
+ [30 <./images/workflow__data.png>]
 
-LaTeX Warning: Reference `fig:get products links' on page 36 undefined on input
+LaTeX Warning: Reference `fig:get products links' on page 31 undefined on input
  line 188.
 
-<images/get_products_links.png, id=1080, 1106.1325pt x 689.57625pt>
+<images/get_products_links.png, id=1084, 1106.1325pt x 689.57625pt>
 File: images/get_products_links.png Graphic file (type png)
 <use images/get_products_links.png>
 Package pdftex.def Info: images/get_products_links.png  used on input line 191.
@@ -1568,19 +1762,20 @@ Overfull \hbox (23.55475pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
-[36]
-<images/all_data_scanner.png, id=1086, 830.10126pt x 357.335pt>
+[31]
+<images/all_data_scanner.png, id=1090, 830.10126pt x 357.335pt>
 File: images/all_data_scanner.png Graphic file (type png)
 <use images/all_data_scanner.png>
 Package pdftex.def Info: images/all_data_scanner.png  used on input line 202.
 (pdftex.def)             Requested size: 348.64015pt x 150.07967pt.
- [37 <./images/get_products_links.png>] [38 <./images/all_data_scanner.png>]
+ [32 <./images/get_products_links.png> <./images/all_data_scanner.png>]
 <images/load_dataset.png, id=1097, 959.585pt x 428.60126pt>
 File: images/load_dataset.png Graphic file (type png)
 <use images/load_dataset.png>
 Package pdftex.def Info: images/load_dataset.png  used on input line 223.
 (pdftex.def)             Requested size: 422.2187pt x 188.58513pt.
- [39 <./images/load_dataset.png>]
+
+[33 <./images/load_dataset.png>]
 <images/statistics.png, id=1103, 951.555pt x 305.14pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
@@ -1592,28 +1787,26 @@ Overfull \hbox (82.33914pt too wide) in paragraph at lines 241--242
  []
 
 
-Package natbib Warning: Citation `guyon2003' on page 40 undefined on input line
+Package natbib Warning: Citation `guyon2003' on page 34 undefined on input line
  251.
 
-[40 <./images/statistics.png>]
-<images/correlation_matrix.png, id=1111, 920.43875pt x 742.775pt>
+<images/correlation_matrix.png, id=1104, 920.43875pt x 742.775pt>
 File: images/correlation_matrix.png Graphic file (type png)
 <use images/correlation_matrix.png>
 Package pdftex.def Info: images/correlation_matrix.png  used on input line 260.
 
 (pdftex.def)             Requested size: 396.91325pt x 320.30505pt.
+[34 <./images/statistics.png>]
 
-
-Package natbib Warning: Citation `stoian2020machine' on page 41 undefined on in
+Package natbib Warning: Citation `stoian2020machine' on page 35 undefined on in
 put line 270.
 
-[41 <./images/correlation_matrix.png>]
-<images/missing_values.png, id=1117, 987.69pt x 516.93124pt>
+<images/missing_values.png, id=1112, 987.69pt x 516.93124pt>
 File: images/missing_values.png Graphic file (type png)
 <use images/missing_values.png>
 Package pdftex.def Info: images/missing_values.png  used on input line 278.
 (pdftex.def)             Requested size: 345.69667pt x 180.92863pt.
- [42 <./images/missing_values.png>]
+[35 <./images/correlation_matrix.png>] [36 <./images/missing_values.png>]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -1635,83 +1828,75 @@ Package natbib Warning: Citation `huel\unhbox \voidb@x \penalty\@M \hskip \z@sk
 ip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \
 hskip \z@skip energy\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
 ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip calc
-ulation' on page 43 undefined on input line 300.
-
-[43]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 337.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 337.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 337.
+ulation' on page 37 undefined on input line 300.
 
 
-Package natbib Warning: Citation `moore2022' on page 44 undefined on input line
+Package natbib Warning: Citation `moore2022' on page 37 undefined on input line
  337.
 
 
-Package natbib Warning: Citation `who2012' on page 44 undefined on input line 3
+Package natbib Warning: Citation `who2012' on page 37 undefined on input line 3
 37.
 
-[44]
-<images/data_cleaning.png, id=1131, 871.255pt x 476.78125pt>
+[37]
+<images/data_cleaning.png, id=1127, 871.255pt x 476.78125pt>
 File: images/data_cleaning.png Graphic file (type png)
 <use images/data_cleaning.png>
 Package pdftex.def Info: images/data_cleaning.png  used on input line 348.
 (pdftex.def)             Requested size: 383.3534pt x 209.7844pt.
+ [38]
 
-
-Package natbib Warning: Citation `hastie2009elements' on page 45 undefined on i
+Package natbib Warning: Citation `hastie2009elements' on page 39 undefined on i
 nput line 359.
 
-[45 <./images/data_cleaning.png>]
 
-Package natbib Warning: Citation `aionlinecourse2025' on page 46 undefined on i
+Package natbib Warning: Citation `aionlinecourse2025' on page 39 undefined on i
 nput line 363.
 
+[39 <./images/data_cleaning.png>]
 <images/mae_r2_comparison.png, id=1137, 1040.88875pt x 569.12625pt>
 File: images/mae_r2_comparison.png Graphic file (type png)
 <use images/mae_r2_comparison.png>
 Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 406.
 (pdftex.def)             Requested size: 396.91325pt x 217.01706pt.
-[46]
+ [40]
 
-LaTeX Warning: Reference `tab:model_results' on page 47 undefined on input line
+LaTeX Warning: Reference `tab:model_results' on page 41 undefined on input line
  411.
 
-[47 <./images/mae_r2_comparison.png>] [48] [49]
-<images/Nutri-pred_fast_API.png, id=1164, 1252.68pt x 706.64pt>
+[41 <./images/mae_r2_comparison.png>] [42]
+<images/Nutri-pred_fast_API.png, id=1158, 1252.68pt x 706.64pt>
 File: images/Nutri-pred_fast_API.png Graphic file (type png)
 <use images/Nutri-pred_fast_API.png>
 Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 506
 .
 (pdftex.def)             Requested size: 396.91325pt x 223.89745pt.
+ [43]
 <images/Nutri-pred_Huggingface.png, id=1165, 1213.53375pt x 646.415pt>
 File: images/Nutri-pred_Huggingface.png Graphic file (type png)
 <use images/Nutri-pred_Huggingface.png>
 Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
 517.
 (pdftex.def)             Requested size: 396.91325pt x 211.42381pt.
- [50 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
- (./Chapter3.tex [51]
+ [44 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
+ (./Chapter3.tex [45]
 Chapter 3.
 
-Package natbib Warning: Citation `IBMVectordb2025' on page 52 undefined on inpu
+Package natbib Warning: Citation `IBMVectordb2025' on page 46 undefined on inpu
 t line 9.
 
 
-Package natbib Warning: Citation `IBMVectordb2025' on page 52 undefined on inpu
+Package natbib Warning: Citation `IBMVectordb2025' on page 46 undefined on inpu
 t line 9.
 
-[52
-
-]
-<images/vectorDB.png, id=1182, 960.58875pt x 522.95375pt>
+<images/vectorDB.png, id=1176, 960.58875pt x 522.95375pt>
 File: images/vectorDB.png Graphic file (type png)
 <use images/vectorDB.png>
 Package pdftex.def Info: images/vectorDB.png  used on input line 13.
 (pdftex.def)             Requested size: 432.26094pt x 235.32701pt.
+[46
 
+]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -1733,38 +1918,39 @@ Package natbib Warning: Citation `chroma\unhbox \voidb@x \penalty\@M \hskip \z@
 skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M
  \hskip \z@skip docs\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
 ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip 2025
-' on page 53 undefined on input line 21.
+' on page 47 undefined on input line 21.
 
-<images/chroma_space.png, id=1183, 545.03625pt x 408.52625pt>
+<images/chroma_space.png, id=1181, 545.03625pt x 408.52625pt>
 File: images/chroma_space.png Graphic file (type png)
 <use images/chroma_space.png>
 Package pdftex.def Info: images/chroma_space.png  used on input line 25.
 (pdftex.def)             Requested size: 359.72504pt x 269.62816pt.
-[53 <./images/vectorDB.png>] [54 <./images/chroma_space.png>]
+[47 <./images/vectorDB.png>]
 
-Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 55 un
+Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 48 un
 defined on input line 40.
 
 
-Package natbib Warning: Citation `HNSW' on page 55 undefined on input line 40.
+Package natbib Warning: Citation `HNSW' on page 48 undefined on input line 40.
 
-[55]
-<images/RS_Arch.png, id=1198, 794.97pt x 591.20876pt>
+[48 <./images/chroma_space.png>]
+<images/RS_Arch.png, id=1193, 794.97pt x 591.20876pt>
 File: images/RS_Arch.png Graphic file (type png)
 <use images/RS_Arch.png>
 Package pdftex.def Info: images/RS_Arch.png  used on input line 62.
 (pdftex.def)             Requested size: 437.23485pt x 325.16582pt.
- [56 <./images/RS_Arch.png>]
+ [49]
 
-Package natbib Warning: Citation `chromadb' on page 57 undefined on input line 
+Package natbib Warning: Citation `chromadb' on page 50 undefined on input line 
 79.
 
+[50 <./images/RS_Arch.png>]
 
-Package natbib Warning: Citation `shu2023lightfm' on page 57 undefined on input
+Package natbib Warning: Citation `shu2023lightfm' on page 51 undefined on input
  line 86.
 
 
-Package natbib Warning: Citation `shu2023lightfm' on page 57 undefined on input
+Package natbib Warning: Citation `shu2023lightfm' on page 51 undefined on input
  line 88.
 
 ! Missing \endcsname inserted.
@@ -1786,23 +1972,20 @@ not appear between \csname and \endcsname.
 
 Package natbib Warning: Citation `lightfm\unhbox \voidb@x \penalty\@M \hskip \z
 @skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@
-M \hskip \z@skip issues' on page 57 undefined on input line 89.
+M \hskip \z@skip issues' on page 51 undefined on input line 89.
 
-<images/precision_plot.png, id=1205, 605.26125pt x 508.90125pt>
+<images/precision_plot.png, id=1204, 605.26125pt x 508.90125pt>
 File: images/precision_plot.png Graphic file (type png)
 <use images/precision_plot.png>
 Package pdftex.def Info: images/precision_plot.png  used on input line 95.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-<images/recall_plot.png, id=1206, 605.26125pt x 508.90125pt>
+<images/recall_plot.png, id=1205, 605.26125pt x 508.90125pt>
 File: images/recall_plot.png Graphic file (type png)
 <use images/recall_plot.png>
 Package pdftex.def Info: images/recall_plot.png  used on input line 101.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[57] [58 <./images/precision_plot.png> <./images/recall_plot.png>] [59]
-<images/cb_filtering_logic.png, id=1227, 482.80376pt x 551.05875pt>
+[51 <./images/precision_plot.png> <./images/recall_plot.png>] [52]
+<images/cb_filtering_logic.png, id=1221, 482.80376pt x 551.05875pt>
 File: images/cb_filtering_logic.png Graphic file (type png)
 <use images/cb_filtering_logic.png>
 Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 133.
@@ -1810,96 +1993,83 @@ Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 133.
 (pdftex.def)             Requested size: 168.98384pt x 192.87344pt.
 
 
-Package natbib Warning: Citation `sbert2025models' on page 60 undefined on inpu
+Package natbib Warning: Citation `sbert2025models' on page 53 undefined on inpu
 t line 169.
 
-[60 <./images/cb_filtering_logic.png>]
+[53 <./images/cb_filtering_logic.png>]
 
 Package natbib Warning: Citation `sentence-transformers-all-MiniLM-L12-v2' on p
-age 61 undefined on input line 174.
+age 54 undefined on input line 174.
 
-<images/load_data__0.png, id=1233, 1088.065pt x 725.71124pt>
+<images/load_data__0.png, id=1227, 1088.065pt x 725.71124pt>
 File: images/load_data__0.png Graphic file (type png)
 <use images/load_data__0.png>
 Package pdftex.def Info: images/load_data__0.png  used on input line 181.
 (pdftex.def)             Requested size: 424.34364pt x 283.02625pt.
-[61] [62 <./images/load_data__0.png>]
-<images/CB_recommendation_workflow_simple.png, id=1243, 1033.8625pt x 699.61375
+[54 <./images/load_data__0.png>]
+<images/CB_recommendation_workflow_simple.png, id=1234, 1033.8625pt x 699.61375
 pt>
 File: images/CB_recommendation_workflow_simple.png Graphic file (type png)
 <use images/CB_recommendation_workflow_simple.png>
 Package pdftex.def Info: images/CB_recommendation_workflow_simple.png  used on 
 input line 204.
 (pdftex.def)             Requested size: 396.91325pt x 268.58885pt.
- [63 <./images/CB_recommendation_workflow_simple.png>] [64]
+ [55] [56 <./images/CB_recommendation_workflow_simple.png>]
 
-Package natbib Warning: Citation `ibm-cf' on page 65 undefined on input line 21
+Package natbib Warning: Citation `ibm-cf' on page 57 undefined on input line 21
 7.
 
-<images/collaborative_filtering.png, id=1254, 451.6875pt x 217.5628pt>
+<images/collaborative_filtering.png, id=1244, 451.6875pt x 217.5628pt>
 File: images/collaborative_filtering.png Graphic file (type png)
 <use images/collaborative_filtering.png>
 Package pdftex.def Info: images/collaborative_filtering.png  used on input line
  221.
 (pdftex.def)             Requested size: 383.93617pt x 184.92924pt.
 
-Package natbib Warning: Citation `ibm-cf' on page 65 undefined on input line 22
+Package natbib Warning: Citation `ibm-cf' on page 57 undefined on input line 22
 8.
 
-[65 <./images/collaborative_filtering.png>]
-<images/loss_function_lightFM.png, id=1260, 876.27374pt x 637.38126pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57 <./images/collaborative_filtering.png>]
+<images/loss_function_lightFM.png, id=1250, 876.27374pt x 637.38126pt>
 File: images/loss_function_lightFM.png Graphic file (type png)
 <use images/loss_function_lightFM.png>
 Package pdftex.def Info: images/loss_function_lightFM.png  used on input line 2
 64.
 (pdftex.def)             Requested size: 341.74538pt x 248.57768pt.
- [66] [67 <./images/loss_function_lightFM.png>]
+ [58 <./images/loss_function_lightFM.png>] [59]
 
-Package natbib Warning: Citation `ANN' on page 68 undefined on input line 276.
-
-
-Package natbib Warning: Citation `HNSW' on page 68 undefined on input line 279.
+Package natbib Warning: Citation `ANN' on page 60 undefined on input line 276.
 
 
+Package natbib Warning: Citation `HNSW' on page 60 undefined on input line 279.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68]
-Overfull \hbox (0.41359pt too wide) in paragraph at lines 335--336
-[]\T1/lmr/m/n/14.4 (-20) Results demon-strate that \T1/lmr/bx/n/14.4 (-20) HNSW
- \T1/lmr/m/n/14.4 (-20) sig-nif-i-cantly out-per-forms \T1/lmr/bx/n/14.4 (-20) 
-ex-act search
- []
-
-[69]
+[60] [61]
 Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<images/deploy_RS.png, id=1278, 1103.12125pt x 672.5125pt>
+<images/deploy_RS.png, id=1269, 1103.12125pt x 672.5125pt>
 File: images/deploy_RS.png Graphic file (type png)
 <use images/deploy_RS.png>
 Package pdftex.def Info: images/deploy_RS.png  used on input line 346.
 (pdftex.def)             Requested size: 386.09822pt x 235.38289pt.
-
-Overfull \hbox (53.41264pt too wide) in paragraph at lines 353--355
-[]\T1/lmr/m/n/14.4 (-20) The API sup-ports three rec-om-men-da-tion modes se-le
-ctable via a \T1/lmtt/m/n/14.4 recommendation_-
- []
-
-[70 <./images/deploy_RS.png>]
-<images/swaggerFastAPI.png, id=1288, 1233.60875pt x 724.7075pt>
+<images/swaggerFastAPI.png, id=1270, 1233.60875pt x 724.7075pt>
 File: images/swaggerFastAPI.png Graphic file (type png)
 <use images/swaggerFastAPI.png>
 Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 363.
 (pdftex.def)             Requested size: 431.76953pt x 253.65143pt.
-) (./Chapter4.tex [71 <./images/swaggerFastAPI.png>]
+[62 <./images/deploy_RS.png>]) (./Chapter4.tex [63 <./images/swaggerFastAPI.png
+>]
 Chapter 4.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<images/Screenshot_20250920-000112_chocolat_noir.jpg, id=1294, 1084.05pt x 1927
+<images/Screenshot_20250920-000112_chocolat_noir.jpg, id=1284, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000112_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -1907,7 +2077,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000112_chocolat_noir.jpg  u
 sed on input line 20.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000118_chocolat_noir.jpg, id=1295, 1084.05pt x 1927
+<images/Screenshot_20250920-000118_chocolat_noir.jpg, id=1285, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000118_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -1915,7 +2085,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000118_chocolat_noir.jpg  u
 sed on input line 21.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000124_chocolat_noir.jpg, id=1296, 1084.05pt x 1927
+<images/Screenshot_20250920-000124_chocolat_noir.jpg, id=1286, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000124_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -1923,7 +2093,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000124_chocolat_noir.jpg  u
 sed on input line 22.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000137_chocolat_noir.jpg, id=1297, 1084.05pt x 1927
+<images/Screenshot_20250920-000137_chocolat_noir.jpg, id=1287, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000137_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -1931,22 +2101,22 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000137_chocolat_noir.jpg  u
 sed on input line 23.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-[72
+[64
 
 ]
 
-Package natbib Warning: Citation `awsLLM' on page 73 undefined on input line 30
+Package natbib Warning: Citation `awsLLM' on page 65 undefined on input line 30
 .
 
-<images/prompt_engineering.png, id=1302, 979.66pt x 607.26875pt>
+<images/prompt_engineering.png, id=1292, 979.66pt x 607.26875pt>
 File: images/prompt_engineering.png Graphic file (type png)
 <use images/prompt_engineering.png>
 Package pdftex.def Info: images/prompt_engineering.png  used on input line 39.
 (pdftex.def)             Requested size: 396.91325pt x 246.03516pt.
-[73 <./images/Screenshot_20250920-000112_chocolat_noir.jpg> <./images/Screensho
+[65 <./images/Screenshot_20250920-000112_chocolat_noir.jpg> <./images/Screensho
 t_20250920-000118_chocolat_noir.jpg> <./images/Screenshot_20250920-000124_choco
 lat_noir.jpg> <./images/Screenshot_20250920-000137_chocolat_noir.jpg>]
-<images/Screenshot_20250919-231229_SCANN_barecode.jpg, id=1307, 1084.05pt x 192
+<images/Screenshot_20250919-231229_SCANN_barecode.jpg, id=1297, 1084.05pt x 192
 7.2pt>
 File: images/Screenshot_20250919-231229_SCANN_barecode.jpg Graphic file (type j
 pg)
@@ -1954,7 +2124,7 @@ pg)
 Package pdftex.def Info: images/Screenshot_20250919-231229_SCANN_barecode.jpg  
 used on input line 54.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231233_Scann_success.jpg, id=1308, 1084.05pt x 1927
+<images/Screenshot_20250919-231233_Scann_success.jpg, id=1298, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250919-231233_Scann_success.jpg Graphic file (type jp
 g)
@@ -1962,14 +2132,14 @@ g)
 Package pdftex.def Info: images/Screenshot_20250919-231233_Scann_success.jpg  u
 sed on input line 55.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231251_SCANN-end.jpg, id=1309, 1084.05pt x 1927.2pt
+<images/Screenshot_20250919-231251_SCANN-end.jpg, id=1299, 1084.05pt x 1927.2pt
 >
 File: images/Screenshot_20250919-231251_SCANN-end.jpg Graphic file (type jpg)
 <use images/Screenshot_20250919-231251_SCANN-end.jpg>
 Package pdftex.def Info: images/Screenshot_20250919-231251_SCANN-end.jpg  used 
 on input line 56.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg, id=1310, 1084.05pt x 
+<images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg, id=1300, 1084.05pt x 
 1927.2pt>
 File: images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg Graphic file (typ
 e jpg)
@@ -1977,110 +2147,105 @@ e jpg)
 Package pdftex.def Info: images/Screenshot_20250919-232403_SCANN_AI_analysis.jp
 g  used on input line 57.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
- [74 <./images/prompt_engineering.png>]
-<images/Chatbot_arch.png, id=1317, 611.28375pt x 403.5075pt>
+ [66 <./images/prompt_engineering.png>]
+<images/Chatbot_arch.png, id=1308, 611.28375pt x 403.5075pt>
 File: images/Chatbot_arch.png Graphic file (type png)
 <use images/Chatbot_arch.png>
 Package pdftex.def Info: images/Chatbot_arch.png  used on input line 70.
 (pdftex.def)             Requested size: 308.71106pt x 203.77892pt.
- [75 <./images/Screenshot_20250919-231229_SCANN_barecode.jpg> <./images/Screens
+ [67 <./images/Screenshot_20250919-231229_SCANN_barecode.jpg> <./images/Screens
 hot_20250919-231233_Scann_success.jpg> <./images/Screenshot_20250919-231251_SCA
 NN-end.jpg> <./images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg>]
-<images/Screenshot_20250919-225837_chatbot.jpg, id=1322, 1084.05pt x 1927.2pt>
+<images/Screenshot_20250919-225837_chatbot.jpg, id=1313, 1084.05pt x 1927.2pt>
 File: images/Screenshot_20250919-225837_chatbot.jpg Graphic file (type jpg)
 <use images/Screenshot_20250919-225837_chatbot.jpg>
 Package pdftex.def Info: images/Screenshot_20250919-225837_chatbot.jpg  used on
  input line 83.
 (pdftex.def)             Requested size: 119.24586pt x 211.99266pt.
- [76 <./images/Chatbot_arch.png>]
-<images/chatbot_API.png, id=1329, 1269.74374pt x 566.115pt>
+ [68 <./images/Chatbot_arch.png>]
+<images/chatbot_API.png, id=1319, 1269.74374pt x 566.115pt>
 File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
 Package pdftex.def Info: images/chatbot_API.png  used on input line 93.
 (pdftex.def)             Requested size: 396.91325pt x 176.96233pt.
- [77 <./images/Screenshot_20250919-225837_chatbot.jpg>] [78 <./images/chatbot_A
-PI.png>]
-<images/chatbot_ai_data_layer.png, id=1340, 639.89063pt x 358.33875pt>
+ [69 <./images/Screenshot_20250919-225837_chatbot.jpg> <./images/chatbot_API.pn
+g>] [70]
+<images/chatbot_ai_data_layer.png, id=1330, 639.89063pt x 358.33875pt>
 File: images/chatbot_ai_data_layer.png Graphic file (type png)
 <use images/chatbot_ai_data_layer.png>
 Package pdftex.def Info: images/chatbot_ai_data_layer.png  used on input line 1
 04.
 (pdftex.def)             Requested size: 396.91325pt x 222.2716pt.
- [79 <./images/chatbot_ai_data_layer.png>]
-<images/how_AI_chatbot_works.png, id=1346, 542.025pt x 331.2375pt>
+ [71 <./images/chatbot_ai_data_layer.png>]
+<images/how_AI_chatbot_works.png, id=1336, 542.025pt x 331.2375pt>
 File: images/how_AI_chatbot_works.png Graphic file (type png)
 <use images/how_AI_chatbot_works.png>
 Package pdftex.def Info: images/how_AI_chatbot_works.png  used on input line 13
 0.
 (pdftex.def)             Requested size: 352.31207pt x 215.30182pt.
- [80] [81 <./images/how_AI_chatbot_works.png>]
-<images/update_user_profile.png, id=1356, 970.62625pt x 580.1675pt>
+ [72 <./images/how_AI_chatbot_works.png>]
+<images/update_user_profile.png, id=1343, 970.62625pt x 580.1675pt>
 File: images/update_user_profile.png Graphic file (type png)
 <use images/update_user_profile.png>
 Package pdftex.def Info: images/update_user_profile.png  used on input line 159
 .
 (pdftex.def)             Requested size: 396.91325pt x 237.25052pt.
-
-[82 <./images/update_user_profile.png>] [83] [84] [85] [86] [87] [88] [89])
-(./Chapter5.tex [90]
+ [73 <./images/update_user_profile.png>] [74] [75] [76] [77] [78]) (./Chapter5.
+tex
+[79]
 Chapter 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/physic_arch.png, id=1401, 451.6875pt x 217.5628pt>
+<images/physic_arch.png, id=1379, 451.6875pt x 217.5628pt>
 File: images/physic_arch.png Graphic file (type png)
 <use images/physic_arch.png>
 Package pdftex.def Info: images/physic_arch.png  used on input line 18.
 (pdftex.def)             Requested size: 325.21474pt x 156.6451pt.
-<images/logic_arch.png, id=1402, 745.28438pt x 386.19281pt>
+<images/logic_arch.png, id=1380, 745.28438pt x 386.19281pt>
 File: images/logic_arch.png Graphic file (type png)
 <use images/logic_arch.png>
 Package pdftex.def Info: images/logic_arch.png  used on input line 29.
 (pdftex.def)             Requested size: 327.92613pt x 169.92535pt.
-[91
+[80
 
-] [92 <./images/physic_arch.png> <./images/logic_arch.png (PNG copy)>]
-<images/docker_compose.jpeg, id=1413, 1857.94125pt x 892.33376pt>
+]
+<images/docker_compose.jpeg, id=1385, 1857.94125pt x 892.33376pt>
 File: images/docker_compose.jpeg Graphic file (type jpg)
 <use images/docker_compose.jpeg>
 Package pdftex.def Info: images/docker_compose.jpeg  used on input line 58.
 (pdftex.def)             Requested size: 427.3175pt x 205.23245pt.
-
-[93 <./images/docker_compose.jpeg>]
-<images/AWS_architecture.png, id=1418, 539.01375pt x 501.875pt>
+ [81 <./images/physic_arch.png> <./images/logic_arch.png (PNG copy)>]
+<images/AWS_architecture.png, id=1391, 539.01375pt x 501.875pt>
 File: images/AWS_architecture.png Graphic file (type png)
 <use images/AWS_architecture.png>
 Package pdftex.def Info: images/AWS_architecture.png  used on input line 87.
 (pdftex.def)             Requested size: 242.55394pt x 225.84166pt.
- [94 <./images/AWS_architecture.png>]
-[95]
-Overfull \hbox (13.4157pt too wide) in paragraph at lines 115--116
-[]\T1/lmr/m/n/14.4 (-20) During the de-ploy-ment of the Vi-ta-miN-urse ap-pli-c
-a-tion back-end^^Vcomprising
- []
 
-<images/ec2_instance_lifecycle.png, id=1430, 701.62125pt x 296.10625pt>
+[82 <./images/docker_compose.jpeg>] [83 <./images/AWS_architecture.png>]
+<images/ec2_instance_lifecycle.png, id=1403, 701.62125pt x 296.10625pt>
 File: images/ec2_instance_lifecycle.png Graphic file (type png)
 <use images/ec2_instance_lifecycle.png>
 Package pdftex.def Info: images/ec2_instance_lifecycle.png  used on input line 
 125.
 (pdftex.def)             Requested size: 385.89287pt x 162.85893pt.
-[96 <./images/ec2_instance_lifecycle.png (PNG copy)>]
-<images/snapshots.jpg, id=1435, 1284.8pt x 722.7pt>
+
+[84 <./images/ec2_instance_lifecycle.png (PNG copy)>]
+<images/snapshots.jpg, id=1409, 1284.8pt x 722.7pt>
 File: images/snapshots.jpg Graphic file (type jpg)
 <use images/snapshots.jpg>
 Package pdftex.def Info: images/snapshots.jpg  used on input line 142.
 (pdftex.def)             Requested size: 321.19922pt x 180.67455pt.
- [97] [98 <./images/snapshots.jpg>]) (./Conclusion.tex [99]) (./main.bbl)
+ [85 <./images/snapshots.jpg>]) (./Conclusion.tex [86]) (./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[100] (./main.aux
+[87] (./main.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.33 ... company logo\relax }{figure.caption.8}{}}
+l.35 ... company logo\relax }{figure.caption.9}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2088,7 +2253,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.42 ...t evaluation\relax }{figure.caption.10}{}}
+l.44 ...t evaluation\relax }{figure.caption.11}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2096,7 +2261,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.45 ... the OFF app\relax }{figure.caption.11}{}}
+l.47 ... the OFF app\relax }{figure.caption.12}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2104,7 +2269,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.49 ... Google Play\relax }{figure.caption.12}{}}
+l.54 ... Google Play\relax }{figure.caption.14}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2112,7 +2277,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.64 ...ban Process \relax }{figure.caption.14}{}}
+l.56 ... Applications\relax }{table.caption.15}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2120,7 +2285,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.67 ...plementation\relax }{figure.caption.15}{}}
+l.73 ...ban Process \relax }{figure.caption.16}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2128,7 +2293,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.83 ...elunga Italy\relax }{figure.caption.18}{}}
+l.76 ...plementation\relax }{figure.caption.17}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2136,7 +2301,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.87 ...tion removal\relax }{figure.caption.19}{}}
+l.92 ...elunga Italy\relax }{figure.caption.20}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2144,7 +2309,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.90 ...ition column\relax }{figure.caption.20}{}}
+l.96 ...tion removal\relax }{figure.caption.21}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2152,7 +2317,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.92 ..." dictionary\relax }{figure.caption.21}{}}
+l.99 ...ition column\relax }{figure.caption.22}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2160,7 +2325,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.96 ...on utilities\relax }{figure.caption.22}{}}
+l.102 ... dictionary\relax }{figure.caption.23}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2168,7 +2333,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.100 ...each market\relax }{figure.caption.23}{}}
+l.105 ...n utilities\relax }{figure.caption.24}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2176,7 +2341,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.103 ...r embedding\relax }{figure.caption.24}{}}
+l.109 ...each market\relax }{figure.caption.25}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2184,7 +2349,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.110 ...ducts links\relax }{figure.caption.25}{}}
+l.112 ...r embedding\relax }{figure.caption.26}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2192,7 +2357,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.112 ...ata scanner\relax }{figure.caption.26}{}}
+l.119 ...ducts links\relax }{figure.caption.27}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2200,7 +2365,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.116 ...ng approach\relax }{figure.caption.27}{}}
+l.121 ...ata scanner\relax }{figure.caption.28}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2208,7 +2373,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.120 ... statistics\relax }{figure.caption.28}{}}
+l.125 ...ng approach\relax }{figure.caption.29}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2216,7 +2381,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.125 ...tion matrix\relax }{figure.caption.29}{}}
+l.129 ... statistics\relax }{figure.caption.30}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2224,7 +2389,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.128 ...sing values\relax }{figure.caption.30}{}}
+l.134 ...tion matrix\relax }{figure.caption.31}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2232,7 +2397,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.137 ...on per 100g)\relax }{table.caption.31}{}}
+l.137 ...sing values\relax }{figure.caption.32}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2240,7 +2405,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.141 ...duct names.\relax }{figure.caption.32}{}}
+l.146 ...on per 100g)\relax }{table.caption.33}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2248,7 +2413,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.146 ...ures} Values\relax }{table.caption.33}{}}
+l.151 ...duct names.\relax }{figure.caption.34}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2256,7 +2421,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.149 ...ion models.\relax }{figure.caption.34}{}}
+l.155 ...ures} Values\relax }{table.caption.35}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2264,7 +2429,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.173 ...h in chroma\relax }{figure.caption.40}{}}
+l.158 ...ion models.\relax }{figure.caption.36}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2272,7 +2437,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.182 ...chitecture \relax }{figure.caption.41}{}}
+l.184 ...h in chroma\relax }{figure.caption.42}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2280,7 +2445,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.200 ...ering Logic\relax }{figure.caption.43}{}}
+l.192 ...chitecture \relax }{figure.caption.43}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2288,7 +2453,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.208 ...o chroma DB\relax }{figure.caption.45}{}}
+l.209 ...ering Logic\relax }{figure.caption.45}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2296,7 +2461,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.215 ...on Workflow\relax }{figure.caption.46}{}}
+l.217 ...o chroma DB\relax }{figure.caption.47}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2304,7 +2469,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.221 ...ering Logic\relax }{figure.caption.47}{}}
+l.224 ...on Workflow\relax }{figure.caption.48}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2312,7 +2477,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.225 ... VitamiNurse\relax }{table.caption.48}{}}
+l.230 ...ering Logic\relax }{figure.caption.49}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2320,7 +2485,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.229 ...ss function\relax }{figure.caption.49}{}}
+l.235 ... VitamiNurse\relax }{table.caption.50}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2328,7 +2493,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.244 ...th Fast API\relax }{figure.caption.52}{}}
+l.238 ...ss function\relax }{figure.caption.51}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2336,7 +2501,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.255 ...AI analysis\relax }{figure.caption.55}{}}
+l.253 ...th Fast API\relax }{figure.caption.54}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2344,7 +2509,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.259 ...Using GPT-4\relax }{figure.caption.56}{}}
+l.264 ...AI analysis\relax }{figure.caption.57}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2352,7 +2517,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.262 ... evaluation\relax }{figure.caption.57}{}}
+l.268 ...Using GPT-4\relax }{figure.caption.58}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2360,7 +2525,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.269 ...t interface\relax }{figure.caption.59}{}}
+l.271 ... evaluation\relax }{figure.caption.59}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2368,7 +2533,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.275 ...e Assistant\relax }{figure.caption.61}{}}
+l.278 ...t interface\relax }{figure.caption.61}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2376,7 +2541,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.284 ...AI chatbots\relax }{figure.caption.62}{}}
+l.284 ...e Assistant\relax }{figure.caption.63}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2384,7 +2549,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.287 ... extraction\relax }{figure.caption.63}{}}
+l.293 ...AI chatbots\relax }{figure.caption.64}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2392,7 +2557,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.334 ...ompose logo\relax }{figure.caption.67}{}}
+l.296 ... extraction\relax }{figure.caption.65}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2400,7 +2565,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.337 ...rchitecture\relax }{figure.caption.68}{}}
+l.343 ...ompose logo\relax }{figure.caption.69}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2408,7 +2573,15 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.343 ... retention.\relax }{figure.caption.69}{}}
+l.346 ...rchitecture\relax }{figure.caption.70}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.352 ... retention.\relax }{figure.caption.71}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2421,23 +2594,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 09CBEA0F1F7B1F0713F2A2A6B1748234;27805.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 17 ({)
-### simple group (level 1) entered at line 9 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: 01922AAF830A8866950C605F56DAE9C8;29265.
+ ) 
 Here is how much of TeX's memory you used:
- 34915 strings out of 480247
- 673984 string characters out of 5896151
- 946526 words of memory out of 5000000
- 51576 multiletter control sequences out of 15000+600000
- 557989 words of font info for 217 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 84i,13n,80p,1193b,1660s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced bu
-t does not exist, replaced by a fixed one
+ 34973 strings out of 480171
+ 675831 string characters out of 5894488
+ 944974 words of memory out of 5000000
+ 51657 multiletter control sequences out of 15000+600000
+ 554008 words of font info for 200 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 84i,13n,80p,1193b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -2451,8 +2622,8 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvi
-ps/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texm
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texm
 f/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-math
 sy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pf
@@ -2462,18 +2633,10 @@ hare/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 tt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (103 pages, 8774754 bytes).
+Output written on main.pdf (88 pages, 8592809 bytes).
 PDF statistics:
- 1595 PDF objects out of 1728 (max. 8388607)
- 1335 compressed objects within 14 object streams
- 325 named destinations out of 1000 (max. 500000)
- 50111 words of extra memory for PDF output out of 51595 (max. 10000000)
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          }</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (98 pages, 8747180 bytes).
-PDF statistics:
- 920 PDF objects out of 1000 (max. 8388607)
- 672 compressed objects within 7 object streams
+ 1562 PDF objects out of 1728 (max. 8388607)
+ 1318 compressed objects within 14 object streams
  320 named destinations out of 1000 (max. 500000)
- 48983 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 49642 words of extra memory for PDF output out of 51595 (max. 10000000)
 
