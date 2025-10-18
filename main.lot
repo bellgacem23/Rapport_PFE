@@ -2,14 +2,17 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Evaluation of Key Competitor Applications\relax }}{19}{table.caption.16}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g)\relax }}{39}{table.caption.35}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{41}{table.caption.37}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Performance metrics of regression models\relax }}{42}{table.caption.39}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Nutritional prediction\relax }}{44}{table.caption.40}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g\relax }}{29}{table.caption.24}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{32}{table.caption.26}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Performance metrics of regression models\relax }}{33}{table.caption.28}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{54}{table.caption.48}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{59}{table.caption.52}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{61}{table.caption.54}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{62}{table.caption.55}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g)\relax }}{50}{table.caption.45}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{52}{table.caption.47}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Performance metrics of regression models\relax }}{53}{table.caption.49}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Nutritional prediction\relax }}{55}{table.caption.50}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{65}{table.caption.58}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{70}{table.caption.62}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{72}{table.caption.64}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{73}{table.caption.65}%
 \addvspace {10\p@ }
