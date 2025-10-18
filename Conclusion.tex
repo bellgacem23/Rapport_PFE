@@ -1,9 +1,21 @@
 \newpage
 \section*{General Conclusion}
 \addcontentsline{toc}{section}{General Conclusion}
-VitamiNurse delivers personalized, context-aware dietary recommendations that adapt to users' evolving needs. The architecture successfully balances conversational flexibility with structured nutritional guidance, providing both immediate answers and long-term nutritional support.
+The VitamiNurse project represents a significant step forward in the integration of artificial intelligence into personalized nutrition and digital health. 
+By combining a robust data pipeline, 
+a hybrid recommendation system, and an intelligent conversational assistant, this work delivers a holistic solution that addresses key limitations observed 
+in existing nutritional applications, the lack of personalization, real-time adaptability, interactivity, and contextual awareness. 
 
-This implementation positions VitamiNurse as a scalable foundation for digital health interventions, with the potential to expand into various healthcare domains beyond nutrition. The modular design ensures adaptability to new data sources, interaction modalities, and user requirements, making it well-suited for the evolving landscape of AI-powered healthcare applications.
+Throughout this internship at ONRTECH, we successfully designed and implemented several core components that collectively transform VitamiNurse from a basic 
+barcode scanner into an intelligent nutritional companion. The Nutri-pred-v1 model ensures data completeness by accurately predicting missing nutritional values, 
+thereby enhancing the reliability of downstream analyses. The ETL pipeline enables continuous ingestion and enrichment of product data from diverse European sources, 
+while standardization and multilingual handling ensure global applicability. 
 
-The assistant not only provides immediate nutritional guidance but also serves as an educational tool, helping users develop sustainable healthy eating habits through personalized, explainable recommendations that consider their unique circumstances, preferences, and goals.
+The hybrid recommendation system that we developed combines both collaborative filtering via LightFM and semantic content-based retrieval to deliver highly personalized suggestions tailored to each user’s dietary restrictions and medical conditions. 
+Benchmarking confirmed that the use of HNSW-based approximate nearest neighbor search provides an optimal balance between speed and accuracy and  ensures scalability for real-world deployment. 
+The architecture successfully balances conversational flexibility with structured nutritional guidance, providing both immediate answers and long-term nutritional support.
 
+As a result, this implementation positions VitamiNurse as a scalable foundation for digital health interventions, with the potential to expand into various healthcare domains beyond nutrition. 
+The modular design ensures adaptability to new data sources, interaction modalities, and user requirements, making it well-suited for the evolving landscape of AI-powered healthcare applications.
+
+In conclusion, the VitamiNurse project demonstrates the transformative potential of AI in enhancing personalized nutrition and digital health. By leveraging advanced machine learning techniques and a user-centric design approach, we have created a solution that not only meets the immediate needs of users but also lays the groundwork for future innovations in the field.

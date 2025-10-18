@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  18 OCT 2025 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  18 OCT 2025 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,31 +990,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./main.aux
 
-LaTeX Warning: Label `fig:data_statistics' multiply defined.
-
-
-LaTeX Warning: Label `fig:Correlation_matrix' multiply defined.
-
-
-LaTeX Warning: Label `fig:missing_values' multiply defined.
-
-
-LaTeX Warning: Label `tab:nutritional_ranges' multiply defined.
-
-
-LaTeX Warning: Label `tab:max_features_values' multiply defined.
-
-
-LaTeX Warning: Label `fig:model_comparison' multiply defined.
-
-
-LaTeX Warning: Label `fig:fastapi-endpoint' multiply defined.
-
-
-LaTeX Warning: Label `fig:gradio-ui' multiply defined.
-
-
-LaTeX Warning: Label `fig:natilait_screenshots' multiply defined.
+LaTeX Warning: Label `tab:models' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1169,17 +1145,17 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (./pagePFE.tex
-<images/bg-wave.png, id=625, 551.05875pt x 850.67813pt>
+<images/bg-wave.png, id=512, 551.05875pt x 850.67813pt>
 File: images/bg-wave.png Graphic file (type png)
 <use images/bg-wave.png>
 Package pdftex.def Info: images/bg-wave.png  used on input line 9.
 (pdftex.def)             Requested size: 597.56462pt x 845.09453pt.
-<images/UM_logo.png, id=627, 1204.5pt x 1684.2925pt>
+<images/UM_logo.png, id=514, 1204.5pt x 1684.2925pt>
 File: images/UM_logo.png Graphic file (type png)
 <use images/UM_logo.png>
 Package pdftex.def Info: images/UM_logo.png  used on input line 14.
 (pdftex.def)             Requested size: 40.69147pt x 56.9055pt.
-<images/ISIM_logo.png, id=628, 527.9725pt x 513.92pt>
+<images/ISIM_logo.png, id=515, 527.9725pt x 513.92pt>
 File: images/ISIM_logo.png Graphic file (type png)
 <use images/ISIM_logo.png>
 Package pdftex.def Info: images/ISIM_logo.png  used on input line 18.
@@ -1241,7 +1217,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/bg-wave.png> <./i
 mages/UM_logo.png> <./images/ISIM_logo.png>]) (./signatures.tex
-<images/sig.png, id=640, 329.73187pt x 171.64125pt>
+<images/sig.png, id=527, 329.73187pt x 171.64125pt>
 File: images/sig.png Graphic file (type png)
 <use images/sig.png>
 Package pdftex.def Info: images/sig.png  used on input line 8.
@@ -1265,17 +1241,17 @@ l.1 \newpage
 
 ] (./main.toc [6
 
-] [7] [8])
+] [7])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [9] (./main.lof [10
+ [8] (./main.lof [9
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [11] (./main.lot
+ [10] (./main.lot
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 .
 
@@ -1290,14 +1266,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [12
+ [11
 
 ] (./Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) (./Chapter1.tex [13
+) (./Chapter1.tex [12
 
 ]
 Chapter 1.
@@ -1311,64 +1287,64 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
-<images/ONRTECH_logo.jpeg, id=1005, 401.5pt x 401.5pt>
+<images/ONRTECH_logo.jpeg, id=821, 401.5pt x 401.5pt>
 File: images/ONRTECH_logo.jpeg Graphic file (type jpg)
 <use images/ONRTECH_logo.jpeg>
 Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 19.
 (pdftex.def)             Requested size: 74.9722pt x 74.96861pt.
-[14
+[13
 
  <./images/ONRTECH_logo.jpeg>]
-<images/VN_app_logo.png, id=1016, 224.84pt x 129.48375pt>
+<images/VN_app_logo.png, id=831, 224.84pt x 129.48375pt>
 File: images/VN_app_logo.png Graphic file (type png)
 <use images/VN_app_logo.png>
 Package pdftex.def Info: images/VN_app_logo.png  used on input line 37.
 (pdftex.def)             Requested size: 123.66237pt x 71.21626pt.
- [15 <./images/VN_app_logo.png>]
-<images/yuka_evaluation.png, id=1025, 1204.5pt x 711.65875pt>
+ [14 <./images/VN_app_logo.png>]
+<images/yuka_evaluation.png, id=841, 1204.5pt x 711.65875pt>
 File: images/yuka_evaluation.png Graphic file (type png)
 <use images/yuka_evaluation.png>
 Package pdftex.def Info: images/yuka_evaluation.png  used on input line 61.
 (pdftex.def)             Requested size: 373.39114pt x 220.61192pt.
-<images/OFF-00.png, id=1028, 426.59375pt x 770.88pt>
+<images/OFF-00.png, id=844, 426.59375pt x 770.88pt>
 File: images/OFF-00.png Graphic file (type png)
 <use images/OFF-00.png>
 Package pdftex.def Info: images/OFF-00.png  used on input line 85.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-01.png, id=1029, 426.59375pt x 770.88pt>
+<images/OFF-01.png, id=845, 426.59375pt x 770.88pt>
 File: images/OFF-01.png Graphic file (type png)
 <use images/OFF-01.png>
 Package pdftex.def Info: images/OFF-01.png  used on input line 86.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-02.png, id=1030, 426.59375pt x 770.88pt>
+<images/OFF-02.png, id=846, 426.59375pt x 770.88pt>
 File: images/OFF-02.png Graphic file (type png)
 <use images/OFF-02.png>
 Package pdftex.def Info: images/OFF-02.png  used on input line 87.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-03.png, id=1031, 426.59375pt x 770.88pt>
+<images/OFF-03.png, id=847, 426.59375pt x 770.88pt>
 File: images/OFF-03.png Graphic file (type png)
 <use images/OFF-03.png>
 Package pdftex.def Info: images/OFF-03.png  used on input line 88.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
- [16 <./images/yuka_evaluation.png>]
-<images/quelproduit.jpg, id=1043, 1525.7pt x 1003.75pt>
+ [15 <./images/yuka_evaluation.png>]
+<images/quelproduit.jpg, id=859, 1525.7pt x 1003.75pt>
 File: images/quelproduit.jpg Graphic file (type jpg)
 <use images/quelproduit.jpg>
 Package pdftex.def Info: images/quelproduit.jpg  used on input line 100.
-(pdftex.def)             Requested size: 350.90363pt x 230.85764pt.
- [17 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./image
+(pdftex.def)             Requested size: 381.42407pt x 250.93689pt.
+ [16 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./image
 s/OFF-03.png> <./images/quelproduit.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 111--111
 [][][][]$\T1/lmtt/m/n/10 https : / / play . google . com / store / apps / detai
 ls ? id = com . bytes _ and _ pixels . food _ buddy &
  []
 
-<images/food_check.png, id=1058, 773.89125pt x 440.64626pt>
+<images/food_check.png, id=874, 773.89125pt x 440.64626pt>
 File: images/food_check.png Graphic file (type png)
 <use images/food_check.png>
 Package pdftex.def Info: images/food_check.png  used on input line 116.
-(pdftex.def)             Requested size: 270.866pt x 154.22849pt.
-[18 <./images/food_check.png>]
+(pdftex.def)             Requested size: 348.24785pt x 198.28897pt.
+[17 <./images/food_check.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []|\T1/lmr/bx/n/10.95 (+20) Open Food
  []
@@ -1378,7 +1354,7 @@ Overfull \hbox (66.14996pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
-<images/new_version_VN.png, id=1069, 1102.1175pt x 540.0175pt>
+<images/new_version_VN.png, id=884, 1102.1175pt x 540.0175pt>
 File: images/new_version_VN.png Graphic file (type png)
 <use images/new_version_VN.png>
 Package pdftex.def Info: images/new_version_VN.png  used on input line 186.
@@ -1388,822 +1364,945 @@ Overfull \hbox (54.93056pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-[19 <./images/new_version_VN.png>]
+[18 <./images/new_version_VN.png>]
 
-Package natbib Warning: Citation `scrum2025' on page 20 undefined on input line
- 245.
+Package natbib Warning: Citation `scrum2025' on page 19 undefined on input line
+ 244.
 
-[20] [21]
+[19]
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249     \item \texttt
-                       {Sprint:} Is a working cycle with fixed duration, of ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package natbib Warning: Citation `schwaber2004agile' on page 20 undefined on in
+put line 248.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249     \item \texttt
-                       {Sprint:} Is a working cycle with fixed duration, of ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package natbib Warning: Citation `anderson2010kanban' on page 20 undefined on i
+nput line 262.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Package natbib Warning: Citation `beck2000extreme' on page 20 undefined on inpu
+t line 266.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249     \item \texttt
-                       {Sprint:} Is a working cycle with fixed duration, of ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package natbib Warning: Citation `schwaber2004agile' on page 22 undefined on in
-put line 249.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251     \item \texttt
-                       {Scrum Master:} Their main role is to facilitate the ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251     \item \texttt
-                       {Scrum Master:} Their main role is to facilitate the ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251     \item \texttt
-                       {Scrum Master:} Their main role is to facilitate the ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item \texttt
-                       {Scrum Team:} A multidisciplinary, self-organizing te...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item \texttt
-                       {Scrum Team:} A multidisciplinary, self-organizing te...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item \texttt
-                       {Scrum Team:} A multidisciplinary, self-organizing te...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256     \item \texttt
-                       {Product Owner:} He validates the functionalities, pr...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256     \item \texttt
-                       {Product Owner:} He validates the functionalities, pr...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256     \item \texttt
-                       {Product Owner:} He validates the functionalities, pr...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package natbib Warning: Citation `anderson2010kanban' on page 22 undefined on i
-nput line 263.
-
-
-Package natbib Warning: Citation `beck2000extreme' on page 22 undefined on inpu
-t line 267.
-
-<images/scrumban.jpg, id=1084, 853.1875pt x 431.6125pt>
+[20]
+<images/scrumban.jpg, id=904, 853.1875pt x 431.6125pt>
 File: images/scrumban.jpg Graphic file (type jpg)
 <use images/scrumban.jpg>
-Package pdftex.def Info: images/scrumban.jpg  used on input line 279.
+Package pdftex.def Info: images/scrumban.jpg  used on input line 278.
 (pdftex.def)             Requested size: 375.40366pt x 189.91008pt.
-[22]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-89.
+88.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/kanbanBoard.png, id=1093, 1285.80376pt x 620.3175pt>
+<images/kanbanBoard.png, id=905, 1285.80376pt x 620.3175pt>
 File: images/kanbanBoard.png Graphic file (type png)
 <use images/kanbanBoard.png>
-Package pdftex.def Info: images/kanbanBoard.png  used on input line 302.
+Package pdftex.def Info: images/kanbanBoard.png  used on input line 301.
 (pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
 
-Overfull \hbox (47.59277pt too wide) in paragraph at lines 302--303
+Overfull \hbox (47.59277pt too wide) in paragraph at lines 301--302
  [][] 
  []
 
-[23 <./images/scrumban.jpg>]
-<images/CRISP.png, id=1099, 446.50815pt x 447.3513pt>
+[21 <./images/scrumban.jpg>]
+<images/CRISP.png, id=911, 446.50815pt x 447.3513pt>
 File: images/CRISP.png Graphic file (type png)
 <use images/CRISP.png>
-Package pdftex.def Info: images/CRISP.png  used on input line 319.
+Package pdftex.def Info: images/CRISP.png  used on input line 318.
 (pdftex.def)             Requested size: 196.46419pt x 196.83517pt.
- [24 <./images/kanbanBoard.png> <./images/CRISP.png>]) (./Chapter2.tex [25]
+ [22 <./images/kanbanBoard.png> <./images/CRISP.png>]) (./Chapter2.tex [23]
 Chapter 2.
-
-LaTeX Warning: File `images/OFF_database.png' not found on input line 16.
-
-
-! Package pdftex.def Error: File `images/OFF_database.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...phics[scale=0.65]{images/OFF_database.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[26
+<images/OFF_database.png, id=921, 981.6675pt x 576.1525pt>
+File: images/OFF_database.png Graphic file (type png)
+<use images/OFF_database.png>
+Package pdftex.def Info: images/OFF_database.png  used on input line 38.
+(pdftex.def)             Requested size: 412.29753pt x 241.98239pt.
+[24
 
 ]
-<images/statistics.png, id=1115, 951.555pt x 305.14pt>
+<images/statistics.png, id=927, 951.555pt x 305.14pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
-Package pdftex.def Info: images/statistics.png  used on input line 32.
+Package pdftex.def Info: images/statistics.png  used on input line 61.
 (pdftex.def)             Requested size: 523.35687pt x 167.8275pt.
 
-Overfull \hbox (82.33914pt too wide) in paragraph at lines 32--33
+Overfull \hbox (82.33914pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[27 <./images/statistics.png>]
+[25 <./images/OFF_database.png>]
 
-Package natbib Warning: Citation `stoian2020machine' on page 28 undefined on in
-put line 46.
+Package natbib Warning: Citation `stoian2020machine' on page 26 undefined on in
+put line 68.
 
-<images/missing_values.png, id=1121, 987.69pt x 516.93124pt>
+<images/missing_values.png, id=933, 963.6pt x 489.83pt>
 File: images/missing_values.png Graphic file (type png)
 <use images/missing_values.png>
-Package pdftex.def Info: images/missing_values.png  used on input line 51.
-(pdftex.def)             Requested size: 503.71524pt x 263.63144pt.
+Package pdftex.def Info: images/missing_values.png  used on input line 73.
+(pdftex.def)             Requested size: 491.4295pt x 249.80998pt.
 
-Overfull \hbox (62.69751pt too wide) in paragraph at lines 51--52
+Overfull \hbox (50.41177pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
 
-Package natbib Warning: Citation `huelEnergyCalculation' on page 28 undefined o
-n input line 58.
+Package natbib Warning: Citation `huelEnergyCalculation' on page 26 undefined o
+n input line 80.
 
-[28 <./images/missing_values.png>]
+[26 <./images/statistics.png> <./images/missing_values.png>]
 
-Package natbib Warning: Citation `moore2022' on page 29 undefined on input line
- 92.
+Package natbib Warning: Citation `moore2022' on page 27 undefined on input line
+ 114.
 
 
-Package natbib Warning: Citation `who2012' on page 29 undefined on input line 9
-2.
+Package natbib Warning: Citation `who2012' on page 27 undefined on input line 1
+14.
 
-[29]
+[27]
 
-Package natbib Warning: Citation `guyon2003' on page 30 undefined on input line
- 107.
+Package natbib Warning: Citation `guyon2003' on page 28 undefined on input line
+ 129.
 
-<images/correlation_matrix.png, id=1133, 920.43875pt x 742.775pt>
+<images/correlation_matrix.png, id=945, 920.43875pt x 742.775pt>
 File: images/correlation_matrix.png Graphic file (type png)
 <use images/correlation_matrix.png>
-Package pdftex.def Info: images/correlation_matrix.png  used on input line 114.
+Package pdftex.def Info: images/correlation_matrix.png  used on input line 136.
 
 (pdftex.def)             Requested size: 396.91325pt x 320.30505pt.
-[30 <./images/correlation_matrix.png>]
+[28]
 
-Package natbib Warning: Citation `hastie2009elements' on page 31 undefined on i
-nput line 124.
+Package natbib Warning: Citation `hastie2009elements' on page 29 undefined on i
+nput line 146.
+
+[29 <./images/correlation_matrix.png>]
+
+Package natbib Warning: Citation `aionlinecourse2025' on page 30 undefined on i
+nput line 150.
 
 
-Package natbib Warning: Citation `aionlinecourse2025' on page 31 undefined on i
-nput line 128.
+LaTeX Warning: Reference `max_features_values' on page 30 undefined on input li
+ne 153.
 
-
-LaTeX Warning: Reference `max_features_values' on page 31 undefined on input li
-ne 131.
-
-[31]
-<images/mae_r2_comparison.png, id=1144, 1040.88875pt x 569.12625pt>
+[30]
+<images/mae_r2_comparison.png, id=961, 1040.88875pt x 569.12625pt>
 File: images/mae_r2_comparison.png Graphic file (type png)
 <use images/mae_r2_comparison.png>
-Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 184.
+Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 206.
 (pdftex.def)             Requested size: 432.19548pt x 236.31325pt.
- [32]
 
-LaTeX Warning: Reference `tab:model_results' on page 33 undefined on input line
- 189.
 
-[33 <./images/mae_r2_comparison.png>]
-<images/Nutri-pred_fast_API.png, id=1158, 1252.68pt x 706.64pt>
+LaTeX Warning: Reference `tab:model_results' on page 31 undefined on input line
+ 211.
+
+[31 <./images/mae_r2_comparison.png>]
+<images/Nutri-pred_fast_API.png, id=971, 1252.68pt x 706.64pt>
 File: images/Nutri-pred_fast_API.png Graphic file (type png)
 <use images/Nutri-pred_fast_API.png>
-Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 227
+Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 249
 .
 (pdftex.def)             Requested size: 396.91325pt x 223.89745pt.
- [34 <./images/Nutri-pred_fast_API.png>]
-<images/Nutri-pred_Huggingface.png, id=1165, 1213.53375pt x 646.415pt>
+ [32]
+<images/Nutri-pred_Huggingface.png, id=977, 1213.53375pt x 646.415pt>
 File: images/Nutri-pred_Huggingface.png Graphic file (type png)
 <use images/Nutri-pred_Huggingface.png>
 Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
-237.
+259.
 (pdftex.def)             Requested size: 432.19548pt x 230.22362pt.
-)
-(./Chapter3.tex [35 <./images/Nutri-pred_Huggingface.png>]
+ [33 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
+ (./Chapter3.tex [34]
 Chapter 3.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/conad_italy_data.png, id=1171, 1047.915pt x 689.57625pt>
-File: images/conad_italy_data.png Graphic file (type png)
-<use images/conad_italy_data.png>
-Package pdftex.def Info: images/conad_italy_data.png  used on input line 35.
-(pdftex.def)             Requested size: 408.6852pt x 268.93365pt.
-[36
+<images/product_example.png, id=988, 674.52pt x 1095.09125pt>
+File: images/product_example.png Graphic file (type png)
+<use images/product_example.png>
+Package pdftex.def Info: images/product_example.png  used on input line 35.
+(pdftex.def)             Requested size: 263.06174pt x 427.08386pt.
+[35
 
-] [37 <./images/conad_italy_data.png>]
-<images/workflow__data.png, id=1182, 1105.12875pt x 502.87875pt>
+] [36 <./images/product_example.png>]
+<images/workflow__data.png, id=999, 1105.12875pt x 502.87875pt>
 File: images/workflow__data.png Graphic file (type png)
 <use images/workflow__data.png>
-Package pdftex.def Info: images/workflow__data.png  used on input line 83.
-(pdftex.def)             Requested size: 386.80086pt x 176.0102pt.
-<images/nutrition.png, id=1184, 352.31625pt x 154.5775pt>
+Package pdftex.def Info: images/workflow__data.png  used on input line 84.
+(pdftex.def)             Requested size: 430.99849pt x 196.12192pt.
+ [37 <./images/workflow__data.png>]
+<images/nutrition.png, id=1006, 352.31625pt x 154.5775pt>
 File: images/nutrition.png Graphic file (type png)
 <use images/nutrition.png>
-Package pdftex.def Info: images/nutrition.png  used on input line 103.
+Package pdftex.def Info: images/nutrition.png  used on input line 104.
 (pdftex.def)             Requested size: 232.52943pt x 102.02144pt.
- [38 <./images/workflow__data.png>]
-<images/transform_nutrition.png, id=1190, 493.845pt x 404.51125pt>
+<images/transform_nutrition.png, id=1007, 493.845pt x 404.51125pt>
 File: images/transform_nutrition.png Graphic file (type png)
 <use images/transform_nutrition.png>
-Package pdftex.def Info: images/transform_nutrition.png  used on input line 134
+Package pdftex.def Info: images/transform_nutrition.png  used on input line 135
 .
-(pdftex.def)             Requested size: 162.96935pt x 133.48912pt.
+(pdftex.def)             Requested size: 192.59877pt x 157.75874pt.
 
-[39 <./images/nutrition.png> <./images/transform_nutrition.png>]
-<images/nutrition_utils.png, id=1197, 1122.1925pt x 606.265pt>
+[38 <./images/nutrition.png>]
+<images/nutrition_utils.png, id=1013, 1122.1925pt x 606.265pt>
 File: images/nutrition_utils.png Graphic file (type png)
 <use images/nutrition_utils.png>
-Package pdftex.def Info: images/nutrition_utils.png  used on input line 168.
-(pdftex.def)             Requested size: 392.77327pt x 212.19592pt.
- [40 <./images/nutrition_utils.png>]
-<images/nutriscore.jpg, id=1203, 481.8pt x 229.8186pt>
-File: images/nutriscore.jpg Graphic file (type jpg)
-<use images/nutriscore.jpg>
-Package pdftex.def Info: images/nutriscore.jpg  used on input line 201.
-(pdftex.def)             Requested size: 168.63252pt x 80.43771pt.
-<images/load_data.png, id=1205, 1154.3125pt x 729.72626pt>
-File: images/load_data.png Graphic file (type png)
-<use images/load_data.png>
-Package pdftex.def Info: images/load_data.png  used on input line 219.
-(pdftex.def)             Requested size: 404.01543pt x 255.40802pt.
- [41 <./images/nutriscore.jpg> <./images/load_data.png>]
-[42]
+Package pdftex.def Info: images/nutrition_utils.png  used on input line 169.
+(pdftex.def)             Requested size: 504.98196pt x 272.81673pt.
 
-LaTeX Warning: Reference `fig:get products links' on page 43 undefined on input
- line 271.
-
-<images/get_products_links.png, id=1216, 1106.1325pt x 689.57625pt>
-File: images/get_products_links.png Graphic file (type png)
-<use images/get_products_links.png>
-Package pdftex.def Info: images/get_products_links.png  used on input line 274.
-
-(pdftex.def)             Requested size: 464.57248pt x 289.62004pt.
-
-Overfull \hbox (23.55475pt too wide) in paragraph at lines 274--275
- [][] 
- []
-
-[43]
-<images/all_data_scanner.png, id=1222, 830.10126pt x 357.335pt>
-File: images/all_data_scanner.png Graphic file (type png)
-<use images/all_data_scanner.png>
-Package pdftex.def Info: images/all_data_scanner.png  used on input line 285.
-(pdftex.def)             Requested size: 348.64015pt x 150.07967pt.
- [44 <./images/get_products_links.png> <./images/all_data_scanner.png>]
-<images/load_dataset.png, id=1230, 959.585pt x 428.60126pt>
-File: images/load_dataset.png Graphic file (type png)
-<use images/load_dataset.png>
-Package pdftex.def Info: images/load_dataset.png  used on input line 306.
-(pdftex.def)             Requested size: 422.2187pt x 188.58513pt.
-
-[45 <./images/load_dataset.png>]
-File: images/statistics.png Graphic file (type png)
-<use images/statistics.png>
-Package pdftex.def Info: images/statistics.png  used on input line 324.
-(pdftex.def)             Requested size: 523.35687pt x 167.8275pt.
-
-Overfull \hbox (82.33914pt too wide) in paragraph at lines 324--325
+Overfull \hbox (63.96423pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
+[39 <./images/transform_nutrition.png>]
+<images/nutriscore.jpg, id=1019, 481.8pt x 229.8186pt>
+File: images/nutriscore.jpg Graphic file (type jpg)
+<use images/nutriscore.jpg>
+Package pdftex.def Info: images/nutriscore.jpg  used on input line 202.
+(pdftex.def)             Requested size: 361.3491pt x 172.36353pt.
+ [40 <./images/nutrition_utils.png>]
+<images/load_data.png, id=1026, 1154.3125pt x 729.72626pt>
+File: images/load_data.png Graphic file (type png)
+<use images/load_data.png>
+Package pdftex.def Info: images/load_data.png  used on input line 220.
+(pdftex.def)             Requested size: 404.01543pt x 255.40802pt.
 
-Package natbib Warning: Citation `guyon2003' on page 46 undefined on input line
- 334.
-
-File: images/correlation_matrix.png Graphic file (type png)
-<use images/correlation_matrix.png>
-Package pdftex.def Info: images/correlation_matrix.png  used on input line 343.
-
-(pdftex.def)             Requested size: 396.91325pt x 320.30505pt.
-[46]
-
-Package natbib Warning: Citation `stoian2020machine' on page 47 undefined on in
-put line 353.
-
-File: images/missing_values.png Graphic file (type png)
-<use images/missing_values.png>
-Package pdftex.def Info: images/missing_values.png  used on input line 361.
-(pdftex.def)             Requested size: 345.69667pt x 180.92863pt.
-[47] [48]
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.383 ...g) for fat \cite{huel_energy_calculation}
-                                                  .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.383 ...g) for fat \cite{huel_energy_calculation}
-                                                  .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-Package natbib Warning: Citation `huel\unhbox \voidb@x \penalty\@M \hskip \z@sk
-ip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \
-hskip \z@skip energy\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
-ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip calc
-ulation' on page 49 undefined on input line 383.
-
-
-Package natbib Warning: Citation `moore2022' on page 49 undefined on input line
- 420.
-
-
-Package natbib Warning: Citation `who2012' on page 49 undefined on input line 4
-20.
-
-[49]
-<images/data_cleaning.png, id=1254, 871.255pt x 476.78125pt>
-File: images/data_cleaning.png Graphic file (type png)
-<use images/data_cleaning.png>
-Package pdftex.def Info: images/data_cleaning.png  used on input line 431.
-(pdftex.def)             Requested size: 383.3534pt x 209.7844pt.
- [50]
-
-Package natbib Warning: Citation `hastie2009elements' on page 51 undefined on i
-nput line 442.
-
-
-Package natbib Warning: Citation `aionlinecourse2025' on page 51 undefined on i
-nput line 446.
-
-[51 <./images/data_cleaning.png>]
-File: images/mae_r2_comparison.png Graphic file (type png)
-<use images/mae_r2_comparison.png>
-Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 489.
-(pdftex.def)             Requested size: 396.91325pt x 217.01706pt.
- [52]
-
-LaTeX Warning: Reference `tab:model_results' on page 53 undefined on input line
- 494.
-
-[53] [54]
-File: images/Nutri-pred_fast_API.png Graphic file (type png)
-<use images/Nutri-pred_fast_API.png>
-Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 589
-.
-(pdftex.def)             Requested size: 396.91325pt x 223.89745pt.
- [55]
-File: images/Nutri-pred_Huggingface.png Graphic file (type png)
-<use images/Nutri-pred_Huggingface.png>
-Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
-600.
-(pdftex.def)             Requested size: 396.91325pt x 211.42381pt.
- [56]) (./Chapter4.tex [57]
+[41 <./images/nutriscore.jpg> <./images/load_data.png>] [42]) (./Chapter4.tex
+[43]
 Chapter 4.
-
-Package natbib Warning: Citation `IBMVectordb2025' on page 58 undefined on inpu
-t line 9.
-
-
-Package natbib Warning: Citation `IBMVectordb2025' on page 58 undefined on inpu
-t line 9.
-
-<images/vectorDB.png, id=1295, 960.58875pt x 522.95375pt>
+<images/vectorDB.png, id=1041, 960.58875pt x 522.95375pt>
 File: images/vectorDB.png Graphic file (type png)
 <use images/vectorDB.png>
-Package pdftex.def Info: images/vectorDB.png  used on input line 13.
+Package pdftex.def Info: images/vectorDB.png  used on input line 29.
 (pdftex.def)             Requested size: 432.26094pt x 235.32701pt.
-[58
+[44
 
 ]
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.21 ...l vector embeddings\cite{chroma_docs_2025}
-                                                  .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.21 ...l vector embeddings\cite{chroma_docs_2025}
-                                                  .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-Package natbib Warning: Citation `chroma\unhbox \voidb@x \penalty\@M \hskip \z@
-skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M
- \hskip \z@skip docs\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
-ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip 2025
-' on page 59 undefined on input line 21.
-
-<images/chroma_space.png, id=1300, 545.03625pt x 408.52625pt>
+<images/chroma_space.png, id=1046, 545.03625pt x 408.52625pt>
 File: images/chroma_space.png Graphic file (type png)
 <use images/chroma_space.png>
-Package pdftex.def Info: images/chroma_space.png  used on input line 25.
+Package pdftex.def Info: images/chroma_space.png  used on input line 62.
 (pdftex.def)             Requested size: 359.72504pt x 269.62816pt.
-[59 <./images/vectorDB.png>]
+ [45 <./images/vectorDB.png>]
+Overfull \hbox (3.62106pt too wide) in paragraph at lines 77--82
+\T1/lmr/m/n/12 (-20) These mod-els map tex-tual de-scrip-tions of prod-ucts and
+ user pro-files into fixed-dimensional
+ []
 
-Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 60 un
-defined on input line 40.
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 \item \textbf
+                  {CLightFM (Pure Collaborative):} I Captures long-term user...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `HNSW' on page 60 undefined on input line 40.
+Underfull \hbox (badness 10000) detected at line 87
+[][]
+ []
 
-[60 <./images/chroma_space.png>]
-<images/RS_Arch.png, id=1312, 794.97pt x 591.20876pt>
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \item \textbf
+                  {ChromaDB (Content-Based):}  Handles real-time product sim...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 88
+[][]
+ []
+
+[46 <./images/chroma_space.png>]
+<images/RS_Arch.png, id=1058, 794.97pt x 591.20876pt>
 File: images/RS_Arch.png Graphic file (type png)
 <use images/RS_Arch.png>
-Package pdftex.def Info: images/RS_Arch.png  used on input line 62.
+Package pdftex.def Info: images/RS_Arch.png  used on input line 111.
 (pdftex.def)             Requested size: 437.23485pt x 325.16582pt.
- [61]
-
-Package natbib Warning: Citation `chromadb' on page 62 undefined on input line 
-79.
-
-[62 <./images/RS_Arch.png>]
-
-Package natbib Warning: Citation `shu2023lightfm' on page 63 undefined on input
- line 86.
-
-
-Package natbib Warning: Citation `shu2023lightfm' on page 63 undefined on input
- line 88.
-
-! Missing \endcsname inserted.
+ [47 <./images/RS_Arch.png>]
+Runaway argument?
+{2) Benchmark Evidence 
+! Paragraph ended before \ttl@straight@i was complete.
 <to be read again> 
-                   \unhbox 
-l.89 ...duced model accuracy \cite{lightfm_issues}
+                   \par 
+l.146 Pure LightFM Outperforms Hybrid LightFM}
+                                              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Too many }'s.
+\@xdblarg #1#2->#1[{#2}
+                       ]{#2}
+l.146 Pure LightFM Outperforms Hybrid LightFM}
+                                              
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Undefined control sequence.
+l.158 ...worse than graphbased baselines like P3\�
+                                                  � and RP3\β.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Invalid UTF-8 byte "B1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...orse than graphbased baselines like P3\α
+                                                   and RP3\β.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Undefined control sequence.
+l.158 ...graphbased baselines like P3\α and RP3\�
+                                                  �.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Invalid UTF-8 byte "B2.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...raphbased baselines like P3\α and RP3\β
                                                   .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.89 ...duced model accuracy \cite{lightfm_issues}
-                                                  .
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+[48]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 T
+       he CB system operates based on two possible inputs: the \textbf{user ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[50]
+<images/collaborative_filtering.png, id=1081, 451.6875pt x 217.5628pt>
+File: images/collaborative_filtering.png Graphic file (type png)
+<use images/collaborative_filtering.png>
+Package pdftex.def Info: images/collaborative_filtering.png  used on input line
+ 324.
+(pdftex.def)             Requested size: 383.93617pt x 184.92924pt.
+ [51 <./images/collaborative_filtering.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 343--347
+
+ []
 
 
-Package natbib Warning: Citation `lightfm\unhbox \voidb@x \penalty\@M \hskip \z
-@skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@
-M \hskip \z@skip issues' on page 63 undefined on input line 89.
+! LaTeX Error: There's no line here to end.
 
-<images/precision_plot.png, id=1323, 605.26125pt x 508.90125pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 388--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 T
+       able 4.4: Benchmark Results for Recommendation Modes
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.415 R
+       esults demonstrate that \textbf{HNSW} significantly outperforms exact...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[53]
+<images/swaggerFastAPI.png, id=1095, 1233.60875pt x 724.7075pt>
+File: images/swaggerFastAPI.png Graphic file (type png)
+<use images/swaggerFastAPI.png>
+Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 451.
+(pdftex.def)             Requested size: 431.76953pt x 253.65143pt.
+
+
+Package natbib Warning: Citation `shu2023lightfm' on page 54 undefined on input
+ line 469.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 \item P
+             ure LightFM outperforms hybrid LightFM in precision@K and recal...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 470
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.471     \item I
+                 tem features often introduce noise, degrading performance.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 471
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472     \item H
+                 ybrid LightFM underperforms simpler baselines like ItemKNN ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 472
+[][]
+ []
+
+<images/precision_plot.png, id=1096, 605.26125pt x 508.90125pt>
 File: images/precision_plot.png Graphic file (type png)
 <use images/precision_plot.png>
-Package pdftex.def Info: images/precision_plot.png  used on input line 95.
+Package pdftex.def Info: images/precision_plot.png  used on input line 478.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-<images/recall_plot.png, id=1324, 605.26125pt x 508.90125pt>
+<images/recall_plot.png, id=1097, 605.26125pt x 508.90125pt>
 File: images/recall_plot.png Graphic file (type png)
 <use images/recall_plot.png>
-Package pdftex.def Info: images/recall_plot.png  used on input line 101.
+Package pdftex.def Info: images/recall_plot.png  used on input line 484.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-[63 <./images/precision_plot.png> <./images/recall_plot.png>] [64]
-<images/cb_filtering_logic.png, id=1340, 482.80376pt x 551.05875pt>
+[54 <./images/swaggerFastAPI.png>]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.507 \item U
+             ser profile (dietary preferences, health conditions)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 507
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.508     \item P
+                 roduct metadata (name, category, nutrition facts, allergens)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 508
+[][]
+ []
+
+<images/cb_filtering_logic.png, id=1107, 482.80376pt x 551.05875pt>
 File: images/cb_filtering_logic.png Graphic file (type png)
 <use images/cb_filtering_logic.png>
-Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 133.
+Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 512.
 
 (pdftex.def)             Requested size: 168.98384pt x 192.87344pt.
-
-
-Package natbib Warning: Citation `sbert2025models' on page 65 undefined on inpu
-t line 169.
-
-[65 <./images/cb_filtering_logic.png>]
-
-Package natbib Warning: Citation `sentence-transformers-all-MiniLM-L12-v2' on p
-age 66 undefined on input line 174.
-
-<images/load_data__0.png, id=1346, 1088.065pt x 725.71124pt>
+[55 <./images/precision_plot.png> <./images/recall_plot.png>]
+<images/load_data__0.png, id=1119, 1088.065pt x 725.71124pt>
 File: images/load_data__0.png Graphic file (type png)
 <use images/load_data__0.png>
-Package pdftex.def Info: images/load_data__0.png  used on input line 181.
+Package pdftex.def Info: images/load_data__0.png  used on input line 543.
 (pdftex.def)             Requested size: 424.34364pt x 283.02625pt.
-[66 <./images/load_data__0.png>]
-<images/CB_recommendation_workflow_simple.png, id=1353, 1033.8625pt x 699.61375
+ [56 <./images/cb_filtering_logic.png>]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 \item U
+             ser ID (mandatory)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 551
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552     \item S
+                 canned product EAN (optional)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 552
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 \item R
+             e-ranked by Nutri-Score (healthier products boosted)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 560
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.561     \item H
+                 ard-filtered for medical/dietary constraints (e.g., no glut...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 561
+[][]
+ []
+
+<images/CB_recommendation_workflow_simple.png, id=1125, 1033.8625pt x 699.61375
 pt>
 File: images/CB_recommendation_workflow_simple.png Graphic file (type png)
 <use images/CB_recommendation_workflow_simple.png>
 Package pdftex.def Info: images/CB_recommendation_workflow_simple.png  used on 
-input line 204.
+input line 565.
 (pdftex.def)             Requested size: 396.91325pt x 268.58885pt.
- [67] [68 <./images/CB_recommendation_workflow_simple.png>]
+[57 <./images/load_data__0.png>]
 
-Package natbib Warning: Citation `ibm-cf' on page 69 undefined on input line 21
-7.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-<images/collaborative_filtering.png, id=1363, 451.6875pt x 217.5628pt>
-File: images/collaborative_filtering.png Graphic file (type png)
-<use images/collaborative_filtering.png>
-Package pdftex.def Info: images/collaborative_filtering.png  used on input line
- 221.
-(pdftex.def)             Requested size: 383.93617pt x 184.92924pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.595 \item \textbf
+                   {WARP}: Ignores negative feedback—unsuitable for our us...
 
-Package natbib Warning: Citation `ibm-cf' on page 69 undefined on input line 22
-8.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69 <./images/collaborative_filtering.png>]
-<images/loss_function_lightFM.png, id=1369, 876.27374pt x 637.38126pt>
-File: images/loss_function_lightFM.png Graphic file (type png)
-<use images/loss_function_lightFM.png>
-Package pdftex.def Info: images/loss_function_lightFM.png  used on input line 2
-64.
-(pdftex.def)             Requested size: 341.74538pt x 248.57768pt.
- [70 <./images/loss_function_lightFM.png>] [71]
-
-Package natbib Warning: Citation `ANN' on page 72 undefined on input line 276.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Package natbib Warning: Citation `HNSW' on page 72 undefined on input line 279.
-
-
-[72] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
+Underfull \hbox (badness 10000) detected at line 595
+[][]
  []
 
-<images/deploy_RS.png, id=1388, 1103.12125pt x 672.5125pt>
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.596     \item \textbf
+                       {Logistic}: Requires explicit ratings—not applicable.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 596
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597     \item \textbf
+                       {BPR (Bayesian Personalized Ranking)}: Optimizes pair...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 597
+[][]
+ []
+
+<images/loss_function_lightFM.png, id=1131, 876.27374pt x 637.38126pt>
+File: images/loss_function_lightFM.png Graphic file (type png)
+<use images/loss_function_lightFM.png>
+Package pdftex.def Info: images/loss_function_lightFM.png  used on input line 6
+03.
+(pdftex.def)             Requested size: 341.74538pt x 248.57768pt.
+[58 <./images/CB_recommendation_workflow_simple.png>] [59 <./images/loss_functi
+on_lightFM.png>]
+<images/deploy_RS.png, id=1143, 1103.12125pt x 672.5125pt>
 File: images/deploy_RS.png Graphic file (type png)
 <use images/deploy_RS.png>
-Package pdftex.def Info: images/deploy_RS.png  used on input line 346.
+Package pdftex.def Info: images/deploy_RS.png  used on input line 662.
 (pdftex.def)             Requested size: 386.09822pt x 235.38289pt.
-<images/swaggerFastAPI.png, id=1389, 1233.60875pt x 724.7075pt>
-File: images/swaggerFastAPI.png Graphic file (type png)
-<use images/swaggerFastAPI.png>
-Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 363.
-(pdftex.def)             Requested size: 431.76953pt x 253.65143pt.
-[74 <./images/deploy_RS.png>]) (./Chapter5.tex [75 <./images/swaggerFastAPI.png
->]
+) (./Chapter5.tex [60 <./images/deploy_RS.png>] [61]
 Chapter 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<images/Screenshot_20250920-000112_chocolat_noir.jpg, id=1403, 1084.05pt x 1927
-.2pt>
-File: images/Screenshot_20250920-000112_chocolat_noir.jpg Graphic file (type jp
-g)
-<use images/Screenshot_20250920-000112_chocolat_noir.jpg>
-Package pdftex.def Info: images/Screenshot_20250920-000112_chocolat_noir.jpg  u
-sed on input line 20.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000118_chocolat_noir.jpg, id=1404, 1084.05pt x 1927
-.2pt>
-File: images/Screenshot_20250920-000118_chocolat_noir.jpg Graphic file (type jp
-g)
-<use images/Screenshot_20250920-000118_chocolat_noir.jpg>
-Package pdftex.def Info: images/Screenshot_20250920-000118_chocolat_noir.jpg  u
-sed on input line 21.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000124_chocolat_noir.jpg, id=1405, 1084.05pt x 1927
-.2pt>
-File: images/Screenshot_20250920-000124_chocolat_noir.jpg Graphic file (type jp
-g)
-<use images/Screenshot_20250920-000124_chocolat_noir.jpg>
-Package pdftex.def Info: images/Screenshot_20250920-000124_chocolat_noir.jpg  u
-sed on input line 22.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000137_chocolat_noir.jpg, id=1406, 1084.05pt x 1927
-.2pt>
-File: images/Screenshot_20250920-000137_chocolat_noir.jpg Graphic file (type jp
-g)
-<use images/Screenshot_20250920-000137_chocolat_noir.jpg>
-Package pdftex.def Info: images/Screenshot_20250920-000137_chocolat_noir.jpg  u
-sed on input line 23.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-[76
+[62
 
 ]
-
-Package natbib Warning: Citation `awsLLM' on page 77 undefined on input line 30
-.
-
-<images/prompt_engineering.png, id=1411, 979.66pt x 607.26875pt>
+<images/prompt_engineering.png, id=1161, 979.66pt x 607.26875pt>
 File: images/prompt_engineering.png Graphic file (type png)
 <use images/prompt_engineering.png>
-Package pdftex.def Info: images/prompt_engineering.png  used on input line 39.
+Package pdftex.def Info: images/prompt_engineering.png  used on input line 23.
 (pdftex.def)             Requested size: 396.91325pt x 246.03516pt.
-[77 <./images/Screenshot_20250920-000112_chocolat_noir.jpg> <./images/Screensho
-t_20250920-000118_chocolat_noir.jpg> <./images/Screenshot_20250920-000124_choco
-lat_noir.jpg> <./images/Screenshot_20250920-000137_chocolat_noir.jpg>]
-<images/Screenshot_20250919-231229_SCANN_barecode.jpg, id=1416, 1084.05pt x 192
-7.2pt>
-File: images/Screenshot_20250919-231229_SCANN_barecode.jpg Graphic file (type j
-pg)
-<use images/Screenshot_20250919-231229_SCANN_barecode.jpg>
-Package pdftex.def Info: images/Screenshot_20250919-231229_SCANN_barecode.jpg  
-used on input line 54.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231233_Scann_success.jpg, id=1417, 1084.05pt x 1927
-.2pt>
-File: images/Screenshot_20250919-231233_Scann_success.jpg Graphic file (type jp
-g)
-<use images/Screenshot_20250919-231233_Scann_success.jpg>
-Package pdftex.def Info: images/Screenshot_20250919-231233_Scann_success.jpg  u
-sed on input line 55.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231251_SCANN-end.jpg, id=1418, 1084.05pt x 1927.2pt
->
-File: images/Screenshot_20250919-231251_SCANN-end.jpg Graphic file (type jpg)
-<use images/Screenshot_20250919-231251_SCANN-end.jpg>
-Package pdftex.def Info: images/Screenshot_20250919-231251_SCANN-end.jpg  used 
-on input line 56.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg, id=1419, 1084.05pt x 
-1927.2pt>
-File: images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg Graphic file (typ
-e jpg)
-<use images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg>
-Package pdftex.def Info: images/Screenshot_20250919-232403_SCANN_AI_analysis.jp
-g  used on input line 57.
-(pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
- [78 <./images/prompt_engineering.png>]
-<images/Chatbot_arch.png, id=1427, 611.28375pt x 403.5075pt>
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36     \begin{subfigure}
+                          [b]{0.23\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.36     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.36     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<images/natilait1.jpg, id=1162, 1084.05pt x 1927.2pt>
+File: images/natilait1.jpg Graphic file (type jpg)
+<use images/natilait1.jpg>
+Package pdftex.def Info: images/natilait1.jpg  used on input line 38.
+(pdftex.def)             Requested size: 441.01773pt x 784.04054pt.
+
+! LaTeX Error: \begin{figure} on input line 33 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41     \begin{subfigure}
+                          [b]{0.23\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.41     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.41     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<images/natilait2.jpg, id=1163, 1084.05pt x 1927.2pt>
+File: images/natilait2.jpg Graphic file (type jpg)
+<use images/natilait2.jpg>
+Package pdftex.def Info: images/natilait2.jpg  used on input line 43.
+(pdftex.def)             Requested size: 441.01773pt x 784.04054pt.
+
+! LaTeX Error: \begin{figure} on input line 33 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46     \begin{subfigure}
+                          [b]{0.23\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.46     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.46     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<images/natilait3.jpg, id=1164, 1084.05pt x 1927.2pt>
+File: images/natilait3.jpg Graphic file (type jpg)
+<use images/natilait3.jpg>
+Package pdftex.def Info: images/natilait3.jpg  used on input line 48.
+(pdftex.def)             Requested size: 441.01773pt x 784.04054pt.
+
+! LaTeX Error: \begin{figure} on input line 33 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51     \begin{subfigure}
+                          [b]{0.23\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.51     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.51     \begin{subfigure}[b]{0.23\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<images/natilait4.jpg, id=1165, 1084.05pt x 1927.2pt>
+File: images/natilait4.jpg Graphic file (type jpg)
+<use images/natilait4.jpg>
+Package pdftex.def Info: images/natilait4.jpg  used on input line 53.
+(pdftex.def)             Requested size: 441.01773pt x 784.04054pt.
+
+! LaTeX Error: \begin{figure} on input line 33 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Float too large for page by 2516.37909pt on input line 55.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63 <./images/prompt_engineering.png>]
+<images/Chatbot_arch.png, id=1172, 611.28375pt x 403.5075pt>
 File: images/Chatbot_arch.png Graphic file (type png)
 <use images/Chatbot_arch.png>
-Package pdftex.def Info: images/Chatbot_arch.png  used on input line 70.
-(pdftex.def)             Requested size: 308.71106pt x 203.77892pt.
- [79 <./images/Screenshot_20250919-231229_SCANN_barecode.jpg> <./images/Screens
-hot_20250919-231233_Scann_success.jpg> <./images/Screenshot_20250919-231251_SCA
-NN-end.jpg> <./images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg>]
-<images/Screenshot_20250919-225837_chatbot.jpg, id=1433, 1084.05pt x 1927.2pt>
-File: images/Screenshot_20250919-225837_chatbot.jpg Graphic file (type jpg)
-<use images/Screenshot_20250919-225837_chatbot.jpg>
-Package pdftex.def Info: images/Screenshot_20250919-225837_chatbot.jpg  used on
- input line 83.
-(pdftex.def)             Requested size: 119.24586pt x 211.99266pt.
- [80 <./images/Chatbot_arch.png>]
-<images/chatbot_API.png, id=1439, 1269.74374pt x 566.115pt>
+Package pdftex.def Info: images/Chatbot_arch.png  used on input line 66.
+(pdftex.def)             Requested size: 396.91325pt x 261.9997pt.
+ [64 <./images/Chatbot_arch.png>]
+<images/chatbot_API.png, id=1178, 1269.74374pt x 566.115pt>
 File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
-Package pdftex.def Info: images/chatbot_API.png  used on input line 93.
+Package pdftex.def Info: images/chatbot_API.png  used on input line 79.
 (pdftex.def)             Requested size: 396.91325pt x 176.96233pt.
- [81 <./images/Screenshot_20250919-225837_chatbot.jpg> <./images/chatbot_API.pn
-g>] [82]
-<images/chatbot_ai_data_layer.png, id=1449, 639.89063pt x 358.33875pt>
-File: images/chatbot_ai_data_layer.png Graphic file (type png)
-<use images/chatbot_ai_data_layer.png>
-Package pdftex.def Info: images/chatbot_ai_data_layer.png  used on input line 1
-04.
-(pdftex.def)             Requested size: 396.91325pt x 222.2716pt.
- [83 <./images/chatbot_ai_data_layer.png>]
-<images/how_AI_chatbot_works.png, id=1455, 542.025pt x 331.2375pt>
-File: images/how_AI_chatbot_works.png Graphic file (type png)
-<use images/how_AI_chatbot_works.png>
-Package pdftex.def Info: images/how_AI_chatbot_works.png  used on input line 13
-0.
-(pdftex.def)             Requested size: 352.31207pt x 215.30182pt.
- [84 <./images/how_AI_chatbot_works.png>]
-<images/update_user_profile.png, id=1462, 970.62625pt x 580.1675pt>
+
+[65 <./images/chatbot_API.png>]
+<images/update_user_profile.png, id=1184, 970.62625pt x 580.1675pt>
 File: images/update_user_profile.png Graphic file (type png)
 <use images/update_user_profile.png>
-Package pdftex.def Info: images/update_user_profile.png  used on input line 159
+Package pdftex.def Info: images/update_user_profile.png  used on input line 120
 .
 (pdftex.def)             Requested size: 396.91325pt x 237.25052pt.
- [85 <./images/update_user_profile.png>] [86] [87] [88] [89] [90]) (./Conclusio
-n.tex
-[91]) (./main.bbl)
+ [66] [67 <./images/update_user_profile.png>]
+[68]) (./Conclusion.tex [69]) (./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[92] (./main.aux
+[70] [71 <./images/natilait1.jpg> <./images/natilait2.jpg> <./images/natilait3.
+jpg> <./images/natilait4.jpg>] (./main.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -2271,7 +2370,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.92 ...a statistics\relax }{figure.caption.22}{}}
+l.95 ...a statistics\relax }{figure.caption.22}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2279,7 +2378,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.99 ...ssing values\relax }{figure.caption.23}{}}
+l.98 ...ssing values\relax }{figure.caption.23}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2287,7 +2386,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.104 ...ion per 100g\relax }{table.caption.24}{}}
+l.103 ...ion per 100g\relax }{table.caption.24}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2303,7 +2402,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.117 ...ures} Values\relax }{table.caption.26}{}}
+l.116 ...ures} Values\relax }{table.caption.26}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2311,7 +2410,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.124 ...ion models.\relax }{figure.caption.27}{}}
+l.123 ...ion models.\relax }{figure.caption.27}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2319,7 +2418,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.140 ...n Esselunga\relax }{figure.caption.32}{}}
+l.139 ...n Esselunga\relax }{figure.caption.32}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2327,7 +2426,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.145 ...r embedding\relax }{figure.caption.33}{}}
+l.144 ...r embedding\relax }{figure.caption.33}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2335,7 +2434,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.148 ... processing\relax }{figure.caption.34}{}}
+l.147 ... processing\relax }{figure.caption.34}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2343,7 +2442,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.153 ...nsformation\relax }{figure.caption.35}{}}
+l.152 ...nsformation\relax }{figure.caption.35}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2351,7 +2450,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.156 ...n Labelling\relax }{figure.caption.36}{}}
+l.155 ...n Labelling\relax }{figure.caption.36}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2359,7 +2458,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.158 ...ation logic\relax }{figure.caption.37}{}}
+l.157 ...ation logic\relax }{figure.caption.37}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2367,7 +2466,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.162 ... in MongoDB\relax }{figure.caption.38}{}}
+l.161 ... in MongoDB\relax }{figure.caption.38}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2375,7 +2474,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.170 ...ducts links\relax }{figure.caption.39}{}}
+l.179 ... using HNSW\relax }{figure.caption.40}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2383,7 +2482,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.172 ...ata scanner\relax }{figure.caption.40}{}}
+l.185 ...tion system\relax }{figure.caption.41}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2391,7 +2490,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.176 ...ng approach\relax }{figure.caption.41}{}}
+l.203 ...ering logic\relax }{figure.caption.43}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2399,7 +2498,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.180 ... statistics\relax }{figure.caption.42}{}}
+l.216 ...ndation API\relax }{figure.caption.44}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2407,7 +2506,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.185 ...tion matrix\relax }{figure.caption.43}{}}
+l.227 ...VitamiNurse\relax }{figure.caption.46}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2415,7 +2514,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.188 ...sing values\relax }{figure.caption.44}{}}
+l.233 ...to ChromaDB\relax }{figure.caption.48}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2423,7 +2522,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.197 ...on per 100g)\relax }{table.caption.45}{}}
+l.239 ...on workflow\relax }{figure.caption.49}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2431,7 +2530,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.202 ...duct names.\relax }{figure.caption.46}{}}
+l.244 ... and weights\relax }{table.caption.50}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2439,7 +2538,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.206 ...ures} Values\relax }{table.caption.47}{}}
+l.247 ...th BPR loss\relax }{figure.caption.51}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2447,135 +2546,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.209 ...ion models.\relax }{figure.caption.48}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.235 ...h in chroma\relax }{figure.caption.54}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.243 ...chitecture \relax }{figure.caption.55}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.260 ...ering Logic\relax }{figure.caption.57}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.268 ...o chroma DB\relax }{figure.caption.59}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.275 ...on Workflow\relax }{figure.caption.60}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.281 ...ering Logic\relax }{figure.caption.61}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.286 ... VitamiNurse\relax }{table.caption.62}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.289 ...ss function\relax }{figure.caption.63}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.304 ...th Fast API\relax }{figure.caption.66}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.315 ...AI analysis\relax }{figure.caption.69}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.319 ...Using GPT-4\relax }{figure.caption.70}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.322 ... evaluation\relax }{figure.caption.71}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.329 ...t interface\relax }{figure.caption.73}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.335 ...e Assistant\relax }{figure.caption.75}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.344 ...AI chatbots\relax }{figure.caption.76}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.347 ... extraction\relax }{figure.caption.77}{}}
+l.259 ...ith FastAPI\relax }{figure.caption.54}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2588,21 +2559,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 54D59CC0957531158E7C21EE799F79CB;30711.
+(rerunfilecheck)             Checksum: CE25DE5A4738280B32F7ADC2C9D28B98;25051.
  ) 
 Here is how much of TeX's memory you used:
- 35053 strings out of 480171
- 676645 string characters out of 5894488
- 951033 words of memory out of 5000000
- 51710 multiletter control sequences out of 15000+600000
- 561438 words of font info for 210 fonts, out of 8000000 for 9000
+ 34819 strings out of 480171
+ 669839 string characters out of 5894488
+ 948392 words of memory out of 5000000
+ 51576 multiletter control sequences out of 15000+600000
+ 557236 words of font info for 200 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,13n,80p,1193b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -2625,23 +2593,22 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texm
-f/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-math
-sy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-o12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.p
-fb>
-Output written on main.pdf (93 pages, 8765058 bytes).
+mf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (72 pages, 6203017 bytes).
 PDF statistics:
- 1655 PDF objects out of 1728 (max. 8388607)
- 1407 compressed objects within 15 object streams
- 341 named destinations out of 1000 (max. 500000)
- 53774 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1350 PDF objects out of 1440 (max. 8388607)
+ 1144 compressed objects within 12 object streams
+ 281 named destinations out of 1000 (max. 500000)
+ 49404 words of extra memory for PDF output out of 51595 (max. 10000000)
 

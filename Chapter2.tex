@@ -1,31 +1,60 @@
 \chapter{Nutri-pred-v1: A Model for Nutrition Value Prediction}
 
 \section{Introduction}
-In the VitamiNurse project, automated completion of missing nutritional values represents a critical challenge. The primary data source relies on web scraping, which frequently yields products with incomplete or missing nutritional information. This section details the development and evolution of the machine learning model Nutri-pred-v1, specifically designed to address this need by automatically predicting nutritional values of food products from their names and textual descriptions.
-\par The model leverages a large dataset from Open Food Facts, a collaborative database containing over 3.8 million food products with varying degrees of nutritional information completeness. The goal is to create a robust predictive model capable of accurately estimating key nutritional attributes such as energy (kcal), fat, saturated fat, carbohydrates, sugars, proteins, and salt based solely on product names and descriptions.
-
+\par In the VitamiNurse project, automated completion of missing nutritional
+values represents a critical challenge. The primary data source relies
+on web scraping, which frequently yields products with incomplete or
+missing nutritional information. This section details the development
+and evolution of the machine learning model Nutri-pred-v1, specifically
+designed to address this need by automatically predicting nutritional
+values of food products from their names and textual descriptions.
+\par The model leverages a large dataset of food products from Open Food
+Facts with varying degrees of nutritional information completeness. The
+goal is to create a robust predictive model capable of accurately estimat-
+ing key nutritional attributes such as energy (kcal), fat, saturated fat,
+carbohydrates, sugars, proteins, and salt based solely on product names
+and descriptions.
 \section{Data Acquisition and Initial Setup}
-The Open Food Facts (OFF) is a collaborative and open-access database that contains information of more than 3.8 million food products.
-This global dataset, which includes products from many countries as shown in the bar chart in Figure \ref{fig:country_distribution}, can be downloaded in its entirety in either CSV or JSON formats.
-Because of its extensive size (11.4 GB) and the high dimensionality of the data, it is essential to optimize memory usage during data preprocessing. 
-An effective and widely used technique in data science consists of loading only the columns needed for training the model. This selective loading approach significantly reduces memory consumption and processing time.
+The Open Food Facts (OFF) is a collaborative and open-access database
+that contains information of more than 3.8 million food products. This
+global dataset, which includes products from many countries as shown in
+the bar chart in Figure 2.1, can be downloaded in its entirety in either
+CSV or JSON formats. Because of its extensive size (11.4 GB) and the
+high dimensionality of the data, it is essential to optimize memory usage
+during data preprocessing.
 
-\par The dataset contains a wide range of attributes, including product names, ingredients, brands, categories, and detailed nutritional information. However, many entries have missing or incomplete nutritional profiles, which poses a challenge for model training. To address this, we focused on products that have complete nutritional information for the key attributes we aim to predict.
+\par An effective and widely used technique in data science consists of loading
+only the columns needed for training the model. This selective loading
+approach significantly reduces memory consumption and processing time.
+The dataset contains a wide range of attributes, including product names,
+ingredients, brands, categories, and detailed nutritional information.
+\par However, many entries have missing or incomplete nutritional profiles,
+which poses a challenge for model training. To address this, we focused on
+products that have complete nutritional information for the key attributes
+we aim to predict.
+
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.65]{images/OFF_database.png}
-\caption{Bar chart showing the distribution of food products in the Open Food Facts database by country of origin} 
+\includegraphics[scale=0.42]{images/OFF_database.png}
+\caption{Distribution of food products in the Open Food Facts database by country of origin} 
 \label{fig:country_distribution}
 \end{figure}
 
 \section{Data Exploration and Cleaning}
 Because of the collaborative nature of the dataset, many problems can be encountered. It require substantial cleaning and preprocessing efforts in order to ensure reliability of our data.
 These problems include :
-\begin{itemize}[label=-]
+
+\begin{itemize}[label=\textbf{-}]
 \item \textbf{Missing Values:} Many entries have incomplete nutritional profiles, which affects the ability to use them for training ML models.
 \item \textbf{Inconsistent and Erroneous Values:} Some fields contain inconsistent or obviously erroneous values due to unit or user input errors .
 \item \textbf{Negative Values:} Several nutritional values are negative, which is physiologically unrealistic.
 \end{itemize}
+
+
+\subsection{Initial Dataset Overview}
+The initial dataset comprised 3,800,000 products. After preprocessing and cleaning, the dataset was reduced to 2,225,014 products.
+This refinement process ensured that all entries had complete textual descriptions, contained non-null and plausible nutritional values, and featured homogenized units to guarantee consistency across the entire dataset.
+The collaborative nature of Open Food Facts introduces several data quality challenges that must be addressed before model training.
 
 \begin{figure}[H]
 \centering
@@ -33,13 +62,6 @@ These problems include :
 \caption{Explore data statistics} 
 \label{fig:data_statistics}
 \end{figure}
-
-\subsection{Initial Dataset Overview}
-The initial dataset comprised 3,800,000 products. After preprocessing and cleaning, the dataset was reduced to 2,225,014 products.
-This refinement process ensured that all entries had complete textual descriptions, contained non-null and plausible nutritional values, and featured homogenized units to guarantee consistency across the entire dataset.
-
-\subsection{Identification of Data Quality Issues}
-The collaborative nature of Open Food Facts introduces several data quality challenges that must be addressed before model training.
 
 \subsection{Handling Missing Data}
 To address the challenge of missing data, we adopt a selective retention. Features with high missingness, such as energy-kJ  (missing >86 \%) and fiber (missing >52 \%), are excluded in order to preserve data integrity and avoid imputation bias. 
@@ -235,9 +257,17 @@ The deployment architecture ensures low-latency predictions and supports both lo
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.98\textwidth]{images/Nutri-pred_Huggingface.png}
-    \caption{Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces.}
+    \caption{Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces}
     \label{fig:gradio-ui}
 \end{figure}
 
 \section{Conclusion}
-In summary, the Nutri-pred-v1 model represents a significant advancement in predicting nutritional values, leveraging state-of-the-art machine learning techniques and a robust dataset from Open Food Facts. The model's architecture, based on K-Nearest Neighbors, was selected for its superior performance in minimizing prediction errors, as evidenced by its low Mean Absolute Error (MAE) of 18.36. This accuracy is crucial for applications in nutritional analysis, where precise data is essential for informed decision-making.
+\par In summary, the Nutri-pred-v1 model represents a significant advancement in our project to predict nutritional values when they are missing
+from product descriptions. The KNN algorithm was selected to train
+our model for its superior performance in minimizing prediction errors.
+This accuracy is crucial for applications in nutritional analysis such as
+VitamiNurse, where precise data is essential for informed decision-making.
+\par This model is integrated into the data processing pipeline to impute
+missing nutritional information. It ensures complete and reliable product
+records, which are essential for product evaluation and the recommenda-
+tion system described in the following chapter.
