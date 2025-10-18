@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  17 OCT 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  18 OCT 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,6 +349,16 @@ LaTeX Info: Redefining \_ on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen155
+\TX@old@table=\dimen156
+\TX@old@col=\dimen157
+\TX@target=\dimen158
+\TX@delta=\dimen159
+\TX@cols=\count279
+\TX@ftn=\toks23
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip63
@@ -359,51 +369,51 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen155
+\@emptytoks=\toks24
+\ex@=\dimen160
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen156
+\pmbraise@=\dimen161
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count279
+\inf@bad=\count280
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count280
-\leftroot@=\count281
+\uproot@=\count281
+\leftroot@=\count282
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count282
-\DOTSCASE@=\count283
+\classnum@=\count283
+\DOTSCASE@=\count284
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box53
 \strutbox@=\box54
-\big@size=\dimen157
+\big@size=\dimen162
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count284
-\c@MaxMatrixCols=\count285
+\macc@depth=\count285
+\c@MaxMatrixCols=\count286
 \dotsspace@=\muskip17
-\c@parentequation=\count286
-\dspbrk@lvl=\count287
-\tag@help=\toks24
-\row@=\count288
-\column@=\count289
-\maxfields@=\count290
-\andhelp@=\toks25
-\eqnshift@=\dimen158
-\alignsep@=\dimen159
-\tagshift@=\dimen160
-\tagwidth@=\dimen161
-\totwidth@=\dimen162
-\lineht@=\dimen163
-\@envbody=\toks26
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks25
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks26
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks27
 \multlinegap=\skip64
 \multlinetaggap=\skip65
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
@@ -424,32 +434,32 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen164
+\l__siunitx_angle_tmp_dim=\dimen169
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count291
+\l__siunitx_compound_count_int=\count292
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count292
-\l__siunitx_number_min_decimal_int=\count293
-\l__siunitx_number_min_integer_int=\count294
-\l__siunitx_number_round_precision_int=\count295
-\l__siunitx_number_group_minimum_int=\count296
+\l__siunitx_number_exponent_fixed_int=\count293
+\l__siunitx_number_min_decimal_int=\count294
+\l__siunitx_number_min_integer_int=\count295
+\l__siunitx_number_round_precision_int=\count296
+\l__siunitx_number_group_minimum_int=\count297
 \l__siunitx_table_tmp_box=\box57
-\l__siunitx_table_tmp_dim=\dimen165
-\l__siunitx_table_column_width_dim=\dimen166
+\l__siunitx_table_tmp_dim=\dimen170
+\l__siunitx_table_column_width_dim=\dimen171
 \l__siunitx_table_integer_box=\box58
 \l__siunitx_table_decimal_box=\box59
 \l__siunitx_table_before_box=\box60
 \l__siunitx_table_after_box=\box61
-\l__siunitx_table_before_dim=\dimen167
-\l__siunitx_table_carry_dim=\dimen168
-\l__siunitx_unit_tmp_int=\count297
-\l__siunitx_unit_position_int=\count298
-\l__siunitx_unit_total_int=\count299
+\l__siunitx_table_before_dim=\dimen172
+\l__siunitx_table_carry_dim=\dimen173
+\l__siunitx_unit_tmp_int=\count298
+\l__siunitx_unit_position_int=\count299
+\l__siunitx_unit_total_int=\count300
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -457,7 +467,7 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
+\l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box62
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
@@ -476,15 +486,15 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count301
-\float@exts=\toks28
+\c@float@type=\count302
+\float@exts=\toks29
 \float@box=\box63
-\@float@everytoks=\toks29
+\@float@everytoks=\toks30
 \@floatcapt=\box64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -492,39 +502,39 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen171
-\captionmargin@=\dimen172
-\captionwidth=\dimen173
-\caption@tempdima=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\captionmargin=\dimen176
+\captionmargin@=\dimen177
+\captionwidth=\dimen178
+\caption@tempdima=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count302
-\c@continuedfloat=\count303
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen178
-\lightrulewidth=\dimen179
-\cmidrulewidth=\dimen180
-\belowrulesep=\dimen181
-\belowbottomsep=\dimen182
-\aboverulesep=\dimen183
-\abovetopsep=\dimen184
-\cmidrulesep=\dimen185
-\cmidrulekern=\dimen186
-\defaultaddspace=\dimen187
-\@cmidla=\count304
-\@cmidlb=\count305
-\@aboverulesep=\dimen188
-\@belowrulesep=\dimen189
-\@thisruleclass=\count306
-\@lastruleclass=\count307
-\@thisrulewidth=\dimen190
+\heavyrulewidth=\dimen183
+\lightrulewidth=\dimen184
+\cmidrulewidth=\dimen185
+\belowrulesep=\dimen186
+\belowbottomsep=\dimen187
+\aboverulesep=\dimen188
+\abovetopsep=\dimen189
+\cmidrulesep=\dimen190
+\cmidrulekern=\dimen191
+\defaultaddspace=\dimen192
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen193
+\@belowrulesep=\dimen194
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen195
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
@@ -532,36 +542,36 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count308
-\LTcapwidth=\dimen191
+\LTchunksize=\count309
+\LTcapwidth=\dimen196
 \LT@head=\box65
 \LT@firsthead=\box66
 \LT@foot=\box67
 \LT@lastfoot=\box68
 \LT@gbox=\box69
-\LT@cols=\count309
-\LT@rows=\count310
-\c@LT@tables=\count311
-\c@LT@chunks=\count312
-\LT@p@ftn=\toks30
+\LT@cols=\count310
+\LT@rows=\count311
+\c@LT@tables=\count312
+\c@LT@chunks=\count313
+\LT@p@ftn=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen192
-\c@nlinenum=\count313
-\TeXr@lab=\toks31
+\rotheadsize=\dimen197
+\c@nlinenum=\count314
+\TeXr@lab=\toks32
 )
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks32
-\SOUL@lasttoken=\toks33
-\SOUL@cmds=\toks34
-\SOUL@buffer=\toks35
-\SOUL@token=\toks36
+\SOUL@word=\toks33
+\SOUL@lasttoken=\toks34
+\SOUL@cmds=\toks35
+\SOUL@buffer=\toks36
+\SOUL@token=\toks37
 \SOUL@spaceskip=\skip70
-\SOUL@ttwidth=\dimen193
-\SOUL@uldp=\dimen194
-\SOUL@ulht=\dimen195
+\SOUL@ttwidth=\dimen198
+\SOUL@uldp=\dimen199
+\SOUL@ulht=\dimen256
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
@@ -570,36 +580,36 @@ nment
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks37
-\c@algorithm=\count314
+\@float@every@algorithm=\toks38
+\c@algorithm=\count315
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count315
-\c@ALC@line=\count316
-\c@ALC@rem=\count317
-\c@ALC@depth=\count318
+\c@ALC@unique=\count316
+\c@ALC@line=\count317
+\c@ALC@rem=\count318
+\c@ALC@depth=\count319
 \ALC@tlm=\skip71
 \algorithmicindent=\skip72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count319
+\lst@mode=\count320
 \lst@gtempboxa=\box70
-\lst@token=\toks38
-\lst@length=\count320
-\lst@currlwidth=\dimen196
-\lst@column=\count321
-\lst@pos=\count322
-\lst@lostspace=\dimen197
-\lst@width=\dimen198
-\lst@newlines=\count323
-\lst@lineno=\count324
-\lst@maxwidth=\dimen199
+\lst@token=\toks39
+\lst@length=\count321
+\lst@currlwidth=\dimen257
+\lst@column=\count322
+\lst@pos=\count323
+\lst@lostspace=\dimen258
+\lst@width=\dimen259
+\lst@newlines=\count324
+\lst@lineno=\count325
+\lst@maxwidth=\dimen260
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count325
-\lst@skipnumbers=\count326
+\c@lstnumber=\count326
+\lst@skipnumbers=\count327
 \lst@framebox=\box71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -615,25 +625,25 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count327
-\decimalpart=\count328
+\integerpart=\count328
+\decimalpart=\count329
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-\AC@clearlist=\toks39
+\AC@clearlist=\toks40
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip73
-\enit@outerparindent=\dimen256
-\enit@toks=\toks40
+\enit@outerparindent=\dimen261
+\enit@toks=\toks41
 \enit@inbox=\box72
-\enit@count@id=\count329
-\enitdp@description=\count330
+\enit@count@id=\count330
+\enitdp@description=\count331
 )
 (/usr/share/texlive/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
-\c@dirtytalk@qdepth=\count331
+\c@dirtytalk@qdepth=\count332
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2020/09/26 v1.10
@@ -641,20 +651,20 @@ Package: textpos 2020/09/26 v1.10
 Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
 Package textpos Info: choosing support for LaTeX3 on input line 61.
 \TP@textbox=\box73
-\TPHorizModule=\dimen257
-\TPVertModule=\dimen258
-\TP@margin=\dimen259
-\TP@absmargin=\dimen260
+\TPHorizModule=\dimen262
+\TPVertModule=\dimen263
+\TP@margin=\dimen264
+\TP@absmargin=\dimen265
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen261
-\TP@tbargs=\toks41
+\TPboxrulesize=\dimen266
+\TP@tbargs=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks42
-\pgfutil@tempdima=\dimen262
-\pgfutil@tempdimb=\dimen263
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen267
+\pgfutil@tempdimb=\dimen268
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -671,33 +681,33 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks43
-\pgfkeys@temptoks=\toks44
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks45
+\pgfkeys@tmptoks=\toks46
 ))
-\pgf@x=\dimen264
-\pgf@y=\dimen265
-\pgf@xa=\dimen266
-\pgf@ya=\dimen267
-\pgf@xb=\dimen268
-\pgf@yb=\dimen269
-\pgf@xc=\dimen270
-\pgf@yc=\dimen271
-\pgf@xd=\dimen272
-\pgf@yd=\dimen273
+\pgf@x=\dimen269
+\pgf@y=\dimen270
+\pgf@xa=\dimen271
+\pgf@ya=\dimen272
+\pgf@xb=\dimen273
+\pgf@yb=\dimen274
+\pgf@xc=\dimen275
+\pgf@yc=\dimen276
+\pgf@xd=\dimen277
+\pgf@yd=\dimen278
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count332
-\c@pgf@countb=\count333
-\c@pgf@countc=\count334
-\c@pgf@countd=\count335
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
-\pgf@sys@id@count=\count336
+\c@pgf@counta=\count333
+\c@pgf@countb=\count334
+\c@pgf@countc=\count335
+\c@pgf@countd=\count336
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count337
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -713,8 +723,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count337
-\pgfsyssoftpath@bigbuffer@items=\count338
+\pgfsyssoftpath@smallbuffer@items=\count338
+\pgfsyssoftpath@bigbuffer@items=\count339
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -727,12 +737,12 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen274
-\pgfmath@count=\count339
+\pgfmath@dimen=\dimen279
+\pgfmath@count=\count340
 \pgfmath@box=\box75
-\pgfmath@toks=\toks49
-\pgfmath@stack@operand=\toks50
-\pgfmath@stack@operation=\toks51
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -752,38 +762,38 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count340
+\c@pgfmathroundto@lastzeros=\count341
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen275
-\pgf@picmaxx=\dimen276
-\pgf@picminy=\dimen277
-\pgf@picmaxy=\dimen278
-\pgf@pathminx=\dimen279
-\pgf@pathmaxx=\dimen280
-\pgf@pathminy=\dimen281
-\pgf@pathmaxy=\dimen282
-\pgf@xx=\dimen283
-\pgf@xy=\dimen284
-\pgf@yx=\dimen285
-\pgf@yy=\dimen286
-\pgf@zx=\dimen287
-\pgf@zy=\dimen288
+\pgf@picminx=\dimen280
+\pgf@picmaxx=\dimen281
+\pgf@picminy=\dimen282
+\pgf@picmaxy=\dimen283
+\pgf@pathminx=\dimen284
+\pgf@pathmaxx=\dimen285
+\pgf@pathminy=\dimen286
+\pgf@pathmaxy=\dimen287
+\pgf@xx=\dimen288
+\pgf@xy=\dimen289
+\pgf@yx=\dimen290
+\pgf@yy=\dimen291
+\pgf@zx=\dimen292
+\pgf@zy=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen289
-\pgf@path@lasty=\dimen290
+\pgf@path@lastx=\dimen294
+\pgf@path@lasty=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen291
-\pgf@shorten@start@additional=\dimen292
+\pgf@shorten@end@additional=\dimen296
+\pgf@shorten@start@additional=\dimen297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -791,19 +801,19 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box76
 \pgf@hbox=\box77
 \pgf@layerbox@main=\box78
-\pgf@picture@serial@count=\count341
+\pgf@picture@serial@count=\count342
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen293
+\pgflinewidth=\dimen298
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen294
-\pgf@pt@y=\dimen295
-\pgf@pt@temp=\dimen296
+\pgf@pt@x=\dimen299
+\pgf@pt@y=\dimen300
+\pgf@pt@temp=\dimen301
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -819,13 +829,13 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen297
+\pgfarrowsep=\dimen302
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen298
-\pgf@sys@shading@range@num=\count342
-\pgf@shadingcount=\count343
+\pgf@max=\dimen303
+\pgf@sys@shading@range@num=\count343
+\pgf@shadingcount=\count344
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -859,8 +869,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen299
-\pgf@nodesepend=\dimen300
+\pgf@nodesepstart=\dimen304
+\pgf@nodesepend=\dimen305
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -874,10 +884,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen301
-\pgffor@skip=\dimen302
-\pgffor@stack=\toks52
-\pgffor@toks=\toks53
+\pgffor@iter=\dimen306
+\pgffor@skip=\dimen307
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -885,33 +895,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count344
-\pgfplotmarksize=\dimen303
+\pgf@plot@mark@count=\count345
+\pgfplotmarksize=\dimen308
 )
-\tikz@lastx=\dimen304
-\tikz@lasty=\dimen305
-\tikz@lastxsaved=\dimen306
-\tikz@lastysaved=\dimen307
-\tikz@lastmovetox=\dimen308
-\tikz@lastmovetoy=\dimen309
-\tikzleveldistance=\dimen310
-\tikzsiblingdistance=\dimen311
+\tikz@lastx=\dimen309
+\tikz@lasty=\dimen310
+\tikz@lastxsaved=\dimen311
+\tikz@lastysaved=\dimen312
+\tikz@lastmovetox=\dimen313
+\tikz@lastmovetoy=\dimen314
+\tikzleveldistance=\dimen315
+\tikzsiblingdistance=\dimen316
 \tikz@figbox=\box81
 \tikz@figbox@bg=\box82
 \tikz@tempbox=\box83
 \tikz@tempbox@bg=\box84
-\tikztreelevel=\count345
-\tikznumberofchildren=\count346
-\tikznumberofcurrentchild=\count347
-\tikz@fig@count=\count348
+\tikztreelevel=\count346
+\tikznumberofchildren=\count347
+\tikznumberofcurrentchild=\count348
+\tikz@fig@count=\count349
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count349
-\pgfmatrixcurrentcolumn=\count350
-\pgf@matrix@numberofcolumns=\count351
+\pgfmatrixcurrentrow=\count350
+\pgfmatrixcurrentcolumn=\count351
+\pgf@matrix@numberofcolumns=\count352
 )
-\tikz@expandcount=\count352
+\tikz@expandcount=\count353
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -922,47 +932,47 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box85
 \beforetitleunit=\skip74
 \aftertitleunit=\skip75
-\ttl@plus=\dimen312
-\ttl@minus=\dimen313
-\ttl@toksa=\toks54
-\titlewidth=\dimen314
-\titlewidthlast=\dimen315
-\titlewidthfirst=\dimen316
+\ttl@plus=\dimen317
+\ttl@minus=\dimen318
+\ttl@toksa=\toks55
+\titlewidth=\dimen319
+\titlewidthlast=\dimen320
+\titlewidthfirst=\dimen321
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count353
-\calc@Bcount=\count354
-\calc@Adimen=\dimen317
-\calc@Bdimen=\dimen318
+\calc@Acount=\count354
+\calc@Bcount=\count355
+\calc@Adimen=\dimen322
+\calc@Bdimen=\dimen323
 \calc@Askip=\skip76
 \calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count355
+\calc@Ccount=\count356
 \calc@Cskip=\skip78
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen319
-\ESO@tempdimb=\dimen320
+\ESO@tempdima=\dimen324
+\ESO@tempdimb=\dimen325
 )
-\AM@pagewidth=\dimen321
-\AM@pageheight=\dimen322
-\AM@fboxrule=\dimen323
+\AM@pagewidth=\dimen326
+\AM@pageheight=\dimen327
+\AM@fboxrule=\dimen328
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count356
+\pdfpages@includegraphics@status=\count357
 \AM@pagebox=\box86
-\AM@global@opts=\toks55
-\AM@pagecnt=\count357
-\AM@toc@title=\toks56
-\c@AM@survey=\count358
+\AM@global@opts=\toks56
+\AM@pagecnt=\count358
+\AM@toc@title=\toks57
+\c@AM@survey=\count359
 \AM@templatesizebox=\box87
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
@@ -970,10 +980,10 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip79
 \bibsep=\skip80
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count359
+\c@NAT@ctr=\count360
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 72.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 74
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -985,37 +995,37 @@ LaTeX Warning: Label `fig:natilait_screenshots' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count360
-\scratchdimen=\dimen324
+\scratchcounter=\count361
+\scratchdimen=\dimen329
 \scratchbox=\box88
-\nofMPsegments=\count361
-\nofMParguments=\count362
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count363
-\MPscratchDim=\dimen325
-\MPnumerator=\count364
-\makeMPintoPDFobject=\count365
-\everyMPtoPDFconversion=\toks58
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen330
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1033,13 +1043,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 74.
-Package microtype Info: Applying patch `item' on input line 74.
-Package microtype Info: Applying patch `toc' on input line 74.
-Package microtype Info: Applying patch `eqnum' on input line 74.
+LaTeX Info: Redefining \microtypecontext on input line 75.
+Package microtype Info: Applying patch `item' on input line 75.
+Package microtype Info: Applying patch `toc' on input line 75.
+Package microtype Info: Applying patch `eqnum' on input line 75.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 74.
+Package microtype Warning: Unable to apply patch `footnote' on input line 75.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1047,7 +1057,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 74.
+LaTeX Info: Redefining \showhyphens on input line 75.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1089,7 +1099,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 74.
+Package hyperref Info: Link coloring ON on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1099,11 +1109,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count366
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1116,7 +1126,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 74.
+or `english'. on input line 75.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1125,7 +1135,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count367
+\c@lstlisting=\count368
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1151,36 +1161,36 @@ File: images/ISIM_logo.png Graphic file (type png)
 Package pdftex.def Info: images/ISIM_logo.png  used on input line 18.
 (pdftex.def)             Requested size: 58.4558pt x 56.9055pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-3.
+2.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-3.
+2.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-63.
+62.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-63.
+62.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 63.
+(Font)              <12> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 63.
+(Font)              <8> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+(Font)              <6> on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1189,7 +1199,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1198,7 +1208,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 63
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1207,7 +1217,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/bg-wave.png> <./i
 mages/UM_logo.png> <./images/ISIM_logo.png>]) (./signatures.tex
-<images/sig.png, id=610, 329.73187pt x 171.64125pt>
+<images/sig.png, id=611, 329.73187pt x 171.64125pt>
 File: images/sig.png Graphic file (type png)
 <use images/sig.png>
 Package pdftex.def Info: images/sig.png  used on input line 8.
@@ -1225,21 +1235,23 @@ l.1 \newpage
 
  <./images/sig.png>]) [2] (./Acknowledgment.tex) (./Abstract.tex [3
 
-]) [4
+] [4
 
-] (./main.toc [5
+]) [5
 
-] [6] [7])
+] (./main.toc [6
+
+] [7] [8])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [8] (./main.lof [9
+ [9] (./main.lof [10
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [10] (./main.lot
+ [11] (./main.lot
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 .
 
@@ -1254,14 +1266,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [11
+ [12
 
 ] (./Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) (./Chapter1.tex [12
+) (./Chapter1.tex [13
 
 ]
 Chapter 1.
@@ -1275,433 +1287,139 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
-<images/ONRTECH_logo.jpeg, id=948, 401.5pt x 401.5pt>
+<images/ONRTECH_logo.jpeg, id=957, 401.5pt x 401.5pt>
 File: images/ONRTECH_logo.jpeg Graphic file (type jpg)
 <use images/ONRTECH_logo.jpeg>
-Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 14.
-(pdftex.def)             Requested size: 132.30666pt x 132.30548pt.
-[13
+Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 19.
+(pdftex.def)             Requested size: 66.14996pt x 66.1466pt.
+[14
 
-]
-<images/VN_app_logo.png, id=957, 224.84pt x 129.48375pt>
+ <./images/ONRTECH_logo.jpeg>]
+<images/VN_app_logo.png, id=967, 224.84pt x 129.48375pt>
 File: images/VN_app_logo.png Graphic file (type png)
 <use images/VN_app_logo.png>
-Package pdftex.def Info: images/VN_app_logo.png  used on input line 33.
+Package pdftex.def Info: images/VN_app_logo.png  used on input line 37.
 (pdftex.def)             Requested size: 123.66237pt x 71.21626pt.
- [14 <./images/ONRTECH_logo.jpeg>] [15 <./images/VN_app_logo.png>]
-<images/yuka_evaluation.png, id=971, 1204.5pt x 711.65875pt>
+ [15 <./images/VN_app_logo.png>]
+<images/yuka_evaluation.png, id=976, 1204.5pt x 711.65875pt>
 File: images/yuka_evaluation.png Graphic file (type png)
 <use images/yuka_evaluation.png>
-Package pdftex.def Info: images/yuka_evaluation.png  used on input line 53.
-(pdftex.def)             Requested size: 397.48624pt x 234.84811pt.
-<images/OFF-00.png, id=974, 426.59375pt x 770.88pt>
+Package pdftex.def Info: images/yuka_evaluation.png  used on input line 61.
+(pdftex.def)             Requested size: 373.39114pt x 220.61192pt.
+<images/OFF-00.png, id=979, 426.59375pt x 770.88pt>
 File: images/OFF-00.png Graphic file (type png)
 <use images/OFF-00.png>
-Package pdftex.def Info: images/OFF-00.png  used on input line 67.
+Package pdftex.def Info: images/OFF-00.png  used on input line 85.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-01.png, id=975, 426.59375pt x 770.88pt>
+<images/OFF-01.png, id=980, 426.59375pt x 770.88pt>
 File: images/OFF-01.png Graphic file (type png)
 <use images/OFF-01.png>
-Package pdftex.def Info: images/OFF-01.png  used on input line 68.
+Package pdftex.def Info: images/OFF-01.png  used on input line 86.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-02.png, id=976, 426.59375pt x 770.88pt>
+<images/OFF-02.png, id=981, 426.59375pt x 770.88pt>
 File: images/OFF-02.png Graphic file (type png)
 <use images/OFF-02.png>
-Package pdftex.def Info: images/OFF-02.png  used on input line 69.
+Package pdftex.def Info: images/OFF-02.png  used on input line 87.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
-<images/OFF-03.png, id=977, 426.59375pt x 770.88pt>
+<images/OFF-03.png, id=982, 426.59375pt x 770.88pt>
 File: images/OFF-03.png Graphic file (type png)
 <use images/OFF-03.png>
-Package pdftex.def Info: images/OFF-03.png  used on input line 70.
+Package pdftex.def Info: images/OFF-03.png  used on input line 88.
 (pdftex.def)             Requested size: 97.02443pt x 175.32254pt.
  [16 <./images/yuka_evaluation.png>]
-
-LaTeX Warning: File `images/quelproduit.jpg' not found on input line 81.
-
-
-! Package pdftex.def Error: File `images/quelproduit.jpg' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...aphics[scale=0.33]{images/quelproduit.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+<images/quelproduit.jpg, id=994, 1525.7pt x 1003.75pt>
+File: images/quelproduit.jpg Graphic file (type jpg)
+<use images/quelproduit.jpg>
+Package pdftex.def Info: images/quelproduit.jpg  used on input line 100.
+(pdftex.def)             Requested size: 320.40646pt x 210.79372pt.
+ [17 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./image
+s/OFF-03.png> <./images/quelproduit.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 [][][][]$\T1/lmtt/m/n/10 https : / / play . google . com / store / apps / detai
 ls ? id = com . bytes _ and _ pixels . food _ buddy &
  []
 
-[17 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF-02.png> <./images
-/OFF-03.png>]
-<images/yuka_negative_review.png, id=1002, 784.9325pt x 597.23125pt>
-File: images/yuka_negative_review.png Graphic file (type png)
-<use images/yuka_negative_review.png>
-Package pdftex.def Info: images/yuka_negative_review.png  used on input line 10
-4.
-(pdftex.def)             Requested size: 353.21635pt x 268.75157pt.
+<images/food_check.png, id=1010, 773.89125pt x 440.64626pt>
+File: images/food_check.png Graphic file (type png)
+<use images/food_check.png>
+Package pdftex.def Info: images/food_check.png  used on input line 116.
+(pdftex.def)             Requested size: 270.866pt x 154.22849pt.
+[18 <./images/food_check.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|\T1/lmr/bx/n/10.95 (+20) Open Food
+ []
 
 
-! LaTeX Error: Environment tabularx undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 \begin{tabularx}
-                      {\textwidth}{|l|X|X|X|X|}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.116 \begin{tabularx}{\textwidth}
-                                  {|l|X|X|X|X|}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.116 \begin{tabularx}{\textwidth}
-                                  {|l|X|X|X|X|}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.117 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.118 \textbf{Feature} &
-                         \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.118 \textbf{Feature} & \textbf{Yuka} &
-                                         \textbf{Open Food Facts} & \textbf{...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.118 ...textbf{Yuka} & \textbf{Open Food Facts} &
-                                                   \textbf{QuelProduit} & \t...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.118 ...Open Food Facts} & \textbf{QuelProduit} &
-                                                   \textbf{NutriSmart} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.119 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.120 Database Update Frequency &
-                                  Not frequent & Varies (User-driven) & Info...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.120 Database Update Frequency & Not frequent &
-                                                 Varies (User-driven) & Info...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.120 ...y & Not frequent & Varies (User-driven) &
-                                                   Information Missing & Inf...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.120 ...ies (User-driven) & Information Missing &
-                                                   Information Missing \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.121 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.122 Recommendation System &
-                              Absent & Absent & Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.122 Recommendation System & Absent &
-                                       Absent & Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.122 Recommendation System & Absent & Absent &
-                                                Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.122 ...ation System & Absent & Absent & Absent &
-                                                   Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.123 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.124 AI Assistant / Interaction &
-                                   Absent & Absent & Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.124 AI Assistant / Interaction & Absent &
-                                            Absent & Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.124 ...sistant / Interaction & Absent & Absent &
-                                                   Absent & Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.124 ... Interaction & Absent & Absent & Absent &
-                                                   Exist \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.125 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.126 Core Function &
-                      Product Scanning & Open Database & Product Scanning & ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.126 Core Function & Product Scanning &
-                                         Open Database & Product Scanning & ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.126 ...tion & Product Scanning & Open Database &
-                                                   Product Scanning & Person...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.126 ...ning & Open Database & Product Scanning &
-                                                   Personalized Routines \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.127 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-! LaTeX Error: \begin{table} on input line 112 ended by \end{tabularx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 \end{tabularx}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[18 <./images/yuka_negative_review.png>] [19]
-
-Package natbib Warning: Citation `scrum2025' on page 20 undefined on input line
- 166.
-
-
-Package natbib Warning: Citation `schwaber2004agile' on page 20 undefined on in
-put line 170.
-
-
-Package natbib Warning: Citation `anderson2010kanban' on page 20 undefined on i
-nput line 184.
-
-[20]
-
-Package natbib Warning: Citation `beck2000extreme' on page 21 undefined on inpu
-t line 188.
-
-<images/scrumban.jpg, id=1021, 853.1875pt x 431.6125pt>
-File: images/scrumban.jpg Graphic file (type jpg)
-<use images/scrumban.jpg>
-Package pdftex.def Info: images/scrumban.jpg  used on input line 199.
-(pdftex.def)             Requested size: 375.40366pt x 189.91008pt.
-[21 <./images/scrumban.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-12.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<images/kanbanBoard.png, id=1026, 1285.80376pt x 620.3175pt>
-File: images/kanbanBoard.png Graphic file (type png)
-<use images/kanbanBoard.png>
-Package pdftex.def Info: images/kanbanBoard.png  used on input line 225.
-(pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
-
-Overfull \hbox (47.59277pt too wide) in paragraph at lines 225--226
+Overfull \hbox (66.14996pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
-[22 <./images/kanbanBoard.png>]
-<images/CRISP.png, id=1033, 446.50815pt x 447.3513pt>
+<images/new_version_VN.png, id=1021, 1102.1175pt x 540.0175pt>
+File: images/new_version_VN.png Graphic file (type png)
+<use images/new_version_VN.png>
+Package pdftex.def Info: images/new_version_VN.png  used on input line 186.
+(pdftex.def)             Requested size: 385.7469pt x 189.00896pt.
+[19 <./images/new_version_VN.png>]
+
+Package natbib Warning: Citation `scrum2025' on page 20 undefined on input line
+ 244.
+
+[20]
+
+Package natbib Warning: Citation `schwaber2004agile' on page 21 undefined on in
+put line 248.
+
+
+Package natbib Warning: Citation `anderson2010kanban' on page 21 undefined on i
+nput line 262.
+
+
+Package natbib Warning: Citation `beck2000extreme' on page 21 undefined on inpu
+t line 266.
+
+<images/scrumban.jpg, id=1032, 853.1875pt x 431.6125pt>
+File: images/scrumban.jpg Graphic file (type jpg)
+<use images/scrumban.jpg>
+Package pdftex.def Info: images/scrumban.jpg  used on input line 278.
+(pdftex.def)             Requested size: 375.40366pt x 189.91008pt.
+[21]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+88.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<images/kanbanBoard.png, id=1041, 1285.80376pt x 620.3175pt>
+File: images/kanbanBoard.png Graphic file (type png)
+<use images/kanbanBoard.png>
+Package pdftex.def Info: images/kanbanBoard.png  used on input line 301.
+(pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
+
+Overfull \hbox (47.59277pt too wide) in paragraph at lines 301--302
+ [][] 
+ []
+
+[22 <./images/scrumban.jpg>]
+<images/CRISP.png, id=1047, 446.50815pt x 447.3513pt>
 File: images/CRISP.png Graphic file (type png)
 <use images/CRISP.png>
-Package pdftex.def Info: images/CRISP.png  used on input line 243.
+Package pdftex.def Info: images/CRISP.png  used on input line 318.
 (pdftex.def)             Requested size: 196.46419pt x 196.83517pt.
-) (./Chapter2.tex [23 <./images/CRISP.png>]
+ [23 <./images/kanbanBoard.png> <./images/CRISP.png>]) (./Chapter2.tex [24]
 Chapter 2.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-[24
+[25
 
 ]
-<images/conad_italy_data.png, id=1043, 1047.915pt x 689.57625pt>
+<images/conad_italy_data.png, id=1062, 1047.915pt x 689.57625pt>
 File: images/conad_italy_data.png Graphic file (type png)
 <use images/conad_italy_data.png>
 Package pdftex.def Info: images/conad_italy_data.png  used on input line 42.
 (pdftex.def)             Requested size: 408.6852pt x 268.93365pt.
- [25]
-<images/duplication_remove.png, id=1048, 1285.80376pt x 501.875pt>
+ [26]
+<images/duplication_remove.png, id=1067, 1285.80376pt x 501.875pt>
 File: images/duplication_remove.png Graphic file (type png)
 <use images/duplication_remove.png>
 Package pdftex.def Info: images/duplication_remove.png  used on input line 58.
@@ -1711,47 +1429,47 @@ Overfull \hbox (9.02032pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
-[26 <./images/conad_italy_data.png>]
-<images/nutrition.png, id=1054, 352.31625pt x 154.5775pt>
+[27 <./images/conad_italy_data.png>]
+<images/nutrition.png, id=1073, 352.31625pt x 154.5775pt>
 File: images/nutrition.png Graphic file (type png)
 <use images/nutrition.png>
 Package pdftex.def Info: images/nutrition.png  used on input line 70.
 (pdftex.def)             Requested size: 232.52943pt x 102.02144pt.
-<images/transform_nutrition.png, id=1055, 741.77126pt x 462.72874pt>
+<images/transform_nutrition.png, id=1074, 741.77126pt x 462.72874pt>
 File: images/transform_nutrition.png Graphic file (type png)
 <use images/transform_nutrition.png>
 Package pdftex.def Info: images/transform_nutrition.png  used on input line 80.
 
 (pdftex.def)             Requested size: 244.78528pt x 152.70096pt.
- [27 <./images/duplication_remove.png> <./images/nutrition.png>]
-<images/nutrition_utils.png, id=1062, 1122.1925pt x 606.265pt>
+ [28 <./images/duplication_remove.png> <./images/nutrition.png>]
+<images/nutrition_utils.png, id=1081, 1122.1925pt x 606.265pt>
 File: images/nutrition_utils.png Graphic file (type png)
 <use images/nutrition_utils.png>
 Package pdftex.def Info: images/nutrition_utils.png  used on input line 93.
 (pdftex.def)             Requested size: 392.77327pt x 212.19592pt.
 
 
-Package natbib Warning: Citation `egnell2022impact' on page 28 undefined on inp
+Package natbib Warning: Citation `egnell2022impact' on page 29 undefined on inp
 ut line 109.
 
-[28 <./images/transform_nutrition.png> <./images/nutrition_utils.png>]
-<images/load_data.png, id=1070, 1154.3125pt x 729.72626pt>
+[29 <./images/transform_nutrition.png> <./images/nutrition_utils.png>]
+<images/load_data.png, id=1089, 1154.3125pt x 729.72626pt>
 File: images/load_data.png Graphic file (type png)
 <use images/load_data.png>
 Package pdftex.def Info: images/load_data.png  used on input line 133.
 (pdftex.def)             Requested size: 404.01543pt x 255.40802pt.
- [29 <./images/load_data.png>]
-<images/workflow__data.png, id=1076, 1105.12875pt x 502.87875pt>
+ [30 <./images/load_data.png>]
+<images/workflow__data.png, id=1096, 1105.12875pt x 502.87875pt>
 File: images/workflow__data.png Graphic file (type png)
 <use images/workflow__data.png>
 Package pdftex.def Info: images/workflow__data.png  used on input line 144.
 (pdftex.def)             Requested size: 386.80086pt x 176.0102pt.
- [30 <./images/workflow__data.png>]
+ [31 <./images/workflow__data.png>]
 
-LaTeX Warning: Reference `fig:get products links' on page 31 undefined on input
+LaTeX Warning: Reference `fig:get products links' on page 32 undefined on input
  line 188.
 
-<images/get_products_links.png, id=1084, 1106.1325pt x 689.57625pt>
+<images/get_products_links.png, id=1103, 1106.1325pt x 689.57625pt>
 File: images/get_products_links.png Graphic file (type png)
 <use images/get_products_links.png>
 Package pdftex.def Info: images/get_products_links.png  used on input line 191.
@@ -1762,21 +1480,21 @@ Overfull \hbox (23.55475pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
-[31]
-<images/all_data_scanner.png, id=1090, 830.10126pt x 357.335pt>
+[32]
+<images/all_data_scanner.png, id=1109, 830.10126pt x 357.335pt>
 File: images/all_data_scanner.png Graphic file (type png)
 <use images/all_data_scanner.png>
 Package pdftex.def Info: images/all_data_scanner.png  used on input line 202.
 (pdftex.def)             Requested size: 348.64015pt x 150.07967pt.
- [32 <./images/get_products_links.png> <./images/all_data_scanner.png>]
-<images/load_dataset.png, id=1097, 959.585pt x 428.60126pt>
+ [33 <./images/get_products_links.png> <./images/all_data_scanner.png>]
+<images/load_dataset.png, id=1117, 959.585pt x 428.60126pt>
 File: images/load_dataset.png Graphic file (type png)
 <use images/load_dataset.png>
 Package pdftex.def Info: images/load_dataset.png  used on input line 223.
 (pdftex.def)             Requested size: 422.2187pt x 188.58513pt.
 
-[33 <./images/load_dataset.png>]
-<images/statistics.png, id=1103, 951.555pt x 305.14pt>
+[34 <./images/load_dataset.png>]
+<images/statistics.png, id=1123, 951.555pt x 305.14pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
 Package pdftex.def Info: images/statistics.png  used on input line 241.
@@ -1787,26 +1505,26 @@ Overfull \hbox (82.33914pt too wide) in paragraph at lines 241--242
  []
 
 
-Package natbib Warning: Citation `guyon2003' on page 34 undefined on input line
+Package natbib Warning: Citation `guyon2003' on page 35 undefined on input line
  251.
 
-<images/correlation_matrix.png, id=1104, 920.43875pt x 742.775pt>
+<images/correlation_matrix.png, id=1124, 920.43875pt x 742.775pt>
 File: images/correlation_matrix.png Graphic file (type png)
 <use images/correlation_matrix.png>
 Package pdftex.def Info: images/correlation_matrix.png  used on input line 260.
 
 (pdftex.def)             Requested size: 396.91325pt x 320.30505pt.
-[34 <./images/statistics.png>]
+[35 <./images/statistics.png>]
 
-Package natbib Warning: Citation `stoian2020machine' on page 35 undefined on in
+Package natbib Warning: Citation `stoian2020machine' on page 36 undefined on in
 put line 270.
 
-<images/missing_values.png, id=1112, 987.69pt x 516.93124pt>
+<images/missing_values.png, id=1131, 987.69pt x 516.93124pt>
 File: images/missing_values.png Graphic file (type png)
 <use images/missing_values.png>
 Package pdftex.def Info: images/missing_values.png  used on input line 278.
 (pdftex.def)             Requested size: 345.69667pt x 180.92863pt.
-[35 <./images/correlation_matrix.png>] [36 <./images/missing_values.png>]
+[36 <./images/correlation_matrix.png>] [37 <./images/missing_values.png>]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -1828,73 +1546,73 @@ Package natbib Warning: Citation `huel\unhbox \voidb@x \penalty\@M \hskip \z@sk
 ip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \
 hskip \z@skip energy\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
 ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip calc
-ulation' on page 37 undefined on input line 300.
+ulation' on page 38 undefined on input line 300.
 
 
-Package natbib Warning: Citation `moore2022' on page 37 undefined on input line
+Package natbib Warning: Citation `moore2022' on page 38 undefined on input line
  337.
 
 
-Package natbib Warning: Citation `who2012' on page 37 undefined on input line 3
+Package natbib Warning: Citation `who2012' on page 38 undefined on input line 3
 37.
 
-[37]
-<images/data_cleaning.png, id=1127, 871.255pt x 476.78125pt>
+[38]
+<images/data_cleaning.png, id=1146, 871.255pt x 476.78125pt>
 File: images/data_cleaning.png Graphic file (type png)
 <use images/data_cleaning.png>
 Package pdftex.def Info: images/data_cleaning.png  used on input line 348.
 (pdftex.def)             Requested size: 383.3534pt x 209.7844pt.
- [38]
+ [39]
 
-Package natbib Warning: Citation `hastie2009elements' on page 39 undefined on i
+Package natbib Warning: Citation `hastie2009elements' on page 40 undefined on i
 nput line 359.
 
 
-Package natbib Warning: Citation `aionlinecourse2025' on page 39 undefined on i
+Package natbib Warning: Citation `aionlinecourse2025' on page 40 undefined on i
 nput line 363.
 
-[39 <./images/data_cleaning.png>]
-<images/mae_r2_comparison.png, id=1137, 1040.88875pt x 569.12625pt>
+[40 <./images/data_cleaning.png>]
+<images/mae_r2_comparison.png, id=1156, 1040.88875pt x 569.12625pt>
 File: images/mae_r2_comparison.png Graphic file (type png)
 <use images/mae_r2_comparison.png>
 Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 406.
 (pdftex.def)             Requested size: 396.91325pt x 217.01706pt.
- [40]
+ [41]
 
-LaTeX Warning: Reference `tab:model_results' on page 41 undefined on input line
+LaTeX Warning: Reference `tab:model_results' on page 42 undefined on input line
  411.
 
-[41 <./images/mae_r2_comparison.png>] [42]
-<images/Nutri-pred_fast_API.png, id=1158, 1252.68pt x 706.64pt>
+[42 <./images/mae_r2_comparison.png>] [43]
+<images/Nutri-pred_fast_API.png, id=1177, 1252.68pt x 706.64pt>
 File: images/Nutri-pred_fast_API.png Graphic file (type png)
 <use images/Nutri-pred_fast_API.png>
 Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 506
 .
 (pdftex.def)             Requested size: 396.91325pt x 223.89745pt.
- [43]
-<images/Nutri-pred_Huggingface.png, id=1165, 1213.53375pt x 646.415pt>
+ [44]
+<images/Nutri-pred_Huggingface.png, id=1184, 1213.53375pt x 646.415pt>
 File: images/Nutri-pred_Huggingface.png Graphic file (type png)
 <use images/Nutri-pred_Huggingface.png>
 Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
 517.
 (pdftex.def)             Requested size: 396.91325pt x 211.42381pt.
- [44 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
- (./Chapter3.tex [45]
+ [45 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
+ (./Chapter3.tex [46]
 Chapter 3.
 
-Package natbib Warning: Citation `IBMVectordb2025' on page 46 undefined on inpu
+Package natbib Warning: Citation `IBMVectordb2025' on page 47 undefined on inpu
 t line 9.
 
 
-Package natbib Warning: Citation `IBMVectordb2025' on page 46 undefined on inpu
+Package natbib Warning: Citation `IBMVectordb2025' on page 47 undefined on inpu
 t line 9.
 
-<images/vectorDB.png, id=1176, 960.58875pt x 522.95375pt>
+<images/vectorDB.png, id=1195, 960.58875pt x 522.95375pt>
 File: images/vectorDB.png Graphic file (type png)
 <use images/vectorDB.png>
 Package pdftex.def Info: images/vectorDB.png  used on input line 13.
 (pdftex.def)             Requested size: 432.26094pt x 235.32701pt.
-[46
+[47
 
 ]
 ! Missing \endcsname inserted.
@@ -1918,39 +1636,39 @@ Package natbib Warning: Citation `chroma\unhbox \voidb@x \penalty\@M \hskip \z@
 skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M
  \hskip \z@skip docs\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
 ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip 2025
-' on page 47 undefined on input line 21.
+' on page 48 undefined on input line 21.
 
-<images/chroma_space.png, id=1181, 545.03625pt x 408.52625pt>
+<images/chroma_space.png, id=1200, 545.03625pt x 408.52625pt>
 File: images/chroma_space.png Graphic file (type png)
 <use images/chroma_space.png>
 Package pdftex.def Info: images/chroma_space.png  used on input line 25.
 (pdftex.def)             Requested size: 359.72504pt x 269.62816pt.
-[47 <./images/vectorDB.png>]
+[48 <./images/vectorDB.png>]
 
-Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 48 un
+Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 49 un
 defined on input line 40.
 
 
-Package natbib Warning: Citation `HNSW' on page 48 undefined on input line 40.
+Package natbib Warning: Citation `HNSW' on page 49 undefined on input line 40.
 
-[48 <./images/chroma_space.png>]
-<images/RS_Arch.png, id=1193, 794.97pt x 591.20876pt>
+[49 <./images/chroma_space.png>]
+<images/RS_Arch.png, id=1212, 794.97pt x 591.20876pt>
 File: images/RS_Arch.png Graphic file (type png)
 <use images/RS_Arch.png>
 Package pdftex.def Info: images/RS_Arch.png  used on input line 62.
 (pdftex.def)             Requested size: 437.23485pt x 325.16582pt.
- [49]
+ [50]
 
-Package natbib Warning: Citation `chromadb' on page 50 undefined on input line 
+Package natbib Warning: Citation `chromadb' on page 51 undefined on input line 
 79.
 
-[50 <./images/RS_Arch.png>]
+[51 <./images/RS_Arch.png>]
 
-Package natbib Warning: Citation `shu2023lightfm' on page 51 undefined on input
+Package natbib Warning: Citation `shu2023lightfm' on page 52 undefined on input
  line 86.
 
 
-Package natbib Warning: Citation `shu2023lightfm' on page 51 undefined on input
+Package natbib Warning: Citation `shu2023lightfm' on page 52 undefined on input
  line 88.
 
 ! Missing \endcsname inserted.
@@ -1972,20 +1690,20 @@ not appear between \csname and \endcsname.
 
 Package natbib Warning: Citation `lightfm\unhbox \voidb@x \penalty\@M \hskip \z
 @skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@
-M \hskip \z@skip issues' on page 51 undefined on input line 89.
+M \hskip \z@skip issues' on page 52 undefined on input line 89.
 
-<images/precision_plot.png, id=1204, 605.26125pt x 508.90125pt>
+<images/precision_plot.png, id=1223, 605.26125pt x 508.90125pt>
 File: images/precision_plot.png Graphic file (type png)
 <use images/precision_plot.png>
 Package pdftex.def Info: images/precision_plot.png  used on input line 95.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-<images/recall_plot.png, id=1205, 605.26125pt x 508.90125pt>
+<images/recall_plot.png, id=1224, 605.26125pt x 508.90125pt>
 File: images/recall_plot.png Graphic file (type png)
 <use images/recall_plot.png>
 Package pdftex.def Info: images/recall_plot.png  used on input line 101.
 (pdftex.def)             Requested size: 211.68661pt x 177.9861pt.
-[51 <./images/precision_plot.png> <./images/recall_plot.png>] [52]
-<images/cb_filtering_logic.png, id=1221, 482.80376pt x 551.05875pt>
+[52 <./images/precision_plot.png> <./images/recall_plot.png>] [53]
+<images/cb_filtering_logic.png, id=1240, 482.80376pt x 551.05875pt>
 File: images/cb_filtering_logic.png Graphic file (type png)
 <use images/cb_filtering_logic.png>
 Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 133.
@@ -1993,83 +1711,83 @@ Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 133.
 (pdftex.def)             Requested size: 168.98384pt x 192.87344pt.
 
 
-Package natbib Warning: Citation `sbert2025models' on page 53 undefined on inpu
+Package natbib Warning: Citation `sbert2025models' on page 54 undefined on inpu
 t line 169.
 
-[53 <./images/cb_filtering_logic.png>]
+[54 <./images/cb_filtering_logic.png>]
 
 Package natbib Warning: Citation `sentence-transformers-all-MiniLM-L12-v2' on p
-age 54 undefined on input line 174.
+age 55 undefined on input line 174.
 
-<images/load_data__0.png, id=1227, 1088.065pt x 725.71124pt>
+<images/load_data__0.png, id=1247, 1088.065pt x 725.71124pt>
 File: images/load_data__0.png Graphic file (type png)
 <use images/load_data__0.png>
 Package pdftex.def Info: images/load_data__0.png  used on input line 181.
 (pdftex.def)             Requested size: 424.34364pt x 283.02625pt.
-[54 <./images/load_data__0.png>]
-<images/CB_recommendation_workflow_simple.png, id=1234, 1033.8625pt x 699.61375
+[55 <./images/load_data__0.png>]
+<images/CB_recommendation_workflow_simple.png, id=1253, 1033.8625pt x 699.61375
 pt>
 File: images/CB_recommendation_workflow_simple.png Graphic file (type png)
 <use images/CB_recommendation_workflow_simple.png>
 Package pdftex.def Info: images/CB_recommendation_workflow_simple.png  used on 
 input line 204.
 (pdftex.def)             Requested size: 396.91325pt x 268.58885pt.
- [55] [56 <./images/CB_recommendation_workflow_simple.png>]
+ [56] [57 <./images/CB_recommendation_workflow_simple.png>]
 
-Package natbib Warning: Citation `ibm-cf' on page 57 undefined on input line 21
+Package natbib Warning: Citation `ibm-cf' on page 58 undefined on input line 21
 7.
 
-<images/collaborative_filtering.png, id=1244, 451.6875pt x 217.5628pt>
+<images/collaborative_filtering.png, id=1263, 451.6875pt x 217.5628pt>
 File: images/collaborative_filtering.png Graphic file (type png)
 <use images/collaborative_filtering.png>
 Package pdftex.def Info: images/collaborative_filtering.png  used on input line
  221.
 (pdftex.def)             Requested size: 383.93617pt x 184.92924pt.
 
-Package natbib Warning: Citation `ibm-cf' on page 57 undefined on input line 22
+Package natbib Warning: Citation `ibm-cf' on page 58 undefined on input line 22
 8.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[57 <./images/collaborative_filtering.png>]
-<images/loss_function_lightFM.png, id=1250, 876.27374pt x 637.38126pt>
+[58 <./images/collaborative_filtering.png>]
+<images/loss_function_lightFM.png, id=1269, 876.27374pt x 637.38126pt>
 File: images/loss_function_lightFM.png Graphic file (type png)
 <use images/loss_function_lightFM.png>
 Package pdftex.def Info: images/loss_function_lightFM.png  used on input line 2
 64.
 (pdftex.def)             Requested size: 341.74538pt x 248.57768pt.
- [58 <./images/loss_function_lightFM.png>] [59]
+ [59 <./images/loss_function_lightFM.png>] [60]
 
-Package natbib Warning: Citation `ANN' on page 60 undefined on input line 276.
-
-
-Package natbib Warning: Citation `HNSW' on page 60 undefined on input line 279.
+Package natbib Warning: Citation `ANN' on page 61 undefined on input line 276.
 
 
-[60] [61]
+Package natbib Warning: Citation `HNSW' on page 61 undefined on input line 279.
+
+
+[61] [62]
 Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<images/deploy_RS.png, id=1269, 1103.12125pt x 672.5125pt>
+<images/deploy_RS.png, id=1288, 1103.12125pt x 672.5125pt>
 File: images/deploy_RS.png Graphic file (type png)
 <use images/deploy_RS.png>
 Package pdftex.def Info: images/deploy_RS.png  used on input line 346.
 (pdftex.def)             Requested size: 386.09822pt x 235.38289pt.
-<images/swaggerFastAPI.png, id=1270, 1233.60875pt x 724.7075pt>
+<images/swaggerFastAPI.png, id=1289, 1233.60875pt x 724.7075pt>
 File: images/swaggerFastAPI.png Graphic file (type png)
 <use images/swaggerFastAPI.png>
 Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 363.
 (pdftex.def)             Requested size: 431.76953pt x 253.65143pt.
-[62 <./images/deploy_RS.png>]) (./Chapter4.tex [63 <./images/swaggerFastAPI.png
+[63 <./images/deploy_RS.png>]) (./Chapter4.tex [64 <./images/swaggerFastAPI.png
 >]
 Chapter 4.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<images/Screenshot_20250920-000112_chocolat_noir.jpg, id=1284, 1084.05pt x 1927
+<images/Screenshot_20250920-000112_chocolat_noir.jpg, id=1303, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000112_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -2077,7 +1795,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000112_chocolat_noir.jpg  u
 sed on input line 20.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000118_chocolat_noir.jpg, id=1285, 1084.05pt x 1927
+<images/Screenshot_20250920-000118_chocolat_noir.jpg, id=1304, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000118_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -2085,7 +1803,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000118_chocolat_noir.jpg  u
 sed on input line 21.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000124_chocolat_noir.jpg, id=1286, 1084.05pt x 1927
+<images/Screenshot_20250920-000124_chocolat_noir.jpg, id=1305, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000124_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -2093,7 +1811,7 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000124_chocolat_noir.jpg  u
 sed on input line 22.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250920-000137_chocolat_noir.jpg, id=1287, 1084.05pt x 1927
+<images/Screenshot_20250920-000137_chocolat_noir.jpg, id=1306, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250920-000137_chocolat_noir.jpg Graphic file (type jp
 g)
@@ -2101,22 +1819,22 @@ g)
 Package pdftex.def Info: images/Screenshot_20250920-000137_chocolat_noir.jpg  u
 sed on input line 23.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-[64
+[65
 
 ]
 
-Package natbib Warning: Citation `awsLLM' on page 65 undefined on input line 30
+Package natbib Warning: Citation `awsLLM' on page 66 undefined on input line 30
 .
 
-<images/prompt_engineering.png, id=1292, 979.66pt x 607.26875pt>
+<images/prompt_engineering.png, id=1311, 979.66pt x 607.26875pt>
 File: images/prompt_engineering.png Graphic file (type png)
 <use images/prompt_engineering.png>
 Package pdftex.def Info: images/prompt_engineering.png  used on input line 39.
 (pdftex.def)             Requested size: 396.91325pt x 246.03516pt.
-[65 <./images/Screenshot_20250920-000112_chocolat_noir.jpg> <./images/Screensho
+[66 <./images/Screenshot_20250920-000112_chocolat_noir.jpg> <./images/Screensho
 t_20250920-000118_chocolat_noir.jpg> <./images/Screenshot_20250920-000124_choco
 lat_noir.jpg> <./images/Screenshot_20250920-000137_chocolat_noir.jpg>]
-<images/Screenshot_20250919-231229_SCANN_barecode.jpg, id=1297, 1084.05pt x 192
+<images/Screenshot_20250919-231229_SCANN_barecode.jpg, id=1317, 1084.05pt x 192
 7.2pt>
 File: images/Screenshot_20250919-231229_SCANN_barecode.jpg Graphic file (type j
 pg)
@@ -2124,7 +1842,7 @@ pg)
 Package pdftex.def Info: images/Screenshot_20250919-231229_SCANN_barecode.jpg  
 used on input line 54.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231233_Scann_success.jpg, id=1298, 1084.05pt x 1927
+<images/Screenshot_20250919-231233_Scann_success.jpg, id=1318, 1084.05pt x 1927
 .2pt>
 File: images/Screenshot_20250919-231233_Scann_success.jpg Graphic file (type jp
 g)
@@ -2132,14 +1850,14 @@ g)
 Package pdftex.def Info: images/Screenshot_20250919-231233_Scann_success.jpg  u
 sed on input line 55.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-231251_SCANN-end.jpg, id=1299, 1084.05pt x 1927.2pt
+<images/Screenshot_20250919-231251_SCANN-end.jpg, id=1319, 1084.05pt x 1927.2pt
 >
 File: images/Screenshot_20250919-231251_SCANN-end.jpg Graphic file (type jpg)
 <use images/Screenshot_20250919-231251_SCANN-end.jpg>
 Package pdftex.def Info: images/Screenshot_20250919-231251_SCANN-end.jpg  used 
 on input line 56.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
-<images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg, id=1300, 1084.05pt x 
+<images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg, id=1320, 1084.05pt x 
 1927.2pt>
 File: images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg Graphic file (typ
 e jpg)
@@ -2147,105 +1865,105 @@ e jpg)
 Package pdftex.def Info: images/Screenshot_20250919-232403_SCANN_AI_analysis.jp
 g  used on input line 57.
 (pdftex.def)             Requested size: 97.02443pt x 172.4701pt.
- [66 <./images/prompt_engineering.png>]
-<images/Chatbot_arch.png, id=1308, 611.28375pt x 403.5075pt>
+ [67 <./images/prompt_engineering.png>]
+<images/Chatbot_arch.png, id=1327, 611.28375pt x 403.5075pt>
 File: images/Chatbot_arch.png Graphic file (type png)
 <use images/Chatbot_arch.png>
 Package pdftex.def Info: images/Chatbot_arch.png  used on input line 70.
 (pdftex.def)             Requested size: 308.71106pt x 203.77892pt.
- [67 <./images/Screenshot_20250919-231229_SCANN_barecode.jpg> <./images/Screens
+ [68 <./images/Screenshot_20250919-231229_SCANN_barecode.jpg> <./images/Screens
 hot_20250919-231233_Scann_success.jpg> <./images/Screenshot_20250919-231251_SCA
 NN-end.jpg> <./images/Screenshot_20250919-232403_SCANN_AI_analysis.jpg>]
-<images/Screenshot_20250919-225837_chatbot.jpg, id=1313, 1084.05pt x 1927.2pt>
+<images/Screenshot_20250919-225837_chatbot.jpg, id=1333, 1084.05pt x 1927.2pt>
 File: images/Screenshot_20250919-225837_chatbot.jpg Graphic file (type jpg)
 <use images/Screenshot_20250919-225837_chatbot.jpg>
 Package pdftex.def Info: images/Screenshot_20250919-225837_chatbot.jpg  used on
  input line 83.
 (pdftex.def)             Requested size: 119.24586pt x 211.99266pt.
- [68 <./images/Chatbot_arch.png>]
-<images/chatbot_API.png, id=1319, 1269.74374pt x 566.115pt>
+ [69 <./images/Chatbot_arch.png>]
+<images/chatbot_API.png, id=1339, 1269.74374pt x 566.115pt>
 File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
 Package pdftex.def Info: images/chatbot_API.png  used on input line 93.
 (pdftex.def)             Requested size: 396.91325pt x 176.96233pt.
- [69 <./images/Screenshot_20250919-225837_chatbot.jpg> <./images/chatbot_API.pn
-g>] [70]
-<images/chatbot_ai_data_layer.png, id=1330, 639.89063pt x 358.33875pt>
+ [70 <./images/Screenshot_20250919-225837_chatbot.jpg> <./images/chatbot_API.pn
+g>] [71]
+<images/chatbot_ai_data_layer.png, id=1349, 639.89063pt x 358.33875pt>
 File: images/chatbot_ai_data_layer.png Graphic file (type png)
 <use images/chatbot_ai_data_layer.png>
 Package pdftex.def Info: images/chatbot_ai_data_layer.png  used on input line 1
 04.
 (pdftex.def)             Requested size: 396.91325pt x 222.2716pt.
- [71 <./images/chatbot_ai_data_layer.png>]
-<images/how_AI_chatbot_works.png, id=1336, 542.025pt x 331.2375pt>
+ [72 <./images/chatbot_ai_data_layer.png>]
+<images/how_AI_chatbot_works.png, id=1356, 542.025pt x 331.2375pt>
 File: images/how_AI_chatbot_works.png Graphic file (type png)
 <use images/how_AI_chatbot_works.png>
 Package pdftex.def Info: images/how_AI_chatbot_works.png  used on input line 13
 0.
 (pdftex.def)             Requested size: 352.31207pt x 215.30182pt.
- [72 <./images/how_AI_chatbot_works.png>]
-<images/update_user_profile.png, id=1343, 970.62625pt x 580.1675pt>
+ [73 <./images/how_AI_chatbot_works.png>]
+<images/update_user_profile.png, id=1362, 970.62625pt x 580.1675pt>
 File: images/update_user_profile.png Graphic file (type png)
 <use images/update_user_profile.png>
 Package pdftex.def Info: images/update_user_profile.png  used on input line 159
 .
 (pdftex.def)             Requested size: 396.91325pt x 237.25052pt.
- [73 <./images/update_user_profile.png>] [74] [75] [76] [77] [78]) (./Chapter5.
+ [74 <./images/update_user_profile.png>] [75] [76] [77] [78] [79]) (./Chapter5.
 tex
-[79]
+[80]
 Chapter 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/physic_arch.png, id=1379, 451.6875pt x 217.5628pt>
+<images/physic_arch.png, id=1398, 451.6875pt x 217.5628pt>
 File: images/physic_arch.png Graphic file (type png)
 <use images/physic_arch.png>
 Package pdftex.def Info: images/physic_arch.png  used on input line 18.
 (pdftex.def)             Requested size: 325.21474pt x 156.6451pt.
-<images/logic_arch.png, id=1380, 745.28438pt x 386.19281pt>
+<images/logic_arch.png, id=1399, 745.28438pt x 386.19281pt>
 File: images/logic_arch.png Graphic file (type png)
 <use images/logic_arch.png>
 Package pdftex.def Info: images/logic_arch.png  used on input line 29.
 (pdftex.def)             Requested size: 327.92613pt x 169.92535pt.
-[80
+[81
 
 ]
-<images/docker_compose.jpeg, id=1385, 1857.94125pt x 892.33376pt>
+<images/docker_compose.jpeg, id=1404, 1857.94125pt x 892.33376pt>
 File: images/docker_compose.jpeg Graphic file (type jpg)
 <use images/docker_compose.jpeg>
 Package pdftex.def Info: images/docker_compose.jpeg  used on input line 58.
 (pdftex.def)             Requested size: 427.3175pt x 205.23245pt.
- [81 <./images/physic_arch.png> <./images/logic_arch.png (PNG copy)>]
-<images/AWS_architecture.png, id=1391, 539.01375pt x 501.875pt>
+ [82 <./images/physic_arch.png> <./images/logic_arch.png (PNG copy)>]
+<images/AWS_architecture.png, id=1411, 539.01375pt x 501.875pt>
 File: images/AWS_architecture.png Graphic file (type png)
 <use images/AWS_architecture.png>
 Package pdftex.def Info: images/AWS_architecture.png  used on input line 87.
 (pdftex.def)             Requested size: 242.55394pt x 225.84166pt.
 
-[82 <./images/docker_compose.jpeg>] [83 <./images/AWS_architecture.png>]
-<images/ec2_instance_lifecycle.png, id=1403, 701.62125pt x 296.10625pt>
+[83 <./images/docker_compose.jpeg>] [84 <./images/AWS_architecture.png>]
+<images/ec2_instance_lifecycle.png, id=1423, 701.62125pt x 296.10625pt>
 File: images/ec2_instance_lifecycle.png Graphic file (type png)
 <use images/ec2_instance_lifecycle.png>
 Package pdftex.def Info: images/ec2_instance_lifecycle.png  used on input line 
 125.
 (pdftex.def)             Requested size: 385.89287pt x 162.85893pt.
 
-[84 <./images/ec2_instance_lifecycle.png (PNG copy)>]
-<images/snapshots.jpg, id=1409, 1284.8pt x 722.7pt>
+[85 <./images/ec2_instance_lifecycle.png (PNG copy)>]
+<images/snapshots.jpg, id=1428, 1284.8pt x 722.7pt>
 File: images/snapshots.jpg Graphic file (type jpg)
 <use images/snapshots.jpg>
 Package pdftex.def Info: images/snapshots.jpg  used on input line 142.
 (pdftex.def)             Requested size: 321.19922pt x 180.67455pt.
- [85 <./images/snapshots.jpg>]) (./Conclusion.tex [86]) (./main.bbl)
+ [86 <./images/snapshots.jpg>]) (./Conclusion.tex [87]) (./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[87] (./main.aux
+[88] (./main.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.35 ... company logo\relax }{figure.caption.9}{}}
+l.35 ...company logo\relax }{figure.caption.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2253,7 +1971,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.44 ...t evaluation\relax }{figure.caption.11}{}}
+l.44 ...t evaluation\relax }{figure.caption.12}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2261,7 +1979,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.47 ... the OFF app\relax }{figure.caption.12}{}}
+l.47 ... the OFF app\relax }{figure.caption.13}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2269,7 +1987,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.54 ... Google Play\relax }{figure.caption.14}{}}
+l.56 ... Applications\relax }{table.caption.16}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2277,7 +1995,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.56 ... Applications\relax }{table.caption.15}{}}
+l.59 ... VitamiNurse\relax }{figure.caption.17}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2285,7 +2003,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.73 ...ban Process \relax }{figure.caption.16}{}}
+l.75 ...ban Process \relax }{figure.caption.18}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2293,7 +2011,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.76 ...plementation\relax }{figure.caption.17}{}}
+l.78 ...plementation\relax }{figure.caption.19}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2301,7 +2019,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.92 ...elunga Italy\relax }{figure.caption.20}{}}
+l.94 ...elunga Italy\relax }{figure.caption.22}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2309,7 +2027,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.96 ...tion removal\relax }{figure.caption.21}{}}
+l.98 ...tion removal\relax }{figure.caption.23}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2317,7 +2035,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.99 ...ition column\relax }{figure.caption.22}{}}
+l.101 ...tion column\relax }{figure.caption.24}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2325,7 +2043,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.102 ... dictionary\relax }{figure.caption.23}{}}
+l.104 ... dictionary\relax }{figure.caption.25}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2333,7 +2051,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.105 ...n utilities\relax }{figure.caption.24}{}}
+l.107 ...n utilities\relax }{figure.caption.26}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2341,7 +2059,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.109 ...each market\relax }{figure.caption.25}{}}
+l.111 ...each market\relax }{figure.caption.27}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2349,7 +2067,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.112 ...r embedding\relax }{figure.caption.26}{}}
+l.114 ...r embedding\relax }{figure.caption.28}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2357,7 +2075,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.119 ...ducts links\relax }{figure.caption.27}{}}
+l.121 ...ducts links\relax }{figure.caption.29}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2365,7 +2083,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.121 ...ata scanner\relax }{figure.caption.28}{}}
+l.123 ...ata scanner\relax }{figure.caption.30}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2373,7 +2091,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.125 ...ng approach\relax }{figure.caption.29}{}}
+l.127 ...ng approach\relax }{figure.caption.31}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2381,7 +2099,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.129 ... statistics\relax }{figure.caption.30}{}}
+l.131 ... statistics\relax }{figure.caption.32}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2389,7 +2107,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.134 ...tion matrix\relax }{figure.caption.31}{}}
+l.136 ...tion matrix\relax }{figure.caption.33}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2397,7 +2115,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.137 ...sing values\relax }{figure.caption.32}{}}
+l.139 ...sing values\relax }{figure.caption.34}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2405,7 +2123,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.146 ...on per 100g)\relax }{table.caption.33}{}}
+l.148 ...on per 100g)\relax }{table.caption.35}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2413,7 +2131,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.151 ...duct names.\relax }{figure.caption.34}{}}
+l.153 ...duct names.\relax }{figure.caption.36}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2421,7 +2139,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.155 ...ures} Values\relax }{table.caption.35}{}}
+l.157 ...ures} Values\relax }{table.caption.37}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2429,7 +2147,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.158 ...ion models.\relax }{figure.caption.36}{}}
+l.160 ...ion models.\relax }{figure.caption.38}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2437,7 +2155,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.184 ...h in chroma\relax }{figure.caption.42}{}}
+l.186 ...h in chroma\relax }{figure.caption.44}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2445,7 +2163,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.192 ...chitecture \relax }{figure.caption.43}{}}
+l.194 ...chitecture \relax }{figure.caption.45}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2453,7 +2171,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.209 ...ering Logic\relax }{figure.caption.45}{}}
+l.211 ...ering Logic\relax }{figure.caption.47}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2461,7 +2179,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.217 ...o chroma DB\relax }{figure.caption.47}{}}
+l.219 ...o chroma DB\relax }{figure.caption.49}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2469,7 +2187,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.224 ...on Workflow\relax }{figure.caption.48}{}}
+l.226 ...on Workflow\relax }{figure.caption.50}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2477,7 +2195,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.230 ...ering Logic\relax }{figure.caption.49}{}}
+l.232 ...ering Logic\relax }{figure.caption.51}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2485,7 +2203,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.235 ... VitamiNurse\relax }{table.caption.50}{}}
+l.237 ... VitamiNurse\relax }{table.caption.52}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2493,7 +2211,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.238 ...ss function\relax }{figure.caption.51}{}}
+l.240 ...ss function\relax }{figure.caption.53}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2501,7 +2219,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.253 ...th Fast API\relax }{figure.caption.54}{}}
+l.255 ...th Fast API\relax }{figure.caption.56}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2509,7 +2227,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.264 ...AI analysis\relax }{figure.caption.57}{}}
+l.266 ...AI analysis\relax }{figure.caption.59}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2517,7 +2235,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.268 ...Using GPT-4\relax }{figure.caption.58}{}}
+l.270 ...Using GPT-4\relax }{figure.caption.60}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2525,7 +2243,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.271 ... evaluation\relax }{figure.caption.59}{}}
+l.273 ... evaluation\relax }{figure.caption.61}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2533,7 +2251,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.278 ...t interface\relax }{figure.caption.61}{}}
+l.280 ...t interface\relax }{figure.caption.63}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2541,7 +2259,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.284 ...e Assistant\relax }{figure.caption.63}{}}
+l.286 ...e Assistant\relax }{figure.caption.65}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2549,7 +2267,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.293 ...AI chatbots\relax }{figure.caption.64}{}}
+l.295 ...AI chatbots\relax }{figure.caption.66}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2557,7 +2275,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.296 ... extraction\relax }{figure.caption.65}{}}
+l.298 ... extraction\relax }{figure.caption.67}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2565,7 +2283,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.343 ...ompose logo\relax }{figure.caption.69}{}}
+l.345 ...ompose logo\relax }{figure.caption.71}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2573,7 +2291,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.346 ...rchitecture\relax }{figure.caption.70}{}}
+l.348 ...rchitecture\relax }{figure.caption.72}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2581,7 +2299,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.352 ... retention.\relax }{figure.caption.71}{}}
+l.354 ... retention.\relax }{figure.caption.73}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2594,18 +2312,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01922AAF830A8866950C605F56DAE9C8;29265.
+(rerunfilecheck)             Checksum: D5349AF5A44EB4E3C472C77D708EE49C;29107.
  ) 
 Here is how much of TeX's memory you used:
- 34973 strings out of 480171
- 675831 string characters out of 5894488
- 944974 words of memory out of 5000000
- 51657 multiletter control sequences out of 15000+600000
- 554008 words of font info for 200 fonts, out of 8000000 for 9000
+ 35034 strings out of 480171
+ 676628 string characters out of 5894488
+ 947157 words of memory out of 5000000
+ 51713 multiletter control sequences out of 15000+600000
+ 561438 words of font info for 210 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,13n,80p,1193b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
 , replaced by a fixed one
@@ -2625,18 +2349,20 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
 s/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texm
 f/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-math
-sy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-tt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (88 pages, 8592809 bytes).
+sy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+o12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.p
+fb>
+Output written on main.pdf (89 pages, 9105546 bytes).
 PDF statistics:
- 1562 PDF objects out of 1728 (max. 8388607)
- 1318 compressed objects within 14 object streams
- 320 named destinations out of 1000 (max. 500000)
- 49642 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1591 PDF objects out of 1728 (max. 8388607)
+ 1339 compressed objects within 14 object streams
+ 325 named destinations out of 1000 (max. 500000)
+ 53748 words of extra memory for PDF output out of 61914 (max. 10000000)
 

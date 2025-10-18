@@ -7,15 +7,19 @@ Our goal is to develop a personalized recommendation system and an AI assistant 
 The chapter also explains the basic theories behind the project , compares existing nutrition applications to show their limitations, and presents VitamiNurse as an innovative solution. Finally, we justify the use of the Scrumban methodology for team management and the CRISP-DM framework for technical development.
 
 \section{Presentation of the host company}
-\par ONRTECH\footnote{\url{https://onrtech.fr/}} is a French company, operating since 2020 and located in Villiers-sur-Marne, France, that focuses on software development, IT consulting, and artificial intelligence. It operates within the wider field of programming, advisory, and other digital services, delivering modern, innovative solutions tailored to evolving business needs.
+\par ONRTECH\footnote{\url{https://onrtech.fr/}} is a French company, operating since 2020 and located in
+Villiers-sur-Marne, France, that focuses on software development, IT consulting, and artificial intelligence.
+It operates within the wider field of programming, advisory, and other digital services, delivering modern, innovative solutions tailored to evolving business needs. 
+Since its creation, ONRTech has rapidly grown into a trusted provider of digital services, having collaborated with numerous
+clients throughout France and Europe.
 
+\par More than just a tech provider, it positions itself as a durable digital partner by focusing on customer satisfaction and offering customized solutions.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{images/ONRTECH_logo.jpeg}
+    \includegraphics[width=0.15\textwidth]{images/ONRTECH_logo.jpeg}
     \caption{ONRTECH company logo}
     \label{fig:onrtech_logo}
 \end{figure}
-\par Since its creation, ONRTech has rapidly grown into a trusted provider of digital services, having collaborated with numerous clients throughout France and Europe.  More than just a tech provider,  it positions itself as a durable digital partner by focusing on customer satisfaction and offering customized solutions.
 
 
 \section{Internship context and project objectives}
@@ -38,19 +42,23 @@ The initial version of VitamiNurse exists as a simple mobile application develop
 
 \section{Problem Statement and Challenges}
 
-The increasing focus on healthier lifestyles has driven demand for tools that support informed dietary choices. However, many individuals struggle to navigate the complexities of nutrition due to limitations in existing mobile applications. These tools often fail to provide personalized, reliable, and practical guidance, leaving users without the support they need to make balanced food choices. 
- 
-This section presents an analytical review of various applications in the field of food monitoring in order to reformulate a clear vision of an more advanced version of \mbox{VitamiN-urse}. The study is based on both the examination of relevant references and the comparative analysis of competing applications currently available in the market.
+The increasing focus on healthier lifestyles has driven demand for tools that support informed dietary choices. However, many individuals struggle to navigate the complexities of nutrition due to limitations in existing mobile applications. These tools often fail to provide personalized, reliable, and practical guidance, leaving users without the support they need to make balanced food choices. This section presents an analytical review of various applications in the field of food monitoring in order to reformulate a clear vision of an more advanced version of \mbox{VitamiN-urse}. 
+
+\par The study is based on both the examination of relevant references and the comparative analysis of competing applications currently available in the market.
 
 
-\newpage
 \subsection{Analysis of Key Competitor Applications}
+To understand the competitive landscape and identify areas for improvement, we analyzed several leading nutritional applications: Yuka, Open
+Food Facts, QuelProduit, and Food Check. Each of these apps offers
+unique features but also exhibits significant limitations that our proposed
+solution aims to address.
+
 \subsection{Yuka}
 With over 74,000 users, \footnote{\url{https://yuka.io/}} is a widely used nutritional mobile application, particularly in France and the United States. As shown in Figure \ref{fig:yuka_evaluation}, it scans food and cosmetic products to provide a quick quality rating:
 excellent, good, mediocre, or bad.
 \begin{center}
 \begin{figure}[H]
-\includegraphics[scale=0.33]{images/yuka_evaluation.png}
+\includegraphics[scale=0.31]{images/yuka_evaluation.png}
 \caption{The Yuka system for product evaluation}
 \label{fig:yuka_evaluation}
 \end{figure}
@@ -86,25 +94,26 @@ guide.
 QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelproduit-n84731/}} is a product 
 analysis app developed by the French non-profit consumer organization \textbf{UFC-Que Choisir} \footnote{\url{https://www.quechoisir.org/}}, to help users make
 safer choices by scanning barcodes to evaluate food, cosmetic, and house-
-hold items. The application focuses on consumer safety by highlighting
-harmful substances, but does not offer balanced nutritional guidance or
-personalized dietary support. Users should view this tool as a simple
-detection system rather than a nutritional guide or assistant.
+hold items. 
  \begin{center}
 \begin{figure}[H]
-\includegraphics[scale=0.33]{images/quelproduit.jpg}
+\includegraphics[scale=0.21]{images/quelproduit.jpg}
 \caption{Identification of harmful substances and food additives by the QuelProduit application}
 \label{fig:queChoisir}
 \end{figure}
 \end{center}
 
+\par The application focuses on consumer safety by highlighting
+harmful substances, but does not offer balanced nutritional guidance or
+personalized dietary support. Users should view this tool as a simple
+detection system rather than a nutritional guide or assistant.
  \subsection{Food Check}
 Food Check\footnote{\url{https://play.google.com/store/apps/details?id=com.bytes_and_pixels.food_buddy&hl=fr}} is an AI-powered nutritional scanner application developed by 
 Bytes \& Pixels \footnote{\url{https://www.bytes-and-pixels.de/}}. The application offers AI chatbot assistance and personalized recommendations.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.33]{images/food_check.png}
+\includegraphics[scale=0.35]{images/food_check.png}
 \caption{The complexity of parameters required from the user in the scanner application Food}
 \label{fig:foofCheck}
 \end{figure}
@@ -143,15 +152,16 @@ and effectiveness of recommendations.
 
 \begin{table}[htbp]
 \centering
+\small % Reduces font size to \small (you can also use \footnotesize for even smaller)
 \caption{Evaluation of Key Competitor Applications}
 \label{tab:competitor_evaluation}
-\begin{tabular}{|l|c|c|c|c|}
+\begin{tabularx}{1.15\textwidth}{|l|X|X|X|X|}
 \hline
 \textbf{Feature} & \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{QuelProduit} & \textbf{Food Check} \\
 \hline
-Database Frequency Update & Not Frequent & Varies (Updated by users) & Moderate & Moderate \\
+Database Frequency Update & Not Frequent & Varies (by users) & Moderate & Moderate \\
 \hline
-Recommendation System & Elementary & Basic Filtering & Basic Filtering & Elementary \\
+Recommendation System & Elementary & Basic & Basic & Elementary \\
 \hline
 Chatbot & Absent & Absent & Absent & Present \\
 \hline
@@ -159,7 +169,7 @@ Interaction & High & Moderate & Moderate & Moderate \\
 \hline
 Product Evaluation & Comprehensive & Comprehensive & Detailed & Detailed \\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 
@@ -173,7 +183,7 @@ the following key features.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.33]{images/new_version_VN.png}
+\includegraphics[scale=0.35]{images/new_version_VN.png}
 \caption{Features of the new version of VitamiNurse}
 \label{fig:VN_new_features}
 \end{figure}
@@ -232,9 +242,9 @@ select the one that best fits our context and objectives.
 \subsection{Comparative Study of existing methodologies}
 \subsubsection{a) Scrum Method} 
 Scrum is an agile methodology that promotes collaboration, adaptability, and the iterative delivery of high-quality results. This method encourages agile teams to meet regularly to review project progress and adjust their direction as needed. This dynamic approach balances investment and the final product, ensuring greater customer satisfaction and optimal value delivery \cite{scrum2025}.
-
+\newpage
 The main elements of Scrum are:
-\begin{enumerate}{label=-}
+\begin{enumerate}
     \item \texttt{Sprint:} Is a working cycle with fixed duration, of one to four weeks. In this case, it is the Scrum Master to ensure that this period is not exceeded \cite{schwaber2004agile}
 
     \item \texttt{Scrum Master:} Their main role is to facilitate the application of Scrum principles and resolve blockages.
@@ -260,6 +270,7 @@ By performing frequent code reviews and unit tests to make changes quickly, it s
 
 
 \subsubsection{d) Scrumban Method}
+Scrumban is a hybrid methodology that combines the flexibility of Kanban board with the rigor of Scrum sprints. Scrum roles are incorporated while enabling real-time modifications and the best possible workflow visualization. The team does, in fact, follow certain rituals, use sprints, and assign roles to the Scrum Master and Product Owner. Nonetheless, the procedure is less exacting than Scrum, enabling teams to maintain an ideal workflow and make real-time priority adjustments.
 
 \begin{center}
 \begin{figure}[H]
@@ -268,15 +279,12 @@ By performing frequent code reviews and unit tests to make changes quickly, it s
             \caption{Scrumban Process }
             \label{fig:Scrumban_Process}
 \end{figure}
-\end{center}
-
-Scrumban is a hybrid methodology that combines the flexibility of Kanban board with the rigor of Scrum sprints. Scrum roles are incorporated while enabling real-time modifications and the best possible workflow visualization. The team does, in fact, follow certain rituals, use sprints, and assign roles to the Scrum Master and Product Owner. Nonetheless, the procedure is less exacting than Scrum, enabling teams to maintain an ideal workflow and make real-time priority adjustments.
-   
+\end{center}   
 
 
 \subsection{Chosen Team Management Methodology: Scrumban}
 Our selection of the Scrumban methodology is based on an analysis of the limitations of pure approaches (Scrum, XP, Kanban) in the practical plan in the host company as well as the specific needs of our project. Generally, we can summarize the identified problems as follows:
-\begin{itemize}{label=\textbf{-}}
+\begin{itemize}
     \item \textbf{Limited numbers:}
     The XP (eXtreme Programming) approach requires development pairs (pair programming), which is difficult to apply with the available human resources.
         
@@ -298,21 +306,12 @@ Our selection of the Scrumban methodology is based on an analysis of the limitat
 
 The first step in the Scrumban process is to set up the Scrumban board, which is an enhanced version of the Kanban board. It contains all the features, including the product backlog, sprint backlog, and workflow stages (not started, in progress, and under review).
 
-
-
-
-\newpage
 \subsection{Chosen technical methodology}
 
 For the technical execution, we adopted the CRISP-DM for its structured
 and iterative approach to solving complex data science problems. It
 represents a comprehensive six-phase process includes problem understanding, data exploration, data preparation, modeling, evaluation, and
 deployment.
-This methodology is particularly well-suited for our project, which involves
-developing a personalized recommendation system and an AI assistant
-for nutritional guidance. The structured phases of CRISP-DM allow
-us to systematically address the challenges of data collection, model development, and deployment while ensuring that we remain aligned
-with user needs and project goals.
 \begin{center}
 \begin{figure}[H]
             \centering
@@ -322,6 +321,11 @@ with user needs and project goals.
         \end{figure}
 \end{center}
 
+This methodology is particularly well-suited for our project, which involves
+developing a personalized recommendation system and an AI assistant
+for nutritional guidance. The structured phases of CRISP-DM allow
+us to systematically address the challenges of data collection, model development, and deployment while ensuring that we remain aligned
+with user needs and project goals.
 
 
 
