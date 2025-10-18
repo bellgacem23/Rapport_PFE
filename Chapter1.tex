@@ -46,8 +46,8 @@ This section presents an analytical review of various applications in the field 
 \newpage
 \subsection{Analysis of Key Competitor Applications}
 \subsection{Yuka}
-With over 74,000 users, \footnote{\url{https://yuka.io/}} is a widely used nutritional mobile application, particularly in France and the United States. As shown in Figure \ref{fig:yuka_evaluation}, it scans food and cosmetic products to provide a quick quality rating: excellent, good, mediocre, or bad. Its intuitive interface and simple scoring system based on composition, additives, and organic status help users make quick purchasing decisions. 
-Despite these advantages, Yuka also presents notable limitations. Its database is not always updated regularly. In addition, the application lacks personalization by overlooking individual dietary goals, allergies, and health conditions. As a result, Yuka serves more as a tool for initial screening than as a source of personalized nutritional guidance.
+With over 74,000 users, \footnote{\url{https://yuka.io/}} is a widely used nutritional mobile application, particularly in France and the United States. As shown in Figure \ref{fig:yuka_evaluation}, it scans food and cosmetic products to provide a quick quality rating:
+excellent, good, mediocre, or bad.
 \begin{center}
 \begin{figure}[H]
 \includegraphics[scale=0.33]{images/yuka_evaluation.png}
@@ -55,12 +55,22 @@ Despite these advantages, Yuka also presents notable limitations. Its database i
 \label{fig:yuka_evaluation}
 \end{figure}
 \end{center}
-
+\par Its intuitive interface and simple scoring system based on composition,
+additives, and organic status help users make quick purchasing decisions.
+Despite these advantages, Yuka also presents notable limitations. Its
+database is not always updated regularly. In addition, the application
+lacks personalization by overlooking individual dietary goals, allergies,
+and health conditions. As a result, Yuka serves more as a tool for initial
+screening than as a source of personalized nutritional guidance.
 \subsection{ Open Food Facts}
-Open Food Facts\footnote{\url{https://fr.openfoodfacts.org/}} is a collaborative and nonprofit database of food products. It is the primary data source for many other applications, including Yuka. 
+Open Food Facts\footnote{\url{https://fr.openfoodfacts.org/}} is a collaborative and nonprofit database of food
+products. It is the primary data source for many other applications,including Yuka.
 
-It is true that the Open Food Facts application provides transparent information such as ingredients, allergens, and Nutriscore. But it suffers from significant usability challenges. The lack of personal tracking or goal setting features limits its usefulness for consumers seeking a nutritional guide.
-
+It is true that the Open Food Facts application provides transparent
+information such as ingredients, allergens, and Nutriscore. But it suffers
+from significant usability challenges. The lack of personal tracking or goal
+setting features limits its usefulness for consumers seeking a nutritional
+guide.
 % OFF 00-01-02-03
 \begin{figure}[H]
     \centering
@@ -73,9 +83,13 @@ It is true that the Open Food Facts application provides transparent information
 \end{figure}
 
 \subsection{QuelProduit}
-QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelproduit-n84731/}} is a product analysis app developed by the French non-profit consumer organization \textbf{UFC-Que Choisir}, to help users make safer choices by scanning barcodes to evaluate food, cosmetic, and household items.
- The application focuses on consumer safety by highlighting harmful substances, but does not offer balanced nutritional guidance or personalized dietary support. Users should view this tool as a simple detection system rather than a nutritional guide or assistant.
-
+QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelproduit-n84731/}} is a product 
+analysis app developed by the French non-profit consumer organization \textbf{UFC-Que Choisir} \footnote{\url{https://www.quechoisir.org/}}, to help users make
+safer choices by scanning barcodes to evaluate food, cosmetic, and house-
+hold items. The application focuses on consumer safety by highlighting
+harmful substances, but does not offer balanced nutritional guidance or
+personalized dietary support. Users should view this tool as a simple
+detection system rather than a nutritional guide or assistant.
  \begin{center}
 \begin{figure}[H]
 \includegraphics[scale=0.33]{images/quelproduit.jpg}
@@ -85,88 +99,142 @@ QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelprod
 \end{center}
 
  \subsection{Food Check}
-Food Check\footnote{\url{https://play.google.com/store/apps/details?id=com.bytes_and_pixels.food_buddy&hl=fr}} is an AI-powered nutritional scanner application developed by Bytes \& Pixels GmbH. The application offers AI chatbot assistance and personalized recommendations.
+Food Check\footnote{\url{https://play.google.com/store/apps/details?id=com.bytes_and_pixels.food_buddy&hl=fr}} is an AI-powered nutritional scanner application developed by 
+Bytes \& Pixels \footnote{\url{https://www.bytes-and-pixels.de/}}. The application offers AI chatbot assistance and personalized recommendations.
 
-Despite its advanced feature set, user feedback reveals significant shortcomings. Technical issues with barcode scanning and performance bugs are frequently reported. The onboarding process is described as intrusive, requiring extensive personal information before delivering value, which results in high initial abandonment rates.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.33]{images/food_check.png}
+\caption{The complexity of parameters required from the user in the scanner application Food}
+\label{fig:foofCheck}
+\end{figure}
+
+The main problem is the complexity of parameters to enter by user
+to receive personalized recommendations. The onboarding process is
+described as intrusive, requiring extensive personal information before
+delivering value. This complexity can deter users from fully engaging
+with the app, as illustrated in Figure
 
 \subsection{Key Challenges and gaps in Current Applications}
-There are a number of significant deficiencies of current nutritional apps. Firstly, existing nutrition applications frequently fall to deliver a comprehensive user experience. Many provide generic recommendations that do not account for individual factors such as allergies and medical conditions. This lack of personalization can make it difficult for users to find relevant and actionable advice. Furthermore, the widespread use of simplified scoring systems further reduces complex nutritional data to a single value, which can mislead users and prevent informed decision-making.  
 
-In the first three applications, there is a lack of interactivity. Real-time chatbot guidance is missing to answer questions and provide tailored recommendations and advice. The lack of conversational guidance restricts the ability of apps to provide dynamic and context-aware support. 
+There are a number of significant deficiencies of current nutritional apps.
+The table\ref{tab:competitor_evaluation} summarizes the evaluation of key competitor applications
+based on several criteria: frequency of database updates, recommendation
+system sophistication, presence of a chatbot, level of user interaction,
+and depth of product evaluation. This analysis highlights the strengths
+and weaknesses of each application, providing a clear framework for
+identifying opportunities to enhance VitamiNurse. Existing nutrition
+applications frequently fall to deliver a comprehensive user experience.
+Many provide basic recommendations by simple category-based filtering
+that do not account for individual factors such as allergies and medical
+conditions. This lack of personalization can make it difficult for users
+to find relevant and actionable advice. Furthermore, the widespread
+use of simplified scoring systems further reduces complex nutritional
+data to a single value, which can mislead users and prevent informed
+decision-making.
+In the first three applications, there is a lack of interactivity. Real-time
+chatbot guidance is missing to answer questions and provide tailored recommendations and advice. The lack of conversational guidance restricts
+the ability of apps to provide dynamic and context-aware support.
+For Food Check, this application does not consider user health conditions
+evolution. The app requires users to input detailed personal information
+during onboarding. This approach fails to adapt to changes in health status or dietary goals automatically over time, limiting long-term relevance
+and effectiveness of recommendations.
+% in Figure \ref{fig:yuka_feedback}. 
 
-For Food Check, this application does not consider complex user health conditions and supports only a few dietary lifestyles: vegan, gluten-free, and dairy-free diets.  
-
-
- Lastly, data reliability issues still persist, raising concerns about the precision and reproducibility of nutritional data in existing databases. The negative user feedback on Google Play points to an outdated Yuka database, as illustrated in Figure \ref{fig:yuka_feedback}. This results in unreliable nutritional analysis and inconsistent product ratings.  
-
-\begin{center}
-\begin{figure}[ht]
-\includegraphics[scale=0.45]{images/yuka_negative_review.png}
-\caption{Negative user reviews of Yuka on Google Play}
-\label{fig:yuka_feedback}
-\end{figure}
-\end{center}
-
-
-% --- Insert your LaTeX table here ---
-\begin{table}[h!]
+\begin{table}[htbp]
 \centering
-\caption{Comparison of Key Features in Competitor Applications}
-\label{tab:app_comparison}
-\begin{tabularx}{\textwidth}{|l|X|X|X|X|}
+\caption{Evaluation of Key Competitor Applications}
+\label{tab:competitor_evaluation}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
-\textbf{Feature} & \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{QuelProduit} & \textbf{NutriSmart} \\
+\textbf{Feature} & \textbf{Yuka} & \textbf{Open Food Facts} & \textbf{QuelProduit} & \textbf{Food Check} \\
 \hline
-Database Update Frequency & Not frequent & Varies (User-driven) & Information Missing & Information Missing \\
+Database Frequency Update & Not Frequent & Varies (Updated by users) & Moderate & Moderate \\
 \hline
-Recommendation System & Absent & Absent & Absent & Exist \\
+Recommendation System & Elementary & Basic Filtering & Basic Filtering & Elementary \\
 \hline
-AI Assistant / Interaction & Absent & Absent & Absent & Exist \\
+Chatbot & Absent & Absent & Absent & Present \\
 \hline
-Core Function & Product Scanning & Open Database & Product Scanning & Personalized Routines \\
+Interaction & High & Moderate & Moderate & Moderate \\
 \hline
-\end{tabularx}
+Product Evaluation & Comprehensive & Comprehensive & Detailed & Detailed \\
+\hline
+\end{tabular}
 \end{table}
+
+
  
 \section{Proposed solution}
   
-To address the identified market gaps, we propose a comprehensive enhancement of the VitamiNurse application. Our vision is to transform it from a simple product scanner into an intelligent, adaptive, and indispensable nutritional partner. This transformation is centered on delivering a uniquely personalized and interactive user experience through the following key features.
+To address the identified market gaps, we propose a comprehensive
+enhancement of the VitamiNurse application. Our vision is to transform it from a simple product scanner into an intelligent, adaptive, and
+indispensable nutritional partner. This transformation is centered on delivering a uniquely personalized and interactive user experience through
+the following key features.
 
-\subsection{A Reliable and Always-Up-to-Date Product Database}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.33]{images/new_version_VN.png}
+\caption{Features of the new version of VitamiNurse}
+\label{fig:VN_new_features}
+\end{figure}
 
-A fundamental limitation of existing applications is the lack of current and accurate product information. Our solution ensures that users can have complete confidence in the data they access. The system is designed to automatically and continuously refresh its database by integrating information from multiple trusted sources. For the user, this translates to a seamless and reliable scanning experience. When they scan a product barcode, they are presented with the most current and accurate nutritional information available, effectively eliminating the frustration of encountering unknown or outdated items that plague other apps.
 
-\subsection{Personalized Product Recommendations and Alternatives}
 
-We recognize that nutritional needs are highly individual. Moving beyond generic scoring systems, VitamiNurse will provide deeply personalized guidance. The application learns from user preferences, dietary restrictions, and health goals to act as a personal product scout.
+\subsection{An Interactive Nutritional Assistant}
 
-For instance, consider a user with a lactose intolerance scanning a yogurt. Instead of merely displaying a poor rating, the application will immediately explain the reason for the unsuitability, such as highlighting the presence of lactose. More importantly, it will proactively suggest several similar, lactose-free yogurt alternatives that align with the user's taste preferences. This intelligent matching ensures that the recommendations are not only safe but also genuinely appealing to the user.
+To bridge the interactivity gap found in competing applications, VitamiNurse will feature a friendly AI assistant integrated directly into the
+user experience. This 24/7 assistant serves as a conversational partner
+for all nutritional inquiries, providing dynamic support that goes beyond
+simple question–answer chatbots.
+The assistant will be capable of answering a wide range of questions,
+from clarifying nutritional information to offering meal suggestions based
+on preferences and dietary restrictions of each user.
 
-\subsection{Intelligent, Profile-Based Product Analysis}
+\subsection{Personalized Product Recommendations}
+We recognize that nutritional needs are highly individual. Moving beyond
+generic scoring systems, VitamiNurse will provide deeply personalized
+guidance. The application learns from user preferences, dietary restrictions, and health goals to offer tailored product recommendations.
+For example, if a user is managing hypertension, the app will prioritize low-sodium options when suggesting alternatives to scanned products. 
+This level of personalization ensures that users receive relevant and actionable advice that aligns with their unique health profiles.
 
-The application functions as a personal nutritionist at the point of sale. It transcends simply listing ingredients by performing a sophisticated analysis tailored to the user's unique health profile, whether it be for weight management, diabetes, or hypertension.
+\subsection{Product Evaluation Using AI}
 
-To illustrate, a user focused on reducing sugar intake might scan a cereal bar. The AI will audit the product and deliver a clear, plain-English conclusion, such as: \textbf{“Attention: This product contains 20g of sugar per serving, which is high for your stated goal. We recommend considering the healthier alternatives suggested below.”} This feature demystifies complex nutritional data, empowering users to make informed and confident dietary choices.
+The application functions as a personal nutritionist at the point of sale.
+It transcends simply listing ingredients by performing a sophisticated
+evaluation tailored to the user’s unique health profile, whether it be for
+weight management, diabetes, or hypertension.
 
-\subsection{An Interactive 24/7 Nutritional Assistant}
 
-To bridge the interactivity gap found in competing applications, VitamiNurse will feature a friendly and knowledgeable AI chatbot integrated directly into the user experience. This assistant serves as a conversational partner for all nutritional inquiries, providing dynamic support that goes beyond a static FAQ.
+\subsection{Continuous Updates of Product Database and User Profiles}
 
-Users can engage with the chatbot in a natural dialogue. They might ask, “What is a quick and healthy breakfast idea for a busy morning?” and receive a personalized recipe. Furthermore, after scanning a product, a user can seek deeper understanding by asking, “Why did this product receive a 'moderate' rating?” The chatbot will then explain the key deciding factors, such as high sodium content or the presence of specific additives, in an accessible and educational manner.
+A fundamental limitation of existing applications is the lack of current
+and accurate product information. Our solution ensures that users can
+have complete confidence in the data they access. The system is designed
+to automatically and continuously refresh its database by using a data
+pipeline from trusted sources.
+Without the need for manual updates, the application will maintain
+dynamic user profiles in real-time that evolve with the user’s health
+status and dietary goals. This adaptability ensures that recommendations
+remain relevant over time, accommodating changes in lifestyle, health
+conditions, and personal preferences. By continuously updating both
+product data and user profiles, VitamiNurse aims to provide a truly
+personalized and trustworthy nutritional guidance experience.
 
-% image des features :  user / produit / scan / product evaluations / chatbot
 
 \section{Project Methodology}
 
-The first step to ensure the smooth running and success of any project is choosing the right methodology. Today,Scrum, XP, and Kanban and  Scrumban are the most popular agile approaches in web and mobile development.
-To choose the best approach, we decided to compare and select the one that best fits our context and objectives.
+The first step to ensure the smooth running and success of any project
+is choosing the right methodology. Today,Scrum, XP, and Kanban and
+Scrumban are the most popular agile approaches in web and mobile
+development. To choose the best approach, we decided to compare and
+select the one that best fits our context and objectives.
 
 \subsection{Comparative Study of existing methodologies}
 \subsubsection{a) Scrum Method} 
 Scrum is an agile methodology that promotes collaboration, adaptability, and the iterative delivery of high-quality results. This method encourages agile teams to meet regularly to review project progress and adjust their direction as needed. This dynamic approach balances investment and the final product, ensuring greater customer satisfaction and optimal value delivery \cite{scrum2025}.
 
 The main elements of Scrum are:
-\begin{enumerate}
+\begin{enumerate}{label=-}
     \item \texttt{Sprint:} Is a working cycle with fixed duration, of one to four weeks. In this case, it is the Scrum Master to ensure that this period is not exceeded \cite{schwaber2004agile}
 
     \item \texttt{Scrum Master:} Their main role is to facilitate the application of Scrum principles and resolve blockages.
@@ -208,7 +276,7 @@ Scrumban is a hybrid methodology that combines the flexibility of Kanban board w
 
 \subsection{Chosen Team Management Methodology: Scrumban}
 Our selection of the Scrumban methodology is based on an analysis of the limitations of pure approaches (Scrum, XP, Kanban) in the practical plan in the host company as well as the specific needs of our project. Generally, we can summarize the identified problems as follows:
-\begin{itemize}
+\begin{itemize}{label=\textbf{-}}
     \item \textbf{Limited numbers:}
     The XP (eXtreme Programming) approach requires development pairs (pair programming), which is difficult to apply with the available human resources.
         
@@ -236,7 +304,15 @@ The first step in the Scrumban process is to set up the Scrumban board, which is
 \newpage
 \subsection{Chosen technical methodology}
 
-We adopted the CRISP-DM as a technical methodology for its structured and iterative approach to solving complex data science problems. It represents a comprehensive six-phase process includes problem understanding, data exploration, data preparation, modeling, evaluation, and deployment.
+For the technical execution, we adopted the CRISP-DM for its structured
+and iterative approach to solving complex data science problems. It
+represents a comprehensive six-phase process includes problem understanding, data exploration, data preparation, modeling, evaluation, and
+deployment.
+This methodology is particularly well-suited for our project, which involves
+developing a personalized recommendation system and an AI assistant
+for nutritional guidance. The structured phases of CRISP-DM allow
+us to systematically address the challenges of data collection, model development, and deployment while ensuring that we remain aligned
+with user needs and project goals.
 \begin{center}
 \begin{figure}[H]
             \centering
@@ -251,9 +327,18 @@ We adopted the CRISP-DM as a technical methodology for its structured and iterat
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
-In this first chapter, we discussed the general context of the Vitaminurse project. We also discussed the limitations of existing applications on the market compared to our application, which leverages more artificial intelligence to improve user nutritional support.
-
-We also defined the methodologies adopted for the project's development. For team organization, the Scrumban method was chosen for its flexibility and clarity. CRISP-DM was chosen as a technical work methodology, as it provides a structured approach for data science projects.
-
-This chapter provides a solid foundation for the rest of the work before moving on to the next chapter, dedicated to the development of the data pipeline.
-
+In this first chapter, we presented the context of our internship project
+at ONRTECH, focusing on the development of the VitamiNurse application. We analyzed existing nutritional applications to identify their
+strengths and weaknesses, which informed our proposed enhancements
+for VitamiNurse. Our solution leverages more artificial intelligence to
+improve user nutritional support. The new version of VitamiNurse aims
+to provide a more personalized, interactive, and adaptive user experience
+through two key features: an advanced recommendation system and a
+user-friendly AI assistant.
+We also defined the methodologies adopted for the project’s development.
+For team organization, the Scrumban method was chosen for its flexibility
+and clarity. CRISP-DM was chosen as a technical work methodology, as
+it provides a structured approach for data science projects.
+This chapter provides a solid foundation for the rest of the work before
+moving on to the next chapter, dedicated to the development of the data
+pipeline.
