@@ -59,8 +59,7 @@ The following picture illustrates how the user see the details of the scanned pr
 The AI nutrition assistant represents a new generation of personalized dietary advice and nutritional data analysis, all within a coherent conversational interface.
 \section{System Architecture}
 The architecture of the Nutrition Assistant is designed for modularity, scalability, and maintainability. Figure~\ref{fig:chatbot Architect} outlines this three-tier architecture, consisting of the user mobile interface, backend server, and AI/data layer.
- This separation ensures that improvements in one layer, such as up-
-grading the recommendation logic, can be implemented without disrupting other components of the system. The conversational capabilities of this intuitive chatbot are tightly integrated with a persistent memory framework in order to recall previous user interactions and adapt recommendations over time.  
+ This separation ensures that improvements in one layer, such as up-grading the recommendation logic, can be implemented without disrupting other components of the system. The conversational capabilities of this intuitive chatbot are tightly integrated with a persistent memory framework in order to recall previous user interactions and adapt recommendations over time.  
  \begin{center}
     \begin{figure}[H]
     \includegraphics[width=0.9\textwidth]{images/chat_layers.png}
@@ -92,6 +91,7 @@ A \texttt{ChromaDB} vector database serves as the persistent storage layer, main
 The \emph{Recommendation Engine} introduced in the previous chapter is seamlessly integrated into this architecture. It operates on a hybrid approach combining collaborative filtering and content-based filtering, ensuring that recommended products are both personalized and nutritionally appropriate for each user's specific profile and constraints.
 
 \section{Key Features and Implementation}
+
 
 \section{Retrieval-Augmented Generation (RAG) in VitamiNurse}
 \label{sec:rag}

@@ -35,7 +35,7 @@ we aim to predict.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.42]{images/OFF_database.png}
+\includegraphics[scale=0.45]{images/OFF_database.png}
 \caption{Distribution of food products in the Open Food Facts database by country of origin} 
 \label{fig:country_distribution}
 \end{figure}
@@ -80,24 +80,20 @@ This filtering step was implemented in order to remove entries with implausible 
 For example,  900 kcal represents the upper physiological limit for energy content in food composed solely of fat, such as oils. This theoretical maximum energy is calculated based on the Atwater general factor system that includes energy values of 4 kcal per gram (17 kJ/g) for protein, 4 kcal/g for carbohydrates and 9 kcal/g (37 kJ/g) for fat \cite{huelEnergyCalculation}.
 
 Thus the total energy content per 100 grams can be estimated using the following formula:
-
 $$
 \text{Energy (kcal/100g)} = 4 \times (\text{g carbs}) + 4 \times (\text{g proteins}) + 9 \times (\text{g fats})
 $$
 
 The theoretical maximum energy density is reached when a product consists entirely of fat, as it yields the highest caloric value per gram. In this case, the energy content is:
-
 \[
 \text{Energy} = 9 \times 100 = 900 \text{ kcal/100g}
 \]
-
 The process then continues with all the other macronutrients like it is illustrated in the provided table to retain only nutritionally realistic entries.
-
 % Creating the table for nutritional ranges
 \begin{table}[H]
 \centering
 \caption{Plausible Nutritional Ranges for Data Validation in product Composition per 100g}
-\resizebox{0.9\textwidth}{!}{%
+\resizebox{0.75\textwidth}{!}{%
 \begin{tabular}{@{}lcp{10cm}@{}}
 \toprule
 \textbf{Nutrient} & \textbf{Plausible Range} & \textbf{Scientific Rationale and Validation Criteria} \\
@@ -133,7 +129,7 @@ This expression is used to derive energy-kJ\_100g post-training, ensuring comput
 
 % Creating the table for nutritional ranges
 \begin{figure}[H]
-\includegraphics[width=0.7\textwidth]{images/correlation_matrix.png}
+\includegraphics[width=0.9\textwidth]{images/correlation_matrix.png}
 \caption{Correlation matrix} 
 \label{fig:Correlation_matrix}
 \end{figure}
@@ -181,6 +177,7 @@ A machine learning pipeline was developed, integrating a Term Frequency-Inverse 
 \end{table}
 
 \section{Model Construction and Training}
+After finishing preprocessing and feature engineering, we built a supervised learning pipeline to predict seven key nutritional attributes from product text. The next subsections summarize the model architecture, hyperparameter tuning, and evaluation procedures used to build Nutri-pred-v1.
 
 \subsection{Training Set Construction}
 A stratified random sample of 10\% of the dataset (222,501 products) was selected to perform model experimentation and hyperparameter tuning. The target variables were the following nutritional attributes: energy (kcal), fat, saturated fat, carbohydrates, sugars, proteins, and salt.
@@ -246,7 +243,7 @@ facilitates interactive testing\footnote{\url{https://huggingface.co/spaces/bell
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{images/Nutri-pred_fast_API.png}
+    \includegraphics[width=0.98\textwidth]{images/Nutri-pred_fast_API.png}
     \caption{FastAPI endpoint for predicting nutritional values.}
     \label{fig:fastapi-endpoint}
 \end{figure}
@@ -256,11 +253,12 @@ The deployment architecture ensures low-latency predictions and supports both lo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.98\textwidth]{images/Nutri-pred_Huggingface.png}
+    \includegraphics[width=0.99\textwidth]{images/Nutri-pred_Huggingface.png}
     \caption{Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces}
     \label{fig:gradio-ui}
 \end{figure}
 
+\newpage
 \section{Conclusion}
 \par In summary, the Nutri-pred-v1 model represents a significant advancement in our project to predict nutritional values when they are missing
 from product descriptions. The KNN algorithm was selected to train

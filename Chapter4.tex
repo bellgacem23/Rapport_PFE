@@ -18,7 +18,9 @@ Vector databases serve as the backbone of modern content-based recommendation sy
 
 \subsection{Fundamentals of Vector Databases}
 Vector databases store and index dense numerical representations (embeddings) of data objects, allowing retrieval based on semantic similarity rather than exact keyword matches. 
-Unlike relational databases, which organize data in tables, these systems represent data as vectors in a multi-dimensional space. These vectors encapsulate essential attributes of the items they represent, 
+Unlike relational databases, which organize data in tables, these systems represent data as vectors in a multi-dimensional space. 
+
+\par These vectors encapsulate essential attributes of the items they represent, 
 making vector databases ideal for tasks requiring similarity searches, nearest neighbor queries, and assessing distances or similarities between vectors \cite{IBMVectordb2025}. 
 This capability is crucial in various applications, including recommendation systems, content-based image and video retrieval, and natural language understanding.
 
@@ -61,7 +63,7 @@ constraints such as excluding gluten-containing products for celiac users.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.45]{images/chroma_space.png}
+    \includegraphics[scale=0.65]{images/chroma_space.png}
     \caption{Vector search mechanism in ChromaDB} 
     \label{fig:vectorDB}
 \end{figure}
@@ -103,7 +105,7 @@ the all-MiniLM-L6-v2 model.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.55]{images/VN_recommendation.png}
+    \includegraphics[scale=0.42]{images/VN_recommendation.png}
     \caption{Recommendation System Architecture } 
     \label{fig:Recommendation Sequence Diagram }
 \end{figure}
@@ -180,7 +182,8 @@ The VitamiNurse system operates through a robust, modular data pipeline designed
     \item \textbf{Daily Model Retraining}: To adapt to evolving user preferences and product changes, the LightFM recommendation model is retrained every 24 hours (scheduled at 00:00 UTC). This ensures continuous learning and optimal recommendation quality.
 \end{enumerate}
 
-\newpage
+\vspace{1cm}
+
 \section{content-based filtering}
 The content-based (CB) recommendation module in \textit{VitamiNurse} is designed to provide personalized nutritional product suggestions by leveraging semantic similarity between user profiles and product characteristics. This is achieved through dense vector embeddings stored in ChromaDB and computed using a lightweight sentence-transformer model.
 \begin{figure}[H]
@@ -226,25 +229,19 @@ distiluse-base-multilingual-cased-v2 & 60.18 & 27.35 & 43.77 & 4000 & 480 MB \\
 
  
 \subsection{Embedding Model Selection}
-The system employs the all-MiniLM-L6-v2 model for generating embeddings, which offers several advantages over alternatives. 
+\par The system employs the all-MiniLM-L6-v2 model for generating embeddings, which offers several advantages over alternatives. 
 By being fine-tuned on over 1 billion text pairs, the all-MiniLM-L6-v2 excels in semantic similarity tasks. 
-Despite its smaller size,it achieves 93\% the accuracy of larger models such as BERT-base models.
-\par This sentence transformer model is an excellent choice for VitamiNurse recommendation system, as it produces 384-dimensional embeddings that effectively capture subtle relationships within the data. \cite{sentence-transformers-all-MiniLM-L12-v2}
+Despite its smaller size,it achieves 93\% the accuracy of larger models such as BERT-base models. 
 
+\par This sentence transformer model is an excellent choice for VitamiNurse recommendation system, as it produces 384-dimensional embeddings that effectively capture subtle relationships within the data \cite{sentence-transformers-all-MiniLM-L12-v2}. Furthermore, its compact architecture, with only 33.4 million parameters, enables
+efficient CPU-only inference, and multilingual support enables global applicability, making it
+perfect for delivering fast and accurate recommendations.
 
-\subsection{Embed and load data to chroma DB}
-We use the all-MiniLM-L6-v2 model to embed and load data to chroma that is used for recommendation .Furthermore, its compact architecture, with only 33.4 million parameters, enables efficient CPU-only inference, and multilingual support enables global applicability, making it perfect for delivering fast and accurate recommendations.
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.39]{images/load_data__0.png}
-    \caption{Load Data to chroma DB} 
-    \label{fig:load data chroma}
-\end{figure}
 
 \subsection{CB Recommendation Process}
  The content-based recommendation process in VitamiNurse involves several key steps to generate personalized product suggestions based on user profiles and scanned items.
 \subsubsection{Query Construction}
-\par The CB system operates based on two possible inputs: the \textbf{user identifier} and an optional \textbf{scanned product identifier} (EAN code). When a user scans a product, the system retrieves metadata associated with that item—such as product name, brand, categories, and nutrition information. Simultaneously, it extracts the user’s profile information, which includes dietary preferences, pregnancy status, and medical conditions like diabetes or hypertension.\\
+\par The CB system operates based on two possible inputs: the \textbf{user identifier} and an optional \textbf{scanned product identifier} (EAN code). When a user scans a product, the system retrieves metadata associated with that item such as product name, brand, categories, and nutrition information. Simultaneously, it extracts the user’s profile information, which includes dietary preferences, pregnancy status, and medical conditions like diabetes or hypertension.\\
 These two sources of information are merged to create a descriptive query that captures both the scanned product’s features and the user's health-related needs. 
 
 \subsubsection{Search and Recommendation}
@@ -253,20 +250,13 @@ The query is then embedded into a vector using the selected embedding model and 
 
 
 \subsubsection{Recommendation Score}
-\par Each recommended product is assigned a relevance score based on semantic proximity. This score is further refined by applying domain specific nutritional rules — by boosting products with better Nutri-Scores. The system also applies post-filtering to strictly enforce compatibility with medical conditions or dietary restrictions. For instance, a user with celiac disease will never be recommended a product that contains gluten, even if it is semantically similar.
+\par Each recommended product is assigned a relevance score based on semantic proximity. This score is further refined by applying domain specific nutritional rules by boosting products with better Nutri-Scores. The system also applies post-filtering to strictly enforce compatibility with medical conditions or dietary restrictions. For instance, a user with celiac disease will never be recommended a product that contains gluten, even if it is semantically similar.
 
 \subsubsection{CB Recommendation Workflow :}
 The content based recommendation workflow follows a structured process in order to offer a personalized and health-aware user experience, as illustrated in the following diagram. It begins by metadata gathering and query construction. Queries are embedded into vectors using the all-MiniLM-L6-v2 model for semantic search against the product database. The system then selects and returns recommendations aligned with user preferences and nutritional needs.
 
-\begin{center}
-    \begin{figure}[H]
-        \includegraphics[width=0.9\textwidth]{images/CB_recommendation_workflow_simple.png}
-    \caption{CB Recommendation Workflow} 
-    \label{fig:cb workflow}
-\end{figure}
-\end{center}
 
-This design ensures that the products delivered by the content based recommendation system are not only contextually relevant but also aligned with the unique nutritional profile of each user of \textit{VitamiNurse} app.
+\apr This design ensures that the products delivered by the content based recommendation system are not only contextually relevant but also aligned with the unique nutritional profile of each user of \textit{VitamiNurse} app.
 
 \newpage
 \section{Collaborative Filtering}
@@ -389,7 +379,7 @@ HNSW  (8001) & 178.08 & 10 & 100.0 \\
 
 \par Results demonstrate that \textbf{HNSW} significantly outperforms \textbf{exact search} on speed while maintaining high relevance in practical use cases. It is now the preferred mode for large-scale deployments in VitamiNurse.
 
-\newpage
+\vspace{1cm}
 \section{Deployment}
 The recommendation system is deployed as a RESTful API using FastAPI, enabling seamless integration with the VitamiNurse mobile application. This section outlines the deployment architecture and multi-modal recommendation capabilities.
 

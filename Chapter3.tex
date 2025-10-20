@@ -79,7 +79,7 @@ as well as the tools and methodologies used in this step.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.39]{images/workflow__data.png}
+    \includegraphics[scale=0.42]{images/workflow__data.png}
     \caption{End-to-end data workflow: from web scraping to vector embedding}
     \label{fig:data_workflow}
 \end{figure}
@@ -169,13 +169,14 @@ context-sensitive recommendations.
 \end{figure}
 \end{center}
 
-After that we combine all the product titles, ingredients, and categories
-and check if it matches any specific nutrition keywords from our reference. If a match is found, we assign the corresponding label to the product (e.g., "gluten-free," "ibs-friendly," "vegetarian," "vegan," "halal," "kosher," "pregnancy-safe," etc.). This automated labeling process enhances the product metadata, making it easier to filter and recommend products in real-time based on individual dietary needs and preferences.
+After that we combine all the product titles, ingredients, and categories and check if it matches any specific nutrition keywords from our reference. 
+If a match is found, we assign the corresponding label to the product ("gluten-free", "ibs-friendly", "vegetarian", "vegan", "halal", "pregnancy-safe", etc.). 
+This automated labeling process enhances the product metadata, making it easier to filter and recommend products in real-time based on individual dietary needs and preferences.
 
-\par In addition to checking for keywords, we also analyze the nutrition values of each product to assign dietary labels such as "low sugar," "low fat," or "high protein" based on established nutritional guidelines. This dual approach of keyword matching and nutritional analysis ensures that each product is accurately labeled according to its health attributes, enhancing the recommendation system's ability to cater to individual dietary needs.
+\par In addition to checking for keywords, we also analyze the nutrition values of each product to assign dietary labels such as "low sugar," "low fat," or "high protein" based on established nutritional guidelines. 
+This dual approach of keyword matching and nutritional analysis ensures that each product is accurately labeled according to its health attributes, enhancing the recommendation system's ability to cater to individual dietary needs.
 
- \subsubsection{Adding Nutri-Score}
-The last step in the feature engineering process is the computation and assignment of the
+\par The last step in the feature engineering process is the computation and assignment of the
 Nutri-Score to each product here. The Nutri-Score is a nutrition label that was first implemented in France
 in 2017. It features a five-color scale accompanied by letters from A (most
 nutritious) to E (least nutritious). It is designed to provide consumers
@@ -199,7 +200,7 @@ positive nutritional factors to determine the final score.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.90]{images/nutriscore.jpg}
+    \includegraphics[scale=0.98]{images/nutriscore.jpg}
     \caption{Nutri-Score calculation logic} 
     \label{fig: add_nutriscore}
 \end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  20 OCT 2025 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  20 OCT 2025 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,14 +1041,14 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=702.78308pt
+* \textheight=731.23584pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-40.6381pt
+* \topmargin=-54.86449pt
 * \headheight=14.5pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1112,17 +1112,17 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (./pagePFE.tex
-<images/bg-wave.png, id=445, 551.05875pt x 850.67813pt>
+<images/bg-wave.png, id=441, 551.05875pt x 850.67813pt>
 File: images/bg-wave.png Graphic file (type png)
 <use images/bg-wave.png>
 Package pdftex.def Info: images/bg-wave.png  used on input line 9.
 (pdftex.def)             Requested size: 597.56462pt x 845.09453pt.
-<images/UM_logo.png, id=447, 1204.5pt x 1684.2925pt>
+<images/UM_logo.png, id=443, 1204.5pt x 1684.2925pt>
 File: images/UM_logo.png Graphic file (type png)
 <use images/UM_logo.png>
 Package pdftex.def Info: images/UM_logo.png  used on input line 14.
 (pdftex.def)             Requested size: 40.69147pt x 56.9055pt.
-<images/ISIM_logo.png, id=448, 527.9725pt x 513.92pt>
+<images/ISIM_logo.png, id=444, 527.9725pt x 513.92pt>
 File: images/ISIM_logo.png Graphic file (type png)
 <use images/ISIM_logo.png>
 Package pdftex.def Info: images/ISIM_logo.png  used on input line 18.
@@ -1158,8 +1158,8 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/bg-wave.png> <./i
-mages/UM_logo.png> <./images/ISIM_logo.png>] [2]) (./signatures.tex
-<images/sig.png, id=463, 329.73187pt x 171.64125pt>
+mages/UM_logo.png> <./images/ISIM_logo.png>]) (./signatures.tex
+<images/sig.png, id=455, 329.73187pt x 171.64125pt>
 File: images/sig.png Graphic file (type png)
 <use images/sig.png>
 Package pdftex.def Info: images/sig.png  used on input line 8.
@@ -1175,31 +1175,25 @@ Package pdftex.def Info: images/sig.png  used on input line 15.
 l.1 \newpage
              [1
 
- <./images/sig.png>])pdfTeX warning (ext4): destination with the same identifie
-r (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 \newpage
-               [2] (./Acknowledgment.tex) (./Abstract.tex [3
+ <./images/sig.png>]) [2] (./Acknowledgment.tex) (./Abstract.tex [3
 
 ] [4
 
 ]) [5
 
-]
-(./main.toc [6
+] (./main.toc [6
 
-] [7] [8])
+] [7])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [9] (./main.lof [10
+ [8] (./main.lof [9
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [11] (./main.lot
+ [10] (./main.lot
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 6.
 
 
@@ -1214,7 +1208,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [12
+ [11
 
 ]
 (./Introduction.tex
@@ -1235,102 +1229,101 @@ Chapter 1.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/ONRTECH_logo.jpeg, id=730, 401.5pt x 401.5pt>
+<images/ONRTECH_logo.jpeg, id=714, 401.5pt x 401.5pt>
 File: images/ONRTECH_logo.jpeg Graphic file (type jpg)
 <use images/ONRTECH_logo.jpeg>
-Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 19.
-(pdftex.def)             Requested size: 77.39066pt x 77.38853pt.
+Package pdftex.def Info: images/ONRTECH_logo.jpeg  used on input line 17.
+(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28  T
-       he goal of this internship is to develop a personalized recommendatio...
-[2
+l.23 \newpage
+              [2
 
  <./images/ONRTECH_logo.jpeg>]
-<images/VN_app_logo.png, id=735, 224.84pt x 129.48375pt>
+<images/VN_app_logo.png, id=719, 224.84pt x 129.48375pt>
 File: images/VN_app_logo.png Graphic file (type png)
 <use images/VN_app_logo.png>
-Package pdftex.def Info: images/VN_app_logo.png  used on input line 37.
+Package pdftex.def Info: images/VN_app_logo.png  used on input line 36.
 (pdftex.def)             Requested size: 123.66237pt x 71.21626pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 
-      [3 <./images/VN_app_logo.png>]
-<images/yuka_evaluation.png, id=743, 1204.5pt x 711.65875pt>
+l.46 \par T
+           he study is based on both the examination of relevant references ...
+[3 <./images/VN_app_logo.png>]
+<images/yuka_evaluation.png, id=727, 1204.5pt x 711.65875pt>
 File: images/yuka_evaluation.png Graphic file (type png)
 <use images/yuka_evaluation.png>
-Package pdftex.def Info: images/yuka_evaluation.png  used on input line 61.
-(pdftex.def)             Requested size: 373.39114pt x 220.61192pt.
+Package pdftex.def Info: images/yuka_evaluation.png  used on input line 59.
+(pdftex.def)             Requested size: 421.58131pt x 249.08429pt.
+<images/OFF-00.png, id=730, 426.59375pt x 770.88pt>
+File: images/OFF-00.png Graphic file (type png)
+<use images/OFF-00.png>
+Package pdftex.def Info: images/OFF-00.png  used on input line 81.
+(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
+<images/OFF-01.png, id=731, 426.59375pt x 770.88pt>
+File: images/OFF-01.png Graphic file (type png)
+<use images/OFF-01.png>
+Package pdftex.def Info: images/OFF-01.png  used on input line 82.
+(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
+<images/OFF-02.png, id=732, 426.59375pt x 770.88pt>
+File: images/OFF-02.png Graphic file (type png)
+<use images/OFF-02.png>
+Package pdftex.def Info: images/OFF-02.png  used on input line 83.
+(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
+<images/OFF-03.png, id=733, 426.59375pt x 770.88pt>
+File: images/OFF-03.png Graphic file (type png)
+<use images/OFF-03.png>
+Package pdftex.def Info: images/OFF-03.png  used on input line 84.
+(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 I
-      t is true that the Open Food Facts application provides transparent
-[4 <./images/yuka_evaluation.png>]
-<images/OFF-00.png, id=751, 426.59375pt x 770.88pt>
-File: images/OFF-00.png Graphic file (type png)
-<use images/OFF-00.png>
-Package pdftex.def Info: images/OFF-00.png  used on input line 85.
-(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
-<images/OFF-01.png, id=752, 426.59375pt x 770.88pt>
-File: images/OFF-01.png Graphic file (type png)
-<use images/OFF-01.png>
-Package pdftex.def Info: images/OFF-01.png  used on input line 86.
-(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
-<images/OFF-02.png, id=753, 426.59375pt x 770.88pt>
-File: images/OFF-02.png Graphic file (type png)
-<use images/OFF-02.png>
-Package pdftex.def Info: images/OFF-02.png  used on input line 87.
-(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
-<images/OFF-03.png, id=754, 426.59375pt x 770.88pt>
-File: images/OFF-03.png Graphic file (type png)
-<use images/OFF-03.png>
-Package pdftex.def Info: images/OFF-03.png  used on input line 88.
-(pdftex.def)             Requested size: 109.26108pt x 197.43636pt.
-<images/quelproduit.jpg, id=759, 1525.7pt x 1003.75pt>
+l.87 \end{figure}
+                  [4 <./images/yuka_evaluation.png>]
+<images/quelproduit.jpg, id=743, 1525.7pt x 1003.75pt>
 File: images/quelproduit.jpg Graphic file (type jpg)
 <use images/quelproduit.jpg>
-Package pdftex.def Info: images/quelproduit.jpg  used on input line 101.
+Package pdftex.def Info: images/quelproduit.jpg  used on input line 97.
 (pdftex.def)             Requested size: 289.88602pt x 190.71448pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \end{center}
+l.101 \end{center}
                    [5 <./images/OFF-00.png> <./images/OFF-01.png> <./images/OFF
--02.png> <./images/OFF-03.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+-02.png> <./images/OFF-03.png> <./images/quelproduit.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 [][][][]$\T1/pcr/m/n/10 https : / / play . google . com / store / apps / detail
 s ? id = com . bytes _ and _ pixels . food _
  []
 
-<images/food_check.png, id=775, 773.89125pt x 440.64626pt>
+<images/food_check.png, id=758, 773.89125pt x 440.64626pt>
 File: images/food_check.png Graphic file (type png)
 <use images/food_check.png>
-Package pdftex.def Info: images/food_check.png  used on input line 119.
+Package pdftex.def Info: images/food_check.png  used on input line 115.
 (pdftex.def)             Requested size: 348.24785pt x 198.28897pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 
-       [6 <./images/quelproduit.jpg> <./images/food_check.png>]
-Overfull \hbox (68.28383pt too wide) in paragraph at lines 175--176
+l.151 
+       [6 <./images/food_check.png>]
+Overfull \hbox (68.28383pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<images/new_version_VN.png, id=784, 1102.1175pt x 540.0175pt>
+<images/new_version_VN.png, id=767, 1102.1175pt x 540.0175pt>
 File: images/new_version_VN.png Graphic file (type png)
 <use images/new_version_VN.png>
-Package pdftex.def Info: images/new_version_VN.png  used on input line 189.
+Package pdftex.def Info: images/new_version_VN.png  used on input line 185.
 (pdftex.def)             Requested size: 495.94829pt x 243.00562pt.
 
-Overfull \hbox (40.70418pt too wide) in paragraph at lines 189--190
+Overfull \hbox (40.70418pt too wide) in paragraph at lines 185--186
  [][] 
  []
 
@@ -1338,90 +1331,85 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 
-       [7]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.8}) has been already used, duplicate ignored
+l.194 \par T
+            his 24/7 assistant serves as a conversational partner [7 <./images/
+new_version_VN.png>]
+
+Package natbib Warning: Citation `scrum2025' on page 8 undefined on input line 
+242.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.234 
-       [8 <./images/new_version_VN.png>]
-
-Package natbib Warning: Citation `scrum2025' on page 9 undefined on input line 
-246.
-
+l.244 
+       [8]
 
 Package natbib Warning: Citation `schwaber2004agile' on page 9 undefined on inp
-ut line 250.
+ut line 246.
+
+
+Package natbib Warning: Citation `anderson2010kanban' on page 9 undefined on in
+put line 260.
+
+
+Package natbib Warning: Citation `beck2000extreme' on page 9 undefined on input
+ line 264.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.263 
+l.272 
        [9]
-
-Package natbib Warning: Citation `anderson2010kanban' on page 10 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `beck2000extreme' on page 10 undefined on inpu
-t line 268.
-
-<images/scrumban.jpg, id=799, 853.1875pt x 431.6125pt>
+<images/scrumban.jpg, id=783, 853.1875pt x 431.6125pt>
 File: images/scrumban.jpg Graphic file (type jpg)
 <use images/scrumban.jpg>
-Package pdftex.def Info: images/scrumban.jpg  used on input line 280.
+Package pdftex.def Info: images/scrumban.jpg  used on input line 276.
 (pdftex.def)             Requested size: 375.40366pt x 189.91008pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+86.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<images/kanbanBoard.png, id=784, 1285.80376pt x 620.3175pt>
+File: images/kanbanBoard.png Graphic file (type png)
+<use images/kanbanBoard.png>
+Package pdftex.def Info: images/kanbanBoard.png  used on input line 299.
+(pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
+
+Overfull \hbox (33.3664pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.284 \end{center}
-                   [10]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-90.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<images/kanbanBoard.png, id=803, 1285.80376pt x 620.3175pt>
-File: images/kanbanBoard.png Graphic file (type png)
-<use images/kanbanBoard.png>
-Package pdftex.def Info: images/kanbanBoard.png  used on input line 303.
-(pdftex.def)             Requested size: 488.6105pt x 235.7231pt.
-
-Overfull \hbox (33.3664pt too wide) in paragraph at lines 303--304
- [][] 
- []
-
+l.303 \end{center}
+                   [10 <./images/scrumban.jpg>]
+<images/CRISP.png, id=788, 446.50815pt x 447.3513pt>
+File: images/CRISP.png Graphic file (type png)
+<use images/CRISP.png>
+Package pdftex.def Info: images/CRISP.png  used on input line 316.
+(pdftex.def)             Requested size: 196.46419pt x 196.83517pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.307 \end{center}
-                   [11 <./images/scrumban.jpg>]
-<images/CRISP.png, id=808, 446.50815pt x 447.3513pt>
-File: images/CRISP.png Graphic file (type png)
-<use images/CRISP.png>
-Package pdftex.def Info: images/CRISP.png  used on input line 320.
-(pdftex.def)             Requested size: 196.46419pt x 196.83517pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.324 \end{center}
-                   [12 <./images/kanbanBoard.png> <./images/CRISP.png>])
-(./Chapter2.tex [13]
+l.327 
+       [11 <./images/kanbanBoard.png> <./images/CRISP.png>]) (./Chapter2.tex
+[12]
 Chapter 2.
-<images/OFF_database.png, id=818, 981.6675pt x 576.1525pt>
+<images/OFF_database.png, id=797, 981.6675pt x 576.1525pt>
 File: images/OFF_database.png Graphic file (type png)
 <use images/OFF_database.png>
 Package pdftex.def Info: images/OFF_database.png  used on input line 38.
-(pdftex.def)             Requested size: 412.29753pt x 241.98239pt.
-[14
+(pdftex.def)             Requested size: 441.74629pt x 259.26622pt.
+[13
 
 ]
-<images/statistics.png, id=823, 951.555pt x 305.14pt>
+<images/statistics.png, id=804, 951.555pt x 305.14pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
 Package pdftex.def Info: images/statistics.png  used on input line 61.
@@ -1431,12 +1419,12 @@ Overfull \hbox (68.11276pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[15 <./images/OFF_database.png>]
+[14 <./images/OFF_database.png>]
 
-Package natbib Warning: Citation `stoian2020machine' on page 16 undefined on in
+Package natbib Warning: Citation `stoian2020machine' on page 15 undefined on in
 put line 68.
 
-<images/missing_values.png, id=829, 963.6pt x 489.83pt>
+<images/missing_values.png, id=810, 963.6pt x 489.83pt>
 File: images/missing_values.png Graphic file (type png)
 <use images/missing_values.png>
 Package pdftex.def Info: images/missing_values.png  used on input line 73.
@@ -1447,102 +1435,106 @@ Overfull \hbox (36.1854pt too wide) in paragraph at lines 73--74
  []
 
 
-Package natbib Warning: Citation `huelEnergyCalculation' on page 16 undefined o
+Package natbib Warning: Citation `huelEnergyCalculation' on page 15 undefined o
 n input line 80.
 
-[16 <./images/statistics.png> <./images/missing_values.png>]
+[15 <./images/statistics.png> <./images/missing_values.png>]
 
-Package natbib Warning: Citation `moore2022' on page 17 undefined on input line
- 114.
+Package natbib Warning: Citation `moore2022' on page 16 undefined on input line
+ 110.
 
 
-Package natbib Warning: Citation `who2012' on page 17 undefined on input line 1
-14.
+Package natbib Warning: Citation `who2012' on page 16 undefined on input line 1
+10.
 
-[17] [18]
+[16]
 
-Package natbib Warning: Citation `guyon2003' on page 19 undefined on input line
- 129.
+Package natbib Warning: Citation `guyon2003' on page 17 undefined on input line
+ 125.
 
-<images/correlation_matrix.png, id=846, 920.43875pt x 742.775pt>
+<images/correlation_matrix.png, id=822, 920.43875pt x 742.775pt>
 File: images/correlation_matrix.png Graphic file (type png)
 <use images/correlation_matrix.png>
-Package pdftex.def Info: images/correlation_matrix.png  used on input line 136.
+Package pdftex.def Info: images/correlation_matrix.png  used on input line 132.
 
-(pdftex.def)             Requested size: 318.66948pt x 257.16435pt.
-[19 <./images/correlation_matrix.png>]
+(pdftex.def)             Requested size: 409.71692pt x 330.6415pt.
+[17]
 
-Package natbib Warning: Citation `hastie2009elements' on page 20 undefined on i
+Package natbib Warning: Citation `hastie2009elements' on page 18 undefined on i
+nput line 142.
+
+[18 <./images/correlation_matrix.png>]
+
+Package natbib Warning: Citation `aionlinecourse2025' on page 19 undefined on i
 nput line 146.
 
 
-Package natbib Warning: Citation `aionlinecourse2025' on page 20 undefined on i
-nput line 150.
+LaTeX Warning: Reference `max_features_values' on page 19 undefined on input li
+ne 149.
 
-
-LaTeX Warning: Reference `max_features_values' on page 20 undefined on input li
-ne 153.
-
-[20] [21]
-<images/mae_r2_comparison.png, id=860, 1040.88875pt x 569.12625pt>
+[19]
+<images/mae_r2_comparison.png, id=837, 1040.88875pt x 569.12625pt>
 File: images/mae_r2_comparison.png Graphic file (type png)
 <use images/mae_r2_comparison.png>
-Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 206.
+Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 203.
 (pdftex.def)             Requested size: 446.13727pt x 243.92926pt.
+ [20]
 
+LaTeX Warning: Reference `tab:model_results' on page 21 undefined on input line
+ 208.
 
-LaTeX Warning: Reference `tab:model_results' on page 22 undefined on input line
- 211.
-
-[22 <./images/mae_r2_comparison.png>]
-<images/Nutri-pred_fast_API.png, id=870, 1252.68pt x 706.64pt>
+[21 <./images/mae_r2_comparison.png>]
+<images/Nutri-pred_fast_API.png, id=851, 1252.68pt x 706.64pt>
 File: images/Nutri-pred_fast_API.png Graphic file (type png)
 <use images/Nutri-pred_fast_API.png>
-Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 249
+Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 246
 .
-(pdftex.def)             Requested size: 409.71692pt x 231.12169pt.
- [23]
-<images/Nutri-pred_Huggingface.png, id=877, 1213.53375pt x 646.415pt>
+(pdftex.def)             Requested size: 446.13727pt x 251.66225pt.
+<images/Nutri-pred_Huggingface.png, id=852, 1213.53375pt x 646.415pt>
 File: images/Nutri-pred_Huggingface.png Graphic file (type png)
 <use images/Nutri-pred_Huggingface.png>
 Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
-259.
-(pdftex.def)             Requested size: 446.13727pt x 237.64096pt.
- [24 <./images/Nutri-pred_fast_API.png> <./images/Nutri-pred_Huggingface.png>])
- (./Chapter3.tex [25]
+256.
+(pdftex.def)             Requested size: 450.69417pt x 240.07724pt.
+ [22 <./images/Nutri-pred_fast_API.png>]
+[23 <./images/Nutri-pred_Huggingface.png>]) (./Chapter3.tex [24]
 Chapter 3.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/product_example.png, id=888, 674.52pt x 1095.09125pt>
+<images/product_example.png, id=868, 674.52pt x 1095.09125pt>
 File: images/product_example.png Graphic file (type png)
 <use images/product_example.png>
 Package pdftex.def Info: images/product_example.png  used on input line 50.
 (pdftex.def)             Requested size: 303.53119pt x 492.78651pt.
-[26
+[25
 
-] [27 <./images/product_example.png>]
-<images/workflow__data.png, id=898, 1105.12875pt x 502.87875pt>
+] [26 <./images/product_example.png>]
+<images/workflow__data.png, id=879, 1105.12875pt x 502.87875pt>
 File: images/workflow__data.png Graphic file (type png)
 <use images/workflow__data.png>
 Package pdftex.def Info: images/workflow__data.png  used on input line 82.
-(pdftex.def)             Requested size: 430.99849pt x 196.12192pt.
- [28 <./images/workflow__data.png>]
-<images/nutrition.png, id=905, 352.31625pt x 154.5775pt>
+(pdftex.def)             Requested size: 464.15092pt x 211.20763pt.
+
+Overfull \hbox (8.90681pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+<images/nutrition.png, id=881, 352.31625pt x 154.5775pt>
 File: images/nutrition.png Graphic file (type png)
 <use images/nutrition.png>
 Package pdftex.def Info: images/nutrition.png  used on input line 102.
 (pdftex.def)             Requested size: 232.52943pt x 102.02144pt.
-<images/transform_nutrition.png, id=906, 493.845pt x 404.51125pt>
+[27 <./images/workflow__data.png>]
+<images/transform_nutrition.png, id=887, 493.845pt x 404.51125pt>
 File: images/transform_nutrition.png Graphic file (type png)
 <use images/transform_nutrition.png>
 Package pdftex.def Info: images/transform_nutrition.png  used on input line 133
 .
 (pdftex.def)             Requested size: 222.22818pt x 182.02837pt.
-
-[29 <./images/nutrition.png>]
-<images/nutrition_utils.png, id=914, 1122.1925pt x 606.265pt>
+ [28 <./images/nutrition.png> <./images/transform_nutrition.png>]
+<images/nutrition_utils.png, id=894, 1122.1925pt x 606.265pt>
 File: images/nutrition_utils.png Graphic file (type png)
 <use images/nutrition_utils.png>
 Package pdftex.def Info: images/nutrition_utils.png  used on input line 166.
@@ -1552,43 +1544,48 @@ Overfull \hbox (49.73785pt too wide) in paragraph at lines 166--167
 [][] 
  []
 
-[30 <./images/transform_nutrition.png>] [31 <./images/nutrition_utils.png>]
-<images/nutriscore.jpg, id=925, 481.8pt x 229.8186pt>
+[29 <./images/nutrition_utils.png>]
+<images/nutriscore.jpg, id=900, 481.8pt x 229.8186pt>
 File: images/nutriscore.jpg Graphic file (type jpg)
 <use images/nutriscore.jpg>
-Package pdftex.def Info: images/nutriscore.jpg  used on input line 202.
-(pdftex.def)             Requested size: 433.61598pt x 206.83482pt.
-<images/load_data.png, id=927, 1154.3125pt x 729.72626pt>
+Package pdftex.def Info: images/nutriscore.jpg  used on input line 203.
+(pdftex.def)             Requested size: 472.16077pt x 225.22069pt.
+
+Overfull \hbox (16.91666pt too wide) in paragraph at lines 203--204
+[][] 
+ []
+
+[30 <./images/nutriscore.jpg>]
+<images/load_data.png, id=906, 1154.3125pt x 729.72626pt>
 File: images/load_data.png Graphic file (type png)
 <use images/load_data.png>
-Package pdftex.def Info: images/load_data.png  used on input line 220.
+Package pdftex.def Info: images/load_data.png  used on input line 221.
 (pdftex.def)             Requested size: 404.01543pt x 255.40802pt.
-
-[32 <./images/nutriscore.jpg>] [33 <./images/load_data.png>]) (./Chapter4.tex
-[34] [35]
+ [31 <./images/load_data.png>] [32])
+(./Chapter4.tex [33]
 Chapter 4.
 
-Package natbib Warning: Citation `IBMVectordb2025' on page 36 undefined on inpu
-t line 22.
+Package natbib Warning: Citation `IBMVectordb2025' on page 34 undefined on inpu
+t line 24.
 
-<images/vectorDB.png, id=946, 960.58875pt x 522.95375pt>
+<images/vectorDB.png, id=922, 960.58875pt x 522.95375pt>
 File: images/vectorDB.png Graphic file (type png)
 <use images/vectorDB.png>
-Package pdftex.def Info: images/vectorDB.png  used on input line 27.
+Package pdftex.def Info: images/vectorDB.png  used on input line 29.
 (pdftex.def)             Requested size: 432.26094pt x 235.32701pt.
-[36
+[34
 
 ]
 
-Package natbib Warning: Citation `ANN' on page 37 undefined on input line 37.
+Package natbib Warning: Citation `ANN' on page 35 undefined on input line 39.
 
 
-Package natbib Warning: Citation `HNSW' on page 37 undefined on input line 46.
+Package natbib Warning: Citation `HNSW' on page 35 undefined on input line 48.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.55 ...open-source license\cite{chroma_docs_2025}
+l.57 ...open-source license\cite{chroma_docs_2025}
                                                   . A critical feature is it...
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1596,7 +1593,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.55 ...open-source license\cite{chroma_docs_2025}
+l.57 ...open-source license\cite{chroma_docs_2025}
                                                   . A critical feature is it...
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1606,43 +1603,42 @@ Package natbib Warning: Citation `chroma\unhbox \voidb@x \penalty\@M \hskip \z@
 skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M
  \hskip \z@skip docs\unhbox \voidb@x \penalty\@M \hskip \z@skip \T1\textundersc
 ore \discretionary{\char \hyphenchar \font }{}{}\penalty\@M \hskip \z@skip 2025
-' on page 37 undefined on input line 55.
+' on page 35 undefined on input line 57.
 
-[37 <./images/vectorDB.png>]
-<images/chroma_space.png, id=956, 545.03625pt x 408.52625pt>
+[35 <./images/vectorDB.png>]
+<images/chroma_space.png, id=932, 545.03625pt x 408.52625pt>
 File: images/chroma_space.png Graphic file (type png)
 <use images/chroma_space.png>
-Package pdftex.def Info: images/chroma_space.png  used on input line 64.
-(pdftex.def)             Requested size: 245.26405pt x 183.83511pt.
- [38 <./images/chroma_space.png>]
-<images/VN_recommendation.png, id=962, 1219.55624pt x 1224.575pt>
+Package pdftex.def Info: images/chroma_space.png  used on input line 66.
+(pdftex.def)             Requested size: 354.26936pt x 265.53891pt.
+ [36 <./images/chroma_space.png>]
+<images/VN_recommendation.png, id=938, 1219.55624pt x 1224.575pt>
 File: images/VN_recommendation.png Graphic file (type png)
 <use images/VN_recommendation.png>
-Package pdftex.def Info: images/VN_recommendation.png  used on input line 106.
-(pdftex.def)             Requested size: 670.75801pt x 673.51834pt.
+Package pdftex.def Info: images/VN_recommendation.png  used on input line 108.
+(pdftex.def)             Requested size: 512.21013pt x 514.318pt.
 
-Overfull \hbox (215.5139pt too wide) in paragraph at lines 106--107
+Overfull \hbox (56.96602pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-[39] [40 <./images/VN_recommendation.png>]
+[37] [38 <./images/VN_recommendation.png>]
 
-Package natbib Warning: Citation `chromadb' on page 41 undefined on input line 
-134.
+Package natbib Warning: Citation `chromadb' on page 39 undefined on input line 
+136.
 
 
-Package natbib Warning: Citation `shu2023lightfm' on page 41 undefined on input
- line 141.
-
-[41]
-
-Package natbib Warning: Citation `shu2023lightfm' on page 42 undefined on input
+Package natbib Warning: Citation `shu2023lightfm' on page 39 undefined on input
  line 143.
+
+
+Package natbib Warning: Citation `shu2023lightfm' on page 39 undefined on input
+ line 145.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.144 ...uced model accuracy \cite{lightfm_issues}
+l.146 ...uced model accuracy \cite{lightfm_issues}
                                                   .
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1650,7 +1646,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.144 ...uced model accuracy \cite{lightfm_issues}
+l.146 ...uced model accuracy \cite{lightfm_issues}
                                                   .
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1658,91 +1654,90 @@ not appear between \csname and \endcsname.
 
 Package natbib Warning: Citation `lightfm\unhbox \voidb@x \penalty\@M \hskip \z
 @skip \T1\textunderscore \discretionary{\char \hyphenchar \font }{}{}\penalty\@
-M \hskip \z@skip issues' on page 42 undefined on input line 144.
+M \hskip \z@skip issues' on page 39 undefined on input line 146.
 
-<images/precision_plot.png, id=978, 605.26125pt x 508.90125pt>
+<images/precision_plot.png, id=950, 605.26125pt x 508.90125pt>
 File: images/precision_plot.png Graphic file (type png)
 <use images/precision_plot.png>
-Package pdftex.def Info: images/precision_plot.png  used on input line 150.
+Package pdftex.def Info: images/precision_plot.png  used on input line 152.
 (pdftex.def)             Requested size: 218.51521pt x 183.72458pt.
-<images/recall_plot.png, id=979, 605.26125pt x 508.90125pt>
+<images/recall_plot.png, id=951, 605.26125pt x 508.90125pt>
 File: images/recall_plot.png Graphic file (type png)
 <use images/recall_plot.png>
-Package pdftex.def Info: images/recall_plot.png  used on input line 156.
+Package pdftex.def Info: images/recall_plot.png  used on input line 158.
 (pdftex.def)             Requested size: 218.51521pt x 183.72458pt.
-[42 <./images/precision_plot.png> <./images/recall_plot.png>] [43]
-<images/cb_filtering_logic.png, id=994, 482.80376pt x 551.05875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39] [40 <./images/precision_plot.png> <./images/recall_plot.png>]
+<images/cb_filtering_logic.png, id=966, 482.80376pt x 551.05875pt>
 File: images/cb_filtering_logic.png Graphic file (type png)
 <use images/cb_filtering_logic.png>
-Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 188.
+Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 191.
 
 (pdftex.def)             Requested size: 168.98384pt x 192.87344pt.
 
 
-Package natbib Warning: Citation `sbert2025models' on page 44 undefined on inpu
-t line 198.
+Package natbib Warning: Citation `sbert2025models' on page 41 undefined on inpu
+t line 201.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package natbib Warning: Citation `sentence-transformers-all-MiniLM-L12-v2' on p
-age 44 undefined on input line 232.
+age 41 undefined on input line 236.
 
-<images/load_data__0.png, id=995, 1088.065pt x 725.71124pt>
-File: images/load_data__0.png Graphic file (type png)
-<use images/load_data__0.png>
-Package pdftex.def Info: images/load_data__0.png  used on input line 239.
-(pdftex.def)             Requested size: 424.34364pt x 283.02625pt.
-[44 <./images/cb_filtering_logic.png>] [45 <./images/load_data__0.png>]
-<images/CB_recommendation_workflow_simple.png, id=1006, 1033.8625pt x 699.61375
-pt>
-File: images/CB_recommendation_workflow_simple.png Graphic file (type png)
-<use images/CB_recommendation_workflow_simple.png>
-Package pdftex.def Info: images/CB_recommendation_workflow_simple.png  used on 
-input line 263.
-(pdftex.def)             Requested size: 409.71692pt x 277.25714pt.
+[41 <./images/cb_filtering_logic.png>] [42]
+! Undefined control sequence.
+l.259 \apr
+           This design ensures that the products delivered by the content ba...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[46] [47 <./images/CB_recommendation_workflow_simple.png>]
+[43]
 
-Package natbib Warning: Citation `ibm-cf' on page 48 undefined on input line 27
+Package natbib Warning: Citation `ibm-cf' on page 44 undefined on input line 26
 6.
 
-<images/collaborative_filtering.png, id=1017, 451.6875pt x 217.5628pt>
+<images/collaborative_filtering.png, id=981, 451.6875pt x 217.5628pt>
 File: images/collaborative_filtering.png Graphic file (type png)
 <use images/collaborative_filtering.png>
 Package pdftex.def Info: images/collaborative_filtering.png  used on input line
- 280.
+ 270.
 (pdftex.def)             Requested size: 383.93617pt x 184.92924pt.
 
-Package natbib Warning: Citation `ibm-cf' on page 48 undefined on input line 28
+Package natbib Warning: Citation `ibm-cf' on page 44 undefined on input line 27
 7.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48 <./images/collaborative_filtering.png>] [49] [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[44 <./images/collaborative_filtering.png>] [45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-<images/swaggerFastAPI.png, id=1036, 1233.60875pt x 724.7075pt>
+<images/swaggerFastAPI.png, id=995, 1233.60875pt x 724.7075pt>
 File: images/swaggerFastAPI.png Graphic file (type png)
 <use images/swaggerFastAPI.png>
-Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 413.
+Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 403.
 (pdftex.def)             Requested size: 431.76953pt x 253.65143pt.
-[52]) (./Chapter5.tex [53 <./images/swaggerFastAPI.png>]
+[47]) (./Chapter5.tex [48 <./images/swaggerFastAPI.png>]
 Chapter 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<images/prompt_engineering.png, id=1050, 979.66pt x 607.26875pt>
+<images/prompt_engineering.png, id=1009, 979.66pt x 607.26875pt>
 File: images/prompt_engineering.png Graphic file (type png)
 <use images/prompt_engineering.png>
 Package pdftex.def Info: images/prompt_engineering.png  used on input line 23.
 (pdftex.def)             Requested size: 409.71692pt x 253.967pt.
-[54
+[49
 
 ]
 
@@ -1779,7 +1774,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<images/natilait1.jpg, id=1055, 1084.05pt x 1927.2pt>
+<images/natilait1.jpg, id=1015, 1084.05pt x 1927.2pt>
 File: images/natilait1.jpg Graphic file (type jpg)
 <use images/natilait1.jpg>
 Package pdftex.def Info: images/natilait1.jpg  used on input line 38.
@@ -1831,7 +1826,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<images/natilait2.jpg, id=1056, 1084.05pt x 1927.2pt>
+<images/natilait2.jpg, id=1016, 1084.05pt x 1927.2pt>
 File: images/natilait2.jpg Graphic file (type jpg)
 <use images/natilait2.jpg>
 Package pdftex.def Info: images/natilait2.jpg  used on input line 43.
@@ -1883,7 +1878,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<images/natilait3.jpg, id=1057, 1084.05pt x 1927.2pt>
+<images/natilait3.jpg, id=1017, 1084.05pt x 1927.2pt>
 File: images/natilait3.jpg Graphic file (type jpg)
 <use images/natilait3.jpg>
 Package pdftex.def Info: images/natilait3.jpg  used on input line 48.
@@ -1935,7 +1930,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<images/natilait4.jpg, id=1058, 1084.05pt x 1927.2pt>
+<images/natilait4.jpg, id=1018, 1084.05pt x 1927.2pt>
 File: images/natilait4.jpg Graphic file (type jpg)
 <use images/natilait4.jpg>
 Package pdftex.def Info: images/natilait4.jpg  used on input line 53.
@@ -1954,26 +1949,26 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Float too large for page by 2612.37752pt on input line 55.
+LaTeX Warning: Float too large for page by 2583.92476pt on input line 55.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55 <./images/prompt_engineering.png>]
-<images/chat_layers.png, id=1065, 672.5125pt x 672.5125pt>
+[50 <./images/prompt_engineering.png>]
+<images/chat_layers.png, id=1025, 672.5125pt x 672.5125pt>
 File: images/chat_layers.png Graphic file (type png)
 <use images/chat_layers.png>
-Package pdftex.def Info: images/chat_layers.png  used on input line 66.
+Package pdftex.def Info: images/chat_layers.png  used on input line 65.
 (pdftex.def)             Requested size: 409.71692pt x 409.71893pt.
- [56 <./images/chat_layers.png>]
-<images/chatbot_API.png, id=1071, 1269.74374pt x 566.115pt>
+ [51 <./images/chat_layers.png>]
+<images/chatbot_API.png, id=1031, 1269.74374pt x 566.115pt>
 File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
-Package pdftex.def Info: images/chatbot_API.png  used on input line 79.
+Package pdftex.def Info: images/chatbot_API.png  used on input line 78.
 (pdftex.def)             Requested size: 409.71692pt x 182.67218pt.
- [57 <./images/chatbot_API.png>]
+ [52 <./images/chatbot_API.png>]
 
-Package natbib Warning: Citation `lewis2020retrieval' on page 58 undefined on i
+Package natbib Warning: Citation `lewis2020retrieval' on page 53 undefined on i
 nput line 99.
 
 
@@ -1995,7 +1990,7 @@ Underfull \hbox (badness 10000) detected at line 113
  []
 
 
-Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 58 un
+Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 53 un
 defined on input line 113.
 
 
@@ -2016,29 +2011,29 @@ Underfull \hbox (badness 10000) detected at line 114
 [][]
  []
 
-[58]
 
-Package natbib Warning: Citation `gao2023survey' on page 59 undefined on input 
+Package natbib Warning: Citation `gao2023survey' on page 53 undefined on input 
 line 120.
 
+[53]
 
-Package natbib Warning: Citation `wang2023personalized' on page 59 undefined on
+Package natbib Warning: Citation `wang2023personalized' on page 54 undefined on
  input line 131.
 
 
-Package natbib Warning: Citation `lewis2020retrieval' on page 59 undefined on i
+Package natbib Warning: Citation `lewis2020retrieval' on page 54 undefined on i
 nput line 139.
 
 
-Package natbib Warning: Citation `gao2023survey' on page 59 undefined on input 
+Package natbib Warning: Citation `gao2023survey' on page 54 undefined on input 
 line 141.
 
-[59] [60]) (./Conclusion.tex [61] [62 <./images/natilait1.jpg> <./images/natila
+[54] [55]) (./Conclusion.tex [56] [57 <./images/natilait1.jpg> <./images/natila
 it2.jpg> <./images/natilait3.jpg> <./images/natilait4.jpg>]) (./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[63
+[58
 
 ] (./main.aux
 ! Missing \endcsname inserted.
@@ -2132,7 +2127,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.110 ...tion matrix\relax }{figure.caption.25}{}}
+l.111 ...tion matrix\relax }{figure.caption.25}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2196,7 +2191,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.158 ...ation logic\relax }{figure.caption.37}{}}
+l.157 ...ation logic\relax }{figure.caption.37}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2204,7 +2199,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.162 ... in MongoDB\relax }{figure.caption.38}{}}
+l.161 ... in MongoDB\relax }{figure.caption.38}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2212,7 +2207,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.232 ... VitamiNurse\relax }{table.caption.48}{}}
+l.226 ... VitamiNurse\relax }{table.caption.46}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2225,16 +2220,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 656C11DE221A1942951E0A8597BF8700;21889.
+(rerunfilecheck)             Checksum: EE132F3875F7DE2C6ED52336FC68D823;21648.
  ) 
 Here is how much of TeX's memory you used:
- 34789 strings out of 480171
- 667136 string characters out of 5894488
- 943236 words of memory out of 5000000
- 51508 multiletter control sequences out of 15000+600000
- 529225 words of font info for 290 fonts, out of 8000000 for 9000
+ 34767 strings out of 480171
+ 666501 string characters out of 5894488
+ 943110 words of memory out of 5000000
+ 51493 multiletter control sequences out of 15000+600000
+ 529352 words of font info for 292 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 84i,13n,80p,1193b,968s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,14n,80p,1193b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2269,10 +2264,10 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (77 pages, 6589562 bytes).
+Output written on main.pdf (70 pages, 6436308 bytes).
 PDF statistics:
- 1211 PDF objects out of 1440 (max. 8388607)
- 1017 compressed objects within 11 object streams
- 245 named destinations out of 1000 (max. 500000)
- 60005 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1168 PDF objects out of 1200 (max. 8388607)
+ 986 compressed objects within 10 object streams
+ 237 named destinations out of 1000 (max. 500000)
+ 59987 words of extra memory for PDF output out of 61914 (max. 10000000)
 
