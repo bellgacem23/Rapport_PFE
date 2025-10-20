@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  20 OCT 2025 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  20 OCT 2025 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1971,9 +1971,70 @@ File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
 Package pdftex.def Info: images/chatbot_API.png  used on input line 79.
 (pdftex.def)             Requested size: 409.71692pt x 182.67218pt.
- [57 <./images/chatbot_API.png>] [58] [59] [60]) (./Conclusion.tex [61] [62 <./
-images/natilait1.jpg> <./images/natilait2.jpg> <./images/natilait3.jpg> <./imag
-es/natilait4.jpg>]) (./main.bbl)
+ [57 <./images/chatbot_API.png>]
+
+Package natbib Warning: Citation `lewis2020retrieval' on page 58 undefined on i
+nput line 99.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \item \texttt
+                   {users}: Stores structured user profiles ( age, allergies...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 113
+[][]
+ []
+
+
+Package natbib Warning: Citation `reimers-gurevych-2019-sentence' on page 58 un
+defined on input line 113.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     \item \texttt
+                       {chat\_sessions}: Archives past interactions to suppo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 114
+[][]
+ []
+
+[58]
+
+Package natbib Warning: Citation `gao2023survey' on page 59 undefined on input 
+line 120.
+
+
+Package natbib Warning: Citation `wang2023personalized' on page 59 undefined on
+ input line 131.
+
+
+Package natbib Warning: Citation `lewis2020retrieval' on page 59 undefined on i
+nput line 139.
+
+
+Package natbib Warning: Citation `gao2023survey' on page 59 undefined on input 
+line 141.
+
+[59] [60]) (./Conclusion.tex [61] [62 <./images/natilait1.jpg> <./images/natila
+it2.jpg> <./images/natilait3.jpg> <./images/natilait4.jpg>]) (./main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -2164,14 +2225,14 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 921DBA14D529807E03DB73954FB2FA3D;21577.
+(rerunfilecheck)             Checksum: 656C11DE221A1942951E0A8597BF8700;21889.
  ) 
 Here is how much of TeX's memory you used:
- 34779 strings out of 480171
- 666986 string characters out of 5894488
- 942912 words of memory out of 5000000
- 51500 multiletter control sequences out of 15000+600000
- 528356 words of font info for 286 fonts, out of 8000000 for 9000
+ 34789 strings out of 480171
+ 667136 string characters out of 5894488
+ 943236 words of memory out of 5000000
+ 51508 multiletter control sequences out of 15000+600000
+ 529225 words of font info for 290 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,13n,80p,1193b,968s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
@@ -2208,10 +2269,10 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (77 pages, 6586393 bytes).
+Output written on main.pdf (77 pages, 6589562 bytes).
 PDF statistics:
  1211 PDF objects out of 1440 (max. 8388607)
  1017 compressed objects within 11 object streams
- 246 named destinations out of 1000 (max. 500000)
- 58981 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 245 named destinations out of 1000 (max. 500000)
+ 60005 words of extra memory for PDF output out of 61914 (max. 10000000)
 

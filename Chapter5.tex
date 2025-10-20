@@ -93,53 +93,52 @@ The \emph{Recommendation Engine} introduced in the previous chapter is seamlessl
 
 \section{Key Features and Implementation}
 
-\subsection{Parallel Intent Processing with LangChain}
-A distinctive feature of the VitamiNurse assistant is its ability to process multiple user intents simultaneously using LangChain's parallel processing capabilities. The system employs specialized chains for:
-\begin{itemize}
-\item \textbf{Product Search}: Detecting product queries and EAN codes, searching ChromaDB, and invoking the recommendation API
-\item \textbf{Recipe Generation}: Analyzing culinary preferences and generating personalized recipes using GPT-4
-\item \textbf{Profile Management}: Extracting and updating user information from conversational context
-\item \textbf{General Queries}: Handling nutritional questions and educational content
-\end{itemize}
+\section{Retrieval-Augmented Generation (RAG) in VitamiNurse}
+\label{sec:rag}
 
-This parallel architecture ensures that users receive comprehensive responses addressing all aspects of their queries without sequential processing delays.
+Retrieval-Augmented Generation (RAG) is a hybrid architecture that enhances large language model (LLM) responses by dynamically retrieving relevant external knowledge and integrating it into the generation process \cite{lewis2020retrieval}. In the context of the \textit{VitamiNurse AI Assistant}, RAG enables personalized, context-aware nutritional guidance by retrieving user-specific health profiles and interaction history from a persistent vector database before generating responses. This approach ensures that advice is not only linguistically fluent but also grounded in the user’s unique physiological and dietary context.
 
-\subsection{Dynamic User Profile Intelligence}
-The assistant's personalization engine is driven by an intelligently evolving user profile defined through Pydantic models. The system automatically extracts and updates profile information from natural conversations using GPT-4's extraction capabilities. Key profile attributes include:
-\begin{itemize}
-\item Dietary restrictions and allergies
-\item Health conditions and medical considerations
-\item Nutritional goals and preferences
-\item Pregnancy status and special requirements
-\item Favorite foods and taste preferences
-\end{itemize}
-
-The profile management system employs smart merging strategies that only update changed information while preserving existing valid data. This dynamic updating occurs in real-time during conversations, allowing the assistant to immediately incorporate new user information into its recommendations.
-
-\subsection{AI-Powered Recipe Generation}
-The system features an advanced recipe generation capability that creates personalized meal suggestions based on multiple factors:
-\begin{itemize}
-\item User's dietary restrictions and allergies
-\item Detected cuisine preferences from conversation
-\item Nutritional requirements and health goals
-\ ingredient availability and preparation complexity
-\end{itemize}
-
-Recipes are generated entirely by GPT-4 and structured into standardized JSON format containing complete nutritional information, preparation steps, cooking times, and customization suggestions. This approach ensures recipes are both personalized and practical for everyday use.
-
-\subsection{Integrated Recommendation System}
-The recommendation engine works in concert with the conversational AI to provide context-aware product suggestions. The integration follows a sophisticated workflow:
+Formally, RAG decomposes into three sequential stages:
 \begin{enumerate}
-\item Intent detection identifies product-related queries
-\item ChromaDB performs semantic search for relevant products
-\item The recommendation API processes user-specific constraints
-\item Results are filtered based on dietary rules and nutritional quality
-\item GPT-4 generates natural language explanations of recommendations
+    \item \textbf{Retrieval (R)}: Fetching relevant user data from a knowledge store.
+    \item \textbf{Augmentation (A)}: Injecting retrieved context into the LLM prompt.
+    \item \textbf{Generation (G)}: Producing a personalized response using a foundation model.
 \end{enumerate}
+Each component is implemented as follows in VitamiNurse.
 
-This seamless integration ensures that product recommendations are not only relevant to the search query but also safe and appropriate for the user's specific health profile and nutritional needs.
+\subsection{Retrieval (R): User-Centric Context Fetching}
+\label{subsec:retrieval}
 
-The architecture represents a significant advancement in conversational AI for healthcare applications, demonstrating how LangChain can orchestrate complex multi-intent processing while maintaining coherent, personalized user experiences.
+The retrieval phase in VitamiNurse leverages \texttt{ChromaDB} to fetch semantically relevant user information. Specifically, two collections are maintained:
+\item \texttt{users}: Stores structured user profiles ( age, allergies, health conditions) as metadata, with embeddings generated via the \texttt{all-MiniLM-L6-v2} sentence transformer \cite{reimers-gurevych-2019-sentence}.
+    \item \texttt{chat\_sessions}: Archives past interactions to support short-term conversational memory.
+
+When a user sends a message, the system retrieves their profile using their \texttt{user\_id}:
+\begin{equation}
+    \text{Profile}_{\text{user}} = \texttt{users\_collection.get(ids=[user\_id])}
+\end{equation}
+This exact-match retrieval (by ID) is complemented by semantic capabilities for future extensions (e.g., similarity-based health cohort lookup). The retrieved profile serves as the primary source of personalization, aligning with RAG’s principle of grounding generation in external knowledge \cite{gao2023survey}.
+
+\subsection{Augmentation (A): Dynamic Prompt Personalization}
+\label{subsec:augmentation}
+
+The augmentation phase constructs a system prompt that embeds the retrieved user profile into the LLM’s context window. VitamiNurse implements this via the \texttt{\_create\_personalized\_system\_prompt()} method, which formats user attributes (e.g., allergies, dietary preferences, pregnancy status) into natural language directives. For example:
+
+\begin{quote}
+    ``You are VitamiNurse, a nutrition AI. The user is a 32-year-old pregnant woman with celiac disease and a preference for high-fiber foods. Avoid gluten and prioritize iron-rich, pregnancy-safe options.''
+\end{quote}
+
+This step ensures the LLM’s internal reasoning is conditioned on factual, user-specific constraints—reducing hallucination risks and improving relevance \cite{wang2023personalized}. The augmented prompt, combined with recent conversation history (up to 6 turns), forms the complete input to the generator.
+
+\subsection{Generation (G): Personalized Response Synthesis}
+\label{subsec:generation}
+
+The generation phase employs OpenAI’s \texttt{gpt-4o-mini} model to produce concise and informed responses with specific instructions to limit replies to three sentences for clarity. In order to maintaining focus within the application’s intended scope ,the model is designed to gently but firmly redirect the discussion back to nutrition-related subjects.
+
+
+Critically, generation is not standalone: it is \textit{conditioned} on the augmented prompt from Section~\ref{subsec:augmentation}. After generation, the interaction is asynchronously saved back to \texttt{chat\_sessions} via background tasks, enabling future retrieval—a closed-loop RAG workflow \cite{lewis2020retrieval}.
+
+Additionally, the system uses the LLM itself to extract and update profile information from user messages (e.g., detecting new allergies), effectively using generation to enrich the knowledge base—a feature known as \textit{write-path RAG} \cite{gao2023survey}.
 
 \section{Challenges and Solutions}
 Throughout development, several significant challenges emerged in creating a robust conversational nutrition assistant. Maintaining coherent conversation context across extended interactions was addressed through LangChain's sophisticated memory management and ChromaDB's persistent conversation storage. Personalizing recommendations without burdening users with excessive input requirements was solved through GPT-4's intelligent information extraction capabilities, which automatically detect and update user profiles from natural conversation.
