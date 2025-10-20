@@ -1,15 +1,14 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Evaluation of Key Competitor Applications\relax }}{18}{table.caption.16}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Evaluation of Key Competitor Applications\relax }}{7}{table.caption.16}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g\relax }}{27}{table.caption.24}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{30}{table.caption.26}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Performance metrics of regression models\relax }}{32}{table.caption.28}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g\relax }}{18}{table.caption.24}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{21}{table.caption.26}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Performance metrics of regression models\relax }}{23}{table.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{50}{table.caption.42}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Performance comparison of SentenceTransformer models\relax }}{56}{table.caption.47}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Interaction types and weights\relax }}{58}{table.caption.50}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Exact vs. HNSW search: key differences\relax }}{59}{table.caption.52}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Performance benchmark\relax }}{60}{table.caption.53}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{45}{table.caption.44}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{49}{table.caption.48}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{50}{table.caption.49}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{50}{table.caption.50}%
 \addvspace {10\p@ }

@@ -30,14 +30,6 @@ The scraped data includes detailed product information and nutritional
 values such as calories, carbohydrates, fats, and proteins, as well as
 ingredients and allergens.
 
-\begin{center}
-\begin{figure}[H]
-    \includegraphics[scale=0.39]{images/product_example.png}
-    \caption{An example of a product details page to scrape from the Italian supermarket chain Esselunga} 
-    \label{fig:scraped_data}
-\end{figure}
-\end{center}
-
 
 \subsection{Problems} 
 After solving the problem of missing data by building the ML model Nutri-pred-V1, we still face several challenges related to data quality and consistency.
@@ -53,6 +45,12 @@ inconsistencies, while essential information, including NutriScore and
 nutritional labels, is absent from the data.
 As a result, an ETL pipeline is required to collect, process, and unify all
 products into a consistent database structure.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{images/product_example.png}
+    \caption{An example of a product details page to scrape from the Italian supermarket chain Esselunga} 
+    \label{fig:scraped_data}
+\end{figure}
 
 
 \subsection{Data enrichment}
@@ -132,7 +130,7 @@ the "nutrition" column.
 \begin{center}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.39]{images/transform_nutrition.png}
+    \includegraphics[scale=0.45]{images/transform_nutrition.png}
     \caption{Example of a nutrition column after Normalization and Transformation} 
     \label{fig:Normalization_nutrition}
 \end{figure}
@@ -154,8 +152,7 @@ next chapter during the recommendation process.
 
 \subsubsection{Feature engineering}
 \par Feature engineering involves creating new features or modifying existing
-ones to improve the performance of product evaluation and recommenda-
-tion algorithms.
+ones to improve the performance of product evaluation and recommendation algorithms.
 
 \par As a next step, we constructed a reference dictionary containing specific
 keyword lists, such as ingredients that contain gluten, non-vegetarian
@@ -173,10 +170,13 @@ context-sensitive recommendations.
 \end{center}
 
 After that we combine all the product titles, ingredients, and categories
-and check if it matches any specific nutrition to add it. The last step in the
-feature engineering process is the computation and assignment of the
-Nutri-Score to each product here.
-The Nutri-Score is a nutrition label that was first implemented in France
+and check if it matches any specific nutrition keywords from our reference. If a match is found, we assign the corresponding label to the product (e.g., "gluten-free," "ibs-friendly," "vegetarian," "vegan," "halal," "kosher," "pregnancy-safe," etc.). This automated labeling process enhances the product metadata, making it easier to filter and recommend products in real-time based on individual dietary needs and preferences.
+
+\par In addition to checking for keywords, we also analyze the nutrition values of each product to assign dietary labels such as "low sugar," "low fat," or "high protein" based on established nutritional guidelines. This dual approach of keyword matching and nutritional analysis ensures that each product is accurately labeled according to its health attributes, enhancing the recommendation system's ability to cater to individual dietary needs.
+
+ \subsubsection{Adding Nutri-Score}
+The last step in the feature engineering process is the computation and assignment of the
+Nutri-Score to each product here. The Nutri-Score is a nutrition label that was first implemented in France
 in 2017. It features a five-color scale accompanied by letters from A (most
 nutritious) to E (least nutritious). It is designed to provide consumers
 with clear and immediate information about the nutritional quality of
@@ -199,7 +199,7 @@ positive nutritional factors to determine the final score.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.75]{images/nutriscore.jpg}
+    \includegraphics[scale=0.90]{images/nutriscore.jpg}
     \caption{Nutri-Score calculation logic} 
     \label{fig: add_nutriscore}
 \end{figure}
@@ -239,8 +239,7 @@ This dual-database architecture ensures that the system can efficiently
 handle structured queries while also enabling advanced recommendation
 and conversational features powered by semantic search.
 
-\subsection{Used tools in data preparation}
-The following tools were employed to facilitate data management, em-
+\par The following tools were employed to facilitate data management, em-
 bedding generation, and semantic retrieval:
 
 \begin{itemize}[label=\textbf{-}]

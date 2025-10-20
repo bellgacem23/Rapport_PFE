@@ -3,12 +3,12 @@
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 
-\usepackage[table]{xcolor}  % ← SEULE INSTANCE de xcolor
+\usepackage[table]{xcolor}
 
 % Packages de base
-\usepackage{lmodern}
+\usepackage{times}  % ← CORRIGÉ : Police Times conforme aux consignes
 \usepackage{microtype}
-\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}  % ← CORRIGÉ : marges conformes
 \usepackage{parskip}
 \setlength{\parskip}{0.5\baselineskip}
 \usepackage{indentfirst}
@@ -19,6 +19,7 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{underscore}
 \usepackage{setspace}
+\onehalfspacing  % ← AJOUTÉ : interligne 1.5 explicite
 \usepackage{tabularx}
 
 % Packages mathématiques
@@ -54,9 +55,29 @@
 \usepackage{url}
 \usepackage{pdfpages}
 
-% SUPPRIMEZ ces doublons :
-% \usepackage{lmodern}        % ← SUPPRIMEZ (déjà chargé)
-% \usepackage[T1]{fontenc}    % ← SUPPRIMEZ (déjà chargé)
+% Configuration des titres selon les consignes ← AJOUTÉ
+\titleformat{\chapter}[block]
+{\normalfont\Large\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{24pt}{12pt}  % 24 pts avant, 12 après
+
+\titleformat{\section}[block]
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{24pt}{12pt}  % 24 pts avant, 12 après
+
+\titleformat{\subsection}[block]
+{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}  % 12 pts avant, 6 après
+
+\titleformat{\subsubsection}[block]
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}  % 12 pts avant, 6 après
+
+% Configuration avancée de fancyhdr selon les consignes ← AJOUTÉ
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\leftmark}  % ← CORRIGÉ : titre du chapitre en police 9pt
+\fancyhead[R]{\footnotesize\thepage}   % ← CORRIGÉ : numéro de page en police 9pt
+\renewcommand{\headrulewidth}{0pt}     % ← AJOUTÉ : supprime la ligne par défaut
 
 % Configuration des citations
 \usepackage[sort&compress,numbers]{natbib}
@@ -85,9 +106,6 @@
 \thispagestyle{empty}
 \newpage
 
-% SUPPRIMER ce vspace qui crée un espace inutile
-% \vspace{2\baselineskip}
-
 % Table des matières
 \tableofcontents
 \thispagestyle{empty}
@@ -104,7 +122,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Corps du document
+% Corps du document - activation des en-têtes
+\pagestyle{fancy}
+\pagenumbering{arabic}
+
 \input{Introduction}
 
 \input{Chapter1}

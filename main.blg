@@ -1,15 +1,23 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+White space in argument---line 176 of file main.aux
+ : \citation{chroma\unhbox
+ :                         \voidb@x \protect \penalty \@M \hskip \z@skip \T1\textunderscore \protect \discretionary {\char \hyphenchar \font }{}{}\protect \penalty \@M \hskip \z@skip docs\unhbox \voidb@x \protect \penalty \@M \hskip \z@skip \T1\textunderscore \protect \discretionary {\char \hyphenchar \font }{}{}\protect \penalty \@M \hskip \z@skip 2025}
+I'm skipping whatever remains of this command
+White space in argument---line 197 of file main.aux
+ : \citation{lightfm\unhbox
+ :                          \voidb@x \protect \penalty \@M \hskip \z@skip \T1\textunderscore \protect \discretionary {\char \hyphenchar \font }{}{}\protect \penalty \@M \hskip \z@skip issues}
+I'm skipping whatever remains of this command
 I couldn't open style file IEEEtran.bst
----line 289 of file main.aux
+---line 273 of file main.aux
  : \bibstyle{IEEEtran
  :                   }
 I'm skipping whatever remains of this command
 I found no style file---while reading file main.aux
-You've used 12 entries,
+You've used 19 entries,
             0 wiz_defined-function locations,
-            98 strings with 693 characters,
+            109 strings with 844 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -48,4 +56,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 2 error messages)
+(There were 4 error messages)

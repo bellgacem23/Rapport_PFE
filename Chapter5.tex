@@ -1,11 +1,11 @@
 
 
-\chapter{Product Analysis and AI assistant in VitamiNurse}
+\chapter{Product evaluation and AI assistant in VitamiNurse}
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
 The VitamiNurse app stands out from other traditional nutrition apps through its advanced use of artificial intelligence .
 
-In addition to the use of a sentence transformer model to generate vector embeddings in the recommendation system discussed earlier, this section introduces two key AI components: a product analysis system and an AI assistant.
+In addition to the use of a sentence transformer model to generate vector embeddings in the recommendation system discussed earlier, this section introduces two key AI components: a product evaluation system and an AI assistant.
 
 This integration of AI transforms static product recommendations into an interactive dialogue system that is available 24/7 to answer questions and provide nutritional guidance. The following sections detail the architecture and functionality of these AI systems within the VitamiNurse mobile app.
 
@@ -63,7 +63,7 @@ The architecture of the Nutrition Assistant is designed for modularity, scalabil
 grading the recommendation logic, can be implemented without disrupting other components of the system. The conversational capabilities of this intuitive chatbot are tightly integrated with a persistent memory framework in order to recall previous user interactions and adapt recommendations over time.  
  \begin{center}
     \begin{figure}[H]
-    \includegraphics[width=0.9\textwidth]{images/Chatbot_arch.png}
+    \includegraphics[width=0.9\textwidth]{images/chat_layers.png}
     \caption{Chatbot Architecture} 
     \label{fig:chatbot Architect}
 \end{figure}
@@ -115,13 +115,6 @@ The assistant's personalization engine is driven by an intelligently evolving us
 \end{itemize}
 
 The profile management system employs smart merging strategies that only update changed information while preserving existing valid data. This dynamic updating occurs in real-time during conversations, allowing the assistant to immediately incorporate new user information into its recommendations.
-\begin{center}
-\begin{figure}[H]
-\includegraphics[width=0.9\textwidth]{images/update_user_profile.png}
-\caption{Intelligent user profile update through conversational extraction}
-\label{fig:user update profile}
-\end{figure}
-\end{center}
 
 \subsection{AI-Powered Recipe Generation}
 The system features an advanced recipe generation capability that creates personalized meal suggestions based on multiple factors:
@@ -166,7 +159,6 @@ Additional planned features include:
 \item \textbf{Social Features}: Community recipe sharing and nutritional challenges
 \item \textbf{Healthcare Integration}: EHR connectivity for medical condition management
 \item \textbf{Advanced Analytics}: Nutritional intake tracking and trend analysis
-\item \textbf{Multi-language Support}: Expansion beyond French to global markets
 \end{itemize}
 
 \section{Conclusion}
@@ -177,5 +169,4 @@ By leveraging LangChain's orchestration capabilities alongside GPT-4's generativ
 This implementation positions VitamiNurse as a scalable foundation for digital health interventions, with the potential to expand into various healthcare domains beyond nutrition. The modular design ensures adaptability to new data sources, interaction modalities, and user requirements, making it well-suited for the evolving landscape of AI-powered healthcare applications.
 
 The assistant not only provides immediate nutritional guidance but also serves as an educational tool, helping users develop sustainable healthy eating habits through personalized, explainable recommendations that consider their unique circumstances, preferences, and goals.
-
 
