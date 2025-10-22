@@ -35,7 +35,7 @@ we aim to predict.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{images/OFF_database.png}
+\includegraphics[scale=0.52]{images/OFF_database.png}
 \caption{Distribution of food products in the Open Food Facts database by country of origin} 
 \label{fig:country_distribution}
 \end{figure}
@@ -129,7 +129,7 @@ This expression is used to derive energy-kJ\_100g post-training, ensuring comput
 
 % Creating the table for nutritional ranges
 \begin{figure}[H]
-\includegraphics[width=0.9\textwidth]{images/correlation_matrix.png}
+\includegraphics[width=1.15\textwidth]{images/correlation_matrix.png}
 \caption{Correlation matrix} 
 \label{fig:Correlation_matrix}
 \end{figure}
@@ -200,12 +200,12 @@ Trained on a large dataset of 2.2 million products and demonstrating strong gene
 % Including figure for model comparison
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.98\linewidth]{images/mae_r2_comparison.png}
+    \includegraphics[width=1.15\linewidth]{images/mae_r2_comparison.png}
     \caption{Comparison of Mean Absolute Error (MAE) and \(R^2\) across regression models.}
     \label{fig:model_comparison}
 \end{figure}
 
-The performance of each model was quantified using two key metrics: Mean Absolute Error (MAE) and coefficient of determination ($R^2$) that offer critical insights into model accuracy and explanatory power. The results are summarized in the table~\ref{tab:model_results}, with MAE and \(R^2\) values for each algorithm.
+The performance of each model was quantified using two key metrics: Mean Absolute Error (MAE) and coefficient of determination ($R^2$) that offer critical insights into model accuracy and explanatory power. The results are summarized in the table~\ref{tab:model_comparison}, with MAE and \(R^2\) values for each algorithm.
 
 \begin{table}[H]
     \centering
@@ -245,7 +245,7 @@ facilitates interactive testing\footnote{\url{https://huggingface.co/spaces/bell
     \centering
     \includegraphics[width=0.98\textwidth]{images/Nutri-pred_fast_API.png}
     \caption{FastAPI endpoint for predicting nutritional values.}
-    \label{fig:fastapi-endpoint}
+    \label{fig:fastapi_endpoint}
 \end{figure}
 
 \vspace{1cm}
@@ -253,12 +253,11 @@ The deployment architecture ensures low-latency predictions and supports both lo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.99\textwidth]{images/Nutri-pred_Huggingface.png}
+    \includegraphics[width=1.15\textwidth]{images/Nutri-pred_Huggingface.png}
     \caption{Gradio interface for Nutri-Pred-v1 hosted on Hugging Face Spaces}
-    \label{fig:gradio-ui}
+    \label{fig:gradio_ui}
 \end{figure}
-
-\newpage
+\vspace{1cm}
 \section{Conclusion}
 \par In summary, the Nutri-pred-v1 model represents a significant advancement in our project to predict nutritional values when they are missing
 from product descriptions. The KNN algorithm was selected to train

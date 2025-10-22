@@ -28,7 +28,7 @@ This capability is crucial in various applications, including recommendation sys
 \begin{figure}[H]
     \includegraphics[scale=0.45]{images/vectorDB.png}
     \caption{Embedding representation in a vector database} 
-    \label{fig:vectorDB}
+    \label{fig:vectorDB_space}
 \end{figure}
 \end{center}
 
@@ -54,7 +54,7 @@ accuracy makes HNSW ideal for real-time recommendation systems.
 \subsection{Selection of ChromaDB}
 ChromaDB was selected as the vector database for VitamiNurse due to
 its native support for HNSW indexing and native support for HNSW
-indexing under an open-source license\cite{chroma_docs_2025}. A critical feature is its ability
+indexing under an open-source license\cite{chromadocs2025}. A critical feature is its ability
 to update the vector index dynamically without full retraining, which is
 essential for the system’s daily synchronization of product metadata from
 external retailers. Additionally, ChromaDB supports metadata filtering
@@ -63,9 +63,10 @@ constraints such as excluding gluten-containing products for celiac users.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.65]{images/chroma_space.png}
-    \caption{Vector search mechanism in ChromaDB} 
-    \label{fig:vectorDB}
+\centering
+\includegraphics[scale=0.65]{images/chroma_space.png}
+\caption{Vector search mechanism in ChromaDB} 
+\label{fig:vectorDB}
 \end{figure}
 \end{center}
 
@@ -107,7 +108,7 @@ the all-MiniLM-L6-v2 model.
 \begin{figure}[H]
     \includegraphics[scale=0.42]{images/VN_recommendation.png}
     \caption{Recommendation System Architecture } 
-    \label{fig:Recommendation Sequence Diagram }
+    \label{fig:Recommendation_Sequence_Diagram}
 \end{figure}
 \end{center}
 
@@ -143,17 +144,17 @@ Empirical studies consistently demonstrate that LightFM's pure collaborative mod
     \item \textbf{MovieLens 100k Benchmark}: \cite{shu2023lightfm} evaluated LightFM on the MovieLens dataset, showing that the pure model outperformed the hybrid variant in precision@K and recall@K across cutoffs (K=5, 10, 20). The hybrid model not only underperformed but also failed to surpass simpler baselines like ItemKNN in some metrics as illustrated in Figure~\ref{fig:precision}.
 
     \item \textbf{Feature Noise}: The inclusion of item features degraded performance, likely due to redundant or poorly weighted metadata. \cite{shu2023lightfm} found that the hybrid model's precision@5 was worse than graph-based baselines like P3$\alpha$ and RP3$\beta$.
-    \item \textbf{Community Reports}: GitHub issues and user reports corroborate these findings, with cases where shuffled or irrelevant item features further reduced model accuracy \cite{lightfm_issues}.
+    \item \textbf{Community Reports}: GitHub issues and user reports corroborate these findings, with cases where shuffled or irrelevant item features further reduced model accuracy \cite{lightfmissues}.
 \end{itemize}
 \begin{figure}[h!]
     \centering
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{images/precision_plot.png}
         \caption{Cutoff Precision Values by Algorithm}
         \label{fig:precision}
     \end{minipage}\hfill
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{images/recall_plot.png}
         \caption{Cutoff Recall Values by Algorithm}
@@ -188,9 +189,9 @@ The VitamiNurse system operates through a robust, modular data pipeline designed
 The content-based (CB) recommendation module in \textit{VitamiNurse} is designed to provide personalized nutritional product suggestions by leveraging semantic similarity between user profiles and product characteristics. This is achieved through dense vector embeddings stored in ChromaDB and computed using a lightweight sentence-transformer model.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{images/cb_filtering_logic.png}
+    \includegraphics[scale=0.45]{images/cb_filtering_logic.png}
     \caption{Content Based Filtering Logic} 
-    \label{fig:CB filtering  logic}
+    \label{fig:CB_filtering_logic}
 \end{figure}
 
 
@@ -233,7 +234,7 @@ distiluse-base-multilingual-cased-v2 & 60.18 & 27.35 & 43.77 & 4000 & 480 MB \\
 By being fine-tuned on over 1 billion text pairs, the all-MiniLM-L6-v2 excels in semantic similarity tasks. 
 Despite its smaller size,it achieves 93\% the accuracy of larger models such as BERT-base models. 
 
-\par This sentence transformer model is an excellent choice for VitamiNurse recommendation system, as it produces 384-dimensional embeddings that effectively capture subtle relationships within the data \cite{sentence-transformers-all-MiniLM-L12-v2}. Furthermore, its compact architecture, with only 33.4 million parameters, enables
+\par This sentence transformer model is an excellent choice for VitamiNurse recommendation system, as it produces 384-dimensional embeddings that effectively capture subtle relationships within the data \cite{allMiniLML12}. Furthermore, its compact architecture, with only 33.4 million parameters, enables
 efficient CPU-only inference, and multilingual support enables global applicability, making it
 perfect for delivering fast and accurate recommendations.
 
@@ -256,25 +257,25 @@ The query is then embedded into a vector using the selected embedding model and 
 The content based recommendation workflow follows a structured process in order to offer a personalized and health-aware user experience, as illustrated in the following diagram. It begins by metadata gathering and query construction. Queries are embedded into vectors using the all-MiniLM-L6-v2 model for semantic search against the product database. The system then selects and returns recommendations aligned with user preferences and nutritional needs.
 
 
-\apr This design ensures that the products delivered by the content based recommendation system are not only contextually relevant but also aligned with the unique nutritional profile of each user of \textit{VitamiNurse} app.
+\par This design ensures that the products delivered by the content based recommendation system are not only contextually relevant but also aligned with the unique nutritional profile of each user of \textit{VitamiNurse} app.
 
-\newpage
+\vspace{0.4cm}
 \section{Collaborative Filtering}
 Collaborative filtering in \textit{VitamiNurse} leverages the \textbf{LightFM} model, which combines matrix factorization and metadata-aware learning. 
 \subsection{Overview}
 
-Collaborative filtering (CF) is a widely used recommender system technique that predicts user preferences by leveraging the collective behavior of similar users or items. As defined by IBM, CF operates on the principle that users with shared interests in the past will likely agree in the future, making recommendations based on patterns identified in user-item interaction matrices\cite{ibm-cf}.
+Collaborative filtering (CF) is a widely used recommender system technique that predicts user preferences by leveraging the collective behavior of similar users or items. As defined by IBM, CF operates on the principle that users with shared interests in the past will likely agree in the future, making recommendations based on patterns identified in user-item interaction matrices\cite{ibmCF}.
 
 \begin{center}
     \begin{figure}[H]
-        \includegraphics[scale=0.85]{images/collaborative_filtering.png}
+        \includegraphics[scale=0.95]{images/collaborative_filtering.png}
         \caption{Collaborative Filtering Logic}
-        \label{fig:cf workflow}
+        \label{fig:cf_workflow}
     \end{figure}
 \end{center}
 
 \subsection{LightFM's Collaborative Filtering Approach}
-LightFM  implements a hybrid matrix factorization model rather than traditional memory-based (neighborhood) collaborative filtering. Unlike user/item-neighborhood methods that rely on cosine similarity or Pearson correlation \cite{ibm-cf}, LightFM learns latent embeddings using Weighted Matrix Factorization (WMF) or Bayesian Personalized Ranking (BPR) loss. This approach is scalable and well-suited for sparse datasets, making it ideal for recommendation systems like VitamiNurse.
+LightFM  implements a hybrid matrix factorization model rather than traditional memory-based (neighborhood) collaborative filtering. Unlike user/item-neighborhood methods that rely on cosine similarity or Pearson correlation \cite{ibmCF}, LightFM learns latent embeddings using Weighted Matrix Factorization (WMF) or Bayesian Personalized Ranking (BPR) loss. This approach is scalable and well-suited for sparse datasets, making it ideal for recommendation systems like VitamiNurse.
 
 \subsection{Create the interaction matrix}
 VitamiNurse incorporates multiple types of user feedback, each assigned specific weights to reflect varying degrees of preference:
@@ -308,7 +309,7 @@ The LightFM library supports multiple loss functions tailored to different recom
 \par The selection of an appropriate loss function is critical in recommendation
 systems, as it determines how user-item interactions are modeled during
 the training process. Collaborative filtering leverages implicit feedback
-(likes, views, dislikes) weighted as shown in Table 4.2 to inform this
+(likes, views, dislikes) weighted as shown in Table \ref{tab:interaction_weights} to inform this
 process.
 \par Our collaborative module cannot use WARP loss because it fails to model
 explicit dislikes (-1.0). Instead, Bayesian Personalized Ranking
@@ -318,7 +319,7 @@ both positive and negative signals. This approach better aligns with
 VitamiNurse’s goal of learning from complex user interactions while
 maintaining scalability on sparse datasets.
 
-\newpage
+\vspace{0.5cm}
 \section{Benchmarking the Recommendation System: Exact vs. ANN (HNSW) Search}
 
 To ensure both scalability and precision, we benchmarked two vector search modes available in ChromaDB: the default exact search and the HNSW-enabled Approximate Nearest Neighbor (ANN) search.
@@ -400,9 +401,9 @@ The API supports three recommendation modes selectable via a \texttt{recommendat
 This internal service ensures fast, reliable, and scalable communication between the app and the recommendation system. Although fully documented through FastAPI’s auto-generated Swagger UI, the API will be accessed exclusively by the mobile app and the development team for testing.
  \begin{center}
     \begin{figure}[H]
-        \includegraphics[scale=0.35]{images/swaggerFastAPI.png}
+        \includegraphics[scale=0.41]{images/swaggerFastAPI.png}
     \caption{Swagger UI for the internal Recommendation API} 
-    \label{fig:swagger UI}
+    \label{fig:swagger_UI}
 \end{figure}
 \end{center}
 

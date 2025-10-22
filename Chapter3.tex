@@ -37,7 +37,7 @@ The discarded products are diverse and inconsistent, as they come from
 several countries and different distributors.
 One major challenge in our project is that product descriptions are
 written in different languages, which complicates product matching and
-recommendation. As shown in Figure 3.1, the product description is in
+recommendation. As shown in Figure \ref{fig:product_example}, the product description is in
 Italian, while other products have descriptions in French, German, or
 Spanish. As a result, we need to implement a multilingual approach
 to handle these variations effectively. The descriptions show various
@@ -47,9 +47,9 @@ As a result, an ETL pipeline is required to collect, process, and unify all
 products into a consistent database structure.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{images/product_example.png}
+    \includegraphics[scale=0.55]{images/product_example.png}
     \caption{An example of a product details page to scrape from the Italian supermarket chain Esselunga} 
-    \label{fig:scraped_data}
+    \label{fig:product_example}
 \end{figure}
 
 
@@ -66,7 +66,7 @@ with behavioral data from users’ browsing history on the app, including
 products viewed, liked, or disliked, as well as user profiles describing their
 dietary preferences, allergies, medical conditions or nutritional goals.
 
-\section{Data preparation: ETL pipeline}
+\section{Data Preparation: ETL Pipeline}
 
 
 The data preparation phase is a crucial step in the CRISP-DM methodology, as it directly impacts the quality and effectiveness of the subsequent
@@ -79,7 +79,7 @@ as well as the tools and methodologies used in this step.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.42]{images/workflow__data.png}
+    \includegraphics[scale=0.44]{images/workflow__data.png}
     \caption{End-to-end data workflow: from web scraping to vector embedding}
     \label{fig:data_workflow}
 \end{figure}
@@ -95,7 +95,7 @@ categories of products. Selecting the appropriate CSS selectors or HTML
 tags for each relevant piece of information is therefore a critical step.
 These challenges will be examined in greater detail in the subsequent
 section on web scraping.
-\par The scraped data, as illustrated in Figure \ref{fig:scraped_data}, is initially stored in a raw format as JSON files. This raw data serves as the foundation for subsequent processing and transformation steps.
+\par The scraped data, as illustrated in Figure \ref{fig:Nutrition_column}, is initially stored in a raw format as JSON files. This raw data serves as the foundation for subsequent processing and transformation steps.
 \begin{center}
 \begin{figure}[H]
 \centering
@@ -202,7 +202,7 @@ positive nutritional factors to determine the final score.
 \begin{figure}[H]
     \includegraphics[scale=0.98]{images/nutriscore.jpg}
     \caption{Nutri-Score calculation logic} 
-    \label{fig: add_nutriscore}
+    \label{fig:add_nutriscore}
 \end{figure}
 \end{center}
 
@@ -218,7 +218,7 @@ This choice guarantees data persistence and reliability, thereby minimizing the 
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.35]{images/load_data.png}
+    \includegraphics[scale=0.45]{images/load_data.png}
     \caption{Load products for each market in MongoDB} 
     \label{fig:load_data_mongo}
 \end{figure}
@@ -252,7 +252,7 @@ bedding generation, and semantic retrieval:
 \end{itemize}
 
 
-\section{Web scraping}
+\section{Web Scraping}
 \par In this section, we detail the web scraping process and tools used to
 collect product data from various European retailers. Web scraping is a
 technique for extracting information from websites by simulating human

@@ -5,10 +5,13 @@
 
 \usepackage[table]{xcolor}
 
-% Packages de base
-\usepackage{times}  % ← CORRIGÉ : Police Times conforme aux consignes
+% ===========================
+% === PACKAGES DE BASE ===
+% ===========================
+\usepackage{subfig}
+\usepackage{newtxtext,newtxmath}  % Police Times New Roman améliorée
 \usepackage{microtype}
-\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}  % ← CORRIGÉ : marges conformes
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{parskip}
 \setlength{\parskip}{0.5\baselineskip}
 \usepackage{indentfirst}
@@ -19,33 +22,40 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{underscore}
 \usepackage{setspace}
-\onehalfspacing  % ← AJOUTÉ : interligne 1.5 explicite
+\onehalfspacing  % Interligne 1.5
 \usepackage{tabularx}
 
-% Packages mathématiques
+% ===========================
+% === PACKAGES MATH ===
+% ===========================
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{mathrsfs}
 \usepackage{siunitx}
 
-% Packages pour graphiques et tableaux
+% ===========================
+% === GRAPHIQUES & TABLEAUX ===
+% ===========================
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{caption}
-\usepackage[font=footnotesize]{caption}
+\usepackage[font=normalsize]{caption}  % Légendes lisibles
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{makecell}
 \usepackage{soul}
 
-% Packages pour algorithmes et code
+% ===========================
+% === ALGORITHMES & CODE ===
+% ===========================
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{listings}
 
-% Autres packages
+% ===========================
+% === AUTRES PACKAGES ===
+% ===========================
 \usepackage{acronym}
 \usepackage{enumitem}
 \usepackage{dirtytalk}
@@ -55,34 +65,42 @@
 \usepackage{url}
 \usepackage{pdfpages}
 
-% Configuration des titres selon les consignes ← AJOUTÉ
+% ===========================
+% === CONFIGURATION TITRES ===
+% ===========================
 \titleformat{\chapter}[block]
 {\normalfont\Large\bfseries}{\thechapter}{1em}{}
-\titlespacing*{\chapter}{0pt}{24pt}{12pt}  % 24 pts avant, 12 après
+\titlespacing*{\chapter}{0pt}{24pt}{12pt}
 
 \titleformat{\section}[block]
 {\normalfont\large\bfseries}{\thesection}{1em}{}
-\titlespacing*{\section}{0pt}{24pt}{12pt}  % 24 pts avant, 12 après
+\titlespacing*{\section}{0pt}{24pt}{12pt}
 
 \titleformat{\subsection}[block]
 {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
-\titlespacing*{\subsection}{0pt}{12pt}{6pt}  % 12 pts avant, 6 après
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
 
 \titleformat{\subsubsection}[block]
 {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
-\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}  % 12 pts avant, 6 après
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
 
-% Configuration avancée de fancyhdr selon les consignes ← AJOUTÉ
+% ===========================
+% === EN-TÊTES & PIEDS DE PAGE ===
+% ===========================
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\footnotesize\leftmark}  % ← CORRIGÉ : titre du chapitre en police 9pt
-\fancyhead[R]{\footnotesize\thepage}   % ← CORRIGÉ : numéro de page en police 9pt
-\renewcommand{\headrulewidth}{0pt}     % ← AJOUTÉ : supprime la ligne par défaut
+\fancyhead[L]{\footnotesize\leftmark}
+\fancyhead[R]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
-% Configuration des citations
+% ===========================
+% === BIBLIOGRAPHIE ===
+% ===========================
 \usepackage[sort&compress,numbers]{natbib}
 
-% Configuration hyperref
+% ===========================
+% === HYPERLIENS ===
+% ===========================
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -93,9 +111,12 @@
     pdfsubject={}
 }
 
+% ===========================
+% === DÉBUT DU DOCUMENT ===
+% ===========================
 \begin{document}
+
 \input{pagePFE}
-% For Capstone projects only
 \input{signatures}
 \input{Dedication}
 \newpage
@@ -116,18 +137,17 @@
 \thispagestyle{empty}
 \newpage
 
-% Acronymes (décommentez si nécessaire)
+% Acronymes (si besoin)
 % \input{Acronyms}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Corps du document - activation des en-têtes
+% Corps du document
 \pagestyle{fancy}
 \pagenumbering{arabic}
 
 \input{Introduction}
-
 \input{Chapter1}
 \input{Chapter2}
 \input{Chapter3}
@@ -136,7 +156,7 @@
 \input{Conclusion}
 
 % Bibliographie
-\bibliographystyle{IEEEtran} 
+\bibliographystyle{IEEEtran}
 \bibliography{references}
 
 \end{document}

@@ -1,6 +1,6 @@
 
 
-\chapter{Product evaluation and AI assistant in VitamiNurse}
+\chapter{Product Evaluation and AI Assistant in VitamiNurse}
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
 The VitamiNurse app stands out from other traditional nutrition apps through its advanced use of artificial intelligence .
@@ -18,66 +18,66 @@ Instead of showing large amounts of raw product data, it uses AI to interpret th
  The generative AI capabilities of our system are powered by a popular pre-trained LLM, which is ChatGPT-4, to build accurate and relevant responses.
  \par The system uses structured prompts to guide AI during product evaluation.
 The following code illustrates how each prompt integrates essential product information with user-specific data, including health conditions and allergies, to determine the suitability of the product for the user profile.
- \begin{center}
-    \begin{figure}[H]
+\begin{center}
+\begin{figure}[H]
     \includegraphics[width=0.9\textwidth]{images/prompt_engineering.png}
     \caption{Prompt Engineering Using GPT-4} 
-    \label{fig:Prompt Engineering}
+    \label{fig:Prompt_Engineering}
 \end{figure}
 \end{center}
 
-\subsection{System operation in VitamiNurse}
+\subsection{System Operation in VitamiNurse}
 The AI analysis system in VitamiNurse integrates a product scanning feature with real-time health feedback, powered by a combination of external APIs, a MongoDB database, and the ChatGPT-4 model. Users can scan a barcode (EAN) to retrieve detailed nutritional information, which is cross-referenced with their health profile stored in the users collection. The system first checks our database for existing product data. If it is unavailable, it fetches data from the OpenFoodFacts API and caches it for future use. The AI then processes these data alongside user health conditions to generate personalized feedback: \textbf{Is this product suitable or not, and why?}
 The following picture illustrates how the user see the details of the scanned product and generated health feedback by the AI analytics system:
-
-\begin{figure}[h!]
-    \centering
-    % First image
-    \begin{subfigure}[b]{0.23\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{images/natilait1.jpg}
-    \end{subfigure}
-    % Second image
-    \begin{subfigure}[b]{0.23\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{images/natilait2.jpg}
-    \end{subfigure}
-    % Third image
-    \begin{subfigure}[b]{0.23\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{images/natilait3.jpg}
-    \end{subfigure}
-    % Fourth image
-    \begin{subfigure}[b]{0.23\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{images/natilait4.jpg}
-    \end{subfigure}
+\begin{center}
+    \begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{images/natilait.png}
+    \caption{Product evaluation and AI analysis in VitamiNurse app}
+    \label{fig:main_figure}
 \end{figure}
-
+\end{center}
 
 \section{The AI Assistant}
 The AI nutrition assistant represents a new generation of personalized dietary advice and nutritional data analysis, all within a coherent conversational interface.
 \section{System Architecture}
-The architecture of the Nutrition Assistant is designed for modularity, scalability, and maintainability. Figure~\ref{fig:chatbot Architect} outlines this three-tier architecture, consisting of the user mobile interface, backend server, and AI/data layer.
+The architecture of the Nutrition Assistant is designed for modularity, scalability, and maintainability. Figure~\ref{fig:chatbot_Architect_layers} outlines this three-tier architecture, consisting of the user mobile interface, backend server, and AI/data layer.
  This separation ensures that improvements in one layer, such as up-grading the recommendation logic, can be implemented without disrupting other components of the system. The conversational capabilities of this intuitive chatbot are tightly integrated with a persistent memory framework in order to recall previous user interactions and adapt recommendations over time.  
- \begin{center}
-    \begin{figure}[H]
-    \includegraphics[width=0.9\textwidth]{images/chat_layers.png}
-    \caption{Chatbot Architecture} 
-    \label{fig:chatbot Architect}
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{images/chat_layers.png}
+\caption{Chatbot Architecture} 
+\label{fig:chatbot_Architect_layers}
+\end{figure}
+
+\subsection{User Mobile Interface}
+The mobile interface functions as the central interaction point for users
+engaging with the VitamiNurse assistant, supporting key features such
+as conversational dialogue and product scanning. When a user scans a
+product barcode or types a question, the interface sends a structured
+request to the backend, which in turn invokes the AI modules for analysis.
+The design emphasizes simplicity and readability, ensuring that even
+complex nutritional assessments are communicated in concise and easy-to-understand language. 
+This is achieved through the adoption of a fixed
+“Recommendation + Explanation” format, which the AI adheres to
+when generating responses. The application returns the scanned product’s details and nutritional breakdowns as well as AI analysis for this product,
+making the experience both informative and engaging.
+
+\begin{center}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.51\textwidth]{images/chat_interface.jpg}
+\caption{AI assistant chat interface} 
+\label{fig:chatbot_interface}
 \end{figure}
 \end{center}
 
-\subsection{User Mobile Interface}
-The mobile interface serves as the primary point of interaction between the user and the VitamiNurse assistant. It supports both chat bubble and product scans. When a user scans a product barcode or types a question, the interface sends a structured request to the backend, which in turn invokes the AI modules for analysis. The design emphasizes simplicity and readability, ensuring that even complex nutritional assessments are communicated in concise, easy-to-understand language. This is achieved through the adoption of a fixed “Recommendation + Explanation” format, which the AI adheres to when generating responses. The application return the scanned products details and nutritional breakdowns as well as AI analysis for this product, making the experience both informative and engaging.
 
 \subsection{Backend (FastAPI Server)}
-The backend, developed using the \texttt{FastAPI} framework, functions as the system’s control hub. It is responsible for orchestrating communication between the mobile interface, AI reasoning layer, and data storage modules. Upon receiving a request, the backend validates the input, retrieves relevant product data from the nutritional database, and enriches it with user-specific profile information. It then constructs a prompt to be sent to the large language model (LLM), ensuring that all relevant dietary constraints and health conditions are explicitly included. The backend also maintains user session management, conversation history storage, and security protocols for handling sensitive health-related information. Thanks to FastAPI’s asynchronous capabilities, the backend can handle concurrent user requests with minimal latency, which is crucial for providing real-time responses.
- \begin{center}
-    \begin{figure}[H]
-    \includegraphics[width=0.9\textwidth]{images/chatbot_API.png}
-    \caption{Chatbot FastAPI} 
-    \label{fig:chatbot API}
+The backend, developed using the \textbf{FastAPI} framework, functions as the system’s control hub. It is responsible for orchestrating communication between the mobile interface, AI reasoning layer, and data storage modules. Upon receiving a request, the backend validates the input, retrieves relevant product data from the nutritional database, and enriches it with user-specific profile information. It then constructs a prompt to be sent to the large language model (LLM), ensuring that all relevant dietary constraints and health conditions are explicitly included. The backend also maintains user session management, conversation history storage, and security protocols for handling sensitive health-related information. Thanks to FastAPI’s asynchronous capabilities, the backend can handle concurrent user requests with minimal latency, which is crucial for providing real-time responses.
+\begin{center}
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{images/chatbot_API.png}
+\caption{Chatbot FastAPI} 
+\label{fig:chatbot API}
 \end{figure}
 \end{center}
 
@@ -90,34 +90,31 @@ A \texttt{ChromaDB} vector database serves as the persistent storage layer, main
 
 The \emph{Recommendation Engine} introduced in the previous chapter is seamlessly integrated into this architecture. It operates on a hybrid approach combining collaborative filtering and content-based filtering, ensuring that recommended products are both personalized and nutritionally appropriate for each user's specific profile and constraints.
 
-\section{Key Features and Implementation}
-
 
 \section{Retrieval-Augmented Generation (RAG) in VitamiNurse}
 \label{sec:rag}
 
-Retrieval-Augmented Generation (RAG) is a hybrid architecture that enhances large language model (LLM) responses by dynamically retrieving relevant external knowledge and integrating it into the generation process \cite{lewis2020retrieval}. In the context of the \textit{VitamiNurse AI Assistant}, RAG enables personalized, context-aware nutritional guidance by retrieving user-specific health profiles and interaction history from a persistent vector database before generating responses. This approach ensures that advice is not only linguistically fluent but also grounded in the user’s unique physiological and dietary context.
+\par Retrieval-Augmented Generation (RAG) is a hybrid architecture that enhances large language model (LLM) responses by dynamically retrieving relevant external knowledge and integrating it into the generation process \cite{lewis2020retrieval}. In the context of the \textit{VitamiNurse AI Assistant}, RAG enables personalized, context-aware nutritional guidance by retrieving user-specific health profiles and interaction history from a persistent vector database before generating responses. This approach ensures that advice is not only linguistically fluent but also grounded in the user’s unique physiological and dietary context. Formally, RAG decomposes into three sequential stages: Retrieval (R), Augmentation (A), and Generation (G) as illustrated in Figure~\ref{fig:RAG_architecture}
 
-Formally, RAG decomposes into three sequential stages:
-\begin{enumerate}
-    \item \textbf{Retrieval (R)}: Fetching relevant user data from a knowledge store.
-    \item \textbf{Augmentation (A)}: Injecting retrieved context into the LLM prompt.
-    \item \textbf{Generation (G)}: Producing a personalized response using a foundation model.
-\end{enumerate}
-Each component is implemented as follows in VitamiNurse.
+\begin{center}
+\begin{figure}[H]
+\includegraphics[width=0.98\textwidth]{images/RAG_logic.png}
+\caption{RAG architecture in VitamiNurse} 
+\label{fig:RAG_architecture}
+\end{figure}
+\end{center}
 
 \subsection{Retrieval (R): User-Centric Context Fetching}
 \label{subsec:retrieval}
 
 The retrieval phase in VitamiNurse leverages \texttt{ChromaDB} to fetch semantically relevant user information. Specifically, two collections are maintained:
-\item \texttt{users}: Stores structured user profiles ( age, allergies, health conditions) as metadata, with embeddings generated via the \texttt{all-MiniLM-L6-v2} sentence transformer \cite{reimers-gurevych-2019-sentence}.
-    \item \texttt{chat\_sessions}: Archives past interactions to support short-term conversational memory.
+\begin{itemize}[label=-]
+\item users : Stores structured user profiles (age, allergies, health conditions) as metadata, with embeddings generated via the \texttt{all-MiniLM-L6-v2} sentence transformer.
+\item chat\_sessions : Archives past interactions to support short-term conversational memory.
+\end{itemize}
 
-When a user sends a message, the system retrieves their profile using their \texttt{user\_id}:
-\begin{equation}
-    \text{Profile}_{\text{user}} = \texttt{users\_collection.get(ids=[user\_id])}
-\end{equation}
-This exact-match retrieval (by ID) is complemented by semantic capabilities for future extensions (e.g., similarity-based health cohort lookup). The retrieved profile serves as the primary source of personalization, aligning with RAG’s principle of grounding generation in external knowledge \cite{gao2023survey}.
+
+When a user sends a message, the system retrieves their profile using their \texttt{user\_id}. This exact-match retrieval (by ID) is complemented by semantic capabilities for future extensions (e.g., similarity-based health cohort lookup). The retrieved profile serves as the primary source of personalization, aligning with RAG’s principle of grounding generation in external knowledge\cite{rag2020}.
 
 \subsection{Augmentation (A): Dynamic Prompt Personalization}
 \label{subsec:augmentation}
@@ -128,17 +125,19 @@ The augmentation phase constructs a system prompt that embeds the retrieved user
     ``You are VitamiNurse, a nutrition AI. The user is a 32-year-old pregnant woman with celiac disease and a preference for high-fiber foods. Avoid gluten and prioritize iron-rich, pregnancy-safe options.''
 \end{quote}
 
-This step ensures the LLM’s internal reasoning is conditioned on factual, user-specific constraints—reducing hallucination risks and improving relevance \cite{wang2023personalized}. The augmented prompt, combined with recent conversation history (up to 6 turns), forms the complete input to the generator.
+This step ensures the LLM’s internal reasoning is conditioned on factual, user-specific constraints—reducing hallucination risks and improving relevance. The augmented prompt, combined with recent conversation history (up to 6 turns), forms the complete input to the generator.
 
 \subsection{Generation (G): Personalized Response Synthesis}
 \label{subsec:generation}
 
-The generation phase employs OpenAI’s \texttt{gpt-4o-mini} model to produce concise and informed responses with specific instructions to limit replies to three sentences for clarity. In order to maintaining focus within the application’s intended scope ,the model is designed to gently but firmly redirect the discussion back to nutrition-related subjects.
+The generation phase employs \texttt{gpt-4o-mini} model from OpenAI to produce concise and informed responses with specific instructions to limit replies to three sentences for clarity. In order to maintaining focus within the application’s intended scope ,the model is designed to gently but firmly redirect the discussion back to nutrition-related subjects.
 
+\begin{quote}
+    ``I can only provide nutritional advice. For medical concerns, please consult a healthcare professional.''
+\end{quote}
+Critically, generation it is \textit{conditioned} on the augmented prompt from the augmentation phase . After the response is sent, the conversation is saved in the background to the \textbf{chat sessions} database, and this closes the RAG loop by enabling future use of the interaction.
 
-Critically, generation is not standalone: it is \textit{conditioned} on the augmented prompt from Section~\ref{subsec:augmentation}. After generation, the interaction is asynchronously saved back to \texttt{chat\_sessions} via background tasks, enabling future retrieval—a closed-loop RAG workflow \cite{lewis2020retrieval}.
-
-Additionally, the system uses the LLM itself to extract and update profile information from user messages (e.g., detecting new allergies), effectively using generation to enrich the knowledge base—a feature known as \textit{write-path RAG} \cite{gao2023survey}.
+Additionally, the system uses the LLM itself to extract and update profile information from user messages such as detecting new allergies, effectively using generation to enrich the knowledge base this feature known as \textit{write-path RAG} }. In this case, the RAG system does not only retrieve and generate as in the traditional read-path process, but also updates or writes new information back into the user collection in ChromaDB based on chat interactions.
 
 \section{Challenges and Solutions}
 Throughout development, several significant challenges emerged in creating a robust conversational nutrition assistant. Maintaining coherent conversation context across extended interactions was addressed through LangChain's sophisticated memory management and ChromaDB's persistent conversation storage. Personalizing recommendations without burdening users with excessive input requirements was solved through GPT-4's intelligent information extraction capabilities, which automatically detect and update user profiles from natural conversation.
@@ -159,6 +158,7 @@ Additional planned features include:
 \item \textbf{Healthcare Integration}: EHR connectivity for medical condition management
 \item \textbf{Advanced Analytics}: Nutritional intake tracking and trend analysis
 \end{itemize}
+
 
 \section{Conclusion}
 The VitamiNurse AI Nutrition Assistant represents a significant advancement in conversational healthcare applications by successfully integrating the Recommendation Engine into a sophisticated LangChain-powered architecture. The system demonstrates how parallel intent processing, dynamic profile management, and AI-generated content can create a comprehensive nutritional guidance platform.
