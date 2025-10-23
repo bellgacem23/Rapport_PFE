@@ -116,7 +116,10 @@ Salt & 0--30 g & Constrained by sensory acceptability and public health recommen
 To ensure data integrity and eliminate redundancy, we identified and removed \textbf{1604} fully duplicated rows in the dataset to ensure that each product instance is unique.
 \par Additionally, since the product name is a critical textual feature for nutritional prediction, we discarded \textbf{23,740} rows with missing values in the product\textunderscore name field to guarantee meaningful and consistent textual representations. For the training process, only the product\textunderscore name field was vectorized using the TF-IDF (Term Frequency–Inverse Document Frequency) approach to extract relevant textual features for modeling.
 
-\section{Feature Engineering}
+\section{Feature Engineering and Selection}
+Following data cleaning, we performed feature engineering and selection to transform raw inputs into informative, non-redundant representations suitable for supervised learning. 
+Feature engineering encompasses the creation and transformation of raw data into relevant information for use by machine learning models\cite{ibm2025featureengineering}, while feature selection aims to reduce dimensionality by removing irrelevant or redundant attributes. 
+Together, these steps enhance model interpretability, computational efficiency, and predictive performance.
 
 \subsection{Feature Selection Strategy}
 The feature selection strategy for our high-dimensional nutritional dataset integrates established machine learning principles to enhance model robustness. This approach, combining correlation-driven dimensionality reduction, missing  informed-data exclusion, and unit consolidation, optimizes predictive performance while preserving essential information. This step is important to ensure effective model training while preserving critical nutritional information.
@@ -263,8 +266,6 @@ The deployment architecture ensures low-latency predictions and supports both lo
 from product descriptions. The KNN algorithm was selected to train
 our model for its superior performance in minimizing prediction errors.
 This accuracy is crucial for applications in nutritional analysis such as
-VitamiNurse, where precise data is essential for informed decision-making.
-\par This model is integrated into the data processing pipeline to impute
+VitamiNurse, where precise data is essential for informed decision-making. This model is integrated into the data processing pipeline to impute
 missing nutritional information. It ensures complete and reliable product
-records, which are essential for product evaluation and the recommenda-
-tion system described in the following chapter.
+records, which are essential for product evaluation and the recommendation system described in the following chapter.

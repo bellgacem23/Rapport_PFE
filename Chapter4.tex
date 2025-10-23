@@ -26,7 +26,7 @@ This capability is crucial in various applications, including recommendation sys
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.45]{images/vectorDB.png}
+    \includegraphics[scale=0.42]{images/vectorDB.png}
     \caption{Embedding representation in a vector database} 
     \label{fig:vectorDB_space}
 \end{figure}
@@ -106,7 +106,7 @@ the all-MiniLM-L6-v2 model.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.42]{images/VN_recommendation.png}
+    \includegraphics[scale=0.35]{images/VN_recommendation.png}
     \caption{Recommendation System Architecture } 
     \label{fig:Recommendation_Sequence_Diagram}
 \end{figure}
@@ -387,7 +387,7 @@ The recommendation system is deployed as a RESTful API using FastAPI, enabling s
 \subsection{FastAPI Deployment}
 To facilitate real-time access to personalized nutritional recommendations within the \textit{VitamiNurse} mobile application, the recommendation engine is exposed through a RESTful API developed using a private \textbf{FastAPI} service. We chose FastAPI for its performance, asynchronous capabilities, and automatic data validation using Pydantic.\\
 
-\par Our API provides a single endpoint, /recommend, which receives structured input from the app (user ID, scanned EAN,limit, recommendation\_type) and returns tailored food item suggestions in JSON format.
+\par Our API provides a single endpoint, /recommend, which receives structured input from the application (user ID, scanned EAN,limit, recommendation\_type) and returns tailored food item suggestions in JSON format.
 
 
 \subsection{Multi-Modal recommendation deployment}
@@ -398,7 +398,7 @@ The API supports three recommendation modes selectable via a \texttt{recommendat
     \item Hybrid approach
 \end{enumerate}
 
-This internal service ensures fast, reliable, and scalable communication between the app and the recommendation system. Although fully documented through FastAPI’s auto-generated Swagger UI, the API will be accessed exclusively by the mobile app and the development team for testing.
+This internal service ensures fast, reliable, and scalable communication between the application and the recommendation system. Although fully documented through FastAPI’s auto-generated Swagger UI, the API will be accessed exclusively by the mobile application and the development team for testing.
  \begin{center}
     \begin{figure}[H]
         \includegraphics[scale=0.41]{images/swaggerFastAPI.png}

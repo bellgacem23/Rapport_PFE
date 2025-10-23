@@ -79,22 +79,20 @@ as well as the tools and methodologies used in this step.
 
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[scale=0.44]{images/workflow__data.png}
-    \caption{End-to-end data workflow: from web scraping to vector embedding}
-    \label{fig:data_workflow}
+\includegraphics[scale=0.44]{images/workflow__data.png}
+\caption{End-to-end data workflow: from web scraping to vector embedding}
+\label{fig:data_workflow}
 \end{figure}
 \end{center}
 
 \subsection{Extract}
 
 \par The starting point in the ETL processing workflow is the data extraction phase. It includes gathering nutritional information, prices, and
-descriptions from a range retailer websites using web scraping.
-\par Despite the variety of websites available in Europe for scraping, there
+descriptions from a range retailer websites using web scraping. Despite the variety of websites available in Europe for scraping, there
 are many challenges. The retailers websites have different structures and
 categories of products. Selecting the appropriate CSS selectors or HTML
 tags for each relevant piece of information is therefore a critical step.
-These challenges will be examined in greater detail in the subsequent
-section on web scraping.
+
 \par The scraped data, as illustrated in Figure \ref{fig:Nutrition_column}, is initially stored in a raw format as JSON files. This raw data serves as the foundation for subsequent processing and transformation steps.
 \begin{center}
 \begin{figure}[H]
@@ -105,14 +103,55 @@ section on web scraping.
 \end{figure}
 \end{center}
 
+\subsubsection{Web Scraping :}
+\par Web scraping is a technique for extracting information from websites by simulating human
+browsing behavior. It is particularly useful for gathering large amounts
+of data that are not readily available through APIs\cite{2025webscraping}.
+
+\subsubsection{Used Tools in Web Scraping :}
+\par We have to relied on a complementary set of tools tailored to the diversity
+of data sources and formats encountered.
+
+\begin{itemize}[label=\textbf{-}]
+    \item \textbf{Selenium:} was used to automate interactions with dynamic web pages, cookie banners or  AJAX scenarios where data loaded via AJAX is not immediately available in the DOM.
+    \item \textbf{BeautifulSoup:}  enabled fast and efficient extraction of information from static HTML content.
+    \item \textbf{cURL and Requests :} To interact with REST APIs, cURL and Python’s Requests library allowed for simple HTTP requests, sometimes requiring authentication or specific parameters. 
+\end{itemize}
+
+\subsubsection{Web Scraping Process :}
+
+\par In our project, the web scraping process took place in several successive stages as illustrated in Figure \ref{fig:web_scraping_steps} to ensure
+efficient information extraction.
+
+\par The first step is the \textbf{page access}. Using Selenium, we automated access
+to the various product pages by simulating clicks and navigation between
+departments, categories, and subcategories. Then we pass to the \textbf{information extraction}. Once the page loaded, specific information (product name, description, price, images, and storage
+instructions) was extracted by analyzing the HTML structure. Particular care was taken to retrieve relevant data, filtering out unnecessary
+elements. The final step is \textbf{error handling}. During scraping, error handling mechanisms were implemented to manage potential page blocks, access restrictions, or changes to the page structure. The main challenge we
+encountered is anti-bot management. And we can overcome this problem
+by using solutions like random delays, proxy rotation, and user agent
+switching.
+
+\begin{center}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.66]{images/web_scraping_steps.png}
+\caption{Web Scraping Process Steps} 
+\label{fig:web_scraping_steps}
+\end{figure}
+\end{center}
+
+
+
 \subsection{Transform}
 After that, The gathered data is cleaned, enriched, and standardized
 during the transformation phase to guarantee accuracy and compatibility with VitamiNurse’s requirements.
 The scraper provided us with comprehensive product information, including many irrelevant columns. We will extract only the relevant product columns to simplify and focus our
 analysis.
 
-\subsubsection{Data Cleaning}
-We performed a thorough cleaning. To do this, we removed columns
+\subsubsection{Data Cleaning :}
+
+\par To perform a thorough cleaning, we removed columns
 containing products with duplicate EAN codes to eliminate redundancies
 and ensure data quality. We also decided to remove columns with
 empty nutritional values. Nutritional information was originally located
@@ -121,9 +160,9 @@ reorganized it into a separate "nutrition" column, using a dictionary
 format.
 
 
-\subsubsection{Normalization and transformation}
+\subsubsection{Normalization and Transformation :}
 
-We had to process the "nutrition" column of our database, since it included detailed nutritional information such as energy, fat, carbohydrates,
+\par We had to process the "nutrition" column of our database, since it included detailed nutritional information such as energy, fat, carbohydrates,
 protein, and salt for each product. For example, here is an entry from
 the "nutrition" column.
 
@@ -140,26 +179,14 @@ the "nutrition" column.
 the same scale. Normalization allows feature values to be rescaled so
 that they fall within a common range. This is particularly important
 for recommendation algorithms, which are sensitive to differences in
-magnitude between features.
+magnitude between features. The nutritional values were originally expressed in different units, such as
+grams (g), milligrams (mg), and kilocalories (kcal). To enable direct comparison, all nutritional values were normalized to a standard unit per 100 grams (Figure \ref{fig:Normalization_nutrition}). This standardization is essential for the product recommendation process detailed in the next chapter.
 
-\par The nutritional values were originally expressed in different units, such as
-grams (g), milligrams (mg), and kilocalories (kcal). To ensure consistency,
-we converted all nutritional values to a standard unit per 100 grams
-of product. As we can see in Figure 3.4, nutrition values are now
-standardized per 100g after being scraped from the Conad website. This
-standardization allows for direct comparison between products in the
-next chapter during the recommendation process.
+\subsubsection{Automated Nutrition Labelling :}
 
-\subsubsection{Feature engineering}
-\par Feature engineering involves creating new features or modifying existing
-ones to improve the performance of product evaluation and recommendation algorithms.
-
-\par As a next step, we constructed a reference dictionary containing specific
-keyword lists, such as ingredients that contain gluten, non-vegetarian
-components, pork-derived ingredients, and substances to avoid during
-pregnancy. These lists are used to generate customized binary features
-for each product, enabling the model to make more personalized and
-context-sensitive recommendations.
+\par After finishing the normalization and transformation of nutritional values, we implemented the first step in feature engineering which is automated nutrition labeling. 
+This process involves creating to improve the performance of product evaluation and recommendation algorithms, which requires the construction of a reference dictionary as shown in Figure \ref{fig:nutrition_utils_file}. This reference contains specific keyword lists, such as ingredients that contain gluten, non-vegetarian components, pork-derived ingredients, and substances to avoid during pregnancy. After that we combine all the product titles, ingredients, and categories and check if it matches any specific nutrition keywords from our reference. 
+If a match is found, we assign the corresponding label to the product ("gluten-free", "ibs-friendly", "vegetarian", "vegan", "halal", "pregnancy-safe", etc.). This automated labeling process enhances the product metadata, making it easier to filter and recommend products in real-time based on individual dietary needs and preferences.
 
 \begin{center}
 \begin{figure}[H]
@@ -169,20 +196,19 @@ context-sensitive recommendations.
 \end{figure}
 \end{center}
 
-After that we combine all the product titles, ingredients, and categories and check if it matches any specific nutrition keywords from our reference. 
-If a match is found, we assign the corresponding label to the product ("gluten-free", "ibs-friendly", "vegetarian", "vegan", "halal", "pregnancy-safe", etc.). 
-This automated labeling process enhances the product metadata, making it easier to filter and recommend products in real-time based on individual dietary needs and preferences.
+\subsubsection{Dietary Labels :}
 
 \par In addition to checking for keywords, we also analyze the nutrition values of each product to assign dietary labels such as "low sugar," "low fat," or "high protein" based on established nutritional guidelines. 
 This dual approach of keyword matching and nutritional analysis ensures that each product is accurately labeled according to its health attributes, enhancing the recommendation system's ability to cater to individual dietary needs.
 
+\subsubsection{Nutri-Score Calculation :}
+
 \par The last step in the feature engineering process is the computation and assignment of the
 Nutri-Score to each product here. The Nutri-Score is a nutrition label that was first implemented in France
 in 2017. It features a five-color scale accompanied by letters from A (most
-nutritious) to E (least nutritious). It is designed to provide consumers
+nutritious) to E (least nutritious)\cite{egnell2022impact}. It is designed to provide consumers
 with clear and immediate information about the nutritional quality of
-food products [12]. As discussed in the Nutri-Score FAQ document [13]
-developed by the French Public Health Agency, the system is adapted to
+food products. As described by Santé Publique France\cite{santepubliquefrance2025nutriscore}, the system Nutri-Score is adapted to
 align with dietary guidelines throughout Europe. In the data pipeline,
 we implemented a function that automatically calculates the Nutri-Score
 for each product based on its nutritional values. This function follows
@@ -224,7 +250,7 @@ This choice guarantees data persistence and reliability, thereby minimizing the 
 \end{figure}
 \end{center}
 
-\subsection{Optimized Vector Store in ChromaDB}
+\subsection{Optimized Vector Store in ChromaDB :}
 Following data transformation, a refined copy of the users and products
 collections is generated, containing only essential attributes such as
 the product name, category, and nutritional information. In order to
@@ -252,41 +278,7 @@ bedding generation, and semantic retrieval:
 \end{itemize}
 
 
-\section{Web Scraping}
-\par In this section, we detail the web scraping process and tools used to
-collect product data from various European retailers. Web scraping is a
-technique for extracting information from websites by simulating human
-browsing behavior. It is particularly useful for gathering large amounts
-of data that are not readily available through APIs or other structured
-formats.
 
-\subsection{Web Scraping Process}
-\par The web scraping process took place in several successive stages to ensure
-efficient information extraction:
-\par The first step is the page access. Using Selenium, we automated access
-to the various product pages by simulating clicks and navigation between
-departments, categories, and subcategories.
-\par Then we pass to the information extraction. Once the page loaded, specific information (product name, description, price, images, and storage
-instructions) was extracted by analyzing the HTML structure. Particular care was taken to retrieve relevant data, filtering out unnecessary
-elements.
-The final step is error handling. During scraping, error handling mechanisms were implemented to manage potential page blocks, access restrictions, or changes to the page structure. The main challenge we
-encountered is anti-bot management. And we can overcome this problem
-by using solutions like random delays, proxy rotation, and user agent
-switching.
-
-
-
-
-
-\subsection{used tools in web scraping}
-We have to relied on a complementary set of tools tailored to the diversity
-of data sources and formats encountered.
-
-\begin{itemize}[label=\textbf{-}]
-    \item \textbf{Selenium:} was used to automate interactions with dynamic web pages, cookie banners or  AJAX scenarios where data loaded via AJAX is not immediately available in the DOM.
-    \item \textbf{BeautifulSoup:}  enabled fast and efficient extraction of information from static HTML content.
-    \item \textbf{cURL and Requests :} To interact with REST APIs, cURL and Python’s Requests library allowed for simple HTTP requests, sometimes requiring authentication or specific parameters. 
-\end{itemize}
 
 
 

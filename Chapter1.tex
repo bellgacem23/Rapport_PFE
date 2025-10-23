@@ -1,10 +1,9 @@
 \chapter{Project Context}
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
-\par This chapter introduces the foundational context for the development of \mbox{VitamiNurse}, a nutritional mobile application created during my internship at ONRTECH. 
-
-Our goal is to develop a personalized recommendation system and an AI assistant for nutritional guidance. The system presents product details, assesses the scanned product with AI, and then provides a clear conclusion regarding the compatibility with the user’s nutritional profile.
-The chapter also explains the basic theories behind the project , compares existing nutrition applications to show their limitations, and presents VitamiNurse as an innovative solution. Finally, we justify the use of the Scrumban methodology for team management and the CRISP-DM framework for technical development.
+This chapter provides an overview of the project by presenting its background and context. It begins by introducing the host company ONRTECH, followed by a detailed explanation of the
+problems in the first version of VitamiNurse application. The chapter also compares existing nutrition applications to show their limitations. Next, we present our proposed solution to enhance our mobile application with advanced features such as a personalized recommendation system and an AI assistant.
+The chapter concludes by establishing the methodological frameworks that will guide the management and technical execution of the project.
 
 \section{Presentation of the host company}
 \par ONRTECH\footnote{\url{https://onrtech.fr/}} is a French company, operating since 2020 and located in
@@ -24,11 +23,13 @@ clients throughout France and Europe. More than just a tech provider, it positio
 \section{Internship context and project objectives}
 As part of our training at the Higher Institute of Computer Science and Mathematics in Monastir, we had the opportunity to complete our end-of-studies internship at ONRTECH.
 
- The goal of this internship is to develop a personalized recommendation system and an AI assistant for the nutritional mobile app Vitaminurse. The system presents product details, assesses the scanned product with AI, and then shows a clear conclusion of the analysis on whether the product is suitable for the user’s nutritional profile. If it is not suitable, the recommendation system suggests more adapted alternatives.
+ The goal of this internship is to develop a personalized recommendation system and an AI assistant for the nutritional mobile application Vitaminurse. 
+ The system presents product details, assesses the scanned product with AI, and then shows a clear conclusion of the analysis on whether the product is suitable for the user’s nutritional profile. 
+ If it is not suitable, the recommendation system suggests more adapted alternatives.
 
 In addition, it engages users in friendly conversation and provides personalized nutritional advice. By understanding the preferences, health goals, and nutritional needs of each person, Vitaminurse provides personalized advice and recommendations that actually make sense for their lifestyle and health needs. 
 \subsection{First version of VitamiNurse}
-The initial version of VitamiNurse exists as a simple mobile application developed by ORTECH  to enable users scan product barcodes for viewing nutritional data. The application operates in a market which presents major obstacles to its success because of intense competition. The food tracking market already has two established apps Yuka and OpenFoodFacts which makes it difficult for VitamiNurse to get noticed. The app does not have special features that would help it stand out from other apps. The entire user interface operates with lower interactivity than top competitors, which results in decreased user involvement and reduced user retention. The study of current food monitoring applications together with their performance details will help identify user requirements for this domain.
+The initial version of VitamiNurse exists as a simple mobile application developed by ORTECH  to enable users scan product barcodes for viewing nutritional data. The application operates in a market which presents major obstacles to its success because of intense competition. The food tracking market already has two established apps Yuka and OpenFoodFacts which makes it difficult for VitamiNurse to get noticed. The application does not have special features that would help it stand out from other apps. The entire user interface operates with lower interactivity than top competitors, which results in decreased user involvement and reduced user retention. The study of current food monitoring applications together with their performance details will help identify user requirements for this domain.
 
 \begin{center}
 \begin{figure}[ht]
@@ -68,7 +69,7 @@ database is not always updated regularly. In addition, the application
 lacks personalization by overlooking individual dietary goals, allergies,
 and health conditions. As a result, Yuka serves more as a tool for initial
 screening than as a source of personalized nutritional guidance.
-\subsection{ Open Food Facts}
+\subsection{Open Food Facts}
 Open Food Facts\footnote{\url{https://fr.openfoodfacts.org/}} is a collaborative and nonprofit database of food
 products. It is the primary data source for many other applications,including Yuka. It is true that the Open Food Facts application provides transparent
 information such as ingredients, allergens, and Nutriscore. But Open Food Facts suffers
@@ -88,7 +89,7 @@ guide.
 
 \subsection{QuelProduit}
 \par QuelProduit\footnote{\url{https://www.quechoisir.org/application-mobile-quelproduit-n84731/}} is a product 
-analysis app developed by the French non-profit consumer organization \textbf{UFC-Que Choisir} \footnote{\url{https://www.quechoisir.org/}}, to help users make
+analysis application developed by the French non-profit consumer organization \textbf{UFC-Que Choisir} \footnote{\url{https://www.quechoisir.org/}}, to help users make
 safer choices by scanning barcodes to evaluate food, cosmetic, and house-
 hold items. 
 
@@ -144,7 +145,7 @@ In the first three applications, there is a lack of interactivity. Real-time
 chatbot guidance is missing to answer questions and provide tailored recommendations and advice. The lack of conversational guidance restricts
 the ability of apps to provide dynamic and context-aware support.
 For Food Check, this application does not consider user health conditions
-evolution. The app requires users to input detailed personal information
+evolution. The application requires users to input detailed personal information
 during onboarding. This approach fails to adapt to changes in health status or dietary goals automatically over time, limiting long-term relevance
 and effectiveness of recommendations.
 % in Figure \ref{fig:yuka_feedback}. 
@@ -202,7 +203,7 @@ on preferences and dietary restrictions of each user.
 We recognize that nutritional needs are highly individual. Moving beyond
 generic scoring systems, VitamiNurse will provide deeply personalized
 guidance. The application learns from user preferences, dietary restrictions, and health goals to offer tailored product recommendations.
-For example, if a user is managing hypertension, the app will prioritize low-sodium options when suggesting alternatives to scanned products. 
+For example, if a user is managing hypertension, the application will prioritize low-sodium options when suggesting alternatives to scanned products. 
 This level of personalization ensures that users receive relevant and actionable advice that aligns with their unique health profiles.
 
 \subsection{Product Evaluation Using AI}
@@ -229,7 +230,7 @@ product data and user profiles, VitamiNurse aims to provide a truly
 personalized and trustworthy nutritional guidance experience.
 
 
-\section{Project Methodology}
+\section{Comparative Study of existing methodologies}
 
 The first step to ensure the smooth running and success of any project
 is choosing the right methodology. Today,Scrum, XP, and Kanban and
@@ -237,9 +238,10 @@ Scrumban are the most popular agile approaches in web and mobile
 development. To choose the best approach, we decided to compare and
 select the one that best fits our context and objectives.
 
-\subsection{Comparative Study of existing methodologies}
-\subsubsection{a) Scrum Method} 
-Scrum is an agile methodology that promotes collaboration, adaptability, and the iterative delivery of high-quality results. This method encourages agile teams to meet regularly to review project progress and adjust their direction as needed. This dynamic approach balances investment and the final product, ensuring greater customer satisfaction and optimal value delivery \cite{scrum2025}.
+\subsection{Scrum Method} 
+
+
+\par Scrum is an agile methodology that promotes collaboration, adaptability, and the iterative delivery of high-quality results. This method encourages agile teams to meet regularly to review project progress and adjust their direction as needed. This dynamic approach balances investment and the final product, ensuring greater customer satisfaction and optimal value delivery \cite{scrum2025}.
 The main elements of Scrum are:
 
 \begin{enumerate}[label=\textbf{-}]
@@ -254,12 +256,12 @@ The main elements of Scrum are:
 
     
 \end{enumerate}
-\subsubsection{b) Kanban Method}
+\subsection{Kanban Method}
 Kanban, originating from Japanese industry, is a visual workflow management tool. It allows you to visualize and limit work in progress in software development and IT work . The main elements of Kanban are as follows:
 
 Kanban, originating from Japanese industry, is a visual workflow management tool. It allows you to visualize and limit work in progress in software development and IT work\cite{anderson2010kanban}. The main elements of Kanban are as follows:A \texttt{Kanban board} visualizes workflow steps ("To do", "In progress", "Done"), \texttt{Kanban cards} represent tasks with their details (description, deadlines), and \texttt{WIP} (Work In Progress) reduces overloads and quickly identifies bottlenecks.
 
-\subsubsection{c) XP Method (eXtreme Programming)}
+\subsection{XP Method (eXtreme Programming)}
 
 XP takes agile principles to the extreme with rapid iterations and enhanced customer collaboration with minimal documentation. It is characterized by frequent code reviews and a creative and collaborative working environment through pair programming\cite{beck2000extreme}. 
 
@@ -267,7 +269,7 @@ XP takes agile principles to the extreme with rapid iterations and enhanced cust
 By performing frequent code reviews and unit tests to make changes quickly, it seeks the best quality and customer satisfaction that remains in constant contact throughout the project. This approach is based on 5 values: \texttt{Simplicity}, which is favored by the search for easier solutions to achieve objectives; \texttt{communication} in direct communication between team members on the one hand and the client on the other; \texttt{feedback} through the constant exchange of feedback between the project team and key customers; \texttt{courage} required to undertake changes such as exploring new paths; and \texttt{respect} for each team member and their work.
 
 
-\subsubsection{d) Scrumban Method}
+\subsection{Scrumban Method}
 Scrumban is a hybrid methodology that combines the flexibility of Kanban board with the rigor of Scrum sprints. Scrum roles are incorporated while enabling real-time modifications and the best possible workflow visualization. The team does, in fact, follow certain rituals, use sprints, and assign roles to the Scrum Master and Product Owner. Nonetheless, the procedure is less exacting than Scrum, enabling teams to maintain an ideal workflow and make real-time priority adjustments.
 
 \begin{center}
@@ -280,8 +282,8 @@ Scrumban is a hybrid methodology that combines the flexibility of Kanban board w
 \end{center}   
 
 
-\subsection{Chosen Team Management Methodology: Scrumban}
-Our selection of the Scrumban methodology is based on an analysis of the limitations of pure approaches (Scrum, XP, Kanban) in the practical plan in the host company as well as the specific needs of our project. Generally, we can summarize the identified problems as follows:
+\section{Team Management Methodology}
+Our selection of the \textbf{Scrumban} methodology is based on an analysis of the limitations of pure approaches (Scrum, XP, Kanban) in the practical plan in the host company as well as the specific needs of our project. Generally, we can summarize the identified problems as follows:
 \begin{itemize}
     \item \textbf{Limited numbers:}
     The XP (eXtreme Programming) approach requires development pairs (pair programming), which is difficult to apply with the available human resources.
@@ -304,7 +306,7 @@ Our selection of the Scrumban methodology is based on an analysis of the limitat
 
 The first step in the Scrumban process is to set up the Scrumban board, which is an enhanced version of the Kanban board. It contains all the features, including the product backlog, sprint backlog, and workflow stages (not started, in progress, and under review).
 
-\subsection{Chosen technical methodology}
+\section{Chosen technical methodology}
 
 For the technical execution, we adopted the CRISP-DM for its structured
 and iterative approach to solving complex data science problems. It
@@ -330,17 +332,12 @@ with user needs and project goals.
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
 In this first chapter, we presented the context of our internship project
-at ONRTECH, focusing on the development of the VitamiNurse application. We analyzed existing nutritional applications to identify their
+at ONRTECH, focusing on the development of a new version of the VitamiNurse application.
+We analyzed existing nutritional applications to identify their
 strengths and weaknesses, which informed our proposed enhancements
-for VitamiNurse. Our solution leverages more artificial intelligence to
-improve user nutritional support. The new version of VitamiNurse aims
-to provide a more personalized, interactive, and adaptive user experience
-through two key features: an advanced recommendation system and a
-user-friendly AI assistant.
-We also defined the methodologies adopted for the project’s development.
-For team organization, the Scrumban method was chosen for its flexibility
-and clarity. CRISP-DM was chosen as a technical work methodology, as
-it provides a structured approach for data science projects.
-This chapter provides a solid foundation for the rest of the work before
-moving on to the next chapter, dedicated to the development of the data
-pipeline.
+for this project. Our solution leverages more artificial intelligence to
+improve user nutritional support through an advanced recommendation system and a
+user-friendly AI assistant. The methodological framework for the project was also defined,
+ combining Scrumban for project management and CRISP-DM for the technical data science workflow. 
+ Collectively, this chapter provides the necessary foundation for the subsequent phases of this work, 
+ which will detail the design and implementation of the new features of VitamiNurse.

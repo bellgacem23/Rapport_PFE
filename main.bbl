@@ -49,6 +49,27 @@ K.~Beck, \emph{Extreme Programming Explained: Embrace Change}, ser. An Alan R.
   [Online]. Available: \url{https://books.google.tn/books?id=G8EL4H4vf7UC}
 \BIBentrySTDinterwordspacing
 
+\bibitem{2025webscraping}
+\BIBentryALTinterwordspacing
+{GeeksforGeeks}. (2025, Jun.) What is web scraping and how to use it?
+  GeeksforGeeks. [Online]. Available:
+  \url{https://www.geeksforgeeks.org/blogs/what-is-web-scraping-and-how-to-use-it/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{egnell2022impact}
+M.~Egnell, I.~Boutron, S.~Péneau, P.~Ducrot, M.~Touvier, P.~Galan, L.~Fezeu,
+  R.~Porcher, P.~Ravaud, S.~Hercberg, E.~Kesse-Guyot, and C.~Julia, ``Impact of
+  the {{Nutri-Score}} front-of-pack nutrition label on purchasing intentions of
+  individuals with chronic diseases: results of a randomised trial,'' \emph{BMJ
+  Open}, vol.~12, no.~8, p. e058139, Aug 2022.
+
+\bibitem{santepubliquefrance2025nutriscore}
+\BIBentryALTinterwordspacing
+{Santé Publique France}. (2025) Nutri-score. Santé Publique France. [Online].
+  Available:
+  \url{https://www.santepubliquefrance.fr/determinants-de-sante/nutrition-et-activite-physique/articles/nutri-score}
+\BIBentrySTDinterwordspacing
+
 \bibitem{stoian2020machine}
 E.~Stoian, M.~Mocanu, L.~Andronie, S.~Nistor, and E.~Dumitrescu, ``Machine
   learning approaches in food authentication,'' \emph{Comprehensive Reviews in
@@ -65,6 +86,12 @@ J.~C. Moore, M.~Lipp, and J.~Griffiths, ``Advances in protein quantification
 {World Health Organization}, ``Guideline: Sodium intake for adults and
   children,'' Tech. Rep., 2012. [Online]. Available:
   \url{https://www.who.int/publications/i/item/9789241504836}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ibm2025featureengineering}
+\BIBentryALTinterwordspacing
+{IBM}. (2025) What is feature engineering? IBM Corporation. [Online].
+  Available: \url{https://www.ibm.com/think/topics/feature-engineering}
 \BIBentrySTDinterwordspacing
 
 \bibitem{guyon2003}

@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--I didn't find a database entry for "huelEnergyCalculation"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in who2012
+Warning--empty journal in lewis2020retrieval
+
+Done.
+You've used 26 entries,
+            4087 wiz_defined-function locations,
+            983 strings with 12555 characters,
+and the built_in function-call counts, 14785 in all, are:
+= -- 1215
+> -- 345
+< -- 57
++ -- 176
+- -- 73
+* -- 652
+:= -- 2474
+add.period$ -- 57
+call.type$ -- 26
+change.case$ -- 32
+chr.to.int$ -- 123
+cite$ -- 28
+duplicate$ -- 1105
+empty$ -- 1220
+format.name$ -- 85
+if$ -- 3354
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 237
+newline$ -- 135
+num.names$ -- 26
+pop$ -- 596
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1165
+stack$ -- 0
+substring$ -- 340
+swap$ -- 818
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 26
+warning$ -- 2
+while$ -- 43
+width$ -- 28
+write$ -- 297
+(There were 3 warnings)
