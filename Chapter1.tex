@@ -287,7 +287,7 @@ Our selection of the \textbf{Scrumban} methodology is based on an analysis of th
 \begin{itemize}
     \item \textbf{Limited numbers:}
     The XP (eXtreme Programming) approach requires development pairs (pair programming), which is difficult to apply with the available human resources.
-        
+        Project planning
     \item \textbf{Accelerated Scrum Pace:}
     Short sprints (2–4 weeks) can generate excessive pressure on the development team, risking compromising quality, especially for an end-of-study internship.    
         
@@ -295,17 +295,8 @@ Our selection of the \textbf{Scrumban} methodology is based on an analysis of th
     The rigidity of Scrum rituals (mandatory sprint planning) is unsuitable for the rapid evolution of artificial intelligence technologies and the frequent changes imposed by stakeholders.
     \end{itemize}
     
-\begin{center}
-\begin{figure}[H]
-            \centering
-            \includegraphics[scale=0.38]{images/kanbanBoard.png}
-            \caption{Our Scrumban Board Implementation}
-            \label{fig:Tableau_Scrumban}
-\end{figure}
-\end{center}
-
-The first step in the Scrumban process is to set up the Scrumban board, which is an enhanced version of the Kanban board. It contains all the features, including the product backlog, sprint backlog, and workflow stages (not started, in progress, and under review).
-
+\par Scrumban effectively addresses these challenges by combining Scrum's structured framework with Kanban's flexibility. This hybrid approach allows us to maintain essential Scrum elements, such as defined roles and sprint planning, while incorporating Kanban's visual workflow management and adaptability. This balance is particularly beneficial for our project, which requires both structure and the ability to respond quickly to new insights and technological advancements.
+The first step in the Scrumban process is to set up the Scrumban board, which is an enhanced version of the Kanban board. It contains all the features, including the product backlog, sprint backlog, and workflow stages (not started, in progress, and under review). The Scrumban board allows us to visualize the entire workflow, track task progress, and identify bottlenecks in real time. 
 \section{Chosen technical methodology}
 
 For the technical execution, we adopted the CRISP-DM for its structured
@@ -327,6 +318,62 @@ for nutritional guidance. The structured phases of CRISP-DM allow
 us to systematically address the challenges of data collection, model development, and deployment while ensuring that we remain aligned
 with user needs and project goals.
 
+
+
+\section{Project Planning}
+
+This section details the strategy for enhancing the VitamiNurse application over a period of nine months. 
+In alignment with our chosen Scrumban approach, we can maintain a structured workflow while staying flexible enough to adapt to new insights.
+Using our Scrumban board, as shown in Figure~\ref{fig:Tableau_Scrumban}, we maintain clear visibility of progress and quickly identify any bottlenecks in the development process.
+
+
+\begin{center}
+\begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.55]{images/kanbanBoard.png}
+            \caption{Our Scrumban Board Implementation}
+            \label{fig:Tableau_Scrumban}
+\end{figure}
+\end{center}
+
+\subsection{Development Approach}
+
+ Our process is divided into three distinct phases, each lasting three months and composed of six two-week iterations.
+This structure provides the necessary framework while allowing us to adapt to emerging challenges in our artificial intelligence and machine learning components. 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.72]{images/planning.png}
+\caption{Project Phases}
+\label{fig:project_timeline}
+\end{figure}
+
+
+\subsection{Phase One: Building a Reliable Data Foundation (Months 1-3)}
+
+The initial phase addresses a critical weakness identified in our competitive analysis: incomplete and outdated product information. We focus on building a reliable data infrastructure to ensure comprehensive and current nutritional information. Our technical implementation consists of an automated data pipeline that performs daily updates from trusted nutritional databases, complemented by a machine learning model for predicting missing nutritional values. 
+Users receive complete nutritional information for all products, which helps users to make informed dietary choices. Our key deliverables include an operational data collection pipeline and trained nutritional prediction models. We measure success through maintaining daily database updates and ensuring mean absolute error less than 10\% on predicted nutritional values
+
+\subsection{Phase Two: Creating a Personalized Recommendation Engine (Months 4-6)}
+
+Building on our robust data foundation, we develop an advanced recommendation system that delivers personalized product suggestions. 
+This directly addresses the personalization limitations found in competitor applications, as highlighted in Table~\ref{tab:competitor_evaluation}. 
+Our system combines content based and collaborative filtering techniques to provide more sophisticated recommendations than existing solutions.
+
+The implementation creates detailed user profiles incorporating health conditions, dietary restrictions, personal preferences, and nutritional goals. Our hybrid recommendation algorithm analyzes both product attributes and user behavior patterns, including scans, preferences, and viewing history to continuously refine suggestions. Technical deliverables encompass the recommendation engine backend, user interaction tracking, and intuitive interfaces for displaying personalized suggestions.
+
+\subsection{Phase Three: Developing an Intelligent Assistant (Months 7-9)}
+
+In the final phase, we will introduce a conversational assistant powered by a RAG pipeline and large language models (LLMs). 
+This addresses the interactivity gap in the current market and transforming VitamiNurse into a comprehensive nutritional partner. The smart evaluation system will use AI to analyze any product against the individual health profile of the user. 
+Implementation focus on developing the AI evaluation system, integrating the conversational assistant, and creating user-friendly interfaces for interaction.
+
+
+\subsection{Risk Management and Progress Strategy}
+
+Our phased approach minimizes technical and project risks by validating each component before advancing to more complex features. The solid data foundation from Phase 1 reduces risks in recommendation system development, while both initial phases prepare essential infrastructure for our AI assistant. 
+
+Regular reviews and demonstrations align with our Scrumban methodology, allowing us to adjust priorities based on stakeholder feedback and emerging insights. This structured approach ensures our nine month internship delivers meaningful progress in transforming VitamiNurse into a competitive, intelligent nutritional application. 
+Each phase produces tangible value while building toward our complete vision, directly addressing the market opportunities identified in our comprehensive competitor analysis.
 
 
 \section*{Conclusion}

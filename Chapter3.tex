@@ -2,19 +2,11 @@
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
 
-This chapter introduces a comprehensive pipeline designed to collect
-and process data for our nutrition application. We start by the data
-understanding phase, which involves collecting and exploring the data
-to identify potential problems. Then, we detail the data preparation
-phase, which includes the implementation of an ETL pipeline to clean,
-transform, and load the data into a structured format suitable for use by
-the recommendation system and the AI assistant. The data is collected
-from various European retailers using web scraping techniques that we
-will present it with details in a separated section. The collected data is
-then cleaned, transformed, and enriched with additional features such as
-the Nutri-Score, dietary labels, and other relevant nutritional indicators.
-In the final stage, the processed data is embedded and stored in a vector
-database to enable efficient semantic search.
+This chapter presents the implementation of our comprehensive data pipeline, organized into three main sections. 
+In the Data Understanding section, we examine our data sources from various European retailers and identify key challenges in data collection and quality. 
+The Data Preparation section details our ETL pipeline implementation, where we discuss the Extract phase with web scraping techniques, the Transform phase for data cleaning and enrichment, and finally the Load phase for data storage. 
+Throughout these sections, we emphasize how each step contributes to building a robust foundation for our recommendation system and AI assistant. 
+
 \section{Data Understanding}
 Following the Business Understanding phase outlined in the first
 chapter, we now advance through the remaining CRISP-DM steps.
@@ -287,5 +279,4 @@ In conclusion, we can provide a robust foundation for ingesting and processing d
 This pipeline ensures that the data is clean, standardized, and enriched
 with relevant features, making it suitable for powering the recommendation system and AI assistant. Furthermore, to optimize semantic search
 and enable real-time personalized recommendations, we implemented a vector database for efficient data storage and retrieval. To ensure data
-completeness and support accurate recommendations, a machine learning model is also trained to predict missing values. 
-The next chapters will focus on the recommendation system and the AI assistant, detailing how they leverage this well-prepared data to deliver personalized nutrition advice and product suggestions to users.
+completeness and support accurate recommendations, we need to train a machine learning model to predict missing values. 

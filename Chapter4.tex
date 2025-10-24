@@ -1,15 +1,12 @@
 \chapter{Development of recommendation system}
 \section*{Introduction}
-This chapter presents the architectural design, implementation method-
-ology, and empirical evaluation of the hybrid recommendation system
+This chapter presents the architectural design and implementation of the hybrid recommendation system
 developed for the VitamiNurse mobile application. The system employs
 a multi-modal architecture that integrates collaborative filtering, content-based filtering, and real-time behavioral analytics to deliver personalized
 nutritional recommendations aligned with users’ health profiles, dietary
-restrictions, and preferences.
-The chapter begins with an analysis of vector databases as foundational
+restrictions, and preferences. The chapter begins with an analysis of vector databases as foundational
 infrastructure for semantic retrieval, including a detailed discussion of approximate nearest neighbor (ANN) search and the Hierarchical Navigable
-Small World (HNSW) algorithm. Subsequent sections detail the system’s
-hybrid architecture, algorithmic components, embedding strategies, and
+Small World (HNSW) algorithm. Subsequent sections detail the system’s hybrid architecture, algorithmic components, embedding strategies, and
 deployment pipeline.
 
 
@@ -264,11 +261,11 @@ The content based recommendation workflow follows a structured process in order 
 Collaborative filtering in \textit{VitamiNurse} leverages the \textbf{LightFM} model, which combines matrix factorization and metadata-aware learning. 
 \subsection{Overview}
 
-Collaborative filtering (CF) is a widely used recommender system technique that predicts user preferences by leveraging the collective behavior of similar users or items. As defined by IBM, CF operates on the principle that users with shared interests in the past will likely agree in the future, making recommendations based on patterns identified in user-item interaction matrices\cite{ibmCF}.
+Collaborative filtering (CF) is a widely used recommender system technique that predicts user preferences by leveraging the collective behavior of similar users or items. According to IBM, it operates on the principle that users with shared interests in the past will likely agree in the future, making recommendations based on patterns identified in user-item interaction matrices\cite{ibmCF}.
 
 \begin{center}
     \begin{figure}[H]
-        \includegraphics[scale=0.95]{images/collaborative_filtering.png}
+        \includegraphics[scale=0.72]{images/collaborative_filtering.png}
         \caption{Collaborative Filtering Logic}
         \label{fig:cf_workflow}
     \end{figure}
@@ -380,7 +377,7 @@ HNSW  (8001) & 178.08 & 10 & 100.0 \\
 
 \par Results demonstrate that \textbf{HNSW} significantly outperforms \textbf{exact search} on speed while maintaining high relevance in practical use cases. It is now the preferred mode for large-scale deployments in VitamiNurse.
 
-\vspace{1cm}
+\vspace{0.3cm}
 \section{Deployment}
 The recommendation system is deployed as a RESTful API using FastAPI, enabling seamless integration with the VitamiNurse mobile application. This section outlines the deployment architecture and multi-modal recommendation capabilities.
 
@@ -409,8 +406,6 @@ This internal service ensures fast, reliable, and scalable communication between
 
 \section*{Conclusion}
 This chapter has outlined the architectural and algorithmic foundations of the VitamiNurse recommendation system. 
-The system employs a modular, hybrid architecture that separates collaborative and content-based filtering to achieve a balance between scalability and precision. 
+The system employs a hybrid architecture that separates collaborative and content-based filtering to achieve a balance between scalability and precision. 
 Integration of ChromaDB with HNSW indexing facilitates efficient semantic analysis of user needs and product attributes. 
-Additionally, the LightFM model, trained using a Bayesian Personalized Ranking (BPR) loss function, effectively captures dynamic user preferences derived from implicit feedback.
-
-By concentrating on the user health condition, allergies and health goals, the recommendation system suggests more healthy and personalized products. However, providing effective guidance also requires an intuitive and interactive tool. To address this need, the next chapter introduces VitamiNurse AI assistant, designed to deliver real-time, conversational support that bridges large language models with user-friendly interaction.  
+Additionally, the LightFM model effectively captures dynamic user preferences derived from implicit feedback. However, providing effective guidance also requires an intuitive and interactive tool. To address this need, the next chapter introduces VitamiNurse AI assistant conversational support that bridges large language models with user-friendly interaction.

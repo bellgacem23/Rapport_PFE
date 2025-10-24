@@ -6,14 +6,12 @@ values represents a critical challenge. The primary data source relies
 on web scraping, which frequently yields products with incomplete or
 missing nutritional information. This section details the development
 and evolution of the machine learning model Nutri-pred-v1, specifically
-designed to address this need by automatically predicting nutritional
-values of food products from their names and textual descriptions.
-\par The model leverages a large dataset of food products from Open Food
-Facts with varying degrees of nutritional information completeness. The
-goal is to create a robust predictive model capable of accurately estimat-
-ing key nutritional attributes such as energy (kcal), fat, saturated fat,
-carbohydrates, sugars, proteins, and salt based solely on product names
-and descriptions.
+designed to address this need by automatically predicting nutritional values of food products from their names and textual descriptions. We explore first the training data and clean it to ensure its quality and consistency. 
+Then we detail the feature engineering process and the model training.
+Finally, we evaluate the model's performance to ensure its reliability before deployment.
+
+
+
 \section{Data Acquisition and Initial Setup}
 The Open Food Facts (OFF) is a collaborative and open-access database
 that contains information of more than 3.8 million food products. This
