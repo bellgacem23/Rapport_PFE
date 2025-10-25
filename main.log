@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  25 OCT 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.10.17)  25 OCT 2025 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1969,46 +1969,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
                    \relax 
 l.328 
        [11 <./images/CRISP.png>]
-<images/kanbanBoard.png, id=856, 1229.59375pt x 657.45625pt>
+<images/planning.png, id=856, 338.76563pt x 338.76563pt>
+File: images/planning.png Graphic file (type png)
+<use images/planning.png>
+Package pdftex.def Info: images/planning.png  used on input line 337.
+(pdftex.def)             Requested size: 287.95213pt x 287.95213pt.
+<images/kanbanBoard.png, id=858, 1229.59375pt x 657.45625pt>
 File: images/kanbanBoard.png Graphic file (type png)
 <use images/kanbanBoard.png>
-Package pdftex.def Info: images/kanbanBoard.png  used on input line 333.
-(pdftex.def)             Requested size: 676.27866pt x 361.60205pt.
+Package pdftex.def Info: images/kanbanBoard.png  used on input line 349.
+(pdftex.def)             Requested size: 516.42586pt x 276.12975pt.
 
-Overfull \hbox (221.03455pt too wide) in paragraph at lines 333--334
+Overfull \hbox (61.18175pt too wide) in paragraph at lines 349--350
  [][] 
  []
 
-<images/planning.png, id=857, 338.76563pt x 338.76563pt>
-File: images/planning.png Graphic file (type png)
-<use images/planning.png>
-Package pdftex.def Info: images/planning.png  used on input line 345.
-(pdftex.def)             Requested size: 243.91106pt x 243.91106pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.349 
-       [12 <./images/kanbanBoard.png>]
-
-Package natbib Warning: Citation `atlassian2023jira' on page 13 undefined on in
-put line 355.
-
-[13 <./images/planning.png (PNG copy)>]) (./Chapter3.tex [14] [15]
+l.353 \end{center}
+                   [12 <./images/planning.png (PNG copy)>] [13 <./images/kanban
+Board.png>]) (./Chapter3.tex [14]
 Chapter 2.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<images/product_example.png, id=877, 674.52pt x 1095.09125pt>
+<images/product_example.png, id=875, 674.52pt x 1095.09125pt>
 File: images/product_example.png Graphic file (type png)
 <use images/product_example.png>
 Package pdftex.def Info: images/product_example.png  used on input line 42.
 (pdftex.def)             Requested size: 370.98715pt x 602.30205pt.
-[16
+[15
 
-] [17 <./images/product_example.png>]
-<images/workflow__data.png, id=887, 1105.12875pt x 502.87875pt>
+] [16 <./images/product_example.png>]
+<images/workflow__data.png, id=885, 1105.12875pt x 502.87875pt>
 File: images/workflow__data.png Graphic file (type png)
 <use images/workflow__data.png>
 Package pdftex.def Info: images/workflow__data.png  used on input line 74.
@@ -2018,27 +2014,27 @@ Overfull \hbox (31.01405pt too wide) in paragraph at lines 74--75
 [][] 
  []
 
-[18 <./images/workflow__data.png>]
-<images/nutrition.png, id=895, 352.31625pt x 154.5775pt>
+[17 <./images/workflow__data.png>]
+<images/nutrition.png, id=892, 352.31625pt x 154.5775pt>
 File: images/nutrition.png Graphic file (type png)
 <use images/nutrition.png>
 Package pdftex.def Info: images/nutrition.png  used on input line 92.
 (pdftex.def)             Requested size: 232.52943pt x 102.02144pt.
-<images/web_scraping_steps.png, id=898, 451.6875pt x 392.46625pt>
+<images/web_scraping_steps.png, id=895, 451.6875pt x 392.46625pt>
 File: images/web_scraping_steps.png Graphic file (type png)
 <use images/web_scraping_steps.png>
 Package pdftex.def Info: images/web_scraping_steps.png  used on input line 130.
 
 (pdftex.def)             Requested size: 298.11465pt x 259.0285pt.
- [19 <./images/nutrition.png>]
-<images/transform_nutrition.png, id=908, 493.845pt x 404.51125pt>
+ [18 <./images/nutrition.png>]
+<images/transform_nutrition.png, id=906, 493.845pt x 404.51125pt>
 File: images/transform_nutrition.png Graphic file (type png)
 <use images/transform_nutrition.png>
 Package pdftex.def Info: images/transform_nutrition.png  used on input line 164
 .
 (pdftex.def)             Requested size: 222.22818pt x 182.02837pt.
- [20 <./images/web_scraping_steps.png>]
-<images/nutrition_utils.png, id=917, 1122.1925pt x 606.265pt>
+ [19 <./images/web_scraping_steps.png>]
+<images/nutrition_utils.png, id=915, 1122.1925pt x 606.265pt>
 File: images/nutrition_utils.png Graphic file (type png)
 <use images/nutrition_utils.png>
 Package pdftex.def Info: images/nutrition_utils.png  used on input line 185.
@@ -2048,8 +2044,8 @@ Overfull \hbox (49.73785pt too wide) in paragraph at lines 185--186
 [][] 
  []
 
-[21 <./images/transform_nutrition.png>]
-<images/nutriscore.jpg, id=926, 481.8pt x 229.8186pt>
+[20 <./images/transform_nutrition.png>]
+<images/nutriscore.jpg, id=924, 481.8pt x 229.8186pt>
 File: images/nutriscore.jpg Graphic file (type jpg)
 <use images/nutriscore.jpg>
 Package pdftex.def Info: images/nutriscore.jpg  used on input line 221.
@@ -2059,8 +2055,8 @@ Overfull \hbox (16.91666pt too wide) in paragraph at lines 221--222
 [][] 
  []
 
-[22 <./images/nutrition_utils.png>]
-<images/load_data.png, id=938, 1154.3125pt x 729.72626pt>
+[21 <./images/nutrition_utils.png>]
+<images/load_data.png, id=936, 1154.3125pt x 729.72626pt>
 File: images/load_data.png Graphic file (type png)
 <use images/load_data.png>
 Package pdftex.def Info: images/load_data.png  used on input line 239.
@@ -2070,10 +2066,10 @@ Overfull \hbox (64.19173pt too wide) in paragraph at lines 239--240
 [][] 
  []
 
-[23 <./images/nutriscore.jpg>] [24 <./images/load_data.png>]) (./Chapter2.tex
-[25]
+[22 <./images/nutriscore.jpg>] [23 <./images/load_data.png>]) (./Chapter2.tex
+[24]
 Chapter 3.
-<images/OFF_database.png, id=953, 981.6675pt x 576.1525pt>
+<images/OFF_database.png, id=951, 981.6675pt x 576.1525pt>
 File: images/OFF_database.png Graphic file (type png)
 <use images/OFF_database.png>
 Package pdftex.def Info: images/OFF_database.png  used on input line 36.
@@ -2083,10 +2079,10 @@ Overfull \hbox (55.22592pt too wide) in paragraph at lines 36--37
  [][] 
  []
 
-[26
+[25
 
 ]
-<images/statistics.png, id=958, 951.555pt x 305.14pt>
+<images/statistics.png, id=956, 951.555pt x 305.14pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
 Package pdftex.def Info: images/statistics.png  used on input line 59.
@@ -2096,8 +2092,8 @@ Overfull \hbox (68.11276pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-[27 <./images/OFF_database.png>]
-<images/missing_values.png, id=965, 963.6pt x 489.83pt>
+[26 <./images/OFF_database.png>]
+<images/missing_values.png, id=963, 963.6pt x 489.83pt>
 File: images/missing_values.png Graphic file (type png)
 <use images/missing_values.png>
 Package pdftex.def Info: images/missing_values.png  used on input line 71.
@@ -2108,16 +2104,16 @@ Overfull \hbox (36.1854pt too wide) in paragraph at lines 71--72
  []
 
 
-Package natbib Warning: Citation `huelEnergyCalculation' on page 28 undefined o
+Package natbib Warning: Citation `huelEnergyCalculation' on page 27 undefined o
 n input line 78.
 
-[28 <./images/statistics.png> <./images/missing_values.png>]
+[27 <./images/statistics.png> <./images/missing_values.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 82.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 82.
- [29] [30]
-<images/correlation_matrix.png, id=990, 920.43875pt x 742.775pt>
+ [28] [29]
+<images/correlation_matrix.png, id=987, 920.43875pt x 742.775pt>
 File: images/correlation_matrix.png Graphic file (type png)
 <use images/correlation_matrix.png>
 Package pdftex.def Info: images/correlation_matrix.png  used on input line 133.
@@ -2128,13 +2124,13 @@ Overfull \hbox (68.28383pt too wide) in paragraph at lines 133--134
 [][] 
  []
 
-[31] [32 <./images/correlation_matrix.png>]
+[30] [31 <./images/correlation_matrix.png>]
 
-LaTeX Warning: Reference `max_features_values' on page 33 undefined on input li
+LaTeX Warning: Reference `max_features_values' on page 32 undefined on input li
 ne 150.
 
-[33]
-<images/mae_r2_comparison.png, id=1010, 1040.88875pt x 547.04375pt>
+[32]
+<images/mae_r2_comparison.png, id=1008, 1040.88875pt x 547.04375pt>
 File: images/mae_r2_comparison.png Graphic file (type png)
 <use images/mae_r2_comparison.png>
 Package pdftex.def Info: images/mae_r2_comparison.png  used on input line 204.
@@ -2144,19 +2140,19 @@ Overfull \hbox (68.28383pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-[34]
+[33]
 
-LaTeX Warning: Reference `tab:model_comparison' on page 35 undefined on input l
+LaTeX Warning: Reference `tab:model_comparison' on page 34 undefined on input l
 ine 209.
 
-[35 <./images/mae_r2_comparison.png>]
-<images/Nutri-pred_fast_API.png, id=1022, 1252.68pt x 706.64pt>
+[34 <./images/mae_r2_comparison.png>]
+<images/Nutri-pred_fast_API.png, id=1020, 1252.68pt x 706.64pt>
 File: images/Nutri-pred_fast_API.png Graphic file (type png)
 <use images/Nutri-pred_fast_API.png>
 Package pdftex.def Info: images/Nutri-pred_fast_API.png  used on input line 247
 .
 (pdftex.def)             Requested size: 446.13727pt x 251.66225pt.
-<images/Nutri-pred_Huggingface.png, id=1023, 1213.53375pt x 646.415pt>
+<images/Nutri-pred_Huggingface.png, id=1021, 1213.53375pt x 646.415pt>
 File: images/Nutri-pred_Huggingface.png Graphic file (type png)
 <use images/Nutri-pred_Huggingface.png>
 Package pdftex.def Info: images/Nutri-pred_Huggingface.png  used on input line 
@@ -2167,35 +2163,35 @@ Overfull \hbox (68.28383pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-[36 <./images/Nutri-pred_fast_API.png>]) (./Chapter4.tex [37 <./images/Nutri-pr
+[35 <./images/Nutri-pred_fast_API.png>]) (./Chapter4.tex [36 <./images/Nutri-pr
 ed_Huggingface.png>]
 Chapter 4.
-<images/vectorDB.png, id=1037, 960.58875pt x 522.95375pt>
+<images/vectorDB.png, id=1035, 960.58875pt x 522.95375pt>
 File: images/vectorDB.png Graphic file (type png)
 <use images/vectorDB.png>
 Package pdftex.def Info: images/vectorDB.png  used on input line 26.
 (pdftex.def)             Requested size: 403.44452pt x 219.63907pt.
-[38
+[37
 
-] [39 <./images/vectorDB.png>]
-<images/chroma_space.png, id=1055, 545.03625pt x 408.52625pt>
+] [38 <./images/vectorDB.png>]
+<images/chroma_space.png, id=1053, 545.03625pt x 408.52625pt>
 File: images/chroma_space.png Graphic file (type png)
 <use images/chroma_space.png>
 Package pdftex.def Info: images/chroma_space.png  used on input line 64.
 (pdftex.def)             Requested size: 354.26936pt x 265.53891pt.
- [40 <./images/chroma_space.png>]
-<images/VN_recommendation.png, id=1061, 1219.55624pt x 1224.575pt>
+ [39 <./images/chroma_space.png>]
+<images/VN_recommendation.png, id=1059, 1219.55624pt x 1224.575pt>
 File: images/VN_recommendation.png Graphic file (type png)
 <use images/VN_recommendation.png>
 Package pdftex.def Info: images/VN_recommendation.png  used on input line 106.
 (pdftex.def)             Requested size: 426.85107pt x 428.60768pt.
- [41 <./images/VN_recommendation.png>]
-<images/precision_plot.png, id=1072, 605.26125pt x 508.90125pt>
+ [40 <./images/VN_recommendation.png>]
+<images/precision_plot.png, id=1070, 605.26125pt x 508.90125pt>
 File: images/precision_plot.png Graphic file (type png)
 <use images/precision_plot.png>
 Package pdftex.def Info: images/precision_plot.png  used on input line 146.
 (pdftex.def)             Requested size: 223.07211pt x 187.56058pt.
-<images/recall_plot.png, id=1073, 605.26125pt x 508.90125pt>
+<images/recall_plot.png, id=1071, 605.26125pt x 508.90125pt>
 File: images/recall_plot.png Graphic file (type png)
 <use images/recall_plot.png>
 Package pdftex.def Info: images/recall_plot.png  used on input line 152.
@@ -2204,8 +2200,8 @@ Package pdftex.def Info: images/recall_plot.png  used on input line 152.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43 <./images/precision_plot.png> <./images/recall_plot.png>]
-<images/cb_filtering_logic.png, id=1095, 482.80376pt x 551.05875pt>
+[41] [42 <./images/precision_plot.png> <./images/recall_plot.png>]
+<images/cb_filtering_logic.png, id=1093, 482.80376pt x 551.05875pt>
 File: images/cb_filtering_logic.png Graphic file (type png)
 <use images/cb_filtering_logic.png>
 Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 185.
@@ -2215,19 +2211,19 @@ Package pdftex.def Info: images/cb_filtering_logic.png  used on input line 185.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44 <./images/cb_filtering_logic.png>] [45]
-<images/collaborative_filtering.png, id=1113, 451.6875pt x 217.5628pt>
+[43 <./images/cb_filtering_logic.png>] [44]
+<images/collaborative_filtering.png, id=1111, 451.6875pt x 217.5628pt>
 File: images/collaborative_filtering.png Graphic file (type png)
 <use images/collaborative_filtering.png>
 Package pdftex.def Info: images/collaborative_filtering.png  used on input line
  264.
 (pdftex.def)             Requested size: 325.21474pt x 156.6451pt.
- [46 <./images/collaborative_filtering.png>] [47] [48]
+ [45 <./images/collaborative_filtering.png>] [46] [47]
 Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-<images/swaggerFastAPI.png, id=1132, 1233.60875pt x 724.7075pt>
+<images/swaggerFastAPI.png, id=1129, 1233.60875pt x 724.7075pt>
 File: images/swaggerFastAPI.png Graphic file (type png)
 <use images/swaggerFastAPI.png>
 Package pdftex.def Info: images/swaggerFastAPI.png  used on input line 397.
@@ -2237,64 +2233,64 @@ Overfull \hbox (50.53876pt too wide) in paragraph at lines 397--398
 [][] 
  []
 
-[49]) (./Chapter5.tex [50 <./images/swaggerFastAPI.png>]
+[48]) (./Chapter5.tex [49 <./images/swaggerFastAPI.png>]
 Chapter 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<images/prompt_engineering.png, id=1146, 979.66pt x 607.26875pt>
+<images/prompt_engineering.png, id=1144, 979.66pt x 607.26875pt>
 File: images/prompt_engineering.png Graphic file (type png)
 <use images/prompt_engineering.png>
 Package pdftex.def Info: images/prompt_engineering.png  used on input line 17.
 (pdftex.def)             Requested size: 364.19667pt x 225.75153pt.
-[51
+[50
 
  <./images/prompt_engineering.png>]
-<images/natilait.png, id=1152, 1079.03125pt x 487.8225pt>
+<images/natilait.png, id=1150, 1079.03125pt x 487.8225pt>
 File: images/natilait.png Graphic file (type png)
 <use images/natilait.png>
 Package pdftex.def Info: images/natilait.png  used on input line 30.
 (pdftex.def)             Requested size: 409.71692pt x 185.23305pt.
-<images/chat_layers.png, id=1154, 672.5125pt x 672.5125pt>
+<images/chat_layers.png, id=1152, 672.5125pt x 672.5125pt>
 File: images/chat_layers.png Graphic file (type png)
 <use images/chat_layers.png>
 Package pdftex.def Info: images/chat_layers.png  used on input line 42.
 (pdftex.def)             Requested size: 409.71692pt x 409.71893pt.
- [52 <./images/natilait.png>] [53 <./images/chat_layers.png>]
-<images/chat_interface.jpg, id=1165, 1084.05pt x 1927.2pt>
+ [51 <./images/natilait.png>] [52 <./images/chat_layers.png>]
+<images/chat_interface.jpg, id=1163, 1084.05pt x 1927.2pt>
 File: images/chat_interface.jpg Graphic file (type jpg)
 <use images/chat_interface.jpg>
 Package pdftex.def Info: images/chat_interface.jpg  used on input line 63.
 (pdftex.def)             Requested size: 232.17198pt x 412.72256pt.
- [54 <./images/chat_interface.jpg>]
-<images/chatbot_API.png, id=1171, 1269.74374pt x 566.115pt>
+ [53 <./images/chat_interface.jpg>]
+<images/chatbot_API.png, id=1168, 1269.74374pt x 566.115pt>
 File: images/chatbot_API.png Graphic file (type png)
 <use images/chatbot_API.png>
 Package pdftex.def Info: images/chatbot_API.png  used on input line 74.
 (pdftex.def)             Requested size: 409.71692pt x 182.67218pt.
- [55 <./images/chatbot_API.png>]
-<images/RAG_logic.png, id=1179, 1041.8925pt x 443.6575pt>
+ [54 <./images/chatbot_API.png>]
+<images/RAG_logic.png, id=1177, 1041.8925pt x 443.6575pt>
 File: images/RAG_logic.png Graphic file (type png)
 <use images/RAG_logic.png>
 Package pdftex.def Info: images/RAG_logic.png  used on input line 97.
 (pdftex.def)             Requested size: 446.13727pt x 189.97017pt.
- [56 <./images/RAG_logic.png>]
+ [55 <./images/RAG_logic.png>]
 ! Too many }'s.
 l.131 ...eature known as \textit{write-path RAG} }
                                                   . In this case, the RAG sy...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[57]) (./Conclusion.tex [58]) (./main.bbl [59
+[56]) (./Conclusion.tex [57]) (./main.bbl [58
 
-] [60
+] [59
 
-] [61])
+] [60])
 
 Package natbib Warning: There were undefined citations.
 
-[62] (./main.aux
+[61] (./main.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -2362,7 +2358,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.81 ...plementation\relax }{figure.caption.20}{}}
+l.83 ...oject Phases\relax }{figure.caption.20}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2370,7 +2366,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
-l.85 ...oject Phases\relax }{figure.caption.21}{}}
+l.86 ...tion in Jira\relax }{figure.caption.21}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -2611,11 +2607,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F3C7F23E3F9ADF5F69EFE62CEEE473A4;23697.
  ) 
 Here is how much of TeX's memory you used:
- 37824 strings out of 480171
- 713577 string characters out of 5894488
- 963935 words of memory out of 5000000
- 54469 multiletter control sequences out of 15000+600000
- 562405 words of font info for 284 fonts, out of 8000000 for 9000
+ 37831 strings out of 480171
+ 713745 string characters out of 5894488
+ 963959 words of memory out of 5000000
+ 54472 multiletter control sequences out of 15000+600000
+ 562659 words of font info for 286 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  84i,14n,80p,1193b,1083s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
@@ -2653,9 +2649,9 @@ st/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
 tx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (75 pages, 6942132 bytes).
+Output written on main.pdf (74 pages, 6942058 bytes).
 PDF statistics:
- 1356 PDF objects out of 1440 (max. 8388607)
+ 1355 PDF objects out of 1440 (max. 8388607)
  1165 compressed objects within 12 object streams
  291 named destinations out of 1000 (max. 500000)
  56472 words of extra memory for PDF output out of 61914 (max. 10000000)

@@ -3,12 +3,12 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Evaluation of Key Competitor Applications\relax }}{7}{table.caption.16}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g\relax }}{30}{table.caption.34}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{33}{table.caption.36}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Performance metrics of regression models\relax }}{35}{table.caption.38}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Plausible Nutritional Ranges for Data Validation in product Composition per 100g\relax }}{29}{table.caption.34}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Mean Absolute Error (MAE) for Different \texttt {max\_features} Values\relax }}{32}{table.caption.36}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Performance metrics of regression models\relax }}{34}{table.caption.38}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{45}{table.caption.46}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{47}{table.caption.48}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{48}{table.caption.49}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{48}{table.caption.50}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance comparison of SentenceTransformer models. Speed is measured as average sentences processed per second.\relax }}{44}{table.caption.46}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces User Interaction Types and Their Weighting in VitamiNurse\relax }}{46}{table.caption.48}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Key Differences: Default vs. HNSW Search\relax }}{47}{table.caption.49}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Benchmark Results for Recommendation Modes\relax }}{47}{table.caption.50}%
 \addvspace {10\p@ }

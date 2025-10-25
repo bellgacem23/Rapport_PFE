@@ -49,6 +49,12 @@ K.~Beck, \emph{Extreme Programming Explained: Embrace Change}, ser. An Alan R.
   [Online]. Available: \url{https://books.google.tn/books?id=G8EL4H4vf7UC}
 \BIBentrySTDinterwordspacing
 
+\bibitem{atlassian2023jira}
+\BIBentryALTinterwordspacing
+{Atlassian}, \emph{Jira Software Documentation}, 2023, accessed: 2025-10-26.
+  [Online]. Available: \url{https://www.atlassian.com/software/jira/guides}
+\BIBentrySTDinterwordspacing
+
 \bibitem{2025webscraping}
 \BIBentryALTinterwordspacing
 {GeeksforGeeks}. (2025, Jun.) What is web scraping and how to use it?
