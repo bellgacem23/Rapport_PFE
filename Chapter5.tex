@@ -8,21 +8,19 @@ These components work together to transform a simple barcode scan into a user-ta
 The following sections detail the architecture and functionality of these AI systems to ultimately achieve a practical solution for AI-driven nutritional guidance.
 
 \section{Advanced scan system with AI analysis }
-
 Instead of showing large amounts of raw product data, it uses AI to interpret the product after scanning its barcode.  Through the combination of detailed nutritional information, user health profiles, and AI reasoning based on prompts, the VitamiNurse application provides customized nutritional guidance in a way that traditional tools cannot. The result is a highly interactive and user-friendly experience that transforms a simple scan into an informed decision-making process.
 
 \subsection{Prompt Engineering for AI Analysis}
 \par In addition to the details of the product that appear on the screen after scanning the barcode, we added an AI analytics system to provide a concise and personalized conclusion.
- The generative AI capabilities of our system are powered by a popular pre-trained LLM, which is ChatGPT-4, to build accurate and relevant responses.
- \par The system uses structured prompts to guide AI during product evaluation.
-The following code illustrates how each prompt integrates essential product information with user-specific data, including health conditions and allergies, to determine the suitability of the product for the user profile.
 \begin{center}
 \begin{figure}[H]
-    \includegraphics[width=0.9\textwidth]{images/prompt_engineering.png}
+    \includegraphics[width=0.80\textwidth]{images/prompt_engineering.png}
     \caption{Prompt Engineering Using GPT-4} 
     \label{fig:Prompt_Engineering}
 \end{figure}
 \end{center}
+ The generative AI capabilities of our system are powered by a popular pre-trained LLM, which is ChatGPT-4, to build accurate and relevant responses. The system uses structured prompts to guide AI during product evaluation.
+The following code illustrates how each prompt integrates essential product information with user-specific data, including health conditions and allergies, to determine the suitability of the product for the user profile.
 
 \subsection{System Operation in VitamiNurse}
 The AI analysis system in VitamiNurse integrates a product scanning feature with real-time health feedback, powered by a combination of external APIs, a MongoDB database, and the ChatGPT-4 model. Users can scan a barcode (EAN) to retrieve detailed nutritional information, which is cross-referenced with their health profile stored in the users collection. The system first checks our database for existing product data. If it is unavailable, it fetches data from the OpenFoodFacts API and caches it for future use. The AI then processes these data alongside user health conditions to generate personalized feedback: \textbf{Is this product suitable or not, and why?}
@@ -91,7 +89,7 @@ The \emph{Recommendation Engine} introduced in the previous chapter is seamlessl
 
 \section{Retrieval-Augmented Generation (RAG) in VitamiNurse}
 \label{sec:rag}
-
+\subsection{Overview of RAG Architecture}
 \par Retrieval-Augmented Generation (RAG) is a hybrid architecture that enhances large language model (LLM) responses by dynamically retrieving relevant external knowledge and integrating it into the generation process \cite{lewis2020retrieval}. In the context of the \textit{VitamiNurse AI Assistant}, RAG enables personalized, context-aware nutritional guidance by retrieving user-specific health profiles and interaction history from a persistent vector database before generating responses. This approach ensures that advice is not only linguistically fluent but also grounded in the user’s unique physiological and dietary context. Formally, RAG decomposes into three sequential stages: Retrieval (R), Augmentation (A), and Generation (G) as illustrated in Figure~\ref{fig:RAG_architecture}
 
 \begin{center}
@@ -105,14 +103,9 @@ The \emph{Recommendation Engine} introduced in the previous chapter is seamlessl
 \subsection{Retrieval (R): User-Centric Context Fetching}
 \label{subsec:retrieval}
 
-The retrieval phase in VitamiNurse leverages \texttt{ChromaDB} to fetch semantically relevant user information. Specifically, two collections are maintained:
-\begin{itemize}[label=-]
-\item users : Stores structured user profiles (age, allergies, health conditions) as metadata, with embeddings generated via the \texttt{all-MiniLM-L6-v2} sentence transformer.
-\item chat\_sessions : Archives past interactions to support short-term conversational memory.
-\end{itemize}
-
-
-When a user sends a message, the system retrieves their profile using their \texttt{user\_id}. This exact-match retrieval (by ID) is complemented by semantic capabilities for future extensions (e.g., similarity-based health cohort lookup). The retrieved profile serves as the primary source of personalization, aligning with RAG’s principle of grounding generation in external knowledge\cite{rag2020}.
+The retrieval phase in VitamiNurse leverages \texttt{ChromaDB} to fetch semantically relevant user information. 
+Specifically, two collections are maintained: users and chat\_sessions. Users stores structured user profiles (age, allergies, health conditions) as metadata, with embeddings generated via the \texttt{all-MiniLM-L6-v2} sentence transformer. 
+Chat\_sessions archives past interactions to support short-term conversational memory. When a user sends a message, the system retrieves their profile using their \texttt{user\_id}. This exact-match retrieval (by ID) is complemented by semantic capabilities for future extensions. The retrieved profile serves as the primary source of personalization, aligning with RAG’s principle of grounding generation in external knowledge\cite{rag2020}.
 
 \subsection{Augmentation (A): Dynamic Prompt Personalization}
 \label{subsec:augmentation}
@@ -159,13 +152,9 @@ Additional planned features include:
 
 
 \section{Conclusion}
-The VitamiNurse AI Nutrition Assistant represents a significant advancement in conversational healthcare applications by successfully integrating the Recommendation Engine into a sophisticated LangChain-powered architecture. The system demonstrates how parallel intent processing, dynamic profile management, and AI-generated content can create a comprehensive nutritional guidance platform.
-
-By leveraging LangChain's orchestration capabilities alongside GPT-4's generative power and ChromaDB's persistent storage, VitamiNurse delivers personalized, context-aware dietary recommendations that adapt to users' evolving needs. The architecture successfully balances conversational flexibility with structured nutritional guidance, providing both immediate answers and long-term nutritional support.
-
-This implementation positions VitamiNurse as a scalable foundation for digital health interventions, with the potential to expand into various healthcare domains beyond nutrition. The modular design ensures adaptability to new data sources, interaction modalities, and user requirements, making it well-suited for the evolving landscape of AI-powered healthcare applications.
-
-The assistant not only provides immediate nutritional guidance but also serves as an educational tool, helping users develop sustainable healthy eating habits through personalized, explainable recommendations that consider their unique circumstances, preferences, and goals.
-
+This chapter presented two core AI components that elevate VitamiNurse from a basic scanner to an intelligent nutritional companion. 
+The AI-powered product evaluator delivers personalized and context-aware assessments by combining barcode data with user health profiles through carefully engineered prompts. 
+Additionally, by using a modular RAG architecture, the conversational AI assistant offers adaptive guidance in natural dialogue. 
+Together, they transform routine food choices into opportunities for informed and personalized nutrition.
 
 

@@ -120,22 +120,18 @@ recommendation, and API serving—enabling scalable, responsive, and health-cons
 
 \subsection{Hybrid System with Decoupled Components}
 
-Although the LightFM framework supports two principal modes : \textbf{pure collaborative filtering} and \textbf{hybrid filtering}, we chose to employ only the pure collaborative model for VitamiNurse’s recommendation system.
+Although the LightFM framework supports two principal modes : \textbf{pure collaborative filtering} and \textbf{hybrid filtering}, we chose to employ only the pure collaborative model.
 
-This decision was made after extensive evaluation and careful alignment with the platform’s real-time infrastructure requirements. The selected approach offers greater scalability and modularity, particularly given the dynamic nature of our product catalog and metadata. 
-The following subsections outline the key architectural and empirical factors that guided this choice.
+This decision was made after extensive evaluation and careful alignment with the platform’s real-time infrastructure requirements. The following subsections outline the key architectural and empirical factors that guided this choice.
 
 
-\subsubsection{Why Not LightFM Hybrid?}
 
-While hybrid models are often assumed to enhance performance by incorporating additional features, we avoided LightFM's hybrid mode for the following reasons:
-
-\paragraph{1) Real-time Product Updates and Scalability Requirements :}
+\subsubsection{Product Updates and Scalability Requirements :}
 VitamiNurse's product database synchronizes daily with external retail inventories, meaning metadata (e.g., categories, availability) can change frequently. A hybrid LightFM model would require retraining whenever item features update, introducing latency and scalability challenges. In contrast, our content-based filtering module (powered by ChromaDB with HNSW-based approximate nearest neighbor search) dynamically adapts to metadata changes without retraining, making it better suited for real-time updates \cite{chromadb}.
 
 ChromaDB's vector infrastructure is optimized for large-scale similarity search, supporting millions of product embeddings with efficient retrieval. This eliminates the need to encode metadata directly into LightFM, as the content-based component handles this asynchronously and with lower computational overhead.
 
-\paragraph{2) Benchmark Evidence: Pure LightFM Outperforms Hybrid LightFM:}
+\subsubsection{Benchmark Evidence: Pure LightFM Outperformence :}
 Empirical studies consistently demonstrate that LightFM's pure collaborative model achieves superior performance compared to its hybrid counterpart:
 \begin{itemize}
     \item \textbf{MovieLens 100k Benchmark}: \cite{shu2023lightfm} evaluated LightFM on the MovieLens dataset, showing that the pure model outperformed the hybrid variant in precision@K and recall@K across cutoffs (K=5, 10, 20). The hybrid model not only underperformed but also failed to surpass simpler baselines like ItemKNN in some metrics as illustrated in Figure~\ref{fig:precision}.
@@ -160,7 +156,7 @@ Empirical studies consistently demonstrate that LightFM's pure collaborative mod
 \end{figure}
 
 
-\paragraph{3) Computational Efficiency :}
+\subsubsection{Computational Efficiency :}
 Pure collaborative filtering requires fewer computational resources during training and inference. Benchmarks on the Movielens 20M dataset show that LightFM's inference speed scales linearly with latent factor dimensionality, but hybrid models introduce additional overhead from feature processing.
 
 
@@ -238,16 +234,16 @@ perfect for delivering fast and accurate recommendations.
 
 \subsection{CB Recommendation Process}
  The content-based recommendation process in VitamiNurse involves several key steps to generate personalized product suggestions based on user profiles and scanned items.
-\subsubsection{Query Construction}
+\subsubsection{Query Construction :}
 \par The CB system operates based on two possible inputs: the \textbf{user identifier} and an optional \textbf{scanned product identifier} (EAN code). When a user scans a product, the system retrieves metadata associated with that item such as product name, brand, categories, and nutrition information. Simultaneously, it extracts the user’s profile information, which includes dietary preferences, pregnancy status, and medical conditions like diabetes or hypertension.\\
 These two sources of information are merged to create a descriptive query that captures both the scanned product’s features and the user's health-related needs. 
 
-\subsubsection{Search and Recommendation}
+\subsubsection{Search and Recommendation Generation :}
 The query is then embedded into a vector using the selected embedding model and used to perform a semantic search in the product database. The search returns a list of nutritionally and semantically similar products.
 \par In cases where no product is scanned, the recommendation relies entirely on the user’s profile to infer their preferences and health requirements. Based on this information, it generates a personalized query, which is then used to display tailored recommendations on the home page.
 
 
-\subsubsection{Recommendation Score}
+\subsubsection{Recommendation Score Refinement :}
 \par Each recommended product is assigned a relevance score based on semantic proximity. This score is further refined by applying domain specific nutritional rules by boosting products with better Nutri-Scores. The system also applies post-filtering to strictly enforce compatibility with medical conditions or dietary restrictions. For instance, a user with celiac disease will never be recommended a product that contains gluten, even if it is semantically similar.
 
 \subsubsection{CB Recommendation Workflow :}
@@ -408,4 +404,5 @@ This internal service ensures fast, reliable, and scalable communication between
 This chapter has outlined the architectural and algorithmic foundations of the VitamiNurse recommendation system. 
 The system employs a hybrid architecture that separates collaborative and content-based filtering to achieve a balance between scalability and precision. 
 Integration of ChromaDB with HNSW indexing facilitates efficient semantic analysis of user needs and product attributes. 
-Additionally, the LightFM model effectively captures dynamic user preferences derived from implicit feedback. However, providing effective guidance also requires an intuitive and interactive tool. To address this need, the next chapter introduces VitamiNurse AI assistant conversational support that bridges large language models with user-friendly interaction.
+Additionally, the LightFM model effectively captures dynamic user preferences derived from implicit feedback. However, providing effective guidance also requires an intuitive and interactive tool. 
+The next chapter addresses this need by introducing VitamiNurse AI assistant.
